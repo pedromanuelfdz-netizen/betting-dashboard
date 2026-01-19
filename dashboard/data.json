@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-19T20:04:09.483470",
+  "timestamp": "2026-01-19T21:50:00.502774",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 137.3,
@@ -204,6 +204,32 @@
       "picks": 3,
       "wins": 2,
       "win_rate": 66.7
+    }
+  ],
+  "by_market": [
+    {
+      "market": "Over/Under 2.5: Over 2.5",
+      "picks": 46,
+      "wins": 20,
+      "win_rate": 43.5
+    },
+    {
+      "market": "Over/Under 2.5: Under 2.5",
+      "picks": 36,
+      "wins": 22,
+      "win_rate": 61.1
+    },
+    {
+      "market": "BTTS: BTTS No",
+      "picks": 12,
+      "wins": 5,
+      "win_rate": 41.7
+    },
+    {
+      "market": "BTTS: BTTS Yes",
+      "picks": 2,
+      "wins": 1,
+      "win_rate": 50.0
     }
   ],
   "recent_bets": [
