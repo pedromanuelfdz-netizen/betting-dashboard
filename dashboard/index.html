@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Bot Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🤖 Betting Bot Dashboard</h1>
+            <p class="last-update" id="lastUpdate">Última actualización: --</p>
+        </header>
 
+        <!-- Summary Cards -->
+        <div class="summary-grid">
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <div class="card-content">
+                    <div class="card-label">Bankroll</div>
+                    <div class="card-value" id="bankroll">€--</div>
+                    <div class="card-delta" id="bankroll-delta">--</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <div class="card-content">
+                    <div class="card-label">ROI Total</div>
+                    <div class="card-value" id="roi">--%</div>
+                    <div class="card-delta" id="roi-7d">--</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">✅</div>
+                <div class="card-content">
+                    <div class="card-label">Win Rate</div>
+                    <div class="card-value" id="winrate">--%</div>
+                    <div class="card-delta" id="wr-7d">--</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📈</div>
+                <div class="card-content">
+                    <div class="card-label">Total Picks</div>
+                    <div class="card-value" id="totalpicks">--</div>
+                    <div class="card-delta" id="picks-7d">--</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="charts-row">
+            <div class="chart-container">
+                <h2>📈 Evolución del Bankroll</h2>
+                <canvas id="bankrollChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h2>🎯 Performance por Odd Range</h2>
+                <canvas id="oddRangeChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Tables Row -->
+        <div class="tables-row">
+            <div class="table-container">
+                <h2>🏆 Performance por Liga</h2>
+                <table id="leagueTable">
+                    <thead>
+                        <tr>
+                            <th>Liga</th>
+                            <th>n</th>
+                            <th>WR%</th>
+                            <th>ROI%</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="table-container">
+                <h2>🎲 Últimas Apuestas</h2>
+                <table id="latestBetsTable">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Partido</th>
+                            <th>Pick</th>
+                            <th>Odd</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Config Section -->
+        <div class="config-section">
+            <h2>⚙️ Configuración Actual</h2>
+            <div class="config-grid">
+                <div class="config-item">
+                    <span class="config-label">MIN_ODD:</span>
+                    <span class="config-value" id="config-min-odd">--</span>
+                </div>
+                <div class="config-item">
+                    <span class="config-label">MAX_ODD:</span>
+                    <span class="config-value" id="config-max-odd">--</span>
+                </div>
+                <div class="config-item">
+                    <span class="config-label">MIN_EDGE:</span>
+                    <span class="config-value" id="config-min-edge">--%</span>
+                </div>
+                <div class="config-item">
+                    <span class="config-label">KELLY:</span>
+                    <span class="config-value" id="config-kelly">--</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Dashboard auto-actualizado cada vez que el bot se ejecuta</p>
+        </footer>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
