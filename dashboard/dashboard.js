@@ -14,39 +14,39 @@ async function loadDashboardData() {
 
 function updateDashboard(data) {
     // Update last update time
-    const lastUpdate = new Date(data.last_update);
+    const lastUpdate = new Date(data.timestamp);
     document.getElementById('lastUpdate').textContent = 
         `Última actualización: ${lastUpdate.toLocaleString('es-ES')}`;
 
     // Update summary cards
     const summary = data.summary;
     
-    document.getElementById('bankroll').textContent = `€${summary.bankroll_actual}`;
+    document.getElementById('bankroll').textContent = `€${summary.bankroll_final.toFixed(2)}`;
     document.getElementById('bankroll-delta').textContent = 
-        `${summary.bankroll_delta >= 0 ? '+' : ''}€${summary.bankroll_delta}`;
+        `${summary.profit_loss >= 0 ? '+' : ''}€${summary.profit_loss.toFixed(2)}`;
     document.getElementById('bankroll-delta').className = 
-        `card-delta ${summary.bankroll_delta >= 0 ? 'positive' : 'negative'}`;
+        `card-delta ${summary.profit_loss >= 0 ? 'positive' : 'negative'}`;
 
-    document.getElementById('roi').textContent = `${summary.roi_total >= 0 ? '+' : ''}${summary.roi_total}%`;
-    document.getElementById('roi-7d').textContent = `7d: ${summary.roi_7d >= 0 ? '+' : ''}${summary.roi_7d}%`;
+    document.getElementById('roi').textContent = `${summary.roi >= 0 ? '+' : ''}${summary.roi.toFixed(1)}%`;
+    document.getElementById('roi-7d').textContent = `Yield: ${summary.yield >= 0 ? '+' : ''}${summary.yield.toFixed(1)}%`;
     document.getElementById('roi-7d').className = 
-        `card-delta ${summary.roi_7d >= 0 ? 'positive' : 'negative'}`;
+        `card-delta ${summary.yield >= 0 ? 'positive' : 'negative'}`;
 
-    document.getElementById('winrate').textContent = `${summary.win_rate}%`;
-    document.getElementById('wr-7d').textContent = `7d: ${summary.wr_7d}%`;
+    document.getElementById('winrate').textContent = `${summary.win_rate.toFixed(1)}%`;
+    document.getElementById('wr-7d').textContent = `${summary.ganadas}W-${summary.perdidas}L`;
 
     document.getElementById('totalpicks').textContent = summary.total_picks;
-    document.getElementById('picks-7d').textContent = `+${summary.picks_7d} (7d)`;
+    document.getElementById('picks-7d').textContent = summary.pendientes > 0 ? `${summary.pendientes} pendientes` : 'Sin pendientes';
 
-    // Update config
-    document.getElementById('config-min-odd').textContent = data.config.min_odd;
-    document.getElementById('config-max-odd').textContent = data.config.max_odd;
-    document.getElementById('config-min-edge').textContent = `${data.config.min_edge}%`;
-    document.getElementById('config-kelly').textContent = data.config.fractional_kelly;
+    // Update config (valores fijos del bot)
+    document.getElementById('config-min-odd').textContent = '1.80';
+    document.getElementById('config-max-odd').textContent = '2.10';
+    document.getElementById('config-min-edge').textContent = '8.0%';
+    document.getElementById('config-kelly').textContent = '0.25';
 
     // Create charts
     createBankrollChart(data.bankroll_history);
-    createOddRangeChart(data.performance.by_odd_range);
+    createOddRangeChart(data.by_odd_range);
 
     // Fill tables
     fillLeagueTable(data.performance.by_league);
