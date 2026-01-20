@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-01-20T07:05:06.573642",
+  "timestamp": "2026-01-20T13:58:39.678572",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 137.3,
-    "profit_loss": -62.7,
-    "roi": -31.35,
-    "win_rate": 50.0,
-    "yield": -7.33,
-    "total_picks": 96,
-    "ganadas": 48,
+    "bankroll_final": 161.53,
+    "profit_loss": -38.47,
+    "roi": -19.23,
+    "win_rate": 51.0,
+    "yield": -4.37,
+    "total_picks": 98,
+    "ganadas": 50,
     "perdidas": 48,
     "pendientes": 0,
-    "total_turnover": 855.35
+    "total_turnover": 881.32
   },
   "bankroll_history": [
     200.0,
@@ -110,7 +110,9 @@
     134.25,
     139.75,
     145.44,
-    137.3
+    137.3,
+    146.81,
+    161.53
   ],
   "by_odd_range": {
     "1.60-1.80": {
@@ -119,9 +121,9 @@
       "win_rate": 58.3
     },
     "1.80-2.00": {
-      "picks": 31,
-      "wins": 18,
-      "win_rate": 58.1
+      "picks": 32,
+      "wins": 19,
+      "win_rate": 59.4
     },
     "2.00-2.10": {
       "picks": 15,
@@ -129,9 +131,9 @@
       "win_rate": 46.7
     },
     "2.10-2.30": {
-      "picks": 21,
-      "wins": 6,
-      "win_rate": 28.6
+      "picks": 22,
+      "wins": 7,
+      "win_rate": 31.8
     },
     "2.30-2.60": {
       "picks": 10,
@@ -171,9 +173,15 @@
     },
     {
       "league": "La Liga",
+      "picks": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "league": "Primeira Liga",
       "picks": 7,
-      "wins": 2,
-      "win_rate": 28.6
+      "wins": 3,
+      "win_rate": 42.9
     },
     {
       "league": "Ligue 1",
@@ -186,12 +194,6 @@
       "picks": 6,
       "wins": 3,
       "win_rate": 50.0
-    },
-    {
-      "league": "Primeira Liga",
-      "picks": 6,
-      "wins": 2,
-      "win_rate": 33.3
     },
     {
       "league": "Premiership",
@@ -209,9 +211,9 @@
   "by_market": [
     {
       "market": "Over/Under 2.5: Over 2.5",
-      "picks": 46,
-      "wins": 20,
-      "win_rate": 43.5
+      "picks": 48,
+      "wins": 22,
+      "win_rate": 45.8
     },
     {
       "market": "Over/Under 2.5: Under 2.5",
@@ -233,20 +235,6 @@
     }
   ],
   "recent_bets": [
-    {
-      "date": "1/17/26 19:30",
-      "match": "Hertha BSC vs FC Schalke 04",
-      "selection": "BTTS No",
-      "odd": 1.9,
-      "result": "Ganada"
-    },
-    {
-      "date": "1/17/26 20:00",
-      "match": "NAC Breda vs NEC Nijmegen",
-      "selection": "BTTS No",
-      "odd": 2.55,
-      "result": "Perdida"
-    },
     {
       "date": "1/18/26 14:00",
       "match": "Strasbourg vs Metz",
@@ -302,6 +290,20 @@
       "selection": "Over 2.5",
       "odd": 2.1,
       "result": "Perdida"
+    },
+    {
+      "date": "1/19/26 20:00",
+      "match": "Elche vs Sevilla",
+      "selection": "Over 2.5",
+      "odd": 2.1,
+      "result": "Ganada"
+    },
+    {
+      "date": "1/19/26 20:15",
+      "match": "Estrela vs Estoril",
+      "selection": "Over 2.5",
+      "odd": 1.85,
+      "result": "Ganada"
     }
   ]
 }
