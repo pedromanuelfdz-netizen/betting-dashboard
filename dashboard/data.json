@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-01-21T07:05:16.144313",
+  "timestamp": "2026-01-21T13:58:53.577846",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 161.53,
-    "profit_loss": -38.47,
-    "roi": -19.23,
-    "win_rate": 51.0,
-    "yield": -4.37,
-    "total_picks": 98,
+    "bankroll_final": 150.26,
+    "profit_loss": -49.74,
+    "roi": -24.87,
+    "win_rate": 50.0,
+    "yield": -5.57,
+    "total_picks": 100,
     "ganadas": 50,
-    "perdidas": 48,
+    "perdidas": 50,
     "pendientes": 0,
-    "total_turnover": 881.32
+    "total_turnover": 892.59
   },
   "bankroll_history": [
     200.0,
@@ -112,7 +112,9 @@
     145.44,
     137.3,
     146.81,
-    161.53
+    161.53,
+    157.01,
+    150.26
   ],
   "by_odd_range": {
     "1.60-1.80": {
@@ -121,9 +123,9 @@
       "win_rate": 58.3
     },
     "1.80-2.00": {
-      "picks": 32,
+      "picks": 33,
       "wins": 19,
-      "win_rate": 59.4
+      "win_rate": 57.6
     },
     "2.00-2.10": {
       "picks": 15,
@@ -131,9 +133,9 @@
       "win_rate": 46.7
     },
     "2.10-2.30": {
-      "picks": 22,
+      "picks": 23,
       "wins": 7,
-      "win_rate": 31.8
+      "win_rate": 30.4
     },
     "2.30-2.60": {
       "picks": 10,
@@ -154,16 +156,16 @@
       "win_rate": 50.0
     },
     {
+      "league": "Championship",
+      "picks": 14,
+      "wins": 7,
+      "win_rate": 50.0
+    },
+    {
       "league": "Premier League",
       "picks": 13,
       "wins": 8,
       "win_rate": 61.5
-    },
-    {
-      "league": "Championship",
-      "picks": 12,
-      "wins": 7,
-      "win_rate": 58.3
     },
     {
       "league": "Serie B",
@@ -211,9 +213,9 @@
   "by_market": [
     {
       "market": "Over/Under 2.5: Over 2.5",
-      "picks": 48,
+      "picks": 49,
       "wins": 22,
-      "win_rate": 45.8
+      "win_rate": 44.9
     },
     {
       "market": "Over/Under 2.5: Under 2.5",
@@ -223,9 +225,9 @@
     },
     {
       "market": "BTTS: BTTS No",
-      "picks": 12,
+      "picks": 13,
       "wins": 5,
-      "win_rate": 41.7
+      "win_rate": 38.5
     },
     {
       "market": "BTTS: BTTS Yes",
@@ -235,20 +237,6 @@
     }
   ],
   "recent_bets": [
-    {
-      "date": "1/18/26 14:00",
-      "match": "Strasbourg vs Metz",
-      "selection": "BTTS No",
-      "odd": 2.15,
-      "result": "Perdida"
-    },
-    {
-      "date": "1/18/26 14:30",
-      "match": "VfB Stuttgart vs Union Berlin",
-      "selection": "BTTS Yes",
-      "odd": 1.8,
-      "result": "Ganada"
-    },
     {
       "date": "1/18/26 14:30",
       "match": "VfB Stuttgart vs Union Berlin",
@@ -304,6 +292,20 @@
       "selection": "Over 2.5",
       "odd": 1.85,
       "result": "Ganada"
+    },
+    {
+      "date": "2026-01-20 19:45",
+      "match": "Oxford United vs QPR",
+      "selection": "Over 2.5",
+      "odd": 2.2,
+      "result": "Perdida"
+    },
+    {
+      "date": "2026-01-20 19:45",
+      "match": "Swansea vs Blackburn",
+      "selection": "BTTS No",
+      "odd": 1.87,
+      "result": "Perdida"
     }
   ]
 }
