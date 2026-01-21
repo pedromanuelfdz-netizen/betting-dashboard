@@ -1,5 +1,5 @@
 // Dashboard JavaScript V3 - Métricas Avanzadas
-// Optimizado para carga rápida con lazy rendering
+// Con paleta de colores mejorada para mejor visibilidad
 
 async function loadDashboardData() {
     try {
@@ -79,35 +79,35 @@ function createSimpleBankrollChart(history) {
     const sparkline = normalized.map(v => bars[v] || bars[0]).join('');
     
     container.innerHTML = `
-        <div style="padding: 20px; background: rgba(16, 185, 129, 0.05); border-radius: 8px; border-left: 4px solid #10b981;">
-            <h3 style="margin: 0 0 15px 0; color: #10b981; font-size: 14px;">📈 EVOLUCIÓN BANKROLL</h3>
+        <div style="padding: 20px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%); border-radius: 12px; border: 2px solid #10b981;">
+            <h3 style="margin: 0 0 15px 0; color: #10b981; font-size: 16px; font-weight: 700;">📈 EVOLUCIÓN BANKROLL</h3>
             
             <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 15px;">
-                <div>
-                    <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">Inicial</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #fff;">€${inicial.toFixed(2)}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
+                    <div style="font-size: 11px; color: #86efac; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">Inicial</div>
+                    <div style="font-size: 18px; font-weight: bold; color: #fff;">€${inicial.toFixed(2)}</div>
                 </div>
-                <div>
-                    <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">Actual</div>
-                    <div style="font-size: 16px; font-weight: bold; color: ${actual >= inicial ? '#10b981' : '#ef4444'};">€${actual.toFixed(2)}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
+                    <div style="font-size: 11px; color: #86efac; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">Actual</div>
+                    <div style="font-size: 18px; font-weight: bold; color: ${actual >= inicial ? '#10b981' : '#f59e0b'};">€${actual.toFixed(2)}</div>
                 </div>
-                <div>
-                    <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">Máximo</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #fff;">€${max.toFixed(2)}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
+                    <div style="font-size: 11px; color: #86efac; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">Máximo</div>
+                    <div style="font-size: 18px; font-weight: bold; color: #fff;">€${max.toFixed(2)}</div>
                 </div>
-                <div>
-                    <div style="font-size: 11px; color: #94a3b8; margin-bottom: 4px;">Mínimo</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #fff;">€${min.toFixed(2)}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px;">
+                    <div style="font-size: 11px; color: #86efac; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">Mínimo</div>
+                    <div style="font-size: 18px; font-weight: bold; color: #fff;">€${min.toFixed(2)}</div>
                 </div>
             </div>
             
-            <div style="font-family: monospace; font-size: 8px; line-height: 1; color: #10b981; letter-spacing: 1px; overflow-x: auto; white-space: nowrap;">
+            <div style="font-family: monospace; font-size: 10px; line-height: 1.2; color: #10b981; letter-spacing: 2px; overflow-x: auto; white-space: nowrap; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 6px;">
                 ${sparkline}
             </div>
             
-            <div style="margin-top: 10px; font-size: 13px;">
-                <span style="color: #94a3b8;">Cambio total:</span>
-                <span style="color: ${cambio >= 0 ? '#10b981' : '#ef4444'}; font-weight: bold; margin-left: 8px;">
+            <div style="margin-top: 12px; font-size: 14px; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 6px;">
+                <span style="color: #86efac; font-weight: 600;">Cambio total:</span>
+                <span style="color: ${cambio >= 0 ? '#10b981' : '#f59e0b'}; font-weight: bold; margin-left: 8px; font-size: 16px;">
                     ${cambio >= 0 ? '+' : ''}€${cambio.toFixed(2)} (${cambioPct >= 0 ? '+' : ''}${cambioPct}%)
                 </span>
             </div>
@@ -124,31 +124,31 @@ function createOddRangeSection(oddRangeData) {
     dataArray.sort((a, b) => b.picks - a.picks);
     
     container.innerHTML = `
-        <div style="padding: 20px; background: rgba(59, 130, 246, 0.05); border-radius: 8px; border-left: 4px solid #3b82f6;">
-            <h3 style="margin: 0 0 15px 0; color: #3b82f6; font-size: 14px;">📊 PERFORMANCE POR ODD RANGE</h3>
+        <div style="padding: 20px; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(37, 99, 235, 0.05) 100%); border-radius: 12px; border: 2px solid #3b82f6;">
+            <h3 style="margin: 0 0 15px 0; color: #60a5fa; font-size: 16px; font-weight: 700;">📊 PERFORMANCE POR ODD RANGE</h3>
             
             <div style="overflow-x: auto;">
                 <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
                     <thead>
-                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-                            <th style="text-align: left; padding: 8px; color: #94a3b8; font-weight: 600;">Range</th>
-                            <th style="text-align: center; padding: 8px; color: #94a3b8; font-weight: 600;">n</th>
-                            <th style="text-align: center; padding: 8px; color: #94a3b8; font-weight: 600;">WR%</th>
-                            <th style="text-align: center; padding: 8px; color: #94a3b8; font-weight: 600;">ROI%</th>
-                            <th style="text-align: center; padding: 8px; color: #94a3b8; font-weight: 600;">Yield%</th>
+                        <tr style="border-bottom: 2px solid rgba(96, 165, 250, 0.3);">
+                            <th style="text-align: left; padding: 12px; color: #93c5fd; font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">Range</th>
+                            <th style="text-align: center; padding: 12px; color: #93c5fd; font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">n</th>
+                            <th style="text-align: center; padding: 12px; color: #93c5fd; font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">WR%</th>
+                            <th style="text-align: center; padding: 12px; color: #93c5fd; font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">ROI%</th>
+                            <th style="text-align: center; padding: 12px; color: #93c5fd; font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">Yield%</th>
                         </tr>
                     </thead>
                     <tbody>
                         ${dataArray.map(item => {
                             const roi = item.roi || 0;
-                            const roiColor = roi > 0 ? '#10b981' : '#ef4444';
+                            const roiColor = roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171';
                             return `
-                                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                                    <td style="padding: 10px 8px; color: #fff; font-weight: 500;">${item.range}</td>
-                                    <td style="padding: 10px 8px; text-align: center; color: #e2e8f0;">${item.picks}</td>
-                                    <td style="padding: 10px 8px; text-align: center; color: #fff;">${item.win_rate.toFixed(1)}%</td>
-                                    <td style="padding: 10px 8px; text-align: center; color: ${roiColor}; font-weight: 600;">${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%</td>
-                                    <td style="padding: 10px 8px; text-align: center; color: ${roiColor};">${item.yield >= 0 ? '+' : ''}${item.yield.toFixed(1)}%</td>
+                                <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); transition: background 0.2s;" onmouseover="this.style.background='rgba(59, 130, 246, 0.1)'" onmouseout="this.style.background='transparent'">
+                                    <td style="padding: 14px 12px; color: #fff; font-weight: 600; font-size: 14px;">${item.range}</td>
+                                    <td style="padding: 14px 12px; text-align: center; color: #e0e7ff; font-size: 14px;">${item.picks}</td>
+                                    <td style="padding: 14px 12px; text-align: center; color: #ddd6fe; font-size: 14px; font-weight: 500;">${item.win_rate.toFixed(1)}%</td>
+                                    <td style="padding: 14px 12px; text-align: center; color: ${roiColor}; font-weight: 700; font-size: 15px;">${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%</td>
+                                    <td style="padding: 14px 12px; text-align: center; color: ${roiColor}; font-weight: 500; font-size: 14px;">${item.yield >= 0 ? '+' : ''}${item.yield.toFixed(1)}%</td>
                                 </tr>
                             `;
                         }).join('')}
@@ -176,23 +176,24 @@ function createLeagueSection(leagueData) {
         
         let marketsHTML = '';
         if (league.markets && league.markets.length > 0) {
-            marketsHTML = `<div style="font-size: 10px; color: #94a3b8; margin-top: 4px;">
+            marketsHTML = `<div style="font-size: 11px; color: #cbd5e1; margin-top: 6px; padding: 6px; background: rgba(0,0,0,0.2); border-radius: 4px;">
                 ${league.markets.slice(0, 2).map(m => {
                     const mRoi = m.roi || 0;
-                    return `<span style="margin-right: 8px;">${m.market}: <span style="color: ${mRoi > 0 ? '#10b981' : '#ef4444'};">${mRoi >= 0 ? '+' : ''}${mRoi.toFixed(1)}%</span></span>`;
+                    const mColor = mRoi > 5 ? '#10b981' : mRoi > 0 ? '#fbbf24' : '#f87171';
+                    return `<span style="margin-right: 10px; display: inline-block;">${m.market}: <span style="color: ${mColor}; font-weight: 700;">${mRoi >= 0 ? '+' : ''}${mRoi.toFixed(1)}%</span></span>`;
                 }).join('')}
             </div>`;
         }
         
         return `
-            <tr>
-                <td><div style="font-weight: 600;">${league.league}</div>${marketsHTML}</td>
-                <td style="text-align: center;">${league.picks}</td>
-                <td style="text-align: center;">${league.win_rate.toFixed(1)}%</td>
-                <td style="text-align: center; color: ${roi > 0 ? '#10b981' : '#ef4444'}; font-weight: 600;">
+            <tr style="transition: background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.05)'" onmouseout="this.style.background='transparent'">
+                <td><div style="font-weight: 700; font-size: 14px; color: #fff;">${league.league}</div>${marketsHTML}</td>
+                <td style="text-align: center; font-size: 14px; color: #e0e7ff;">${league.picks}</td>
+                <td style="text-align: center; font-size: 14px; color: #ddd6fe; font-weight: 500;">${league.win_rate.toFixed(1)}%</td>
+                <td style="text-align: center; color: ${roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171'}; font-weight: 700; font-size: 15px;">
                     ${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%
                 </td>
-                <td style="text-align: center;"><span class="${statusClass}">${statusText}</span></td>
+                <td style="text-align: center;"><span class="${statusClass}" style="font-size: 12px;">${statusText}</span></td>
             </tr>
         `;
     }).join('');
@@ -217,25 +218,26 @@ function createMarketSection(marketData) {
     const sorted = [...marketData].sort((a, b) => (b.roi || 0) - (a.roi || 0));
     
     container.innerHTML = `
-        <h2>🎯 Performance por Mercado</h2>
+        <h2 style="color: #fbbf24; font-size: 18px;">🎯 Performance por Mercado</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Mercado</th>
-                    <th style="text-align: center;">n</th>
-                    <th style="text-align: center;">WR%</th>
-                    <th style="text-align: center;">ROI%</th>
+                    <th style="color: #fde68a;">Mercado</th>
+                    <th style="text-align: center; color: #fde68a;">n</th>
+                    <th style="text-align: center; color: #fde68a;">WR%</th>
+                    <th style="text-align: center; color: #fde68a;">ROI%</th>
                 </tr>
             </thead>
             <tbody>
                 ${sorted.map(market => {
                     const roi = market.roi || 0;
+                    const roiColor = roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171';
                     return `
-                        <tr>
-                            <td style="font-weight: 600; max-width: 250px;">${market.market}</td>
-                            <td style="text-align: center;">${market.picks}</td>
-                            <td style="text-align: center;">${market.win_rate.toFixed(1)}%</td>
-                            <td style="text-align: center; color: ${roi > 0 ? '#10b981' : '#ef4444'}; font-weight: 600;">
+                        <tr style="transition: background 0.2s;" onmouseover="this.style.background='rgba(251, 191, 36, 0.1)'" onmouseout="this.style.background='transparent'">
+                            <td style="font-weight: 600; max-width: 250px; font-size: 14px; color: #fff;">${market.market}</td>
+                            <td style="text-align: center; font-size: 14px; color: #fef3c7;">${market.picks}</td>
+                            <td style="text-align: center; font-size: 14px; color: #fde68a; font-weight: 500;">${market.win_rate.toFixed(1)}%</td>
+                            <td style="text-align: center; color: ${roiColor}; font-weight: 700; font-size: 15px;">
                                 ${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%
                             </td>
                         </tr>
@@ -258,17 +260,17 @@ function createRecentBetsSection(recentBets) {
         const resultClass = bet.result === 'Ganada' ? 'result-won' : bet.result === 'Perdida' ? 'result-lost' : 'result-pending';
         
         return `
-            <tr>
-                <td style="font-size: 11px; color: #94a3b8;">
+            <tr style="transition: background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.05)'" onmouseout="this.style.background='transparent'">
+                <td style="font-size: 12px; color: #cbd5e1;">
                     ${bet.date}
-                    ${bet.league ? `<div style="font-size: 9px; color: #64748b;">${bet.league}</div>` : ''}
+                    ${bet.league ? `<div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">${bet.league}</div>` : ''}
                 </td>
                 <td>
-                    <div style="font-weight: 500; font-size: 13px;">${bet.match}</div>
+                    <div style="font-weight: 600; font-size: 13px; color: #fff;">${bet.match}</div>
                 </td>
-                <td style="text-align: center; font-size: 12px;">${bet.selection}</td>
-                <td style="text-align: center; font-weight: 600;">${bet.odd.toFixed(2)}</td>
-                <td style="text-align: center;"><span class="${resultClass}">${bet.result}</span></td>
+                <td style="text-align: center; font-size: 12px; color: #e0e7ff;">${bet.selection}</td>
+                <td style="text-align: center; font-weight: 700; font-size: 14px; color: #fde68a;">${bet.odd.toFixed(2)}</td>
+                <td style="text-align: center;"><span class="${resultClass}" style="font-weight: 700; font-size: 13px;">${bet.result}</span></td>
             </tr>
         `;
     }).join('');
@@ -283,7 +285,6 @@ function createTemporalAnalysis(temporal) {
     
     const parent = document.querySelector('.charts-row');
     
-    // Crear contenedor si no existe
     let container = document.getElementById('temporalSection');
     if (!container) {
         container = document.createElement('div');
@@ -297,16 +298,17 @@ function createTemporalAnalysis(temporal) {
     // Por día de semana
     const weekdayHTML = by_weekday.length > 0 ? `
         <div style="margin-bottom: 20px;">
-            <h4 style="margin: 0 0 10px 0; font-size: 12px; color: #94a3b8;">📅 Por Día de Semana</h4>
-            <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px;">
+            <h4 style="margin: 0 0 12px 0; font-size: 13px; color: #c4b5fd; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">📅 Por Día de Semana</h4>
+            <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px;">
                 ${by_weekday.map(day => {
                     const roi = day.roi || 0;
-                    const color = roi > 0 ? '#10b981' : '#ef4444';
+                    const color = roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171';
+                    const bgColor = roi > 5 ? 'rgba(16, 185, 129, 0.15)' : roi > 0 ? 'rgba(251, 191, 36, 0.15)' : 'rgba(248, 113, 113, 0.15)';
                     return `
-                        <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 6px; text-align: center;">
-                            <div style="font-size: 10px; color: #94a3b8; margin-bottom: 4px;">${day.day.substring(0,3)}</div>
-                            <div style="font-size: 14px; font-weight: bold; color: ${color};">${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%</div>
-                            <div style="font-size: 9px; color: #64748b;">${day.picks}p</div>
+                        <div style="background: ${bgColor}; padding: 12px; border-radius: 8px; text-align: center; border: 1px solid ${color};">
+                            <div style="font-size: 11px; color: #e9d5ff; margin-bottom: 6px; font-weight: 600; text-transform: uppercase;">${day.day.substring(0,3)}</div>
+                            <div style="font-size: 16px; font-weight: bold; color: ${color};">${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%</div>
+                            <div style="font-size: 10px; color: #c4b5fd; margin-top: 4px;">${day.picks} picks</div>
                         </div>
                     `;
                 }).join('')}
@@ -317,20 +319,21 @@ function createTemporalAnalysis(temporal) {
     // Tendencias
     const trendsHTML = trends.last_7_days ? `
         <div style="margin-bottom: 20px;">
-            <h4 style="margin: 0 0 10px 0; font-size: 12px; color: #94a3b8;">📈 Tendencias Recientes</h4>
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+            <h4 style="margin: 0 0 12px 0; font-size: 13px; color: #c4b5fd; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">📈 Tendencias Recientes</h4>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
                 ${[
-                    { label: 'Últ 7d', data: trends.last_7_days },
-                    { label: 'Últ 14d', data: trends.last_14_days },
-                    { label: 'Últ 30d', data: trends.last_30_days }
+                    { label: 'Últimos 7 días', data: trends.last_7_days },
+                    { label: 'Últimos 14 días', data: trends.last_14_days },
+                    { label: 'Últimos 30 días', data: trends.last_30_days }
                 ].filter(t => t.data).map(t => {
                     const roi = t.data.roi || 0;
-                    const color = roi > 0 ? '#10b981' : '#ef4444';
+                    const color = roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171';
+                    const bgColor = roi > 5 ? 'rgba(16, 185, 129, 0.15)' : roi > 0 ? 'rgba(251, 191, 36, 0.15)' : 'rgba(248, 113, 113, 0.15)';
                     return `
-                        <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                            <div style="font-size: 10px; color: #94a3b8; margin-bottom: 4px;">${t.label}</div>
-                            <div style="font-size: 16px; font-weight: bold; color: ${color};">${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%</div>
-                            <div style="font-size: 10px; color: #64748b;">${t.data.picks} picks • WR ${t.data.win_rate.toFixed(1)}%</div>
+                        <div style="background: ${bgColor}; padding: 14px; border-radius: 8px; border: 1px solid ${color};">
+                            <div style="font-size: 11px; color: #e9d5ff; margin-bottom: 6px; font-weight: 600; text-transform: uppercase;">${t.label}</div>
+                            <div style="font-size: 20px; font-weight: bold; color: ${color};">${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%</div>
+                            <div style="font-size: 11px; color: #c4b5fd; margin-top: 6px;">${t.data.picks} picks • WR ${t.data.win_rate.toFixed(1)}%</div>
                         </div>
                     `;
                 }).join('')}
@@ -341,29 +344,29 @@ function createTemporalAnalysis(temporal) {
     // Rachas
     const streaksHTML = streaks.current_streak ? `
         <div>
-            <h4 style="margin: 0 0 10px 0; font-size: 12px; color: #94a3b8;">🔥 Rachas</h4>
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Racha Actual</div>
-                    <div style="font-size: 16px; font-weight: bold; color: ${streaks.current_streak_type === 'Ganada' ? '#10b981' : '#ef4444'};">
+            <h4 style="margin: 0 0 12px 0; font-size: 13px; color: #c4b5fd; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">🔥 Rachas</h4>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+                <div style="background: ${streaks.current_streak_type === 'Ganada' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(248, 113, 113, 0.15)'}; padding: 14px; border-radius: 8px; border: 2px solid ${streaks.current_streak_type === 'Ganada' ? '#10b981' : '#f87171'};">
+                    <div style="font-size: 11px; color: #e9d5ff; font-weight: 600; text-transform: uppercase;">Racha Actual</div>
+                    <div style="font-size: 22px; font-weight: bold; color: ${streaks.current_streak_type === 'Ganada' ? '#10b981' : '#f87171'}; margin-top: 6px;">
                         ${streaks.current_streak} ${streaks.current_streak_type === 'Ganada' ? 'W' : 'L'}
                     </div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Max Ganadas</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #10b981;">${streaks.max_winning_streak}</div>
+                <div style="background: rgba(16, 185, 129, 0.15); padding: 14px; border-radius: 8px; border: 1px solid #10b981;">
+                    <div style="font-size: 11px; color: #86efac; font-weight: 600; text-transform: uppercase;">Max Ganadas</div>
+                    <div style="font-size: 22px; font-weight: bold; color: #10b981; margin-top: 6px;">${streaks.max_winning_streak}</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Max Perdidas</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #ef4444;">${streaks.max_losing_streak}</div>
+                <div style="background: rgba(248, 113, 113, 0.15); padding: 14px; border-radius: 8px; border: 1px solid #f87171;">
+                    <div style="font-size: 11px; color: #fca5a5; font-weight: 600; text-transform: uppercase;">Max Perdidas</div>
+                    <div style="font-size: 22px; font-weight: bold; color: #f87171; margin-top: 6px;">${streaks.max_losing_streak}</div>
                 </div>
             </div>
         </div>
     ` : '';
     
     container.innerHTML = `
-        <div style="padding: 20px; background: rgba(168, 85, 247, 0.05); border-radius: 8px; border-left: 4px solid #a855f7;">
-            <h3 style="margin: 0 0 15px 0; color: #a855f7; font-size: 14px;">⏰ ANÁLISIS TEMPORAL</h3>
+        <div style="padding: 20px; background: linear-gradient(135deg, rgba(168, 85, 247, 0.15) 0%, rgba(126, 34, 206, 0.05) 100%); border-radius: 12px; border: 2px solid #a855f7;">
+            <h3 style="margin: 0 0 18px 0; color: #e9d5ff; font-size: 16px; font-weight: 700;">⏰ ANÁLISIS TEMPORAL</h3>
             ${weekdayHTML}
             ${trendsHTML}
             ${streaksHTML}
@@ -384,31 +387,35 @@ function createCLVAnalysis(clv) {
         parent.appendChild(container);
     }
     
-    const avgColor = clv.avg_clv > 0 ? '#10b981' : '#ef4444';
-    const posColor = clv.clv_positive_pct > 50 ? '#10b981' : '#ef4444';
+    const avgColor = clv.avg_clv > 0 ? '#10b981' : '#f87171';
+    const avgBg = clv.avg_clv > 0 ? 'rgba(16, 185, 129, 0.15)' : 'rgba(248, 113, 113, 0.15)';
+    const posColor = clv.clv_positive_pct > 50 ? '#10b981' : '#f87171';
+    const posBg = clv.clv_positive_pct > 50 ? 'rgba(16, 185, 129, 0.15)' : 'rgba(248, 113, 113, 0.15)';
     
     container.innerHTML = `
-        <div style="padding: 20px; background: rgba(34, 211, 238, 0.05); border-radius: 8px; border-left: 4px solid #22d3ee;">
-            <h3 style="margin: 0 0 15px 0; color: #22d3ee; font-size: 14px;">💎 CLOSING LINE VALUE (CLV)</h3>
+        <div style="padding: 20px; background: linear-gradient(135deg, rgba(34, 211, 238, 0.15) 0%, rgba(6, 182, 212, 0.05) 100%); border-radius: 12px; border: 2px solid #22d3ee;">
+            <h3 style="margin: 0 0 18px 0; color: #a5f3fc; font-size: 16px; font-weight: 700;">💎 CLOSING LINE VALUE (CLV)</h3>
             
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 15px;">
-                <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8; margin-bottom: 4px;">CLV Promedio</div>
-                    <div style="font-size: 18px; font-weight: bold; color: ${avgColor};">${clv.avg_clv >= 0 ? '+' : ''}${clv.avg_clv.toFixed(2)}%</div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 15px;">
+                <div style="background: ${avgBg}; padding: 16px; border-radius: 8px; border: 2px solid ${avgColor};">
+                    <div style="font-size: 11px; color: #cffafe; margin-bottom: 6px; font-weight: 600; text-transform: uppercase;">CLV Promedio</div>
+                    <div style="font-size: 22px; font-weight: bold; color: ${avgColor};">${clv.avg_clv >= 0 ? '+' : ''}${clv.avg_clv.toFixed(2)}%</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8; margin-bottom: 4px;">% CLV Positivo</div>
-                    <div style="font-size: 18px; font-weight: bold; color: ${posColor};">${clv.clv_positive_pct.toFixed(1)}%</div>
+                <div style="background: ${posBg}; padding: 16px; border-radius: 8px; border: 2px solid ${posColor};">
+                    <div style="font-size: 11px; color: #cffafe; margin-bottom: 6px; font-weight: 600; text-transform: uppercase;">% CLV Positivo</div>
+                    <div style="font-size: 22px; font-weight: bold; color: ${posColor};">${clv.clv_positive_pct.toFixed(1)}%</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8; margin-bottom: 4px;">Apuestas con CLV</div>
-                    <div style="font-size: 18px; font-weight: bold; color: #fff;">${clv.total_with_clv}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 16px; border-radius: 8px; border: 1px solid #22d3ee;">
+                    <div style="font-size: 11px; color: #cffafe; margin-bottom: 6px; font-weight: 600; text-transform: uppercase;">Apuestas con CLV</div>
+                    <div style="font-size: 22px; font-weight: bold; color: #fff;">${clv.total_with_clv}</div>
                 </div>
             </div>
             
-            <div style="font-size: 11px; color: #94a3b8;">
-                CLV Ganadas: <span style="color: #10b981; font-weight: 600;">${clv.avg_clv_won >= 0 ? '+' : ''}${clv.avg_clv_won.toFixed(2)}%</span> • 
-                CLV Perdidas: <span style="color: #ef4444; font-weight: 600;">${clv.avg_clv_lost >= 0 ? '+' : ''}${clv.avg_clv_lost.toFixed(2)}%</span>
+            <div style="font-size: 13px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 6px;">
+                <span style="color: #a5f3fc; font-weight: 600;">CLV Ganadas:</span>
+                <span style="color: #10b981; font-weight: 700; margin-left: 6px;">${clv.avg_clv_won >= 0 ? '+' : ''}${clv.avg_clv_won.toFixed(2)}%</span>
+                <span style="color: #a5f3fc; font-weight: 600; margin-left: 16px;">CLV Perdidas:</span>
+                <span style="color: #f87171; font-weight: 700; margin-left: 6px;">${clv.avg_clv_lost >= 0 ? '+' : ''}${clv.avg_clv_lost.toFixed(2)}%</span>
             </div>
         </div>
     `;
@@ -427,36 +434,39 @@ function createKellyBankrollSection(kelly) {
         parent.appendChild(container);
     }
     
-    const ddColor = kelly.max_drawdown_pct < 20 ? '#10b981' : kelly.max_drawdown_pct < 30 ? '#f59e0b' : '#ef4444';
-    const sharpeColor = kelly.sharpe_ratio > 1 ? '#10b981' : kelly.sharpe_ratio > 0 ? '#f59e0b' : '#ef4444';
+    const ddColor = kelly.max_drawdown_pct < 20 ? '#10b981' : kelly.max_drawdown_pct < 30 ? '#fbbf24' : '#f87171';
+    const ddBg = kelly.max_drawdown_pct < 20 ? 'rgba(16, 185, 129, 0.15)' : kelly.max_drawdown_pct < 30 ? 'rgba(251, 191, 36, 0.15)' : 'rgba(248, 113, 113, 0.15)';
+    const sharpeColor = kelly.sharpe_ratio > 1 ? '#10b981' : kelly.sharpe_ratio > 0 ? '#fbbf24' : '#f87171';
+    const sharpeBg = kelly.sharpe_ratio > 1 ? 'rgba(16, 185, 129, 0.15)' : kelly.sharpe_ratio > 0 ? 'rgba(251, 191, 36, 0.15)' : 'rgba(248, 113, 113, 0.15)';
     
     container.innerHTML = `
-        <div style="padding: 20px; background: rgba(245, 158, 11, 0.05); border-radius: 8px; border-left: 4px solid #f59e0b;">
-            <h3 style="margin: 0 0 15px 0; color: #f59e0b; font-size: 14px;">💰 KELLY & BANKROLL MANAGEMENT</h3>
+        <div style="padding: 20px; background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(217, 119, 6, 0.05) 100%); border-radius: 12px; border: 2px solid #f59e0b;">
+            <h3 style="margin: 0 0 18px 0; color: #fde68a; font-size: 16px; font-weight: 700;">💰 KELLY & BANKROLL MANAGEMENT</h3>
             
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px;">
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Kelly Promedio</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #fff;">${kelly.avg_kelly.toFixed(2)}%</div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 14px;">
+                <div style="background: rgba(0,0,0,0.2); padding: 14px; border-radius: 8px; border: 1px solid #fbbf24;">
+                    <div style="font-size: 11px; color: #fef3c7; font-weight: 600; text-transform: uppercase;">Kelly Promedio</div>
+                    <div style="font-size: 18px; font-weight: bold; color: #fff; margin-top: 4px;">${kelly.avg_kelly.toFixed(2)}%</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Stake Promedio</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #fff;">€${kelly.avg_stake.toFixed(2)}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 14px; border-radius: 8px; border: 1px solid #fbbf24;">
+                    <div style="font-size: 11px; color: #fef3c7; font-weight: 600; text-transform: uppercase;">Stake Promedio</div>
+                    <div style="font-size: 18px; font-weight: bold; color: #fff; margin-top: 4px;">€${kelly.avg_stake.toFixed(2)}</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Sharpe Ratio</div>
-                    <div style="font-size: 16px; font-weight: bold; color: ${sharpeColor};">${kelly.sharpe_ratio.toFixed(2)}</div>
+                <div style="background: ${sharpeBg}; padding: 14px; border-radius: 8px; border: 2px solid ${sharpeColor};">
+                    <div style="font-size: 11px; color: #fef3c7; font-weight: 600; text-transform: uppercase;">Sharpe Ratio</div>
+                    <div style="font-size: 18px; font-weight: bold; color: ${sharpeColor}; margin-top: 4px;">${kelly.sharpe_ratio.toFixed(2)}</div>
                 </div>
             </div>
             
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Max Drawdown</div>
-                    <div style="font-size: 16px; font-weight: bold; color: ${ddColor};">€${kelly.max_drawdown.toFixed(2)} (${kelly.max_drawdown_pct.toFixed(1)}%)</div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
+                <div style="background: ${ddBg}; padding: 14px; border-radius: 8px; border: 2px solid ${ddColor};">
+                    <div style="font-size: 11px; color: #fef3c7; font-weight: 600; text-transform: uppercase;">Max Drawdown</div>
+                    <div style="font-size: 18px; font-weight: bold; color: ${ddColor}; margin-top: 4px;">€${kelly.max_drawdown.toFixed(2)}</div>
+                    <div style="font-size: 13px; color: #fde68a; margin-top: 2px;">(${kelly.max_drawdown_pct.toFixed(1)}%)</div>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px;">
-                    <div style="font-size: 10px; color: #94a3b8;">Recovery Factor</div>
-                    <div style="font-size: 16px; font-weight: bold; color: #fff;">${kelly.recovery_factor.toFixed(2)}</div>
+                <div style="background: rgba(0,0,0,0.2); padding: 14px; border-radius: 8px; border: 1px solid #fbbf24;">
+                    <div style="font-size: 11px; color: #fef3c7; font-weight: 600; text-transform: uppercase;">Recovery Factor</div>
+                    <div style="font-size: 18px; font-weight: bold; color: #fff; margin-top: 4px;">${kelly.recovery_factor.toFixed(2)}</div>
                 </div>
             </div>
         </div>
@@ -477,40 +487,46 @@ function createTeamAnalysis(teams) {
     }
     
     const overHTML = teams.over_friendly && teams.over_friendly.length > 0 ? `
-        <div style="margin-bottom: 15px;">
-            <h4 style="margin: 0 0 8px 0; font-size: 12px; color: #10b981;">⬆️ Top Over Friendly</h4>
-            <table style="width: 100%; font-size: 11px;">
-                ${teams.over_friendly.slice(0, 5).map((team, i) => `
-                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                        <td style="padding: 6px; color: #94a3b8;">${i+1}.</td>
-                        <td style="padding: 6px; color: #fff;">${team.team}</td>
-                        <td style="padding: 6px; text-align: center; color: #64748b;">${team.picks}p</td>
-                        <td style="padding: 6px; text-align: right; color: #10b981; font-weight: 600;">${team.win_rate.toFixed(1)}%</td>
+        <div style="margin-bottom: 18px;">
+            <h4 style="margin: 0 0 10px 0; font-size: 13px; color: #86efac; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">⬆️ Top Over Friendly</h4>
+            <table style="width: 100%; font-size: 12px;">
+                ${teams.over_friendly.slice(0, 5).map((team, i) => {
+                    const bgColor = i === 0 ? 'rgba(16, 185, 129, 0.2)' : 'rgba(16, 185, 129, 0.05)';
+                    return `
+                    <tr style="border-bottom: 1px solid rgba(16, 185, 129, 0.2); background: ${bgColor};">
+                        <td style="padding: 10px; color: #86efac; font-weight: 700; font-size: 14px;">${i+1}.</td>
+                        <td style="padding: 10px; color: #fff; font-weight: 600;">${team.team}</td>
+                        <td style="padding: 10px; text-align: center; color: #d1fae5;">${team.picks}p</td>
+                        <td style="padding: 10px; text-align: right; color: #10b981; font-weight: 700; font-size: 14px;">${team.win_rate.toFixed(1)}%</td>
                     </tr>
-                `).join('')}
+                `;
+                }).join('')}
             </table>
         </div>
     ` : '';
     
     const underHTML = teams.under_friendly && teams.under_friendly.length > 0 ? `
         <div>
-            <h4 style="margin: 0 0 8px 0; font-size: 12px; color: #3b82f6;">⬇️ Top Under Friendly</h4>
-            <table style="width: 100%; font-size: 11px;">
-                ${teams.under_friendly.slice(0, 5).map((team, i) => `
-                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                        <td style="padding: 6px; color: #94a3b8;">${i+1}.</td>
-                        <td style="padding: 6px; color: #fff;">${team.team}</td>
-                        <td style="padding: 6px; text-align: center; color: #64748b;">${team.picks}p</td>
-                        <td style="padding: 6px; text-align: right; color: #3b82f6; font-weight: 600;">${team.win_rate.toFixed(1)}%</td>
+            <h4 style="margin: 0 0 10px 0; font-size: 13px; color: #93c5fd; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">⬇️ Top Under Friendly</h4>
+            <table style="width: 100%; font-size: 12px;">
+                ${teams.under_friendly.slice(0, 5).map((team, i) => {
+                    const bgColor = i === 0 ? 'rgba(59, 130, 246, 0.2)' : 'rgba(59, 130, 246, 0.05)';
+                    return `
+                    <tr style="border-bottom: 1px solid rgba(59, 130, 246, 0.2); background: ${bgColor};">
+                        <td style="padding: 10px; color: #93c5fd; font-weight: 700; font-size: 14px;">${i+1}.</td>
+                        <td style="padding: 10px; color: #fff; font-weight: 600;">${team.team}</td>
+                        <td style="padding: 10px; text-align: center; color: #dbeafe;">${team.picks}p</td>
+                        <td style="padding: 10px; text-align: right; color: #3b82f6; font-weight: 700; font-size: 14px;">${team.win_rate.toFixed(1)}%</td>
                     </tr>
-                `).join('')}
+                `;
+                }).join('')}
             </table>
         </div>
     ` : '';
     
     container.innerHTML = `
-        <h2>⚽ Análisis de Equipos</h2>
-        <div style="padding: 15px; background: rgba(255,255,255,0.03); border-radius: 8px;">
+        <h2 style="color: #22d3ee; font-size: 18px;">⚽ Análisis de Equipos</h2>
+        <div style="padding: 18px; background: rgba(0,0,0,0.2); border-radius: 10px; border: 1px solid rgba(34, 211, 238, 0.3);">
             ${overHTML}
             ${underHTML}
         </div>
@@ -531,25 +547,26 @@ function createConfidenceAnalysis(confidence) {
     }
     
     container.innerHTML = `
-        <h2>🎯 Análisis Confidence Score</h2>
+        <h2 style="color: #c084fc; font-size: 18px;">🎯 Análisis Confidence Score</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Rango</th>
-                    <th style="text-align: center;">Picks</th>
-                    <th style="text-align: center;">WR%</th>
-                    <th style="text-align: center;">ROI%</th>
+                    <th style="color: #e9d5ff;">Rango</th>
+                    <th style="text-align: center; color: #e9d5ff;">Picks</th>
+                    <th style="text-align: center; color: #e9d5ff;">WR%</th>
+                    <th style="text-align: center; color: #e9d5ff;">ROI%</th>
                 </tr>
             </thead>
             <tbody>
                 ${confidence.by_range.map(range => {
                     const roi = range.roi || 0;
+                    const roiColor = roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171';
                     return `
-                        <tr>
-                            <td style="font-weight: 600;">${range.range}</td>
-                            <td style="text-align: center;">${range.picks}</td>
-                            <td style="text-align: center;">${range.win_rate.toFixed(1)}%</td>
-                            <td style="text-align: center; color: ${roi > 0 ? '#10b981' : '#ef4444'}; font-weight: 600;">
+                        <tr style="transition: background 0.2s;" onmouseover="this.style.background='rgba(192, 132, 252, 0.1)'" onmouseout="this.style.background='transparent'">
+                            <td style="font-weight: 700; font-size: 14px; color: #fff;">${range.range}</td>
+                            <td style="text-align: center; font-size: 14px; color: #f3e8ff;">${range.picks}</td>
+                            <td style="text-align: center; font-size: 14px; color: #e9d5ff; font-weight: 500;">${range.win_rate.toFixed(1)}%</td>
+                            <td style="text-align: center; color: ${roiColor}; font-weight: 700; font-size: 15px;">
                                 ${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%
                             </td>
                         </tr>
@@ -573,14 +590,12 @@ function createHeatmapSection(heatmap) {
         parent.appendChild(container);
     }
     
-    // Agrupar por liga
     const byLeague = {};
     heatmap.forEach(cell => {
         if (!byLeague[cell.league]) byLeague[cell.league] = [];
         byLeague[cell.league].push(cell);
     });
     
-    // Tomar top 5 ligas por picks
     const topLeagues = Object.entries(byLeague)
         .map(([league, cells]) => ({
             league,
@@ -591,24 +606,34 @@ function createHeatmapSection(heatmap) {
         .slice(0, 5);
     
     container.innerHTML = `
-        <h2>🗺️ Heatmap: Liga × Mercado</h2>
+        <h2 style="color: #fb923c; font-size: 18px;">🗺️ Heatmap: Liga × Mercado</h2>
         <div style="overflow-x: auto;">
             ${topLeagues.map(({ league, cells }) => `
-                <div style="margin-bottom: 15px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 6px;">
-                    <h4 style="margin: 0 0 8px 0; font-size: 13px; color: #fff;">${league}</h4>
-                    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                <div style="margin-bottom: 18px; padding: 16px; background: rgba(251, 146, 60, 0.1); border-radius: 10px; border: 1px solid rgba(251, 146, 60, 0.3);">
+                    <h4 style="margin: 0 0 12px 0; font-size: 14px; color: #fed7aa; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">${league}</h4>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
                         ${cells.map(cell => {
                             const roi = cell.roi || 0;
-                            const bgColor = roi > 10 ? 'rgba(16, 185, 129, 0.2)' : 
-                                          roi > 0 ? 'rgba(245, 158, 11, 0.2)' : 
-                                          'rgba(239, 68, 68, 0.2)';
+                            let bgColor, borderColor;
+                            if (roi > 10) {
+                                bgColor = 'rgba(16, 185, 129, 0.25)';
+                                borderColor = '#10b981';
+                            } else if (roi > 0) {
+                                bgColor = 'rgba(251, 191, 36, 0.25)';
+                                borderColor = '#fbbf24';
+                            } else {
+                                bgColor = 'rgba(248, 113, 113, 0.25)';
+                                borderColor = '#f87171';
+                            }
+                            const textColor = roi > 5 ? '#10b981' : roi > 0 ? '#fbbf24' : '#f87171';
+                            
                             return `
-                                <div style="background: ${bgColor}; padding: 8px; border-radius: 4px; min-width: 120px;">
-                                    <div style="font-size: 10px; color: #94a3b8;">${cell.market}</div>
-                                    <div style="font-size: 14px; font-weight: bold; color: ${roi > 0 ? '#10b981' : '#ef4444'};">
+                                <div style="background: ${bgColor}; padding: 12px; border-radius: 8px; min-width: 130px; border: 2px solid ${borderColor};">
+                                    <div style="font-size: 11px; color: #fed7aa; font-weight: 600; margin-bottom: 4px;">${cell.market}</div>
+                                    <div style="font-size: 18px; font-weight: bold; color: ${textColor};">
                                         ${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%
                                     </div>
-                                    <div style="font-size: 9px; color: #64748b;">${cell.picks}p • WR ${cell.win_rate.toFixed(1)}%</div>
+                                    <div style="font-size: 10px; color: #fdba74; margin-top: 4px;">${cell.picks}p • WR ${cell.win_rate.toFixed(1)}%</div>
                                 </div>
                             `;
                         }).join('')}
