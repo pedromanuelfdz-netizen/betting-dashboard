@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-21T19:17:05.241192",
+  "timestamp": "2026-01-21T19:30:10.070489",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 150.26,
@@ -120,32 +120,68 @@
     "1.60-1.80": {
       "picks": 12,
       "wins": 7,
-      "win_rate": 58.3
+      "losses": 5,
+      "win_rate": 58.3,
+      "yield": -12.54,
+      "roi": -9.3,
+      "profit": -18.59,
+      "turnover": 148.22,
+      "bankroll_final": 181.41
     },
     "1.80-2.00": {
       "picks": 33,
       "wins": 19,
-      "win_rate": 57.6
+      "losses": 14,
+      "win_rate": 57.6,
+      "yield": 5.11,
+      "roi": 9.33,
+      "profit": 18.67,
+      "turnover": 364.96,
+      "bankroll_final": 218.67
     },
     "2.00-2.10": {
       "picks": 15,
       "wins": 7,
-      "win_rate": 46.7
+      "losses": 8,
+      "win_rate": 46.7,
+      "yield": 5.3,
+      "roi": 4.06,
+      "profit": 8.11,
+      "turnover": 153.08,
+      "bankroll_final": 208.11
     },
     "2.10-2.30": {
       "picks": 23,
       "wins": 7,
-      "win_rate": 30.4
+      "losses": 16,
+      "win_rate": 30.4,
+      "yield": -36.26,
+      "roi": -34.95,
+      "profit": -69.91,
+      "turnover": 192.78,
+      "bankroll_final": 130.09
     },
     "2.30-2.60": {
       "picks": 10,
       "wins": 7,
-      "win_rate": 70.0
+      "losses": 3,
+      "win_rate": 70.0,
+      "yield": 60.31,
+      "roi": 28.99,
+      "profit": 57.98,
+      "turnover": 96.11,
+      "bankroll_final": 257.98
     },
     "2.60+": {
       "picks": 2,
       "wins": 0,
-      "win_rate": 0.0
+      "losses": 2,
+      "win_rate": 0.0,
+      "yield": -100.0,
+      "roi": -9.09,
+      "profit": -18.19,
+      "turnover": 18.19,
+      "bankroll_final": 181.81
     }
   },
   "by_league": [
@@ -153,61 +189,447 @@
       "league": "Serie A",
       "picks": 22,
       "wins": 11,
-      "win_rate": 50.0
+      "losses": 11,
+      "win_rate": 50.0,
+      "yield": -1.05,
+      "roi": -1.28,
+      "profit": -2.55,
+      "turnover": 243.82,
+      "bankroll_final": 197.45,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 20,
+          "wins": 11,
+          "losses": 9,
+          "win_rate": 55.0,
+          "yield": 8.15,
+          "roi": 9.18,
+          "profit": 18.36,
+          "turnover": 225.15,
+          "bankroll_final": 218.36
+        },
+        {
+          "market": "BTTS",
+          "picks": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -9.58,
+          "profit": -19.15,
+          "turnover": 19.15,
+          "bankroll_final": 180.85
+        }
+      ]
     },
     {
       "league": "Championship",
       "picks": 14,
       "wins": 7,
-      "win_rate": 50.0
+      "losses": 7,
+      "win_rate": 50.0,
+      "yield": -4.54,
+      "roi": -3.17,
+      "profit": -6.33,
+      "turnover": 139.45,
+      "bankroll_final": 193.67,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 13,
+          "wins": 7,
+          "losses": 6,
+          "win_rate": 53.8,
+          "yield": 1.81,
+          "roi": 1.19,
+          "profit": 2.37,
+          "turnover": 130.75,
+          "bankroll_final": 202.37
+        },
+        {
+          "market": "BTTS",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -4.3,
+          "profit": -8.6,
+          "turnover": 8.6,
+          "bankroll_final": 191.4
+        }
+      ]
     },
     {
       "league": "Premier League",
       "picks": 13,
       "wins": 8,
-      "win_rate": 61.5
+      "losses": 5,
+      "win_rate": 61.5,
+      "yield": 1.34,
+      "roi": 1.09,
+      "profit": 2.19,
+      "turnover": 163.13,
+      "bankroll_final": 202.19,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 11,
+          "wins": 7,
+          "losses": 4,
+          "win_rate": 63.6,
+          "yield": 6.26,
+          "roi": 4.45,
+          "profit": 8.91,
+          "turnover": 142.44,
+          "bankroll_final": 208.91
+        },
+        {
+          "market": "BTTS",
+          "picks": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0,
+          "yield": -30.8,
+          "roi": -3.22,
+          "profit": -6.43,
+          "turnover": 20.88,
+          "bankroll_final": 193.57
+        }
+      ]
     },
     {
       "league": "Serie B",
       "picks": 10,
       "wins": 5,
-      "win_rate": 50.0
+      "losses": 5,
+      "win_rate": 50.0,
+      "yield": -14.03,
+      "roi": -6.02,
+      "profit": -12.04,
+      "turnover": 85.75,
+      "bankroll_final": 187.96,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 9,
+          "wins": 5,
+          "losses": 4,
+          "win_rate": 55.6,
+          "yield": -5.89,
+          "roi": -2.31,
+          "profit": -4.62,
+          "turnover": 78.33,
+          "bankroll_final": 195.38
+        },
+        {
+          "market": "BTTS",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -3.8,
+          "profit": -7.6,
+          "turnover": 7.6,
+          "bankroll_final": 192.4
+        }
+      ]
     },
     {
       "league": "La Liga",
       "picks": 8,
       "wins": 3,
-      "win_rate": 37.5
+      "losses": 5,
+      "win_rate": 37.5,
+      "yield": -23.96,
+      "roi": -10.34,
+      "profit": -20.69,
+      "turnover": 86.35,
+      "bankroll_final": 179.31,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 8,
+          "wins": 3,
+          "losses": 5,
+          "win_rate": 37.5,
+          "yield": -23.96,
+          "roi": -10.34,
+          "profit": -20.69,
+          "turnover": 86.35,
+          "bankroll_final": 179.31
+        }
+      ]
     },
     {
       "league": "Primeira Liga",
       "picks": 7,
       "wins": 3,
-      "win_rate": 42.9
+      "losses": 4,
+      "win_rate": 42.9,
+      "yield": 0.75,
+      "roi": 0.3,
+      "profit": 0.59,
+      "turnover": 79.42,
+      "bankroll_final": 200.59,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 5,
+          "wins": 2,
+          "losses": 3,
+          "win_rate": 40.0,
+          "yield": -3.12,
+          "roi": -0.88,
+          "profit": -1.76,
+          "turnover": 56.32,
+          "bankroll_final": 198.24
+        },
+        {
+          "market": "BTTS",
+          "picks": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0,
+          "yield": 9.53,
+          "roi": 1.17,
+          "profit": 2.35,
+          "turnover": 24.62,
+          "bankroll_final": 202.35
+        }
+      ]
     },
     {
       "league": "Ligue 1",
       "picks": 6,
       "wins": 2,
-      "win_rate": 33.3
+      "losses": 4,
+      "win_rate": 33.3,
+      "yield": -66.22,
+      "roi": -26.53,
+      "profit": -53.06,
+      "turnover": 80.13,
+      "bankroll_final": 146.94,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 4,
+          "wins": 1,
+          "losses": 3,
+          "win_rate": 25.0,
+          "yield": -76.41,
+          "roi": -25.77,
+          "profit": -51.53,
+          "turnover": 67.44,
+          "bankroll_final": 148.47
+        },
+        {
+          "market": "BTTS",
+          "picks": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0,
+          "yield": -11.35,
+          "roi": -1.03,
+          "profit": -2.06,
+          "turnover": 18.14,
+          "bankroll_final": 197.94
+        }
+      ]
     },
     {
       "league": "Segunda División",
       "picks": 6,
       "wins": 3,
-      "win_rate": 50.0
+      "losses": 3,
+      "win_rate": 50.0,
+      "yield": 10.47,
+      "roi": 3.07,
+      "profit": 6.14,
+      "turnover": 58.67,
+      "bankroll_final": 206.14,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 6,
+          "wins": 3,
+          "losses": 3,
+          "win_rate": 50.0,
+          "yield": 10.47,
+          "roi": 3.07,
+          "profit": 6.14,
+          "turnover": 58.67,
+          "bankroll_final": 206.14
+        }
+      ]
     },
     {
       "league": "Premiership",
       "picks": 4,
       "wins": 3,
-      "win_rate": 75.0
+      "losses": 1,
+      "win_rate": 75.0,
+      "yield": 57.74,
+      "roi": 14.58,
+      "profit": 29.15,
+      "turnover": 50.48,
+      "bankroll_final": 229.15,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 4,
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 75.0,
+          "yield": 57.74,
+          "roi": 14.58,
+          "profit": 29.15,
+          "turnover": 50.48,
+          "bankroll_final": 229.15
+        }
+      ]
     },
     {
       "league": "Ligue 2",
       "picks": 3,
       "wins": 2,
-      "win_rate": 66.7
+      "losses": 1,
+      "win_rate": 66.7,
+      "yield": 46.33,
+      "roi": 9.51,
+      "profit": 19.02,
+      "turnover": 41.04,
+      "bankroll_final": 219.02,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0,
+          "yield": 26.46,
+          "roi": 3.65,
+          "profit": 7.3,
+          "turnover": 27.57,
+          "bankroll_final": 207.3
+        },
+        {
+          "market": "BTTS",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 87.0,
+          "roi": 5.66,
+          "profit": 11.31,
+          "turnover": 13.0,
+          "bankroll_final": 211.31
+        }
+      ]
+    },
+    {
+      "league": "Eredivisie",
+      "picks": 3,
+      "wins": 1,
+      "losses": 2,
+      "win_rate": 33.3,
+      "yield": -0.54,
+      "roi": -0.06,
+      "profit": -0.12,
+      "turnover": 22.26,
+      "bankroll_final": 199.88,
+      "markets": [
+        {
+          "market": "BTTS",
+          "picks": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -5.42,
+          "profit": -10.85,
+          "turnover": 10.85,
+          "bankroll_final": 189.15
+        },
+        {
+          "market": "Over/Under 2.5",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 105.0,
+          "roi": 5.67,
+          "profit": 11.34,
+          "turnover": 10.8,
+          "bankroll_final": 211.34
+        }
+      ]
+    },
+    {
+      "league": "Bundesliga",
+      "picks": 3,
+      "wins": 1,
+      "losses": 2,
+      "win_rate": 33.3,
+      "yield": -49.4,
+      "roi": -7.61,
+      "profit": -15.23,
+      "turnover": 30.84,
+      "bankroll_final": 184.77,
+      "markets": [
+        {
+          "market": "Over/Under 2.5",
+          "picks": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -10.83,
+          "profit": -21.65,
+          "turnover": 21.65,
+          "bankroll_final": 178.35
+        },
+        {
+          "market": "BTTS",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 80.0,
+          "roi": 3.6,
+          "profit": 7.2,
+          "turnover": 9.0,
+          "bankroll_final": 207.2
+        }
+      ]
+    },
+    {
+      "league": "2. Bundesliga",
+      "picks": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 100.0,
+      "yield": 90.0,
+      "roi": 4.86,
+      "profit": 9.72,
+      "turnover": 10.8,
+      "bankroll_final": 209.72,
+      "markets": [
+        {
+          "market": "BTTS",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 90.0,
+          "roi": 4.86,
+          "profit": 9.72,
+          "turnover": 10.8,
+          "bankroll_final": 209.72
+        }
+      ]
     }
   ],
   "by_market": [
@@ -215,96 +637,564 @@
       "market": "Over/Under 2.5: Over 2.5",
       "picks": 49,
       "wins": 22,
-      "win_rate": 44.9
+      "losses": 27,
+      "win_rate": 44.9,
+      "yield": -17.31,
+      "roi": -33.14,
+      "profit": -66.27,
+      "turnover": 382.91,
+      "bankroll_final": 133.73,
+      "leagues": [
+        {
+          "league": "Championship",
+          "picks": 8,
+          "wins": 5,
+          "losses": 3,
+          "win_rate": 62.5,
+          "yield": 26.39,
+          "roi": 9.3,
+          "profit": 18.59,
+          "turnover": 70.44,
+          "bankroll_final": 218.59
+        },
+        {
+          "league": "Serie B",
+          "picks": 8,
+          "wins": 4,
+          "losses": 4,
+          "win_rate": 50.0,
+          "yield": -18.04,
+          "roi": -6.28,
+          "profit": -12.55,
+          "turnover": 69.51,
+          "bankroll_final": 187.45
+        },
+        {
+          "league": "Serie A",
+          "picks": 7,
+          "wins": 4,
+          "losses": 3,
+          "win_rate": 57.1,
+          "yield": 29.83,
+          "roi": 8.94,
+          "profit": 17.89,
+          "turnover": 59.97,
+          "bankroll_final": 217.89
+        },
+        {
+          "league": "La Liga",
+          "picks": 6,
+          "wins": 1,
+          "losses": 5,
+          "win_rate": 16.7,
+          "yield": -61.96,
+          "roi": -16.78,
+          "profit": -33.55,
+          "turnover": 54.15,
+          "bankroll_final": 166.45
+        },
+        {
+          "league": "Segunda División",
+          "picks": 5,
+          "wins": 3,
+          "losses": 2,
+          "win_rate": 60.0,
+          "yield": 27.44,
+          "roi": 7.26,
+          "profit": 14.52,
+          "turnover": 52.94,
+          "bankroll_final": 214.52
+        },
+        {
+          "league": "Primeira Liga",
+          "picks": 5,
+          "wins": 2,
+          "losses": 3,
+          "win_rate": 40.0,
+          "yield": -3.12,
+          "roi": -0.88,
+          "profit": -1.76,
+          "turnover": 56.32,
+          "bankroll_final": 198.24
+        },
+        {
+          "league": "Premier League",
+          "picks": 4,
+          "wins": 1,
+          "losses": 3,
+          "win_rate": 25.0,
+          "yield": -78.15,
+          "roi": -19.68,
+          "profit": -39.36,
+          "turnover": 50.37,
+          "bankroll_final": 160.64
+        },
+        {
+          "league": "Ligue 1",
+          "picks": 3,
+          "wins": 1,
+          "losses": 2,
+          "win_rate": 33.3,
+          "yield": -53.51,
+          "roi": -10.98,
+          "profit": -21.97,
+          "turnover": 41.06,
+          "bankroll_final": 178.03
+        },
+        {
+          "league": "Premiership",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -5.4,
+          "profit": -10.8,
+          "turnover": 10.8,
+          "bankroll_final": 189.2
+        },
+        {
+          "league": "Ligue 2",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 80.0,
+          "roi": 8.08,
+          "profit": 16.16,
+          "turnover": 20.2,
+          "bankroll_final": 216.16
+        },
+        {
+          "league": "Bundesliga",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -7.4,
+          "profit": -14.8,
+          "turnover": 14.8,
+          "bankroll_final": 185.2
+        }
+      ]
     },
     {
       "market": "Over/Under 2.5: Under 2.5",
       "picks": 36,
       "wins": 22,
-      "win_rate": 61.1
+      "losses": 14,
+      "win_rate": 61.1,
+      "yield": 11.71,
+      "roi": 28.34,
+      "profit": 56.68,
+      "turnover": 483.73,
+      "bankroll_final": 256.68,
+      "leagues": [
+        {
+          "league": "Serie A",
+          "picks": 13,
+          "wins": 7,
+          "losses": 6,
+          "win_rate": 53.8,
+          "yield": 0.27,
+          "roi": 0.22,
+          "profit": 0.43,
+          "turnover": 163.18,
+          "bankroll_final": 200.43
+        },
+        {
+          "league": "Premier League",
+          "picks": 7,
+          "wins": 6,
+          "losses": 1,
+          "win_rate": 85.7,
+          "yield": 63.5,
+          "roi": 30.05,
+          "profit": 60.1,
+          "turnover": 94.64,
+          "bankroll_final": 260.1
+        },
+        {
+          "league": "Championship",
+          "picks": 5,
+          "wins": 2,
+          "losses": 3,
+          "win_rate": 40.0,
+          "yield": -26.59,
+          "roi": -7.42,
+          "profit": -14.84,
+          "turnover": 55.81,
+          "bankroll_final": 185.16
+        },
+        {
+          "league": "Premiership",
+          "picks": 3,
+          "wins": 3,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 105.92,
+          "roi": 21.11,
+          "profit": 42.22,
+          "turnover": 39.86,
+          "bankroll_final": 242.22
+        },
+        {
+          "league": "La Liga",
+          "picks": 2,
+          "wins": 2,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 46.94,
+          "roi": 7.73,
+          "profit": 15.46,
+          "turnover": 32.93,
+          "bankroll_final": 215.46
+        },
+        {
+          "league": "Segunda División",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -3.9,
+          "profit": -7.8,
+          "turnover": 7.8,
+          "bankroll_final": 192.2
+        },
+        {
+          "league": "Ligue 1",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -16.6,
+          "profit": -33.2,
+          "turnover": 33.2,
+          "bankroll_final": 166.8
+        },
+        {
+          "league": "Ligue 2",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -4.1,
+          "profit": -8.2,
+          "turnover": 8.2,
+          "bankroll_final": 191.8
+        },
+        {
+          "league": "Eredivisie",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 105.0,
+          "roi": 5.67,
+          "profit": 11.34,
+          "turnover": 10.8,
+          "bankroll_final": 211.34
+        },
+        {
+          "league": "Serie B",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 90.0,
+          "roi": 4.23,
+          "profit": 8.46,
+          "turnover": 9.4,
+          "bankroll_final": 208.46
+        },
+        {
+          "league": "Bundesliga",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -3.7,
+          "profit": -7.4,
+          "turnover": 7.4,
+          "bankroll_final": 192.6
+        }
+      ]
     },
     {
       "market": "BTTS: BTTS No",
       "picks": 13,
       "wins": 5,
-      "win_rate": 38.5
+      "losses": 8,
+      "win_rate": 38.5,
+      "yield": -16.44,
+      "roi": -9.11,
+      "profit": -18.21,
+      "turnover": 110.74,
+      "bankroll_final": 181.79,
+      "leagues": [
+        {
+          "league": "Serie A",
+          "picks": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -9.58,
+          "profit": -19.15,
+          "turnover": 19.15,
+          "bankroll_final": 180.85
+        },
+        {
+          "league": "Primeira Liga",
+          "picks": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0,
+          "yield": 9.53,
+          "roi": 1.17,
+          "profit": 2.35,
+          "turnover": 24.62,
+          "bankroll_final": 202.35
+        },
+        {
+          "league": "Ligue 1",
+          "picks": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0,
+          "yield": -11.35,
+          "roi": -1.03,
+          "profit": -2.06,
+          "turnover": 18.14,
+          "bankroll_final": 197.94
+        },
+        {
+          "league": "Eredivisie",
+          "picks": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -5.42,
+          "profit": -10.85,
+          "turnover": 10.85,
+          "bankroll_final": 189.15
+        },
+        {
+          "league": "Ligue 2",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 87.0,
+          "roi": 5.66,
+          "profit": 11.31,
+          "turnover": 13.0,
+          "bankroll_final": 211.31
+        },
+        {
+          "league": "Serie B",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -3.8,
+          "profit": -7.6,
+          "turnover": 7.6,
+          "bankroll_final": 192.4
+        },
+        {
+          "league": "2. Bundesliga",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 90.0,
+          "roi": 4.86,
+          "profit": 9.72,
+          "turnover": 10.8,
+          "bankroll_final": 209.72
+        },
+        {
+          "league": "Premier League",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 110.0,
+          "roi": 4.07,
+          "profit": 8.14,
+          "turnover": 7.4,
+          "bankroll_final": 208.14
+        },
+        {
+          "league": "Championship",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -4.3,
+          "profit": -8.6,
+          "turnover": 8.6,
+          "bankroll_final": 191.4
+        }
+      ]
     },
     {
       "market": "BTTS: BTTS Yes",
       "picks": 2,
       "wins": 1,
-      "win_rate": 50.0
+      "losses": 1,
+      "win_rate": 50.0,
+      "yield": -32.65,
+      "roi": -3.65,
+      "profit": -7.3,
+      "turnover": 22.37,
+      "bankroll_final": 192.7,
+      "leagues": [
+        {
+          "league": "Premier League",
+          "picks": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0,
+          "yield": -100.0,
+          "roi": -7.0,
+          "profit": -14.0,
+          "turnover": 14.0,
+          "bankroll_final": 186.0
+        },
+        {
+          "league": "Bundesliga",
+          "picks": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0,
+          "yield": 80.0,
+          "roi": 3.6,
+          "profit": 7.2,
+          "turnover": 9.0,
+          "bankroll_final": 207.2
+        }
+      ]
     }
   ],
   "recent_bets": [
     {
-      "date": "1/18/26 14:30",
-      "match": "VfB Stuttgart vs Union Berlin",
-      "selection": "Over 2.5",
-      "odd": 1.8,
+      "date": "2026-01-20 19:45",
+      "league": "Championship",
+      "match": "Swansea vs Blackburn",
+      "market": "BTTS",
+      "selection": "BTTS No",
+      "odd": 1.87,
+      "edge_inicial": 8.05,
+      "edge_actual": 8.05,
       "result": "Perdida"
     },
     {
-      "date": "2026-01-18 15:30",
-      "match": "Santa Clara vs Famalicao",
-      "selection": "BTTS No",
-      "odd": 1.87,
-      "result": "Ganada"
-    },
-    {
-      "date": "1/18/26 16:15",
-      "match": "Nantes vs Paris FC",
+      "date": "2026-01-20 19:45",
+      "league": "Championship",
+      "match": "Oxford United vs QPR",
+      "market": "Over/Under 2.5",
       "selection": "Over 2.5",
-      "odd": 1.95,
+      "odd": 2.2,
+      "edge_inicial": 6.16,
+      "edge_actual": 6.16,
+      "result": "Perdida"
+    },
+    {
+      "date": "1/19/26 20:15",
+      "league": "Primeira Liga",
+      "match": "Estrela vs Estoril",
+      "market": "Over/Under 2.5",
+      "selection": "Over 2.5",
+      "odd": 1.85,
+      "edge_inicial": 20.07,
+      "edge_actual": 20.07,
       "result": "Ganada"
     },
     {
-      "date": "2026-01-18 16:30",
-      "match": "Aston Villa vs Everton",
-      "selection": "Under 2.5",
-      "odd": 2.05,
-      "result": "Ganada"
-    },
-    {
-      "date": "2026-01-18 16:30",
-      "match": "Aston Villa vs Everton",
-      "selection": "BTTS No",
+      "date": "1/19/26 20:00",
+      "league": "La Liga",
+      "match": "Elche vs Sevilla",
+      "market": "Over/Under 2.5",
+      "selection": "Over 2.5",
       "odd": 2.1,
+      "edge_inicial": 12.88,
+      "edge_actual": 12.88,
       "result": "Ganada"
     },
     {
       "date": "2026-01-18 18:00",
+      "league": "Primeira Liga",
       "match": "Tondela vs SC Braga",
+      "market": "Over/Under 2.5",
       "selection": "Over 2.5",
       "odd": 2.1,
+      "edge_inicial": 10.96,
+      "edge_actual": 10.96,
       "result": "Perdida"
     },
     {
-      "date": "1/19/26 20:00",
-      "match": "Elche vs Sevilla",
-      "selection": "Over 2.5",
+      "date": "2026-01-18 16:30",
+      "league": "Premier League",
+      "match": "Aston Villa vs Everton",
+      "market": "BTTS",
+      "selection": "BTTS No",
       "odd": 2.1,
+      "edge_inicial": 7.66,
+      "edge_actual": 7.66,
       "result": "Ganada"
     },
     {
-      "date": "1/19/26 20:15",
-      "match": "Estrela vs Estoril",
-      "selection": "Over 2.5",
-      "odd": 1.85,
+      "date": "2026-01-18 16:30",
+      "league": "Premier League",
+      "match": "Aston Villa vs Everton",
+      "market": "Over/Under 2.5",
+      "selection": "Under 2.5",
+      "odd": 2.05,
+      "edge_inicial": 8.04,
+      "edge_actual": 8.04,
       "result": "Ganada"
     },
     {
-      "date": "2026-01-20 19:45",
-      "match": "Oxford United vs QPR",
+      "date": "1/18/26 16:15",
+      "league": "Ligue 1",
+      "match": "Nantes vs Paris FC",
+      "market": "Over/Under 2.5",
       "selection": "Over 2.5",
-      "odd": 2.2,
-      "result": "Perdida"
+      "odd": 1.95,
+      "edge_inicial": 7.24,
+      "edge_actual": 7.24,
+      "result": "Ganada"
     },
     {
-      "date": "2026-01-20 19:45",
-      "match": "Swansea vs Blackburn",
+      "date": "2026-01-18 15:30",
+      "league": "Primeira Liga",
+      "match": "Santa Clara vs Famalicao",
+      "market": "BTTS",
       "selection": "BTTS No",
       "odd": 1.87,
+      "edge_inicial": 14.2,
+      "edge_actual": 14.2,
+      "result": "Ganada"
+    },
+    {
+      "date": "1/18/26 14:30",
+      "league": "Bundesliga",
+      "match": "VfB Stuttgart vs Union Berlin",
+      "market": "Over/Under 2.5",
+      "selection": "Over 2.5",
+      "odd": 1.8,
+      "edge_inicial": 12.45,
+      "edge_actual": 12.45,
       "result": "Perdida"
     }
   ]
