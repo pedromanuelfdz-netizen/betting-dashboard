@@ -3,132 +3,396 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betting Bot Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <link rel="stylesheet" href="dashboard.css">
+    <title>⚡ Football Value Bot Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(180deg, #0088cc 0%, #005580 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Header estilo Telegram */
+        .header {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 24px 32px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            opacity: 0.85;
+            font-weight: 400;
+        }
+
+        /* Cards estilo Telegram */
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            color: #222;
+            border: 1px solid rgba(0, 136, 204, 0.1);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .card-header h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0088cc;
+        }
+
+        /* Grid de métricas */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .metric-box {
+            background: linear-gradient(135deg, #0088cc 0%, #006ba3 100%);
+            border-radius: 12px;
+            padding: 20px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+        }
+
+        .metric-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .metric-delta {
+            font-size: 14px;
+            opacity: 0.9;
+            font-weight: 600;
+        }
+
+        .metric-delta.positive {
+            color: #4ade80;
+        }
+
+        .metric-delta.negative {
+            color: #fbbf24;
+        }
+
+        /* Tabla estilo Telegram */
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f7f7f7;
+        }
+
+        th {
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 13px;
+            color: #0088cc;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-top: 1px solid #f0f0f0;
+            font-size: 14px;
+        }
+
+        tr:hover {
+            background: #f9fafb;
+        }
+
+        /* Badges estilo Telegram */
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .badge.win {
+            background: #dcfce7;
+            color: #15803d;
+        }
+
+        .badge.loss {
+            background: #fef3c7;
+            color: #b45309;
+        }
+
+        .badge.pending {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        /* Gráfico sparkline */
+        .sparkline {
+            height: 60px;
+            display: flex;
+            align-items: flex-end;
+            gap: 2px;
+            margin-top: 16px;
+            padding: 12px;
+            background: rgba(0, 136, 204, 0.05);
+            border-radius: 8px;
+        }
+
+        .sparkline-bar {
+            flex: 1;
+            background: linear-gradient(180deg, #0088cc 0%, #006ba3 100%);
+            border-radius: 2px 2px 0 0;
+            min-height: 3px;
+            transition: all 0.3s ease;
+        }
+
+        .sparkline-bar:hover {
+            background: linear-gradient(180deg, #00aaff 0%, #0088cc 100%);
+            transform: scaleY(1.1);
+        }
+
+        /* Stats boxes */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .stat-box {
+            background: #f7f7f7;
+            padding: 16px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .stat-box:hover {
+            border-color: #0088cc;
+            background: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.15);
+        }
+
+        .stat-box-label {
+            font-size: 11px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .stat-box-value {
+            font-size: 22px;
+            font-weight: 800;
+            color: #0088cc;
+        }
+
+        /* Progress bar */
+        .progress-bar {
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0088cc 0%, #00aaff 100%);
+            border-radius: 4px;
+            transition: width 1s ease;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 22px;
+            }
+        }
+
+        /* Scrollbar personalizado */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        /* Emoji grande para secciones vacías */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            opacity: 0.6;
+        }
+
+        .empty-state-emoji {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        .empty-state-text {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <!-- Header -->
-        <header class="header">
-            <h1>🤖 Betting Bot Dashboard</h1>
-            <p class="last-update" id="lastUpdate">Última actualización: --</p>
-        </header>
-
-        <!-- Summary Cards -->
-        <div class="summary-grid">
-            <div class="card">
-                <div class="card-icon">💰</div>
-                <div class="card-content">
-                    <div class="card-label">Bankroll</div>
-                    <div class="card-value" id="bankroll">€--</div>
-                    <div class="card-delta" id="bankroll-delta">--</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">📊</div>
-                <div class="card-content">
-                    <div class="card-label">ROI Total</div>
-                    <div class="card-value" id="roi">--%</div>
-                    <div class="card-delta" id="roi-7d">--</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">✅</div>
-                <div class="card-content">
-                    <div class="card-label">Win Rate</div>
-                    <div class="card-value" id="winrate">--%</div>
-                    <div class="card-delta" id="wr-7d">--</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">📈</div>
-                <div class="card-content">
-                    <div class="card-label">Total Picks</div>
-                    <div class="card-value" id="totalpicks">--</div>
-                    <div class="card-delta" id="picks-7d">--</div>
-                </div>
-            </div>
+        <div class="header">
+            <h1>⚡ Football Value Bot Dashboard</h1>
+            <div class="subtitle" id="lastUpdate">Cargando datos...</div>
         </div>
 
-        <!-- Charts Row -->
-        <div class="charts-row">
-            <div class="chart-container">
+        <!-- Métricas principales -->
+        <div class="metrics-grid" id="mainMetrics">
+            <!-- Se llenarán dinámicamente -->
+        </div>
+
+        <!-- Gráfico de bankroll -->
+        <div class="card">
+            <div class="card-header">
                 <h2>📈 Evolución del Bankroll</h2>
-                <canvas id="bankrollChart"></canvas>
             </div>
-
-            <div class="chart-container">
-                <h2>🎯 Performance por Odd Range</h2>
-                <canvas id="oddRangeChart"></canvas>
-            </div>
+            <div id="bankrollChart"></div>
         </div>
 
-        <!-- Tables Row -->
-        <div class="tables-row">
-            <div class="table-container">
-                <h2>🏆 Performance por Liga</h2>
-                <table id="leagueTable">
-                    <thead>
-                        <tr>
-                            <th>Liga</th>
-                            <th>n</th>
-                            <th>WR%</th>
-                            <th>ROI%</th>
-                            <th>Estado</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+        <!-- Stats por mercado -->
+        <div class="card">
+            <div class="card-header">
+                <h2>🎯 Rendimiento por Mercado</h2>
             </div>
-
-            <div class="table-container">
-                <h2>🎲 Últimas Apuestas</h2>
-                <table id="latestBetsTable">
-                    <thead>
-                        <tr>
-                            <th>Fecha</th>
-                            <th>Partido</th>
-                            <th>Pick</th>
-                            <th>Odd</th>
-                            <th>Resultado</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
-            </div>
+            <div id="marketStats"></div>
         </div>
 
-        <!-- Config Section -->
-        <div class="config-section">
-            <h2>⚙️ Configuración Actual</h2>
-            <div class="config-grid">
-                <div class="config-item">
-                    <span class="config-label">MIN_ODD:</span>
-                    <span class="config-value" id="config-min-odd">--</span>
-                </div>
-                <div class="config-item">
-                    <span class="config-label">MAX_ODD:</span>
-                    <span class="config-value" id="config-max-odd">--</span>
-                </div>
-                <div class="config-item">
-                    <span class="config-label">MIN_EDGE:</span>
-                    <span class="config-value" id="config-min-edge">--%</span>
-                </div>
-                <div class="config-item">
-                    <span class="config-label">KELLY:</span>
-                    <span class="config-value" id="config-kelly">--</span>
-                </div>
+        <!-- Stats por liga -->
+        <div class="card">
+            <div class="card-header">
+                <h2>🏆 Rendimiento por Liga</h2>
             </div>
+            <div id="leagueStats"></div>
         </div>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>Dashboard auto-actualizado cada vez que el bot se ejecuta</p>
-        </footer>
+        <!-- Últimas apuestas -->
+        <div class="card">
+            <div class="card-header">
+                <h2>📋 Últimas Apuestas</h2>
+            </div>
+            <div id="recentBets"></div>
+        </div>
+
+        <!-- CLV Analysis -->
+        <div class="card">
+            <div class="card-header">
+                <h2>💎 Análisis CLV (Closing Line Value)</h2>
+            </div>
+            <div id="clvAnalysis"></div>
+        </div>
+
+        <!-- Configuración actual -->
+        <div class="card">
+            <div class="card-header">
+                <h2>⚙️ Configuración del Bot</h2>
+            </div>
+            <div id="botConfig"></div>
+        </div>
     </div>
 
     <script src="dashboard.js"></script>
