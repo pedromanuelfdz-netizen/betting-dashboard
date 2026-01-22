@@ -1,2872 +1,967 @@
 {
-  "timestamp": "2026-01-22T14:55:54.371534",
+  "timestamp": "2026-01-22T15:03:31.306228",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 150.26,
-    "profit_loss": -49.74,
-    "roi": -24.87,
+    "bankroll_final": 159.8,
+    "profit_loss": -40.2,
+    "roi": -20.1,
     "win_rate": 50.0,
-    "yield": -5.57,
+    "yield": -3.9,
     "total_picks": 100,
     "ganadas": 50,
     "perdidas": 50,
-    "pendientes": 0,
-    "total_turnover": 892.59
+    "pendientes": 28,
+    "total_turnover": 1030.99
   },
   "bankroll_history": [
     200.0,
-    210.62,
-    215.54,
-    222.61,
-    200.79,
-    181.92,
-    167.55,
-    159.84,
-    171.19,
-    181.38,
-    194.14,
-    174.73,
-    169.31,
-    182.57,
-    187.81,
-    180.49,
-    150.53,
-    137.89,
-    130.17,
-    137.04,
-    132.24,
-    126.82,
-    130.45,
-    119.1,
-    127.03,
-    122.71,
-    134.46,
-    138.01,
-    144.63,
-    155.97,
-    163.03,
-    166.91,
-    161.4,
-    153.17,
-    162.33,
-    166.24,
-    160.26,
-    154.33,
-    157.92,
-    168.5,
-    159.74,
-    165.53,
-    171.92,
-    166.07,
-    157.1,
-    164.33,
-    153.65,
-    160.42,
-    170.53,
-    176.8,
-    166.55,
-    155.22,
-    164.02,
-    170.96,
-    164.29,
-    174.69,
-    168.75,
-    178.32,
-    172.97,
-    186.38,
-    196.11,
-    182.97,
-    176.93,
-    168.61,
-    162.37,
-    170.1,
-    176.51,
-    167.51,
-    161.48,
-    174.53,
-    163.71,
-    171.98,
-    164.58,
-    170.96,
-    164.12,
-    173.4,
+    192.32,
+    176.57,
+    187.02,
+    196.26,
+    207.69,
+    211.7,
+    194.04,
+    189.02,
+    194.15,
+    206.77,
+    215.85,
+    209.61,
+    193.14,
+    201.66,
+    192.27,
+    165.64,
+    154.06,
+    143.88,
+    138.95,
+    146.68,
+    136.06,
+    132.25,
+    140.89,
+    143.68,
+    149.13,
+    144.98,
+    138.83,
+    142.15,
+    137.56,
+    140.84,
+    143.65,
+    155.17,
+    158.14,
+    166.42,
+    159.22,
+    163.97,
+    156.59,
+    160.72,
+    170.3,
+    164.15,
+    172.09,
+    165.8,
+    160.88,
+    150.48,
+    160.54,
+    166.41,
+    173.79,
+    163.63,
+    172.83,
+    180.85,
+    173.87,
+    180.59,
+    174.51,
+    162.61,
+    169.41,
+    180.03,
+    190.3,
+    184.03,
+    177.19,
+    185.66,
+    179.36,
+    170.93,
     179.89,
-    173.05,
-    156.26,
-    145.32,
-    137.91,
-    143.07,
-    137.92,
-    133.64,
-    139.73,
-    131.49,
-    127.55,
-    133.75,
-    130.41,
-    124.41,
-    128.89,
-    119.35,
-    127.24,
-    134.25,
-    139.75,
-    145.44,
-    137.3,
-    146.81,
-    161.53,
-    157.01,
-    150.26
+    193.81,
+    180.88,
+    169.66,
+    177.85,
+    184.54,
+    194.97,
+    189.08,
+    195.91,
+    186.91,
+    193.98,
+    203.84,
+    220.35,
+    209.21,
+    201.63,
+    194.3,
+    203.26,
+    214.45,
+    229.21,
+    252.23,
+    261.94,
+    250.63,
+    226.31,
+    210.45,
+    202.12,
+    209.7,
+    204.39,
+    189.35,
+    182.15,
+    176.49,
+    166.62,
+    161.92,
+    152.39,
+    144.62,
+    138.36,
+    144.07,
+    149.85,
+    159.8
   ],
-  "by_odd_range": {
-    "1.60-1.80": {
-      "picks": 12,
-      "wins": 7,
-      "losses": 5,
-      "win_rate": 58.3,
-      "yield": -12.54,
-      "roi": -9.3,
-      "profit": -18.59,
-      "turnover": 148.22,
-      "bankroll_final": 181.41,
-      "bankroll_history": [
-        204.67,
-        195.26,
-        206.88,
-        172.54,
-        165.47,
-        151.07,
-        161.13,
-        168.42,
-        162.86,
-        166.78,
-        170.66,
-        181.41
-      ]
+  "by_market": {
+    "Over 2.5": {
+      "picks": 49,
+      "ganadas": 22,
+      "perdidas": 27,
+      "win_rate": 44.9,
+      "roi": -28.69,
+      "profit": -57.37
     },
-    "1.80-2.00": {
-      "picks": 33,
-      "wins": 19,
-      "losses": 14,
-      "win_rate": 57.6,
-      "yield": 5.11,
-      "roi": 9.33,
-      "profit": 18.67,
-      "turnover": 364.96,
-      "bankroll_final": 218.67,
-      "bankroll_history": [
-        206.56,
-        186.32,
-        168.81,
-        182.03,
-        187.26,
-        179.96,
-        164.84,
-        159.24,
-        163.44,
-        176.26,
-        180.46,
-        173.78,
-        180.17,
-        187.79,
-        180.47,
-        189.06,
-        179.42,
-        193.92,
-        181.9,
-        191.08,
-        182.86,
-        193.2,
-        200.43,
-        186.4,
-        176.89,
-        183.51,
-        192.43,
-        199.36,
-        184.61,
-        196.82,
-        207.67,
-        228.5,
-        218.67
-      ]
+    "Under 2.5": {
+      "picks": 36,
+      "ganadas": 22,
+      "perdidas": 14,
+      "win_rate": 61.11,
+      "roi": 28.13,
+      "profit": 56.26
     },
-    "2.00-2.10": {
-      "picks": 15,
-      "wins": 7,
-      "losses": 8,
-      "win_rate": 46.7,
-      "yield": 5.3,
-      "roi": 4.06,
-      "profit": 8.11,
-      "turnover": 153.08,
-      "bankroll_final": 208.11,
-      "bankroll_history": [
-        214.2,
-        206.49,
-        220.32,
-        230.45,
-        215.47,
-        224.97,
-        237.73,
-        229.65,
-        242.67,
-        234.66,
-        223.63,
-        215.58,
-        207.39,
-        199.92,
-        208.11
-      ]
-    },
-    "2.10-2.30": {
-      "picks": 23,
-      "wins": 7,
-      "losses": 16,
-      "win_rate": 30.4,
-      "yield": -36.26,
-      "roi": -34.95,
-      "profit": -69.91,
-      "turnover": 192.78,
-      "bankroll_final": 130.09,
-      "bankroll_history": [
-        193.8,
-        187.02,
-        192.37,
-        210.78,
-        220.9,
-        209.63,
-        198.73,
-        205.93,
-        198.93,
-        188.19,
-        177.27,
-        165.22,
-        175.67,
-        170.4,
-        158.98,
-        152.62,
-        137.82,
-        133.55,
-        127.41,
-        132.59,
-        125.16,
-        133.84,
-        130.09
-      ]
-    },
-    "2.30-2.60": {
-      "picks": 10,
-      "wins": 7,
-      "losses": 3,
-      "win_rate": 70.0,
-      "yield": 60.31,
-      "roi": 28.99,
-      "profit": 57.98,
-      "turnover": 96.11,
-      "bankroll_final": 257.98,
-      "bankroll_history": [
-        214.08,
-        226.89,
-        235.65,
-        253.91,
-        267.16,
-        277.24,
-        289.87,
-        272.77,
-        264.59,
-        257.98
-      ]
-    },
-    "2.60+": {
+    "BTTS Yes": {
       "picks": 2,
-      "wins": 0,
-      "losses": 2,
-      "win_rate": 0.0,
-      "yield": -100.0,
-      "roi": -9.09,
-      "profit": -18.19,
-      "turnover": 18.19,
-      "bankroll_final": 181.81,
-      "bankroll_history": [
-        188.8,
-        181.81
-      ]
+      "ganadas": 1,
+      "perdidas": 1,
+      "win_rate": 50.0,
+      "roi": -3.65,
+      "profit": -7.29
+    },
+    "BTTS No": {
+      "picks": 13,
+      "ganadas": 5,
+      "perdidas": 8,
+      "win_rate": 38.46,
+      "roi": -9.25,
+      "profit": -18.49
     }
   },
-  "by_league": [
-    {
-      "league": "Serie A",
+  "by_league": {
+    "Eredivisie": {
+      "picks": 3,
+      "ganadas": 1,
+      "perdidas": 2,
+      "win_rate": 33.33,
+      "roi": -0.16,
+      "profit": -0.32
+    },
+    "Ligue 2": {
+      "picks": 3,
+      "ganadas": 2,
+      "perdidas": 1,
+      "win_rate": 66.67,
+      "roi": 10.29,
+      "profit": 20.58
+    },
+    "Premier League": {
+      "picks": 13,
+      "ganadas": 8,
+      "perdidas": 5,
+      "win_rate": 61.54,
+      "roi": -1.12,
+      "profit": -2.24
+    },
+    "Segunda División": {
+      "picks": 6,
+      "ganadas": 3,
+      "perdidas": 3,
+      "win_rate": 50.0,
+      "roi": 3.85,
+      "profit": 7.7
+    },
+    "Serie A": {
       "picks": 22,
-      "wins": 11,
-      "losses": 11,
+      "ganadas": 11,
+      "perdidas": 11,
       "win_rate": 50.0,
-      "yield": -1.05,
-      "roi": -1.28,
-      "profit": -2.55,
-      "turnover": 243.82,
-      "bankroll_final": 197.45,
-      "bankroll_history": [
-        210.62,
-        198.83,
-        181.53,
-        193.62,
-        187.04,
-        191.98,
-        201.2,
-        194.56,
-        184.64,
-        195.68,
-        188.64,
-        200.53,
-        207.91,
-        224.03,
-        209.02,
-        218.97,
-        227.22,
-        215.63,
-        207.87,
-        194.98,
-        204.82,
-        197.45
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 20,
-          "wins": 11,
-          "losses": 9,
-          "win_rate": 55.0,
-          "yield": 8.15,
-          "roi": 9.18,
-          "profit": 18.36,
-          "turnover": 225.15,
-          "bankroll_final": 218.36,
-          "bankroll_history": [
-            210.62,
-            198.83,
-            181.53,
-            193.62,
-            187.04,
-            191.98,
-            201.2,
-            194.56,
-            184.64,
-            195.68,
-            188.64,
-            200.53,
-            207.91,
-            224.03,
-            209.02,
-            218.97,
-            227.22,
-            215.63,
-            226.51,
-            218.36
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -9.58,
-          "profit": -19.15,
-          "turnover": 19.15,
-          "bankroll_final": 180.85,
-          "bankroll_history": [
-            192.8,
-            180.85
-          ]
-        }
-      ]
+      "roi": 0.49,
+      "profit": 0.98
     },
-    {
-      "league": "Championship",
-      "picks": 14,
-      "wins": 7,
-      "losses": 7,
-      "win_rate": 50.0,
-      "yield": -4.54,
-      "roi": -3.17,
-      "profit": -6.33,
-      "turnover": 139.45,
-      "bankroll_final": 193.67,
-      "bankroll_history": [
-        204.67,
-        211.38,
-        226.26,
-        203.63,
-        197.32,
-        212.77,
-        218.88,
-        225.14,
-        215.46,
-        223.81,
-        214.86,
-        208.2,
-        202.37,
-        193.67
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 13,
-          "wins": 7,
-          "losses": 6,
-          "win_rate": 53.8,
-          "yield": 1.81,
-          "roi": 1.19,
-          "profit": 2.37,
-          "turnover": 130.75,
-          "bankroll_final": 202.37,
-          "bankroll_history": [
-            204.67,
-            211.38,
-            226.26,
-            203.63,
-            197.32,
-            212.77,
-            218.88,
-            225.14,
-            215.46,
-            223.81,
-            214.86,
-            208.2,
-            202.37
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -4.3,
-          "profit": -8.6,
-          "turnover": 8.6,
-          "bankroll_final": 191.4,
-          "bankroll_history": [
-            191.4
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Premier League",
-      "picks": 13,
-      "wins": 8,
-      "losses": 5,
-      "win_rate": 61.5,
-      "yield": 1.34,
-      "roi": 1.09,
-      "profit": 2.19,
-      "turnover": 163.13,
-      "bankroll_final": 202.19,
-      "bankroll_history": [
-        180.4,
-        172.1,
-        184.32,
-        195.29,
-        210.6,
-        220.13,
-        225.37,
-        230.79,
-        222.25,
-        200.69,
-        186.64,
-        194.28,
-        202.19
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 11,
-          "wins": 7,
-          "losses": 4,
-          "win_rate": 63.6,
-          "yield": 6.26,
-          "roi": 4.45,
-          "profit": 8.91,
-          "turnover": 142.44,
-          "bankroll_final": 208.91,
-          "bankroll_history": [
-            180.4,
-            172.1,
-            184.32,
-            195.29,
-            210.6,
-            220.13,
-            225.37,
-            230.79,
-            222.25,
-            200.69,
-            208.91
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 50.0,
-          "yield": -30.8,
-          "roi": -3.22,
-          "profit": -6.43,
-          "turnover": 20.88,
-          "bankroll_final": 193.57,
-          "bankroll_history": [
-            186.0,
-            193.57
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Serie B",
-      "picks": 10,
-      "wins": 5,
-      "losses": 5,
-      "win_rate": 50.0,
-      "yield": -14.03,
-      "roi": -6.02,
-      "profit": -12.04,
-      "turnover": 85.75,
-      "bankroll_final": 187.96,
-      "bankroll_history": [
-        189.6,
-        196.47,
-        204.06,
-        197.12,
-        205.81,
-        193.87,
-        180.69,
-        188.33,
-        195.38,
-        187.96
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 9,
-          "wins": 5,
-          "losses": 4,
-          "win_rate": 55.6,
-          "yield": -5.89,
-          "roi": -2.31,
-          "profit": -4.62,
-          "turnover": 78.33,
-          "bankroll_final": 195.38,
-          "bankroll_history": [
-            189.6,
-            196.47,
-            204.06,
-            197.12,
-            205.81,
-            193.87,
-            180.69,
-            188.33,
-            195.38
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -3.8,
-          "profit": -7.6,
-          "turnover": 7.6,
-          "bankroll_final": 192.4,
-          "bankroll_history": [
-            192.4
-          ]
-        }
-      ]
-    },
-    {
-      "league": "La Liga",
-      "picks": 8,
-      "wins": 3,
-      "losses": 5,
-      "win_rate": 37.5,
-      "yield": -23.96,
-      "roi": -10.34,
-      "profit": -20.69,
-      "turnover": 86.35,
-      "bankroll_final": 179.31,
-      "bankroll_history": [
-        181.2,
-        190.77,
-        184.09,
-        188.37,
-        181.97,
-        175.96,
-        167.69,
-        179.31
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 8,
-          "wins": 3,
-          "losses": 5,
-          "win_rate": 37.5,
-          "yield": -23.96,
-          "roi": -10.34,
-          "profit": -20.69,
-          "turnover": 86.35,
-          "bankroll_final": 179.31,
-          "bankroll_history": [
-            181.2,
-            190.77,
-            184.09,
-            188.37,
-            181.97,
-            175.96,
-            167.69,
-            179.31
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Primeira Liga",
-      "picks": 7,
-      "wins": 3,
-      "losses": 4,
-      "win_rate": 42.9,
-      "yield": 0.75,
-      "roi": 0.3,
-      "profit": 0.59,
-      "turnover": 79.42,
-      "bankroll_final": 200.59,
-      "bankroll_history": [
-        194.0,
-        184.11,
-        192.5,
-        181.14,
-        193.12,
-        182.31,
-        200.59
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 5,
-          "wins": 2,
-          "losses": 3,
-          "win_rate": 40.0,
-          "yield": -3.12,
-          "roi": -0.88,
-          "profit": -1.76,
-          "turnover": 56.32,
-          "bankroll_final": 198.24,
-          "bankroll_history": [
-            194.0,
-            202.83,
-            190.86,
-            180.17,
-            198.24
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 50.0,
-          "yield": 9.53,
-          "roi": 1.17,
-          "profit": 2.35,
-          "turnover": 24.62,
-          "bankroll_final": 202.35,
-          "bankroll_history": [
-            189.8,
-            202.35
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Ligue 1",
-      "picks": 6,
-      "wins": 2,
-      "losses": 4,
-      "win_rate": 33.3,
-      "yield": -66.22,
-      "roi": -26.53,
-      "profit": -53.06,
-      "turnover": 80.13,
-      "bankroll_final": 146.94,
-      "bankroll_history": [
-        184.2,
-        153.62,
-        140.72,
-        145.98,
-        139.26,
-        146.94
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 4,
-          "wins": 1,
-          "losses": 3,
-          "win_rate": 25.0,
-          "yield": -76.41,
-          "roi": -25.77,
-          "profit": -51.53,
-          "turnover": 67.44,
-          "bankroll_final": 148.47,
-          "bankroll_history": [
-            184.2,
-            153.62,
-            140.72,
-            148.47
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 50.0,
-          "yield": -11.35,
-          "roi": -1.03,
-          "profit": -2.06,
-          "turnover": 18.14,
-          "bankroll_final": 197.94,
-          "bankroll_history": [
-            207.48,
-            197.94
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Segunda División",
-      "picks": 6,
-      "wins": 3,
-      "losses": 3,
-      "win_rate": 50.0,
-      "yield": 10.47,
-      "roi": 3.07,
-      "profit": 6.14,
-      "turnover": 58.67,
-      "bankroll_final": 206.14,
-      "bankroll_history": [
-        192.2,
-        205.08,
-        191.75,
-        184.27,
-        195.92,
-        206.14
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 6,
-          "wins": 3,
-          "losses": 3,
-          "win_rate": 50.0,
-          "yield": 10.47,
-          "roi": 3.07,
-          "profit": 6.14,
-          "turnover": 58.67,
-          "bankroll_final": 206.14,
-          "bankroll_history": [
-            192.2,
-            205.08,
-            191.75,
-            184.27,
-            195.92,
-            206.14
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Premiership",
-      "picks": 4,
-      "wins": 3,
-      "losses": 1,
-      "win_rate": 75.0,
-      "yield": 57.74,
-      "roi": 14.58,
-      "profit": 29.15,
-      "turnover": 50.48,
-      "bankroll_final": 229.15,
-      "bankroll_history": [
-        219.14,
-        207.31,
-        216.85,
-        229.15
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 4,
-          "wins": 3,
-          "losses": 1,
-          "win_rate": 75.0,
-          "yield": 57.74,
-          "roi": 14.58,
-          "profit": 29.15,
-          "turnover": 50.48,
-          "bankroll_final": 229.15,
-          "bankroll_history": [
-            219.14,
-            207.31,
-            216.85,
-            229.15
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Ligue 2",
-      "picks": 3,
-      "wins": 2,
-      "losses": 1,
-      "win_rate": 66.7,
-      "yield": 46.33,
-      "roi": 9.51,
-      "profit": 19.02,
-      "turnover": 41.04,
-      "bankroll_final": 219.02,
-      "bankroll_history": [
-        191.8,
-        207.3,
-        219.02
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 50.0,
-          "yield": 26.46,
-          "roi": 3.65,
-          "profit": 7.3,
-          "turnover": 27.57,
-          "bankroll_final": 207.3,
-          "bankroll_history": [
-            191.8,
-            207.3
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 87.0,
-          "roi": 5.66,
-          "profit": 11.31,
-          "turnover": 13.0,
-          "bankroll_final": 211.31,
-          "bankroll_history": [
-            211.31
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Eredivisie",
-      "picks": 3,
-      "wins": 1,
-      "losses": 2,
-      "win_rate": 33.3,
-      "yield": -0.54,
-      "roi": -0.06,
-      "profit": -0.12,
-      "turnover": 22.26,
-      "bankroll_final": 199.88,
-      "bankroll_history": [
-        211.34,
-        205.0,
-        199.88
-      ],
-      "markets": [
-        {
-          "market": "BTTS",
-          "picks": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -5.42,
-          "profit": -10.85,
-          "turnover": 10.85,
-          "bankroll_final": 189.15,
-          "bankroll_history": [
-            194.0,
-            189.15
-          ]
-        },
-        {
-          "market": "Over/Under 2.5",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 105.0,
-          "roi": 5.67,
-          "profit": 11.34,
-          "turnover": 10.8,
-          "bankroll_final": 211.34,
-          "bankroll_history": [
-            211.34
-          ]
-        }
-      ]
-    },
-    {
-      "league": "Bundesliga",
-      "picks": 3,
-      "wins": 1,
-      "losses": 2,
-      "win_rate": 33.3,
-      "yield": -49.4,
-      "roi": -7.61,
-      "profit": -15.23,
-      "turnover": 30.84,
-      "bankroll_final": 184.77,
-      "bankroll_history": [
-        192.6,
-        199.54,
-        184.77
-      ],
-      "markets": [
-        {
-          "market": "Over/Under 2.5",
-          "picks": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -10.83,
-          "profit": -21.65,
-          "turnover": 21.65,
-          "bankroll_final": 178.35,
-          "bankroll_history": [
-            192.6,
-            178.35
-          ]
-        },
-        {
-          "market": "BTTS",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 80.0,
-          "roi": 3.6,
-          "profit": 7.2,
-          "turnover": 9.0,
-          "bankroll_final": 207.2,
-          "bankroll_history": [
-            207.2
-          ]
-        }
-      ]
-    },
-    {
-      "league": "2. Bundesliga",
+    "2. Bundesliga": {
       "picks": 1,
-      "wins": 1,
-      "losses": 0,
+      "ganadas": 1,
+      "perdidas": 0,
       "win_rate": 100.0,
-      "yield": 90.0,
-      "roi": 4.86,
-      "profit": 9.72,
-      "turnover": 10.8,
-      "bankroll_final": 209.72,
-      "bankroll_history": [
-        209.72
-      ],
-      "markets": [
-        {
-          "market": "BTTS",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 90.0,
-          "roi": 4.86,
-          "profit": 9.72,
-          "turnover": 10.8,
-          "bankroll_final": 209.72,
-          "bankroll_history": [
-            209.72
-          ]
-        }
-      ]
-    }
-  ],
-  "by_market": [
-    {
-      "market": "Over/Under 2.5: Over 2.5",
-      "picks": 49,
-      "wins": 22,
-      "losses": 27,
-      "win_rate": 44.9,
-      "yield": -17.31,
-      "roi": -33.14,
-      "profit": -66.27,
-      "turnover": 382.91,
-      "bankroll_final": 133.73,
-      "bankroll_history": [
-        204.67,
-        211.38,
-        190.66,
-        172.74,
-        159.09,
-        170.28,
-        155.98,
-        147.25,
-        142.1,
-        146.16,
-        153.18,
-        162.34,
-        166.25,
-        160.26,
-        154.33,
-        164.67,
-        156.11,
-        161.77,
-        168.02,
-        162.31,
-        153.55,
-        143.57,
-        149.9,
-        141.21,
-        131.61,
-        126.48,
-        134.48,
-        129.91,
-        126.01,
-        135.78,
-        142.87,
-        138.16,
-        131.67,
-        136.64,
-        147.68,
-        153.4,
-        147.26,
-        152.77,
-        137.95,
-        132.98,
-        128.86,
-        134.73,
-        126.78,
-        117.4,
-        123.87,
-        116.93,
-        125.04,
-        137.58,
-        133.73
-      ],
-      "leagues": [
-        {
-          "league": "Championship",
-          "picks": 8,
-          "wins": 5,
-          "losses": 3,
-          "win_rate": 62.5,
-          "yield": 26.39,
-          "roi": 9.3,
-          "profit": 18.59,
-          "turnover": 70.44,
-          "bankroll_final": 218.59,
-          "bankroll_history": [
-            204.67,
-            211.38,
-            226.26,
-            232.73,
-            241.75,
-            232.08,
-            224.89,
-            218.59
-          ]
-        },
-        {
-          "league": "Serie B",
-          "picks": 8,
-          "wins": 4,
-          "losses": 4,
-          "win_rate": 50.0,
-          "yield": -18.04,
-          "roi": -6.28,
-          "profit": -12.55,
-          "turnover": 69.51,
-          "bankroll_final": 187.45,
-          "bankroll_history": [
-            189.6,
-            196.47,
-            204.06,
-            197.12,
-            205.81,
-            193.87,
-            180.69,
-            187.45
-          ]
-        },
-        {
-          "league": "Serie A",
-          "picks": 7,
-          "wins": 4,
-          "losses": 3,
-          "win_rate": 57.1,
-          "yield": 29.83,
-          "roi": 8.94,
-          "profit": 17.89,
-          "turnover": 59.97,
-          "bankroll_final": 217.89,
-          "bankroll_history": [
-            188.8,
-            197.86,
-            209.69,
-            202.14,
-            217.81,
-            226.03,
-            217.89
-          ]
-        },
-        {
-          "league": "La Liga",
-          "picks": 6,
-          "wins": 1,
-          "losses": 5,
-          "win_rate": 16.7,
-          "yield": -61.96,
-          "roi": -16.78,
-          "profit": -33.55,
-          "turnover": 54.15,
-          "bankroll_final": 166.45,
-          "bankroll_history": [
-            181.2,
-            174.86,
-            168.91,
-            163.34,
-            155.66,
-            166.45
-          ]
-        },
-        {
-          "league": "Segunda División",
-          "picks": 5,
-          "wins": 3,
-          "losses": 2,
-          "win_rate": 60.0,
-          "yield": 27.44,
-          "roi": 7.26,
-          "profit": 14.52,
-          "turnover": 52.94,
-          "bankroll_final": 214.52,
-          "bankroll_history": [
-            213.4,
-            199.53,
-            191.75,
-            203.88,
-            214.52
-          ]
-        },
-        {
-          "league": "Primeira Liga",
-          "picks": 5,
-          "wins": 2,
-          "losses": 3,
-          "win_rate": 40.0,
-          "yield": -3.12,
-          "roi": -0.88,
-          "profit": -1.76,
-          "turnover": 56.32,
-          "bankroll_final": 198.24,
-          "bankroll_history": [
-            194.0,
-            202.83,
-            190.86,
-            180.17,
-            198.24
-          ]
-        },
-        {
-          "league": "Premier League",
-          "picks": 4,
-          "wins": 1,
-          "losses": 3,
-          "win_rate": 25.0,
-          "yield": -78.15,
-          "roi": -19.68,
-          "profit": -39.36,
-          "turnover": 50.37,
-          "bankroll_final": 160.64,
-          "bankroll_history": [
-            180.4,
-            184.74,
-            177.9,
-            160.64
-          ]
-        },
-        {
-          "league": "Ligue 1",
-          "picks": 3,
-          "wins": 1,
-          "losses": 2,
-          "win_rate": 33.3,
-          "yield": -53.51,
-          "roi": -10.98,
-          "profit": -21.97,
-          "turnover": 41.06,
-          "bankroll_final": 178.03,
-          "bankroll_history": [
-            184.2,
-            168.73,
-            178.03
-          ]
-        },
-        {
-          "league": "Premiership",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -5.4,
-          "profit": -10.8,
-          "turnover": 10.8,
-          "bankroll_final": 189.2,
-          "bankroll_history": [
-            189.2
-          ]
-        },
-        {
-          "league": "Ligue 2",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 80.0,
-          "roi": 8.08,
-          "profit": 16.16,
-          "turnover": 20.2,
-          "bankroll_final": 216.16,
-          "bankroll_history": [
-            216.16
-          ]
-        },
-        {
-          "league": "Bundesliga",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -7.4,
-          "profit": -14.8,
-          "turnover": 14.8,
-          "bankroll_final": 185.2,
-          "bankroll_history": [
-            185.2
-          ]
-        }
-      ]
+      "roi": 4.83,
+      "profit": 9.66
     },
-    {
-      "market": "Over/Under 2.5: Under 2.5",
-      "picks": 36,
-      "wins": 22,
-      "losses": 14,
-      "win_rate": 61.1,
-      "yield": 11.71,
-      "roi": 28.34,
-      "profit": 56.68,
-      "turnover": 483.73,
-      "bankroll_final": 256.68,
-      "bankroll_history": [
-        210.62,
-        200.93,
-        215.2,
-        228.01,
-        205.21,
-        198.85,
-        214.42,
-        220.58,
-        211.98,
-        176.79,
-        186.13,
-        178.5,
-        162.97,
-        173.82,
-        167.91,
-        183.98,
-        188.84,
-        203.65,
-        212.87,
-        217.94,
-        210.75,
-        200.0,
-        204.65,
-        214.06,
-        227.55,
-        235.93,
-        249.31,
-        259.86,
-        274.59,
-        256.19,
-        246.71,
-        258.46,
-        245.28,
-        257.66,
-        246.58,
-        256.68
-      ],
-      "leagues": [
-        {
-          "league": "Serie A",
-          "picks": 13,
-          "wins": 7,
-          "losses": 6,
-          "win_rate": 53.8,
-          "yield": 0.27,
-          "roi": 0.22,
-          "profit": 0.43,
-          "turnover": 163.18,
-          "bankroll_final": 200.43,
-          "bankroll_history": [
-            210.62,
-            192.3,
-            205.11,
-            198.14,
-            203.37,
-            196.66,
-            186.63,
-            198.39,
-            205.69,
-            191.91,
-            201.05,
-            190.8,
-            200.43
-          ]
-        },
-        {
-          "league": "Premier League",
-          "picks": 7,
-          "wins": 6,
-          "losses": 1,
-          "win_rate": 85.7,
-          "yield": 63.5,
-          "roi": 30.05,
-          "profit": 60.1,
-          "turnover": 94.64,
-          "bankroll_final": 260.1,
-          "bankroll_history": [
-            190.8,
-            204.35,
-            216.51,
-            233.49,
-            244.06,
-            249.87,
-            260.1
-          ]
-        },
-        {
-          "league": "Championship",
-          "picks": 5,
-          "wins": 2,
-          "losses": 3,
-          "win_rate": 40.0,
-          "yield": -26.59,
-          "roi": -7.42,
-          "profit": -14.84,
-          "turnover": 55.81,
-          "bankroll_final": 185.16,
-          "bankroll_history": [
-            180.0,
-            174.42,
-            188.08,
-            193.48,
-            185.16
-          ]
-        },
-        {
-          "league": "Premiership",
-          "picks": 3,
-          "wins": 3,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 105.92,
-          "roi": 21.11,
-          "profit": 42.22,
-          "turnover": 39.86,
-          "bankroll_final": 242.22,
-          "bankroll_history": [
-            219.14,
-            229.22,
-            242.22
-          ]
-        },
-        {
-          "league": "La Liga",
-          "picks": 2,
-          "wins": 2,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 46.94,
-          "roi": 7.73,
-          "profit": 15.46,
-          "turnover": 32.93,
-          "bankroll_final": 215.46,
-          "bankroll_history": [
-            210.56,
-            215.46
-          ]
-        },
-        {
-          "league": "Segunda División",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -3.9,
-          "profit": -7.8,
-          "turnover": 7.8,
-          "bankroll_final": 192.2,
-          "bankroll_history": [
-            192.2
-          ]
-        },
-        {
-          "league": "Ligue 1",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -16.6,
-          "profit": -33.2,
-          "turnover": 33.2,
-          "bankroll_final": 166.8,
-          "bankroll_history": [
-            166.8
-          ]
-        },
-        {
-          "league": "Ligue 2",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -4.1,
-          "profit": -8.2,
-          "turnover": 8.2,
-          "bankroll_final": 191.8,
-          "bankroll_history": [
-            191.8
-          ]
-        },
-        {
-          "league": "Eredivisie",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 105.0,
-          "roi": 5.67,
-          "profit": 11.34,
-          "turnover": 10.8,
-          "bankroll_final": 211.34,
-          "bankroll_history": [
-            211.34
-          ]
-        },
-        {
-          "league": "Serie B",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 90.0,
-          "roi": 4.23,
-          "profit": 8.46,
-          "turnover": 9.4,
-          "bankroll_final": 208.46,
-          "bankroll_history": [
-            208.46
-          ]
-        },
-        {
-          "league": "Bundesliga",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -3.7,
-          "profit": -7.4,
-          "turnover": 7.4,
-          "bankroll_final": 192.6,
-          "bankroll_history": [
-            192.6
-          ]
-        }
-      ]
+    "La Liga": {
+      "picks": 8,
+      "ganadas": 3,
+      "perdidas": 5,
+      "win_rate": 37.5,
+      "roi": -9.41,
+      "profit": -18.82
     },
-    {
-      "market": "BTTS: BTTS No",
-      "picks": 13,
-      "wins": 5,
-      "losses": 8,
-      "win_rate": 38.5,
-      "yield": -16.44,
-      "roi": -9.11,
-      "profit": -18.21,
-      "turnover": 110.74,
-      "bankroll_final": 181.79,
-      "bankroll_history": [
-        192.8,
-        180.85,
-        191.08,
-        183.82,
-        174.45,
-        180.97,
-        175.54,
-        184.07,
-        179.47,
-        171.21,
-        182.53,
-        189.96,
-        181.79
-      ],
-      "leagues": [
-        {
-          "league": "Serie A",
-          "picks": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -9.58,
-          "profit": -19.15,
-          "turnover": 19.15,
-          "bankroll_final": 180.85,
-          "bankroll_history": [
-            192.8,
-            180.85
-          ]
-        },
-        {
-          "league": "Primeira Liga",
-          "picks": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 50.0,
-          "yield": 9.53,
-          "roi": 1.17,
-          "profit": 2.35,
-          "turnover": 24.62,
-          "bankroll_final": 202.35,
-          "bankroll_history": [
-            189.8,
-            202.35
-          ]
-        },
-        {
-          "league": "Ligue 1",
-          "picks": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 50.0,
-          "yield": -11.35,
-          "roi": -1.03,
-          "profit": -2.06,
-          "turnover": 18.14,
-          "bankroll_final": 197.94,
-          "bankroll_history": [
-            207.48,
-            197.94
-          ]
-        },
-        {
-          "league": "Eredivisie",
-          "picks": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -5.42,
-          "profit": -10.85,
-          "turnover": 10.85,
-          "bankroll_final": 189.15,
-          "bankroll_history": [
-            194.0,
-            189.15
-          ]
-        },
-        {
-          "league": "Ligue 2",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 87.0,
-          "roi": 5.66,
-          "profit": 11.31,
-          "turnover": 13.0,
-          "bankroll_final": 211.31,
-          "bankroll_history": [
-            211.31
-          ]
-        },
-        {
-          "league": "Serie B",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -3.8,
-          "profit": -7.6,
-          "turnover": 7.6,
-          "bankroll_final": 192.4,
-          "bankroll_history": [
-            192.4
-          ]
-        },
-        {
-          "league": "2. Bundesliga",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 90.0,
-          "roi": 4.86,
-          "profit": 9.72,
-          "turnover": 10.8,
-          "bankroll_final": 209.72,
-          "bankroll_history": [
-            209.72
-          ]
-        },
-        {
-          "league": "Premier League",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 110.0,
-          "roi": 4.07,
-          "profit": 8.14,
-          "turnover": 7.4,
-          "bankroll_final": 208.14,
-          "bankroll_history": [
-            208.14
-          ]
-        },
-        {
-          "league": "Championship",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -4.3,
-          "profit": -8.6,
-          "turnover": 8.6,
-          "bankroll_final": 191.4,
-          "bankroll_history": [
-            191.4
-          ]
-        }
-      ]
-    },
-    {
-      "market": "BTTS: BTTS Yes",
-      "picks": 2,
-      "wins": 1,
-      "losses": 1,
+    "Serie B": {
+      "picks": 10,
+      "ganadas": 5,
+      "perdidas": 5,
       "win_rate": 50.0,
-      "yield": -32.65,
-      "roi": -3.65,
-      "profit": -7.3,
-      "turnover": 22.37,
-      "bankroll_final": 192.7,
-      "bankroll_history": [
-        186.0,
-        192.7
-      ],
-      "leagues": [
-        {
-          "league": "Premier League",
-          "picks": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0.0,
-          "yield": -100.0,
-          "roi": -7.0,
-          "profit": -14.0,
-          "turnover": 14.0,
-          "bankroll_final": 186.0,
-          "bankroll_history": [
-            186.0
-          ]
-        },
-        {
-          "league": "Bundesliga",
-          "picks": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 100.0,
-          "yield": 80.0,
-          "roi": 3.6,
-          "profit": 7.2,
-          "turnover": 9.0,
-          "bankroll_final": 207.2,
-          "bankroll_history": [
-            207.2
-          ]
-        }
-      ]
+      "roi": -5.79,
+      "profit": -11.58
+    },
+    "Ligue 1": {
+      "picks": 6,
+      "ganadas": 2,
+      "perdidas": 4,
+      "win_rate": 33.33,
+      "roi": -21.85,
+      "profit": -43.69
+    },
+    "Premiership": {
+      "picks": 4,
+      "ganadas": 3,
+      "perdidas": 1,
+      "win_rate": 75.0,
+      "roi": 14.1,
+      "profit": 28.19
+    },
+    "Bundesliga": {
+      "picks": 3,
+      "ganadas": 1,
+      "perdidas": 2,
+      "win_rate": 33.33,
+      "roi": -7.58,
+      "profit": -15.15
+    },
+    "Primeira Liga": {
+      "picks": 7,
+      "ganadas": 3,
+      "perdidas": 4,
+      "win_rate": 42.86,
+      "roi": 0.45,
+      "profit": 0.9
+    },
+    "Championship": {
+      "picks": 14,
+      "ganadas": 7,
+      "perdidas": 7,
+      "win_rate": 50.0,
+      "roi": -5.06,
+      "profit": -10.11
     }
-  ],
+  },
+  "by_edge": {
+    "6.0-8.0%": {
+      "picks": 22,
+      "ganadas": 5,
+      "perdidas": 17,
+      "win_rate": 22.73,
+      "roi": -31.78,
+      "profit": -63.57
+    },
+    "8.0-10.0%": {
+      "picks": 23,
+      "ganadas": 12,
+      "perdidas": 11,
+      "win_rate": 52.17,
+      "roi": -1.21,
+      "profit": -2.41
+    },
+    "10.0-12.0%": {
+      "picks": 13,
+      "ganadas": 10,
+      "perdidas": 3,
+      "win_rate": 76.92,
+      "roi": 43.83,
+      "profit": 87.66
+    },
+    "12.0-15.0%": {
+      "picks": 23,
+      "ganadas": 11,
+      "perdidas": 12,
+      "win_rate": 47.83,
+      "roi": -22.05,
+      "profit": -44.1
+    },
+    ">15.0%": {
+      "picks": 5,
+      "ganadas": 3,
+      "perdidas": 2,
+      "win_rate": 60.0,
+      "roi": -0.04,
+      "profit": -0.09
+    }
+  },
+  "by_odd": {
+    "1.70-1.85": {
+      "picks": 15,
+      "ganadas": 10,
+      "perdidas": 5,
+      "win_rate": 66.67,
+      "roi": 3.09,
+      "profit": 6.17
+    },
+    "1.85-2.00": {
+      "picks": 23,
+      "ganadas": 13,
+      "perdidas": 10,
+      "win_rate": 56.52,
+      "roi": 14.58,
+      "profit": 29.15
+    },
+    "2.00-2.20": {
+      "picks": 27,
+      "ganadas": 12,
+      "perdidas": 15,
+      "win_rate": 44.44,
+      "roi": -5.5,
+      "profit": -11.0
+    },
+    "2.20-2.50": {
+      "picks": 19,
+      "ganadas": 8,
+      "perdidas": 11,
+      "win_rate": 42.11,
+      "roi": -12.76,
+      "profit": -25.52
+    }
+  },
+  "market_league_stats": {
+    "Over 2.5": {
+      "Premier League": {
+        "picks": 4,
+        "win_rate": 25.0,
+        "roi": -18.55
+      },
+      "Segunda División": {
+        "picks": 5,
+        "win_rate": 60.0,
+        "roi": 7.31
+      },
+      "Serie A": {
+        "picks": 7,
+        "win_rate": 57.14,
+        "roi": 10.0
+      },
+      "La Liga": {
+        "picks": 6,
+        "win_rate": 16.67,
+        "roi": -14.85
+      },
+      "Serie B": {
+        "picks": 8,
+        "win_rate": 50.0,
+        "roi": -6.0
+      },
+      "Ligue 1": {
+        "picks": 3,
+        "win_rate": 33.33,
+        "roi": -8.36
+      },
+      "Primeira Liga": {
+        "picks": 5,
+        "win_rate": 40.0,
+        "roi": -0.75
+      },
+      "Championship": {
+        "picks": 8,
+        "win_rate": 62.5,
+        "roi": 6.53
+      }
+    },
+    "Under 2.5": {
+      "Premier League": {
+        "picks": 7,
+        "win_rate": 85.71,
+        "roi": 25.51
+      },
+      "Serie A": {
+        "picks": 13,
+        "win_rate": 53.85,
+        "roi": 1.06
+      },
+      "Premiership": {
+        "picks": 3,
+        "win_rate": 100.0,
+        "roi": 19.47
+      },
+      "Championship": {
+        "picks": 5,
+        "win_rate": 40.0,
+        "roi": -6.84
+      }
+    },
+    "BTTS Yes": {},
+    "BTTS No": {}
+  },
+  "market_edge_stats": {
+    "Over 2.5": {
+      "6.0-8.0%": {
+        "picks": 14,
+        "win_rate": 21.43,
+        "roi": -21.63
+      },
+      "8.0-10.0%": {
+        "picks": 10,
+        "win_rate": 50.0,
+        "roi": -1.75
+      },
+      "10.0-12.0%": {
+        "picks": 7,
+        "win_rate": 71.43,
+        "roi": 18.14
+      },
+      "12.0-15.0%": {
+        "picks": 10,
+        "win_rate": 20.0,
+        "roi": -35.17
+      },
+      ">15.0%": {
+        "picks": 3,
+        "win_rate": 66.67,
+        "roi": 7.41
+      }
+    },
+    "Under 2.5": {
+      "6.0-8.0%": {
+        "picks": 2,
+        "win_rate": 50.0,
+        "roi": 0.62
+      },
+      "8.0-10.0%": {
+        "picks": 8,
+        "win_rate": 50.0,
+        "roi": -2.25
+      },
+      "10.0-12.0%": {
+        "picks": 4,
+        "win_rate": 100.0,
+        "roi": 23.92
+      },
+      "12.0-15.0%": {
+        "picks": 11,
+        "win_rate": 72.73,
+        "roi": 20.21
+      },
+      ">15.0%": {
+        "picks": 2,
+        "win_rate": 50.0,
+        "roi": -6.94
+      }
+    },
+    "BTTS Yes": {
+      "8.0-10.0%": {
+        "picks": 1,
+        "win_rate": 100.0,
+        "roi": 3.62
+      },
+      "10.0-12.0%": {
+        "picks": 1,
+        "win_rate": 0.0,
+        "roi": -7.01
+      }
+    },
+    "BTTS No": {
+      "6.0-8.0%": {
+        "picks": 6,
+        "win_rate": 16.67,
+        "roi": -13.5
+      },
+      "8.0-10.0%": {
+        "picks": 4,
+        "win_rate": 50.0,
+        "roi": -0.72
+      },
+      "10.0-12.0%": {
+        "picks": 1,
+        "win_rate": 100.0,
+        "roi": 5.65
+      },
+      "12.0-15.0%": {
+        "picks": 2,
+        "win_rate": 50.0,
+        "roi": 0.03
+      }
+    }
+  },
   "recent_bets": [
     {
-      "date": "2026-01-20 19:45",
-      "league": "Championship",
-      "match": "Swansea vs Blackburn",
-      "market": "BTTS",
-      "selection": "BTTS No",
-      "odd": 1.87,
-      "edge_inicial": 8.05,
-      "edge_actual": 8.05,
-      "result": "Perdida"
-    },
-    {
-      "date": "2026-01-20 19:45",
-      "league": "Championship",
-      "match": "Oxford United vs QPR",
-      "market": "Over/Under 2.5",
-      "selection": "Over 2.5",
-      "odd": 2.2,
-      "edge_inicial": 6.16,
-      "edge_actual": 6.16,
-      "result": "Perdida"
-    },
-    {
-      "date": "1/19/26 20:15",
-      "league": "Primeira Liga",
-      "match": "Estrela vs Estoril",
-      "market": "Over/Under 2.5",
-      "selection": "Over 2.5",
-      "odd": 1.85,
-      "edge_inicial": 20.07,
-      "edge_actual": 20.07,
-      "result": "Ganada"
-    },
-    {
-      "date": "1/19/26 20:00",
-      "league": "La Liga",
-      "match": "Elche vs Sevilla",
-      "market": "Over/Under 2.5",
-      "selection": "Over 2.5",
-      "odd": 2.1,
-      "edge_inicial": 12.88,
-      "edge_actual": 12.88,
-      "result": "Ganada"
-    },
-    {
-      "date": "2026-01-18 18:00",
-      "league": "Primeira Liga",
-      "match": "Tondela vs SC Braga",
-      "market": "Over/Under 2.5",
-      "selection": "Over 2.5",
-      "odd": 2.1,
-      "edge_inicial": 10.96,
-      "edge_actual": 10.96,
-      "result": "Perdida"
-    },
-    {
-      "date": "2026-01-18 16:30",
-      "league": "Premier League",
-      "match": "Aston Villa vs Everton",
-      "market": "BTTS",
-      "selection": "BTTS No",
-      "odd": 2.1,
-      "edge_inicial": 7.66,
-      "edge_actual": 7.66,
-      "result": "Ganada"
-    },
-    {
-      "date": "2026-01-18 16:30",
-      "league": "Premier League",
-      "match": "Aston Villa vs Everton",
-      "market": "Over/Under 2.5",
+      "match_date": "2026-01-24 15:00",
+      "league": "Jupiler Pro League",
+      "home_team": "RAAL La Louvière",
+      "away_team": "St. Truiden",
       "selection": "Under 2.5",
-      "odd": 2.05,
-      "edge_inicial": 8.04,
-      "edge_actual": 8.04,
-      "result": "Ganada"
+      "betfair_odd": 1.8,
+      "edge": 13.57,
+      "kelly": 7.6,
+      "bet_result": "",
+      "confidence_score": 95.5
     },
     {
-      "date": "1/18/26 16:15",
+      "match_date": "2026-01-24 13:00",
+      "league": "Segunda División",
+      "home_team": "Valladolid",
+      "away_team": "Albacete",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.87,
+      "edge": 8.29,
+      "kelly": 4.5,
+      "bet_result": "",
+      "confidence_score": 77.8
+    },
+    {
+      "match_date": "2026-01-25 14:00",
+      "league": "Serie A",
+      "home_team": "Atalanta",
+      "away_team": "Parma",
+      "selection": "Under 2.5",
+      "betfair_odd": 2.1,
+      "edge": 12.29,
+      "kelly": 5.9,
+      "bet_result": "",
+      "confidence_score": 91.2
+    },
+    {
+      "match_date": "2026-01-24 15:00",
+      "league": "Championship",
+      "home_team": "QPR",
+      "away_team": "Wrexham",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 10.36,
+      "kelly": 4.9,
+      "bet_result": "",
+      "confidence_score": 84.9
+    },
+    {
+      "match_date": "2026-01-25 16:15",
       "league": "Ligue 1",
-      "match": "Nantes vs Paris FC",
-      "market": "Over/Under 2.5",
+      "home_team": "Stade Brestois 29",
+      "away_team": "Toulouse",
       "selection": "Over 2.5",
-      "odd": 1.95,
-      "edge_inicial": 7.24,
-      "edge_actual": 7.24,
-      "result": "Ganada"
+      "betfair_odd": 2.1,
+      "edge": 11.04,
+      "kelly": 5.3,
+      "bet_result": "",
+      "confidence_score": 87.0
     },
     {
-      "date": "2026-01-18 15:30",
-      "league": "Primeira Liga",
-      "match": "Santa Clara vs Famalicao",
-      "market": "BTTS",
+      "match_date": "2026-01-25 12:30",
+      "league": "2. Bundesliga",
+      "home_team": "FC Schalke 04",
+      "away_team": "1. FC Kaiserslautern",
       "selection": "BTTS No",
-      "odd": 1.87,
-      "edge_inicial": 14.2,
-      "edge_actual": 14.2,
-      "result": "Ganada"
+      "betfair_odd": 2.1,
+      "edge": 8.12,
+      "kelly": 4.4,
+      "bet_result": "",
+      "confidence_score": 77.2
     },
     {
-      "date": "1/18/26 14:30",
-      "league": "Bundesliga",
-      "match": "VfB Stuttgart vs Union Berlin",
-      "market": "Over/Under 2.5",
+      "match_date": "2026-01-25 12:30",
+      "league": "2. Bundesliga",
+      "home_team": "FC Schalke 04",
+      "away_team": "1. FC Kaiserslautern",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.85,
+      "edge": 8.11,
+      "kelly": 5.2,
+      "bet_result": "",
+      "confidence_score": 77.2
+    },
+    {
+      "match_date": "2026-01-25 14:00",
+      "league": "Serie A",
+      "home_team": "Genoa",
+      "away_team": "Bologna",
+      "selection": "BTTS Yes",
+      "betfair_odd": 2.0,
+      "edge": 13.09,
+      "kelly": 6.5,
+      "bet_result": "",
+      "confidence_score": 86.9
+    },
+    {
+      "match_date": "2026-01-25 15:15",
+      "league": "Segunda División",
+      "home_team": "Eibar",
+      "away_team": "Almeria",
       "selection": "Over 2.5",
-      "odd": 1.8,
-      "edge_inicial": 12.45,
-      "edge_actual": 12.45,
-      "result": "Perdida"
+      "betfair_odd": 2.1,
+      "edge": 8.71,
+      "kelly": 11.3,
+      "bet_result": "",
+      "confidence_score": 79.2
+    },
+    {
+      "match_date": "2026-01-25 17:30",
+      "league": "La Liga",
+      "home_team": "Real Sociedad",
+      "away_team": "Celta Vigo",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.95,
+      "edge": 9.97,
+      "kelly": 5.1,
+      "bet_result": "",
+      "confidence_score": 76.4
+    },
+    {
+      "match_date": "2026-01-25 14:00",
+      "league": "Premier League",
+      "home_team": "Crystal Palace",
+      "away_team": "Chelsea",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.95,
+      "edge": 15.39,
+      "kelly": 7.3,
+      "bet_result": "",
+      "confidence_score": 100.0
+    },
+    {
+      "match_date": "2026-01-24 17:00",
+      "league": "Serie A",
+      "home_team": "Fiorentina",
+      "away_team": "Cagliari",
+      "selection": "BTTS Yes",
+      "betfair_odd": 2.0,
+      "edge": 16.64,
+      "kelly": 8.3,
+      "bet_result": "",
+      "confidence_score": 93.0
+    },
+    {
+      "match_date": "2026-01-24 17:30",
+      "league": "Segunda División",
+      "home_team": "Sporting Gijon",
+      "away_team": "Mirandes",
+      "selection": "BTTS Yes",
+      "betfair_odd": 2.1,
+      "edge": 16.8,
+      "kelly": 8.0,
+      "bet_result": "",
+      "confidence_score": 93.0
+    },
+    {
+      "match_date": "2026-01-24 17:30",
+      "league": "Segunda División",
+      "home_team": "Las Palmas",
+      "away_team": "Cordoba",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 11.9,
+      "kelly": 5.7,
+      "bet_result": "",
+      "confidence_score": 82.9
+    },
+    {
+      "match_date": "2026-01-24 15:15",
+      "league": "Segunda División",
+      "home_team": "Leganes",
+      "away_team": "Real Sociedad II",
+      "selection": "BTTS Yes",
+      "betfair_odd": 2.0,
+      "edge": 10.02,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 76.6
+    },
+    {
+      "match_date": "2026-01-24 17:30",
+      "league": "La Liga",
+      "home_team": "Sevilla",
+      "away_team": "Athletic Club",
+      "selection": "BTTS Yes",
+      "betfair_odd": 1.91,
+      "edge": 15.35,
+      "kelly": 8.1,
+      "bet_result": "",
+      "confidence_score": 93.2
+    },
+    {
+      "match_date": "2026-01-24 15:00",
+      "league": "Championship",
+      "home_team": "Hull City",
+      "away_team": "Swansea",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 11.35,
+      "kelly": 5.1,
+      "bet_result": "",
+      "confidence_score": 88.2
+    },
+    {
+      "match_date": "2026-01-24 15:00",
+      "league": "Jupiler Pro League",
+      "home_team": "RAAL La Louvière",
+      "away_team": "St. Truiden",
+      "selection": "BTTS No",
+      "betfair_odd": 2.0,
+      "edge": 13.66,
+      "kelly": 6.8,
+      "bet_result": "",
+      "confidence_score": 95.8
+    },
+    {
+      "match_date": "2026-01-24 19:45",
+      "league": "Jupiler Pro League",
+      "home_team": "OH Leuven",
+      "away_team": "Union St. Gilloise",
+      "selection": "BTTS No",
+      "betfair_odd": 1.87,
+      "edge": 11.66,
+      "kelly": 6.3,
+      "bet_result": "",
+      "confidence_score": 89.1
+    },
+    {
+      "match_date": "2026-01-24 20:30",
+      "league": "Primeira Liga",
+      "home_team": "Estoril",
+      "away_team": "Guimaraes",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 10.19,
+      "kelly": 4.5,
+      "bet_result": "",
+      "confidence_score": 84.2
+    },
+    {
+      "match_date": "2026-01-24 15:00",
+      "league": "Premiership",
+      "home_team": "Aberdeen",
+      "away_team": "Livingston",
+      "selection": "BTTS No",
+      "betfair_odd": 1.9,
+      "edge": 8.29,
+      "kelly": 4.6,
+      "bet_result": "",
+      "confidence_score": 77.8
+    },
+    {
+      "match_date": "2026-01-24 15:00",
+      "league": "Premiership",
+      "home_team": "Aberdeen",
+      "away_team": "Livingston",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.8,
+      "edge": 10.11,
+      "kelly": 4.7,
+      "bet_result": "",
+      "confidence_score": 83.9
+    },
+    {
+      "match_date": "2026-01-24 13:00",
+      "league": "Ligue 2",
+      "home_team": "Guingamp",
+      "away_team": "Estac Troyes",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 12.84,
+      "kelly": 6.2,
+      "bet_result": "",
+      "confidence_score": 93.0
+    },
+    {
+      "match_date": "2026-01-24 16:00",
+      "league": "Ligue 1",
+      "home_team": "Rennes",
+      "away_team": "Lorient",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 12.59,
+      "kelly": 7.1,
+      "bet_result": "",
+      "confidence_score": 92.2
+    },
+    {
+      "match_date": "2026-01-24 17:00",
+      "league": "Serie A",
+      "home_team": "Fiorentina",
+      "away_team": "Cagliari",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 9.25,
+      "kelly": 4.6,
+      "bet_result": "",
+      "confidence_score": 80.9
+    },
+    {
+      "match_date": "2026-01-24 17:30",
+      "league": "Segunda División",
+      "home_team": "Sporting Gijon",
+      "away_team": "Mirandes",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 12.94,
+      "kelly": 6.2,
+      "bet_result": "",
+      "confidence_score": 93.4
+    },
+    {
+      "match_date": "2026-01-24 15:00",
+      "league": "Premier League",
+      "home_team": "Manchester City",
+      "away_team": "Wolves",
+      "selection": "BTTS No",
+      "betfair_odd": 1.9,
+      "edge": 8.1,
+      "kelly": 4.3,
+      "bet_result": "",
+      "confidence_score": 77.1
+    },
+    {
+      "match_date": "2026-01-23 19:30",
+      "league": "Serie B",
+      "home_team": "Carrarese",
+      "away_team": "Empoli",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 9.22,
+      "kelly": 4.4,
+      "bet_result": "",
+      "confidence_score": 73.9
+    },
+    {
+      "match_date": "2026-01-18 15:30",
+      "league": "Primeira Liga",
+      "home_team": "Santa Clara",
+      "away_team": "Famalicao",
+      "selection": "BTTS No",
+      "betfair_odd": 1.87,
+      "edge": 14.2,
+      "kelly": 7.6,
+      "bet_result": "Ganada",
+      "confidence_score": 97.6
+    },
+    {
+      "match_date": "2026-01-18 16:30",
+      "league": "Premier League",
+      "home_team": "Aston Villa",
+      "away_team": "Everton",
+      "selection": "BTTS No",
+      "betfair_odd": 2.1,
+      "edge": 7.66,
+      "kelly": 3.7,
+      "bet_result": "Ganada",
+      "confidence_score": 75.6
     }
   ],
-  "temporal_analysis": {
-    "by_weekday": [
-      {
-        "day": "Lunes",
-        "picks": 9,
-        "wins": 5,
-        "losses": 4,
-        "win_rate": 55.6,
-        "yield": 26.67,
-        "roi": 13.12,
-        "profit": 26.24,
-        "turnover": 98.43,
-        "bankroll_final": 226.24,
-        "bankroll_history": [
-          191.8,
-          197.29,
-          212.57,
-          223.66,
-          208.67,
-          201.78,
-          192.3,
-          205.62,
-          226.24
-        ]
-      },
-      {
-        "day": "Martes",
-        "picks": 7,
-        "wins": 2,
-        "losses": 5,
-        "win_rate": 28.6,
-        "yield": -18.67,
-        "roi": -7.67,
-        "profit": -15.34,
-        "turnover": 82.15,
-        "bankroll_final": 184.66,
-        "bankroll_history": [
-          182.6,
-          194.76,
-          188.14,
-          206.15,
-          198.52,
-          192.96,
-          184.66
-        ]
-      },
-      {
-        "day": "Miércoles",
-        "picks": 10,
-        "wins": 8,
-        "losses": 2,
-        "win_rate": 80.0,
-        "yield": 53.31,
-        "roi": 29.51,
-        "profit": 59.02,
-        "turnover": 110.75,
-        "bankroll_final": 259.02,
-        "bankroll_history": [
-          205.28,
-          215.13,
-          231.99,
-          242.49,
-          248.26,
-          240.07,
-          227.83,
-          241.45,
-          247.25,
-          259.02
-        ]
-      },
-      {
-        "day": "Jueves",
-        "picks": 5,
-        "wins": 1,
-        "losses": 4,
-        "win_rate": 20.0,
-        "yield": -65.74,
-        "roi": -11.88,
-        "profit": -23.75,
-        "turnover": 36.12,
-        "bankroll_final": 176.25,
-        "bankroll_history": [
-          192.8,
-          185.67,
-          192.66,
-          182.83,
-          176.25
-        ]
-      },
-      {
-        "day": "Viernes",
-        "picks": 4,
-        "wins": 2,
-        "losses": 2,
-        "win_rate": 50.0,
-        "yield": 7.03,
-        "roi": 1.92,
-        "profit": 3.83,
-        "turnover": 54.52,
-        "bankroll_final": 203.83,
-        "bankroll_history": [
-          216.16,
-          202.76,
-          212.99,
-          203.83
-        ]
-      },
-      {
-        "day": "Sábado",
-        "picks": 31,
-        "wins": 15,
-        "losses": 16,
-        "win_rate": 48.4,
-        "yield": -9.99,
-        "roi": -15.78,
-        "profit": -31.56,
-        "turnover": 315.9,
-        "bankroll_final": 168.44,
-        "bankroll_history": [
-          204.65,
-          218.36,
-          207.01,
-          214.51,
-          222.8,
-          215.22,
-          203.6,
-          212.97,
-          199.13,
-          207.91,
-          221.0,
-          229.14,
-          215.85,
-          201.17,
-          212.57,
-          220.81,
-          211.98,
-          223.97,
-          232.35,
-          223.52,
-          201.84,
-          187.71,
-          178.14,
-          184.8,
-          178.15,
-          172.63,
-          180.5,
-          169.85,
-          164.75,
-          172.76,
-          168.44
-        ]
-      },
-      {
-        "day": "Domingo",
-        "picks": 34,
-        "wins": 17,
-        "losses": 17,
-        "win_rate": 50.0,
-        "yield": -14.81,
-        "roi": -26.59,
-        "profit": -53.18,
-        "turnover": 359.07,
-        "bankroll_final": 146.82,
-        "bankroll_history": [
-          210.62,
-          215.54,
-          222.61,
-          200.79,
-          181.92,
-          167.55,
-          159.84,
-          171.19,
-          181.38,
-          194.14,
-          174.73,
-          169.31,
-          182.57,
-          187.81,
-          180.49,
-          150.53,
-          137.89,
-          130.17,
-          137.04,
-          132.24,
-          137.84,
-          132.46,
-          140.84,
-          136.05,
-          143.77,
-          139.46,
-          133.04,
-          137.83,
-          127.63,
-          136.07,
-          143.57,
-          149.45,
-          155.53,
-          146.82
-        ]
-      }
-    ],
-    "by_hour": [
-      {
-        "hour": "11:00",
-        "picks": 1,
-        "wins": 1,
-        "losses": 0,
-        "win_rate": 100.0,
-        "yield": 47.0,
-        "roi": 5.31,
-        "profit": 10.62,
-        "turnover": 22.6,
-        "bankroll_final": 210.62,
-        "bankroll_history": [
-          210.62
-        ]
-      },
-      {
-        "hour": "12:00",
-        "picks": 5,
-        "wins": 3,
-        "losses": 2,
-        "win_rate": 60.0,
-        "yield": -17.5,
-        "roi": -4.94,
-        "profit": -9.87,
-        "turnover": 56.39,
-        "bankroll_final": 190.13,
-        "bankroll_history": [
-          204.67,
-          211.38,
-          190.66,
-          198.05,
-          190.13
-        ]
-      },
-      {
-        "hour": "13:00",
-        "picks": 4,
-        "wins": 3,
-        "losses": 1,
-        "win_rate": 75.0,
-        "yield": 18.16,
-        "roi": 4.51,
-        "profit": 9.02,
-        "turnover": 49.7,
-        "bankroll_final": 209.02,
-        "bankroll_history": [
-          181.2,
-          185.41,
-          197.83,
-          209.02
-        ]
-      },
-      {
-        "hour": "14:00",
-        "picks": 12,
-        "wins": 5,
-        "losses": 7,
-        "win_rate": 41.7,
-        "yield": -39.95,
-        "roi": -21.09,
-        "profit": -42.19,
-        "turnover": 105.62,
-        "bankroll_final": 157.81,
-        "bankroll_history": [
-          184.2,
-          168.17,
-          159.43,
-          165.21,
-          171.6,
-          165.77,
-          172.78,
-          179.24,
-          172.43,
-          164.5,
-          170.42,
-          157.81
-        ]
-      },
-      {
-        "hour": "15:00",
-        "picks": 19,
-        "wins": 8,
-        "losses": 11,
-        "win_rate": 42.1,
-        "yield": -14.33,
-        "roi": -16.42,
-        "profit": -32.83,
-        "turnover": 229.17,
-        "bankroll_final": 167.17,
-        "bankroll_history": [
-          190.8,
-          204.35,
-          216.51,
-          231.75,
-          208.57,
-          202.1,
-          217.93,
-          224.19,
-          215.45,
-          203.82,
-          213.2,
-          199.34,
-          191.57,
-          203.69,
-          196.76,
-          177.67,
-          165.23,
-          156.8,
-          167.17
-        ]
-      },
-      {
-        "hour": "16:00",
-        "picks": 8,
-        "wins": 6,
-        "losses": 2,
-        "win_rate": 75.0,
-        "yield": -0.11,
-        "roi": -0.06,
-        "profit": -0.11,
-        "turnover": 93.94,
-        "bankroll_final": 199.89,
-        "bankroll_history": [
-          166.8,
-          152.79,
-          159.53,
-          168.57,
-          174.88,
-          184.51,
-          192.07,
-          199.89
-        ]
-      },
-      {
-        "hour": "17:00",
-        "picks": 13,
-        "wins": 9,
-        "losses": 4,
-        "win_rate": 69.2,
-        "yield": 40.31,
-        "roi": 32.69,
-        "profit": 65.38,
-        "turnover": 162.2,
-        "bankroll_final": 265.38,
-        "bankroll_history": [
-          188.8,
-          198.77,
-          191.81,
-          204.58,
-          209.98,
-          220.06,
-          233.93,
-          242.54,
-          261.34,
-          273.78,
-          284.1,
-          273.87,
-          265.38
-        ]
-      },
-      {
-        "hour": "18:00",
-        "picks": 6,
-        "wins": 1,
-        "losses": 5,
-        "win_rate": 16.7,
-        "yield": -75.76,
-        "roi": -20.91,
-        "profit": -41.81,
-        "turnover": 55.19,
-        "bankroll_final": 158.19,
-        "bankroll_history": [
-          188.4,
-          175.59,
-          170.32,
-          178.08,
-          167.57,
-          158.19
-        ]
-      },
-      {
-        "hour": "19:00",
-        "picks": 21,
-        "wins": 8,
-        "losses": 13,
-        "win_rate": 38.1,
-        "yield": -12.8,
-        "roi": -12.65,
-        "profit": -25.3,
-        "turnover": 197.66,
-        "bankroll_final": 174.7,
-        "bankroll_history": [
-          191.8,
-          185.28,
-          199.81,
-          208.85,
-          213.82,
-          206.76,
-          196.22,
-          207.96,
-          200.47,
-          210.94,
-          196.81,
-          189.53,
-          179.86,
-          173.39,
-          187.4,
-          175.78,
-          184.65,
-          179.11,
-          187.81,
-          182.55,
-          174.7
-        ]
-      },
-      {
-        "hour": "20:00",
-        "picks": 11,
-        "wins": 6,
-        "losses": 5,
-        "win_rate": 54.5,
-        "yield": 30.56,
-        "roi": 18.81,
-        "profit": 37.62,
-        "turnover": 123.1,
-        "bankroll_final": 237.62,
-        "bankroll_history": [
-          205.72,
-          225.41,
-          230.83,
-          222.29,
-          234.89,
-          227.14,
-          216.46,
-          207.15,
-          201.97,
-          215.96,
-          237.62
-        ]
-      }
-    ],
-    "trends": {
-      "last_7_days": {
-        "picks": 36,
-        "wins": 17,
-        "losses": 19,
-        "win_rate": 47.2,
-        "yield": -4.23,
-        "roi": -7.47,
-        "profit": -14.95,
-        "turnover": 353.19,
-        "bankroll_final": 185.05,
-        "bankroll_history": [
-          209.52,
-          217.42,
-          206.33,
-          198.9,
-          214.97,
-          201.64,
-          211.82,
-          202.71,
-          210.56,
-          202.14,
-          213.57,
-          221.56,
-          213.14,
-          192.47,
-          179.0,
-          169.87,
-          176.22,
-          169.88,
-          164.61,
-          172.1,
-          161.95,
-          157.09,
-          164.72,
-          160.6,
-          153.21,
-          158.72,
-          146.97,
-          156.69,
-          165.33,
-          172.1,
-          179.11,
-          169.08,
-          180.8,
-          198.93,
-          193.36,
-          185.05
-        ]
-      },
-      "last_14_days": {
-        "picks": 74,
-        "wins": 38,
-        "losses": 36,
-        "win_rate": 51.4,
-        "yield": 2.72,
-        "roi": 11.74,
-        "profit": 23.48,
-        "turnover": 863.53,
-        "bankroll_final": 223.48,
-        "bankroll_history": [
-          205.28,
-          215.13,
-          231.99,
-          242.49,
-          248.26,
-          240.07,
-          227.83,
-          241.45,
-          247.25,
-          238.35,
-          229.53,
-          234.87,
-          250.61,
-          237.58,
-          246.19,
-          255.7,
-          247.01,
-          233.67,
-          244.42,
-          228.53,
-          238.61,
-          253.64,
-          262.98,
-          247.73,
-          230.88,
-          243.97,
-          254.29,
-          244.37,
-          259.83,
-          251.0,
-          265.23,
-          257.27,
-          277.2,
-          291.67,
-          272.13,
-          263.15,
-          250.78,
-          241.5,
-          252.99,
-          262.53,
-          249.14,
-          240.17,
-          259.58,
-          243.49,
-          255.77,
-          244.77,
-          254.25,
-          244.08,
-          257.89,
-          267.54,
-          257.37,
-          232.41,
-          216.14,
-          205.12,
-          212.79,
-          205.13,
-          198.77,
-          207.82,
-          195.56,
-          189.69,
-          198.91,
-          193.94,
-          185.02,
-          191.68,
-          177.5,
-          189.24,
-          199.67,
-          207.85,
-          216.31,
-          204.2,
-          218.35,
-          240.25,
-          233.52,
-          223.48
-        ]
-      },
-      "last_30_days": {
-        "picks": 100,
-        "wins": 50,
-        "losses": 50,
-        "win_rate": 50.0,
-        "yield": -5.57,
-        "roi": -24.87,
-        "profit": -49.74,
-        "turnover": 892.59,
-        "bankroll_final": 150.26,
-        "bankroll_history": [
-          210.62,
-          215.54,
-          222.61,
-          200.79,
-          181.92,
-          167.55,
-          159.84,
-          171.19,
-          181.38,
-          194.14,
-          174.73,
-          169.31,
-          182.57,
-          187.81,
-          180.49,
-          150.53,
-          137.89,
-          130.17,
-          137.04,
-          132.24,
-          126.82,
-          130.45,
-          119.1,
-          127.03,
-          122.71,
-          134.46,
-          138.01,
-          144.63,
-          155.97,
-          163.03,
-          166.91,
-          161.4,
-          153.17,
-          162.33,
-          166.24,
-          160.26,
-          154.33,
-          157.92,
-          168.5,
-          159.74,
-          165.53,
-          171.92,
-          166.07,
-          157.1,
-          164.33,
-          153.65,
-          160.42,
-          170.53,
-          176.8,
-          166.55,
-          155.22,
-          164.02,
-          170.96,
-          164.29,
-          174.69,
-          168.75,
-          178.32,
-          172.97,
-          186.38,
-          196.11,
-          182.97,
-          176.93,
-          168.61,
-          162.37,
-          170.1,
-          176.51,
-          167.51,
-          161.48,
-          174.53,
-          163.71,
-          171.98,
-          164.58,
-          170.96,
-          164.12,
-          173.4,
-          179.89,
-          173.05,
-          156.26,
-          145.32,
-          137.91,
-          143.07,
-          137.92,
-          133.64,
-          139.73,
-          131.49,
-          127.55,
-          133.75,
-          130.41,
-          124.41,
-          128.89,
-          119.35,
-          127.24,
-          134.25,
-          139.75,
-          145.44,
-          137.3,
-          146.81,
-          161.53,
-          157.01,
-          150.26
-        ]
-      }
-    },
-    "streaks": {
-      "current_streak": 2,
-      "current_streak_type": "Perdida",
-      "max_winning_streak": 6,
-      "max_losing_streak": 4
-    }
-  },
   "clv_analysis": {
     "avg_clv": 2.87,
-    "clv_positive_pct": 71.4,
-    "total_with_clv": 56,
-    "avg_clv_won": 1.57,
-    "avg_clv_lost": 4.26,
-    "by_league": [
-      {
-        "league": "Eredivisie",
-        "avg_clv": 6.75,
-        "count": 3
-      },
-      {
-        "league": "Segunda División",
-        "avg_clv": 5.97,
-        "count": 3
-      },
-      {
-        "league": "Premiership",
-        "avg_clv": 5.26,
-        "count": 1
-      },
-      {
-        "league": "Serie B",
-        "avg_clv": 5.05,
-        "count": 7
-      },
-      {
-        "league": "Ligue 1",
-        "avg_clv": 4.89,
-        "count": 3
-      },
-      {
-        "league": "Premier League",
-        "avg_clv": 4.41,
-        "count": 7
-      },
-      {
-        "league": "Bundesliga",
-        "avg_clv": 3.98,
-        "count": 3
-      },
-      {
-        "league": "Ligue 2",
-        "avg_clv": 3.38,
-        "count": 2
-      },
-      {
-        "league": "Primeira Liga",
-        "avg_clv": 2.57,
-        "count": 6
-      },
-      {
-        "league": "Championship",
-        "avg_clv": 1.94,
-        "count": 6
-      }
-    ],
-    "by_market": [
-      {
-        "market": "BTTS",
-        "avg_clv": 5.28,
-        "count": 15
-      },
-      {
-        "market": "Over/Under 2.5",
-        "avg_clv": 1.98,
-        "count": 41
-      }
-    ]
+    "positive_clv": 59,
+    "negative_clv": 41,
+    "best_clv": 15.2,
+    "worst_clv": -8.4
   },
-  "kelly_bankroll": {
-    "avg_kelly": 5.56,
-    "avg_stake": 8.93,
-    "max_drawdown": 103.51,
-    "max_drawdown_pct": 46.5,
-    "recovery_factor": -0.48,
-    "sharpe_ratio": -0.02
-  },
-  "team_analysis": {
-    "over_friendly": [
-      {
-        "team": "Verona",
-        "picks": 3,
-        "wins": 2,
-        "win_rate": 66.7
-      },
-      {
-        "team": "Sevilla",
-        "picks": 4,
-        "wins": 1,
-        "win_rate": 25.0
-      }
-    ],
-    "under_friendly": [
-      {
-        "team": "AS Roma",
-        "picks": 3,
-        "wins": 3,
-        "win_rate": 100.0
-      },
-      {
-        "team": "Everton",
-        "picks": 3,
-        "wins": 2,
-        "win_rate": 66.7
-      },
-      {
-        "team": "Sassuolo",
-        "picks": 3,
-        "wins": 2,
-        "win_rate": 66.7
-      }
-    ]
-  },
-  "confidence_analysis": {
-    "by_range": [
-      {
-        "range": "60-70%",
-        "picks": 11,
-        "wins": 6,
-        "losses": 5,
-        "win_rate": 54.5,
-        "yield": 8.23,
-        "roi": 3.86,
-        "profit": 7.72,
-        "turnover": 93.68,
-        "bankroll_final": 207.72,
-        "bankroll_history": [
-          189.8,
-          183.35,
-          191.78,
-          182.77,
-          191.47,
-          198.69,
-          190.15,
-          197.27,
-          189.77,
-          196.87,
-          207.72
-        ]
-      },
-      {
-        "range": "70-80%",
-        "picks": 21,
-        "wins": 12,
-        "losses": 9,
-        "win_rate": 57.1,
-        "yield": 8.14,
-        "roi": 9.38,
-        "profit": 18.76,
-        "turnover": 230.44,
-        "bankroll_final": 218.76,
-        "bankroll_history": [
-          211.96,
-          226.16,
-          214.4,
-          223.85,
-          232.09,
-          245.25,
-          255.63,
-          238.5,
-          229.68,
-          217.97,
-          226.42,
-          217.36,
-          206.27,
-          215.67,
-          226.15,
-          215.75,
-          223.52,
-          232.68,
-          242.15,
-          228.59,
-          218.76
-        ]
-      },
-      {
-        "range": "80-90%",
-        "picks": 10,
-        "wins": 6,
-        "losses": 4,
-        "win_rate": 60.0,
-        "yield": 14.61,
-        "roi": 10.16,
-        "profit": 20.31,
-        "turnover": 139.06,
-        "bankroll_final": 220.31,
-        "bankroll_history": [
-          187.0,
-          198.78,
-          211.35,
-          223.33,
-          240.64,
-          254.25,
-          236.45,
-          222.5,
-          206.03,
-          220.31
-        ]
-      },
-      {
-        "range": "90-100%",
-        "picks": 7,
-        "wins": 4,
-        "losses": 3,
-        "win_rate": 57.1,
-        "yield": 18.97,
-        "roi": 9.67,
-        "profit": 19.33,
-        "turnover": 101.96,
-        "bankroll_final": 219.33,
-        "bankroll_history": [
-          188.4,
-          175.59,
-          189.77,
-          178.0,
-          186.98,
-          199.34,
-          219.33
-        ]
-      }
-    ],
-    "calibration": [
-      {
-        "range": "60-70%",
-        "expected_wr": 65.0,
-        "actual_wr": 54.5,
-        "calibration_error": 10.5,
-        "picks": 11
-      },
-      {
-        "range": "70-80%",
-        "expected_wr": 75.0,
-        "actual_wr": 57.1,
-        "calibration_error": 17.9,
-        "picks": 21
-      },
-      {
-        "range": "80-90%",
-        "expected_wr": 85.0,
-        "actual_wr": 60.0,
-        "calibration_error": 25.0,
-        "picks": 10
-      },
-      {
-        "range": "90-100%",
-        "expected_wr": 95.0,
-        "actual_wr": 57.1,
-        "calibration_error": 37.9,
-        "picks": 7
-      }
-    ]
-  },
-  "heatmap": [
-    {
-      "league": "Serie A",
-      "market": "Over/Under 2.5",
-      "picks": 20,
-      "roi": 9.18,
-      "win_rate": 55.0
+  "temporal_stats": {
+    "Sábado": {
+      "picks": 3,
+      "win_rate": 0.0,
+      "roi": -13.46
     },
-    {
-      "league": "Championship",
-      "market": "Over/Under 2.5",
-      "picks": 13,
-      "roi": 1.19,
-      "win_rate": 53.8
-    },
-    {
-      "league": "Premier League",
-      "market": "Over/Under 2.5",
-      "picks": 11,
-      "roi": 4.45,
-      "win_rate": 63.6
-    },
-    {
-      "league": "La Liga",
-      "market": "Over/Under 2.5",
-      "picks": 8,
-      "roi": -10.34,
-      "win_rate": 37.5
-    },
-    {
-      "league": "Ligue 1",
-      "market": "Over/Under 2.5",
+    "Domingo": {
       "picks": 4,
-      "roi": -25.77,
-      "win_rate": 25.0
+      "win_rate": 75.0,
+      "roi": 9.03
     },
-    {
-      "league": "Segunda División",
-      "market": "Over/Under 2.5",
-      "picks": 6,
-      "roi": 3.07,
-      "win_rate": 50.0
+    "Martes": {
+      "picks": 2,
+      "win_rate": 0.0,
+      "roi": -7.03
+    }
+  },
+  "top_teams": {
+    "AS Roma": {
+      "picks": 3,
+      "win_rate": 100.0
     },
-    {
-      "league": "Premiership",
-      "market": "Over/Under 2.5",
+    "Aston Villa": {
+      "picks": 3,
+      "win_rate": 100.0
+    },
+    "Everton": {
       "picks": 4,
-      "roi": 14.58,
       "win_rate": 75.0
     },
-    {
-      "league": "Serie B",
-      "market": "Over/Under 2.5",
-      "picks": 9,
-      "roi": -2.31,
-      "win_rate": 55.6
+    "Napoli": {
+      "picks": 4,
+      "win_rate": 75.0
     },
-    {
-      "league": "Primeira Liga",
-      "market": "Over/Under 2.5",
-      "picks": 5,
-      "roi": -0.88,
-      "win_rate": 40.0
+    "Verona": {
+      "picks": 3,
+      "win_rate": 66.67
+    },
+    "Atalanta": {
+      "picks": 3,
+      "win_rate": 66.67
+    },
+    "Sassuolo": {
+      "picks": 4,
+      "win_rate": 50.0
+    },
+    "Pisa": {
+      "picks": 3,
+      "win_rate": 33.33
+    },
+    "Sevilla": {
+      "picks": 4,
+      "win_rate": 25.0
+    },
+    "Leeds": {
+      "picks": 3,
+      "win_rate": 0.0
     }
-  ]
+  },
+  "worst_teams": {
+    "Everton": {
+      "picks": 4,
+      "win_rate": 75.0
+    },
+    "Napoli": {
+      "picks": 4,
+      "win_rate": 75.0
+    },
+    "Verona": {
+      "picks": 3,
+      "win_rate": 66.67
+    },
+    "Atalanta": {
+      "picks": 3,
+      "win_rate": 66.67
+    },
+    "Sassuolo": {
+      "picks": 4,
+      "win_rate": 50.0
+    },
+    "Pisa": {
+      "picks": 3,
+      "win_rate": 33.33
+    },
+    "Sevilla": {
+      "picks": 4,
+      "win_rate": 25.0
+    },
+    "Leeds": {
+      "picks": 3,
+      "win_rate": 0.0
+    },
+    "Como": {
+      "picks": 3,
+      "win_rate": 0.0
+    },
+    "AC Milan": {
+      "picks": 3,
+      "win_rate": 0.0
+    }
+  },
+  "racha": {
+    "actual": 3,
+    "tipo": "win"
+  }
 }
