@@ -1,1 +1,189 @@
+name: Generate Dashboard
 
+on:
+  schedule:
+    # Cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permite ejecutar manualmente
+  push:
+    paths:
+      - 'over_under_value_bets.csv'  # Se ejecuta cuando el CSV cambia
+
+jobs:
+  generate-dashboard:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Necesario para push
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Generate dashboard data
+        run: |
+          echo "📊 Generando data.json desde CSV..."
+          python3 generate_dashboard_data.py over_under_value_bets.csv
+          
+          if [ -f data.json ]; then
+            echo "✅ data.json generado correctamente"
+            ls -lh data.json
+          else
+            echo "❌ Error: data.json no se generó"
+            exit 1
+          fi
+      
+      - name: Verify dashboard files
+        run: |
+          echo "🔍 Verificando archivos del dashboard..."
+          
+          # Verificar que existen todos los archivos necesarios
+          required_files=("index.html" "dashboard.js" "data.json")
+          
+          for file in "${required_files[@]}"; do
+            if [ -f "$file" ]; then
+              echo "✅ $file existe"
+            else
+              echo "❌ $file NO existe"
+              exit 1
+            fi
+          done
+          
+          # Verificar que data.json es válido
+          echo "📋 Validando data.json..."
+          python3 -m json.tool data.json > /dev/null && echo "✅ JSON válido" || (echo "❌ JSON inválido" && exit 1)
+          
+          # Mostrar resumen
+          echo ""
+          echo "📊 Resumen del data.json:"
+          python3 << 'EOF'
+          import json
+          with open('data.json', 'r') as f:
+              data = json.load(f)
+          print(f"  Total apuestas: {data['summary']['total_picks']}")
+          print(f"  ROI: {data['summary']['roi']:+.2f}%")
+          print(f"  Win Rate: {data['summary']['win_rate']:.1f}%")
+          print(f"  Bankroll: €{data['summary']['bankroll_final']:.2f}")
+          print(f"  Pendientes: {data['summary']['pendientes']}")
+          EOF
+      
+      - name: Copy files to docs folder (for GitHub Pages)
+        run: |
+          echo "📁 Preparando archivos para GitHub Pages..."
+          
+          # Crear carpeta docs si no existe
+          mkdir -p docs
+          
+          # Copiar archivos del dashboard
+          cp index.html docs/
+          cp dashboard.js docs/
+          cp data.json docs/
+          
+          # Copiar test.html si existe
+          if [ -f test.html ]; then
+            cp test.html docs/
+          fi
+          
+          echo "✅ Archivos copiados a docs/"
+          ls -la docs/
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+          # Añadir archivos
+          git add data.json docs/
+          
+          # Verificar si hay cambios
+          if git diff --staged --quiet; then
+            echo "ℹ️ No hay cambios en data.json o docs/"
+          else
+            echo "📝 Detectados cambios, haciendo commit..."
+            
+            # Crear mensaje de commit con stats
+            commit_msg=$(python3 << 'EOF'
+          import json
+          from datetime import datetime
+          
+          with open('data.json', 'r') as f:
+              data = json.load(f)
+          
+          roi = data['summary']['roi']
+          wr = data['summary']['win_rate']
+          picks = data['summary']['total_picks']
+          bankroll = data['summary']['bankroll_final']
+          
+          emoji = "📈" if roi >= 0 else "📉"
+          
+          print(f"{emoji} Dashboard actualizado: {picks} picks | ROI {roi:+.1f}% | WR {wr:.1f}% | €{bankroll:.2f}")
+          EOF
+          )
+            
+            git commit -m "$commit_msg"
+            git push
+            
+            echo "✅ Cambios commiteados y pusheados"
+          fi
+      
+      - name: Generate summary
+        run: |
+          echo "## 📊 Dashboard Actualizado" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          python3 << 'EOF' >> $GITHUB_STEP_SUMMARY
+          import json
+          from datetime import datetime
+          
+          with open('data.json', 'r') as f:
+              data = json.load(f)
+          
+          s = data['summary']
+          
+          print(f"**Última actualización:** {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+          print("")
+          print("### 📈 Métricas Principales")
+          print("")
+          print(f"| Métrica | Valor |")
+          print(f"|---------|-------|")
+          print(f"| 💰 Bankroll | €{s['bankroll_final']:.2f} |")
+          print(f"| 📊 ROI | {s['roi']:+.2f}% |")
+          print(f"| 🎯 Win Rate | {s['win_rate']:.1f}% |")
+          print(f"| 📈 Total Picks | {s['total_picks']} ({s['ganadas']}W-{s['perdidas']}L) |")
+          print(f"| ⏳ Pendientes | {s['pendientes']} |")
+          print(f"| 💸 P/L | {s['profit_loss']:+.2f}€ |")
+          print("")
+          
+          # Mejores mercados
+          if 'by_market' in data:
+              print("### 🎯 Por Mercado")
+              print("")
+              print("| Mercado | Picks | WR | ROI |")
+              print("|---------|-------|-----|-----|")
+              
+              markets = sorted(data['by_market'].items(), key=lambda x: x[1]['roi'], reverse=True)
+              for market, stats in markets:
+                  emoji = "🔼" if "Over" in market else "🔽" if "Under" in market else "⚽"
+                  roi_emoji = "✅" if stats['roi'] >= 0 else "❌"
+                  print(f"| {emoji} {market} | {stats['picks']} | {stats['win_rate']:.1f}% | {roi_emoji} {stats['roi']:+.1f}% |")
+          
+          print("")
+          print("---")
+          print("")
+          print("🔗 **Dashboard:** [Ver Dashboard](https://tu-usuario.github.io/tu-repo/)")
+          print("")
+          print("📝 **CSV:** `over_under_value_bets.csv`")
+          EOF
+      
+      - name: Deploy to GitHub Pages (optional)
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          commit_message: "📊 Dashboard actualizado automáticamente"
