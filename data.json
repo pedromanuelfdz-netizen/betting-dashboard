@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-23T13:55:20.203962",
+  "timestamp": "2026-01-23T19:02:21.397248",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 159.8,
@@ -10,7 +10,7 @@
     "total_picks": 100,
     "ganadas": 50,
     "perdidas": 50,
-    "pendientes": 28,
+    "pendientes": 29,
     "total_turnover": 1030.99
   },
   "bankroll_history": [
@@ -151,29 +151,13 @@
     }
   },
   "by_league": {
-    "Premier League": {
-      "picks": 13,
-      "ganadas": 8,
-      "perdidas": 5,
-      "win_rate": 61.54,
-      "roi": -1.12,
-      "profit": -2.24
-    },
-    "2. Bundesliga": {
-      "picks": 1,
-      "ganadas": 1,
-      "perdidas": 0,
-      "win_rate": 100.0,
-      "roi": 4.83,
-      "profit": 9.66
-    },
-    "Serie B": {
-      "picks": 10,
-      "ganadas": 5,
-      "perdidas": 5,
-      "win_rate": 50.0,
-      "roi": -5.79,
-      "profit": -11.58
+    "Ligue 1": {
+      "picks": 6,
+      "ganadas": 2,
+      "perdidas": 4,
+      "win_rate": 33.33,
+      "roi": -21.85,
+      "profit": -43.69
     },
     "Segunda División": {
       "picks": 6,
@@ -182,38 +166,6 @@
       "win_rate": 50.0,
       "roi": 3.85,
       "profit": 7.7
-    },
-    "Bundesliga": {
-      "picks": 3,
-      "ganadas": 1,
-      "perdidas": 2,
-      "win_rate": 33.33,
-      "roi": -7.58,
-      "profit": -15.15
-    },
-    "Ligue 2": {
-      "picks": 3,
-      "ganadas": 2,
-      "perdidas": 1,
-      "win_rate": 66.67,
-      "roi": 10.29,
-      "profit": 20.58
-    },
-    "La Liga": {
-      "picks": 8,
-      "ganadas": 3,
-      "perdidas": 5,
-      "win_rate": 37.5,
-      "roi": -9.41,
-      "profit": -18.82
-    },
-    "Ligue 1": {
-      "picks": 6,
-      "ganadas": 2,
-      "perdidas": 4,
-      "win_rate": 33.33,
-      "roi": -21.85,
-      "profit": -43.69
     },
     "Eredivisie": {
       "picks": 3,
@@ -231,14 +183,6 @@
       "roi": 0.45,
       "profit": 0.9
     },
-    "Premiership": {
-      "picks": 4,
-      "ganadas": 3,
-      "perdidas": 1,
-      "win_rate": 75.0,
-      "roi": 14.1,
-      "profit": 28.19
-    },
     "Serie A": {
       "picks": 22,
       "ganadas": 11,
@@ -254,6 +198,62 @@
       "win_rate": 50.0,
       "roi": -5.06,
       "profit": -10.11
+    },
+    "Premiership": {
+      "picks": 4,
+      "ganadas": 3,
+      "perdidas": 1,
+      "win_rate": 75.0,
+      "roi": 14.1,
+      "profit": 28.19
+    },
+    "Serie B": {
+      "picks": 10,
+      "ganadas": 5,
+      "perdidas": 5,
+      "win_rate": 50.0,
+      "roi": -5.79,
+      "profit": -11.58
+    },
+    "La Liga": {
+      "picks": 8,
+      "ganadas": 3,
+      "perdidas": 5,
+      "win_rate": 37.5,
+      "roi": -9.41,
+      "profit": -18.82
+    },
+    "Bundesliga": {
+      "picks": 3,
+      "ganadas": 1,
+      "perdidas": 2,
+      "win_rate": 33.33,
+      "roi": -7.58,
+      "profit": -15.15
+    },
+    "2. Bundesliga": {
+      "picks": 1,
+      "ganadas": 1,
+      "perdidas": 0,
+      "win_rate": 100.0,
+      "roi": 4.83,
+      "profit": 9.66
+    },
+    "Premier League": {
+      "picks": 13,
+      "ganadas": 8,
+      "perdidas": 5,
+      "win_rate": 61.54,
+      "roi": -1.12,
+      "profit": -2.24
+    },
+    "Ligue 2": {
+      "picks": 3,
+      "ganadas": 2,
+      "perdidas": 1,
+      "win_rate": 66.67,
+      "roi": 10.29,
+      "profit": 20.58
     }
   },
   "by_edge": {
@@ -334,30 +334,15 @@
   },
   "market_league_stats": {
     "Over 2.5": {
-      "Premier League": {
-        "picks": 4,
-        "win_rate": 25.0,
-        "roi": -18.55
-      },
-      "Serie B": {
-        "picks": 8,
-        "win_rate": 50.0,
-        "roi": -6.0
+      "Ligue 1": {
+        "picks": 3,
+        "win_rate": 33.33,
+        "roi": -8.36
       },
       "Segunda División": {
         "picks": 5,
         "win_rate": 60.0,
         "roi": 7.31
-      },
-      "La Liga": {
-        "picks": 6,
-        "win_rate": 16.67,
-        "roi": -14.85
-      },
-      "Ligue 1": {
-        "picks": 3,
-        "win_rate": 33.33,
-        "roi": -8.36
       },
       "Primeira Liga": {
         "picks": 5,
@@ -373,19 +358,24 @@
         "picks": 8,
         "win_rate": 62.5,
         "roi": 6.53
+      },
+      "Serie B": {
+        "picks": 8,
+        "win_rate": 50.0,
+        "roi": -6.0
+      },
+      "La Liga": {
+        "picks": 6,
+        "win_rate": 16.67,
+        "roi": -14.85
+      },
+      "Premier League": {
+        "picks": 4,
+        "win_rate": 25.0,
+        "roi": -18.55
       }
     },
     "Under 2.5": {
-      "Premier League": {
-        "picks": 7,
-        "win_rate": 85.71,
-        "roi": 25.51
-      },
-      "Premiership": {
-        "picks": 3,
-        "win_rate": 100.0,
-        "roi": 19.47
-      },
       "Serie A": {
         "picks": 13,
         "win_rate": 53.85,
@@ -395,6 +385,16 @@
         "picks": 5,
         "win_rate": 40.0,
         "roi": -6.84
+      },
+      "Premiership": {
+        "picks": 3,
+        "win_rate": 100.0,
+        "roi": 19.47
+      },
+      "Premier League": {
+        "picks": 7,
+        "win_rate": 85.71,
+        "roi": 25.51
       }
     },
     "BTTS Yes": {},
@@ -492,6 +492,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-01-24 13:00",
+      "league": "La Liga",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Osasuna",
+      "selection": "BTTS No",
+      "betfair_odd": 1.8,
+      "edge": 9.23,
+      "kelly": 5.2,
+      "bet_result": "",
+      "confidence_score": 80.9
+    },
+    {
       "match_date": "2026-01-24 15:00",
       "league": "Jupiler Pro League",
       "home_team": "RAAL La Louvière",
@@ -522,10 +534,10 @@
       "away_team": "Parma",
       "selection": "Under 2.5",
       "betfair_odd": 2.1,
-      "edge": 12.29,
+      "edge": 12.39,
       "kelly": 5.9,
       "bet_result": "",
-      "confidence_score": 91.2
+      "confidence_score": 91.5
     },
     {
       "match_date": "2026-01-24 15:00",
@@ -558,10 +570,10 @@
       "away_team": "1. FC Kaiserslautern",
       "selection": "BTTS No",
       "betfair_odd": 2.1,
-      "edge": 9.18,
+      "edge": 9.0,
       "kelly": 4.4,
       "bet_result": "",
-      "confidence_score": 80.8
+      "confidence_score": 80.2
     },
     {
       "match_date": "2026-01-25 12:30",
@@ -573,7 +585,7 @@
       "edge": 10.8,
       "kelly": 5.2,
       "bet_result": "",
-      "confidence_score": 86.2
+      "confidence_score": 86.4
     },
     {
       "match_date": "2026-01-25 14:00",
@@ -618,7 +630,7 @@
       "away_team": "Chelsea",
       "selection": "Under 2.5",
       "betfair_odd": 1.95,
-      "edge": 15.39,
+      "edge": 15.5,
       "kelly": 7.3,
       "bet_result": "",
       "confidence_score": 100.0
@@ -690,10 +702,10 @@
       "away_team": "Swansea",
       "selection": "Over 2.5",
       "betfair_odd": 2.0,
-      "edge": 10.15,
+      "edge": 10.3,
       "kelly": 5.1,
       "bet_result": "",
-      "confidence_score": 84.0
+      "confidence_score": 84.5
     },
     {
       "match_date": "2026-01-24 15:00",
@@ -702,10 +714,10 @@
       "away_team": "St. Truiden",
       "selection": "BTTS No",
       "betfair_odd": 2.0,
-      "edge": 13.66,
+      "edge": 13.38,
       "kelly": 6.8,
       "bet_result": "",
-      "confidence_score": 95.8
+      "confidence_score": 94.8
     },
     {
       "match_date": "2026-01-24 19:45",
@@ -714,10 +726,10 @@
       "away_team": "Union St. Gilloise",
       "selection": "BTTS No",
       "betfair_odd": 1.87,
-      "edge": 11.66,
+      "edge": 9.56,
       "kelly": 6.3,
       "bet_result": "",
-      "confidence_score": 89.1
+      "confidence_score": 82.0
     },
     {
       "match_date": "2026-01-24 20:30",
@@ -753,7 +765,7 @@
       "edge": 10.11,
       "kelly": 4.7,
       "bet_result": "",
-      "confidence_score": 83.9
+      "confidence_score": 84.1
     },
     {
       "match_date": "2026-01-24 13:00",
@@ -762,10 +774,10 @@
       "away_team": "Estac Troyes",
       "selection": "Over 2.5",
       "betfair_odd": 2.0,
-      "edge": 11.42,
+      "edge": 11.58,
       "kelly": 6.2,
       "bet_result": "",
-      "confidence_score": 88.3
+      "confidence_score": 88.8
     },
     {
       "match_date": "2026-01-24 16:00",
@@ -774,10 +786,10 @@
       "away_team": "Lorient",
       "selection": "Over 2.5",
       "betfair_odd": 1.8,
-      "edge": 11.2,
+      "edge": 11.37,
       "kelly": 7.1,
       "bet_result": "",
-      "confidence_score": 87.6
+      "confidence_score": 88.1
     },
     {
       "match_date": "2026-01-24 17:00",
@@ -798,10 +810,10 @@
       "away_team": "Mirandes",
       "selection": "Over 2.5",
       "betfair_odd": 2.1,
-      "edge": 10.59,
+      "edge": 10.74,
       "kelly": 6.2,
       "bet_result": "",
-      "confidence_score": 85.5
+      "confidence_score": 86.0
     },
     {
       "match_date": "2026-01-24 15:00",
@@ -838,18 +850,6 @@
       "kelly": 7.6,
       "bet_result": "Ganada",
       "confidence_score": 97.6
-    },
-    {
-      "match_date": "2026-01-18 16:30",
-      "league": "Premier League",
-      "home_team": "Aston Villa",
-      "away_team": "Everton",
-      "selection": "BTTS No",
-      "betfair_odd": 2.1,
-      "edge": 7.66,
-      "kelly": 3.7,
-      "bet_result": "Ganada",
-      "confidence_score": 75.6
     }
   ],
   "clv_analysis": {
