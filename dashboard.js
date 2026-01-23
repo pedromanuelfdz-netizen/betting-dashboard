@@ -66,7 +66,7 @@ function updateDashboard(data) {
     createMarketLeagueStats(data.market_league_stats);
     createTopTeams(data.top_teams);
     createWorstTeams(data.worst_teams);
-    createLeagueStats(data.by_league, data.league_market_breakdown); // ← NUEVO PARÁMETRO
+    createLeagueStats(data.by_league);
     createCLVAnalysis(data.clv_analysis);
     createRecentBets(data.recent_bets);
     createBotConfig();
@@ -100,9 +100,9 @@ function createMainMetrics(summary) {
             isPositive: summary.win_rate >= 50
         },
         {
-            label: '📈 Apuestas',
+            label: '📈 Total Picks',
             value: summary.total_picks,
-            delta: `Resueltas: ${summary.resolved}`,
+            delta: summary.pendientes > 0 ? `${summary.pendientes} pendientes` : '✅ Todo resuelto',
             isPositive: true
         }
     ];
@@ -122,22 +122,24 @@ function createMainMetrics(summary) {
 function createRachaCard(racha) {
     const container = document.getElementById('rachaCard');
     
-    if (!racha || racha.count === 0) {
+    if (!racha || racha.actual === 0) {
         container.style.display = 'none';
         return;
     }
-
-    const icon = racha.type === 'win' ? '🔥' : '❄️';
-    const text = racha.type === 'win' ? 'RACHA GANADORA' : 'RACHA PERDEDORA';
+    
+    const isWinStreak = racha.tipo === 'win';
+    const emoji = isWinStreak ? '🔥' : '❄️';
+    const text = isWinStreak ? 'RACHA GANADORA' : 'RACHA PERDEDORA';
+    const className = isWinStreak ? 'win' : 'loss';
     
     container.innerHTML = `
-        <div class="card-header">
-            <h2>${icon} ${text}</h2>
-        </div>
-        <div style="text-align: center; padding: 20px 0;">
-            <div class="racha-badge ${racha.type}">
-                <span style="font-size: 24px;">${icon}</span>
-                <span>${racha.count} apuestas consecutivas</span>
+        <div style="text-align: center;">
+            <div class="racha-badge ${className}">
+                <span style="font-size: 32px;">${emoji}</span>
+                <div>
+                    <div style="font-size: 12px; opacity: 0.9;">${text}</div>
+                    <div style="font-size: 24px;">${racha.actual} ${racha.actual === 1 ? 'apuesta' : 'apuestas'}</div>
+                </div>
             </div>
         </div>
     `;
@@ -150,59 +152,33 @@ function createBankrollChart(history, summary) {
     const container = document.getElementById('bankrollChart');
     
     if (!history || history.length === 0) {
-        container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📈</div></div>';
+        container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📈</div><div class="empty-state-text">No hay historial</div></div>';
         return;
     }
-
-    // Convertir a formato uniforme si es array simple
-    let historyArray;
-    if (typeof history[0] === 'number') {
-        // Es array simple de números, convertir a objetos
-        historyArray = history.map((bankroll, i) => ({
-            date: `Apuesta ${i + 1}`,
-            bankroll: bankroll
-        })).filter(h => h.bankroll !== undefined && h.bankroll !== null);
-    } else {
-        // Ya es array de objetos
-        historyArray = history.filter(h => h && h.bankroll !== undefined && h.bankroll !== null);
-    }
-
-    if (historyArray.length === 0) {
-        container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📈</div><div class="empty-state-text">No hay datos de bankroll</div></div>';
-        return;
-    }
-
-    // Tomar solo cada N elementos para no saturar (max 50 puntos)
-    const step = Math.max(1, Math.floor(historyArray.length / 50));
-    const sampledHistory = historyArray.filter((_, i) => i % step === 0 || i === historyArray.length - 1);
-
-    const maxBankroll = Math.max(...sampledHistory.map(h => h.bankroll));
-    const minBankroll = Math.min(...sampledHistory.map(h => h.bankroll));
-    const range = maxBankroll - minBankroll;
     
-    // Obtener bankroll inicial de forma segura
-    const bankrollInicial = summary && summary.bankroll_inicial ? summary.bankroll_inicial : historyArray[0].bankroll;
-
+    const inicial = history[0];
+    const actual = history[history.length - 1];
+    const max = Math.max(...history);
+    const min = Math.min(...history);
+    
     container.innerHTML = `
-        <div class="bar-chart">
-            ${sampledHistory.map((h, i) => {
-                if (!h || h.bankroll === undefined || h.bankroll === null) return '';
-                
-                const height = range > 0 ? ((h.bankroll - minBankroll) / range) * 100 : 50;
-                const color = h.bankroll >= bankrollInicial ? '#10b981' : '#f59e0b';
-                
-                return `
-                    <div class="bar-item">
-                        <div class="bar-header">
-                            <span class="bar-label">${h.date || 'N/A'}</span>
-                            <span class="bar-value">€${h.bankroll.toFixed(2)}</span>
-                        </div>
-                        <div class="bar-track">
-                            <div class="bar-fill" style="width: ${height}%; background: ${color};"></div>
-                        </div>
-                    </div>
-                `;
-            }).filter(Boolean).join('')}
+        <div class="stats-row">
+            <div class="stat-box">
+                <div class="stat-box-label">💵 Inicial</div>
+                <div class="stat-box-value">€${inicial.toFixed(2)}</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-box-label">💰 Actual</div>
+                <div class="stat-box-value" style="color: ${actual >= inicial ? '#10b981' : '#f59e0b'}">€${actual.toFixed(2)}</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-box-label">📈 Máximo</div>
+                <div class="stat-box-value">€${max.toFixed(2)}</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-box-label">📉 Mínimo</div>
+                <div class="stat-box-value">€${min.toFixed(2)}</div>
+            </div>
         </div>
     `;
 }
@@ -214,29 +190,51 @@ function createMarketStats(byMarket) {
     const container = document.getElementById('marketStats');
     
     if (!byMarket || Object.keys(byMarket).length === 0) {
-        container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">🎯</div></div>';
+        container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📊</div></div>';
         return;
     }
 
+    const markets = Object.entries(byMarket).map(([name, data]) => ({ name, ...data }));
+    markets.sort((a, b) => b.roi - a.roi);
+
     container.innerHTML = `
-        <div class="stats-row">
-            ${Object.entries(byMarket).map(([market, data]) => {
-                const roi = data.roi || 0;
-                const picks = data.picks || 0;
-                const winRate = data.win_rate || 0;
-                
-                return `
-                    <div class="stat-box">
-                        <div class="stat-box-label">${market}</div>
-                        <div class="stat-box-value ${roi >= 0 ? '' : 'small'}" style="color: ${roi >= 0 ? '#10b981' : '#f59e0b'}">
-                            ${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%
-                        </div>
-                        <div style="font-size: 11px; color: #666; margin-top: 4px;">
-                            ${picks} picks | WR ${winRate.toFixed(1)}%
-                        </div>
-                    </div>
-                `;
-            }).join('')}
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>🎯 Mercado</th>
+                        <th style="text-align: center">📊 Picks</th>
+                        <th style="text-align: center">✅ WR</th>
+                        <th style="text-align: center">💰 ROI</th>
+                        <th style="text-align: center">📈 P/L</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${markets.map(m => {
+                        const emoji = {'Over 2.5': '🔼', 'Under 2.5': '🔽', 'BTTS Yes': '⚽⚽', 'BTTS No': '🚫⚽'}[m.name] || '🎯';
+                        return `
+                            <tr>
+                                <td><strong>${emoji} ${m.name}</strong></td>
+                                <td style="text-align: center">${m.picks}</td>
+                                <td style="text-align: center">
+                                    <strong style="color: ${m.win_rate >= 50 ? '#10b981' : '#f59e0b'}">${m.win_rate.toFixed(1)}%</strong>
+                                    <div style="font-size: 11px; color: #666;">${m.ganadas}W-${m.perdidas}L</div>
+                                </td>
+                                <td style="text-align: center">
+                                    <strong style="color: ${m.roi >= 0 ? '#10b981' : '#f59e0b'}; font-size: 16px;">
+                                        ${m.roi >= 0 ? '+' : ''}${m.roi.toFixed(1)}%
+                                    </strong>
+                                </td>
+                                <td style="text-align: center">
+                                    <strong style="color: ${m.profit >= 0 ? '#10b981' : '#f59e0b'}">
+                                        ${m.profit >= 0 ? '+' : ''}€${m.profit.toFixed(2)}
+                                    </strong>
+                                </td>
+                            </tr>
+                        `;
+                    }).join('')}
+                </tbody>
+            </table>
         </div>
     `;
 }
@@ -252,22 +250,18 @@ function createEdgeStats(byEdge) {
         return;
     }
 
-    const edges = Object.entries(byEdge).sort((a, b) => {
-        const aMin = parseFloat(a[0].split('-')[0].replace('%', ''));
-        const bMin = parseFloat(b[0].split('-')[0].replace('%', ''));
-        return aMin - bMin;
-    });
+    const edges = Object.entries(byEdge).map(([name, data]) => ({ name, ...data }));
 
     container.innerHTML = `
         <div class="bar-chart">
-            ${edges.map(([range, data]) => `
+            ${edges.map(e => `
                 <div class="bar-item">
                     <div class="bar-header">
-                        <span class="bar-label">${range}</span>
-                        <span class="bar-value">${data.picks} picks | WR: ${data.win_rate.toFixed(1)}% | ROI: ${data.roi >= 0 ? '+' : ''}${data.roi.toFixed(1)}%</span>
+                        <span class="bar-label">${e.name}</span>
+                        <span class="bar-value">${e.picks} picks | WR: ${e.win_rate.toFixed(1)}% | ROI: ${e.roi >= 0 ? '+' : ''}${e.roi.toFixed(1)}%</span>
                     </div>
                     <div class="bar-track">
-                        <div class="bar-fill ${data.roi >= 0 ? 'positive' : 'negative'}" style="width: ${Math.min(Math.abs(data.roi) * 2, 100)}%"></div>
+                        <div class="bar-fill ${e.roi >= 0 ? 'positive' : 'negative'}" style="width: ${Math.abs(e.roi) * 2}%"></div>
                     </div>
                 </div>
             `).join('')}
@@ -286,22 +280,18 @@ function createOddStats(byOdd) {
         return;
     }
 
-    const odds = Object.entries(byOdd).sort((a, b) => {
-        const aMin = parseFloat(a[0].split('-')[0]);
-        const bMin = parseFloat(b[0].split('-')[0]);
-        return aMin - bMin;
-    });
+    const odds = Object.entries(byOdd).map(([name, data]) => ({ name, ...data }));
 
     container.innerHTML = `
         <div class="bar-chart">
-            ${odds.map(([range, data]) => `
+            ${odds.map(o => `
                 <div class="bar-item">
                     <div class="bar-header">
-                        <span class="bar-label">${range}</span>
-                        <span class="bar-value">${data.picks} picks | WR: ${data.win_rate.toFixed(1)}% | ROI: ${data.roi >= 0 ? '+' : ''}${data.roi.toFixed(1)}%</span>
+                        <span class="bar-label">${o.name}</span>
+                        <span class="bar-value">${o.picks} picks | WR: ${o.win_rate.toFixed(1)}% | ROI: ${o.roi >= 0 ? '+' : ''}${o.roi.toFixed(1)}%</span>
                     </div>
                     <div class="bar-track">
-                        <div class="bar-fill ${data.roi >= 0 ? 'positive' : 'negative'}" style="width: ${Math.min(Math.abs(data.roi) * 2, 100)}%"></div>
+                        <div class="bar-fill ${o.roi >= 0 ? 'positive' : 'negative'}" style="width: ${Math.abs(o.roi) * 2}%"></div>
                     </div>
                 </div>
             `).join('')}
@@ -312,71 +302,35 @@ function createOddStats(byOdd) {
 // ============================================
 // ANÁLISIS TEMPORAL
 // ============================================
-function createTemporalStats(temporalStats) {
+function createTemporalStats(temporal) {
     const container = document.getElementById('temporalStats');
     
-    if (!temporalStats || Object.keys(temporalStats).length === 0) {
+    if (!temporal || Object.keys(temporal).length === 0) {
         container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📅</div></div>';
         return;
     }
 
-    // Convertir a array si es diccionario
-    let statsArray;
-    if (Array.isArray(temporalStats)) {
-        statsArray = temporalStats;
-    } else {
-        // Es un diccionario (día de semana)
-        statsArray = Object.entries(temporalStats).map(([day, data]) => ({
-            date: day,
-            picks: data.picks,
-            win_rate: data.win_rate,
-            roi: data.roi,
-            profit: data.profit || 0
-        }));
-    }
+    const weekdayOrder = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
+    const days = weekdayOrder.filter(day => temporal[day]).map(day => ({ name: day, ...temporal[day] }));
 
     container.innerHTML = `
-        <div class="table-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>📅 Día</th>
-                        <th style="text-align: center">📊 Picks</th>
-                        <th style="text-align: center">✅ WR</th>
-                        <th style="text-align: center">💰 ROI</th>
-                        <th style="text-align: center">📈 P/L</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${statsArray.map(day => `
-                        <tr>
-                            <td><strong>${day.date}</strong></td>
-                            <td style="text-align: center">${day.picks}</td>
-                            <td style="text-align: center">
-                                <strong style="color: ${day.win_rate >= 50 ? '#10b981' : '#f59e0b'}">${day.win_rate.toFixed(1)}%</strong>
-                            </td>
-                            <td style="text-align: center">
-                                <strong style="color: ${day.roi >= 0 ? '#10b981' : '#f59e0b'}; font-size: 16px;">
-                                    ${day.roi >= 0 ? '+' : ''}${day.roi.toFixed(1)}%
-                                </strong>
-                            </td>
-                            <td style="text-align: center">
-                                ${day.profit !== undefined ? `
-                                    <strong style="color: ${day.profit >= 0 ? '#10b981' : '#f59e0b'}">
-                                        ${day.profit >= 0 ? '+' : ''}€${day.profit.toFixed(2)}
-                                    </strong>
-                                ` : '-'}
-                            </td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
+        <div class="heatmap">
+            ${days.map(d => {
+                const color = d.roi >= 0 ? '#10b981' : '#f59e0b';
+                return `
+                    <div class="heatmap-cell" style="background: ${color}15; border: 2px solid ${color}50;">
+                        <div class="heatmap-label">${d.name}</div>
+                        <div class="heatmap-value" style="color: ${color};">${d.roi >= 0 ? '+' : ''}${d.roi.toFixed(1)}%</div>
+                        <div style="font-size: 11px; color: #666; margin-top: 4px;">${d.picks} picks | ${d.win_rate.toFixed(0)}% WR</div>
+                    </div>
+                `;
+            }).join('')}
         </div>
     `;
 }
 
 // ============================================
-// MERCADO × EDGE
+// ANÁLISIS CRUZADO: MERCADO × EDGE
 // ============================================
 function createMarketEdgeStats(marketEdgeStats) {
     const container = document.getElementById('marketEdgeStats');
@@ -390,29 +344,20 @@ function createMarketEdgeStats(marketEdgeStats) {
     for (const [market, edges] of Object.entries(marketEdgeStats)) {
         const emoji = {'Over 2.5': '🔼', 'Under 2.5': '🔽', 'BTTS Yes': '⚽⚽', 'BTTS No': '🚫⚽'}[market] || '🎯';
         
-        const sortedEdges = Object.entries(edges).sort((a, b) => {
-            const aMin = parseFloat(a[0].split('-')[0].replace('%', ''));
-            const bMin = parseFloat(b[0].split('-')[0].replace('%', ''));
-            return aMin - bMin;
-        });
-        
-        if (sortedEdges.length === 0) continue;
-        
         html += `
             <div style="margin-bottom: 24px;">
                 <h3 style="color: #0088cc; margin-bottom: 12px;">${emoji} ${market}</h3>
-                <div class="bar-chart">
-                    ${sortedEdges.map(([range, data]) => `
-                        <div class="bar-item">
-                            <div class="bar-header">
-                                <span class="bar-label">${range}</span>
-                                <span class="bar-value">${data.picks} picks | WR: ${data.win_rate.toFixed(1)}% | ROI: ${data.roi >= 0 ? '+' : ''}${data.roi.toFixed(1)}%</span>
+                <div class="stats-row">
+                    ${Object.entries(edges).map(([edge, data]) => {
+                        const color = data.roi >= 0 ? '#10b981' : '#f59e0b';
+                        return `
+                            <div class="stat-box" style="border: 2px solid ${color}50;">
+                                <div class="stat-box-label">${edge}</div>
+                                <div class="stat-box-value small" style="color: ${color};">${data.roi >= 0 ? '+' : ''}${data.roi.toFixed(1)}%</div>
+                                <div style="font-size: 11px; color: #666; margin-top: 4px;">${data.picks} picks | ${data.win_rate.toFixed(0)}% WR</div>
                             </div>
-                            <div class="bar-track">
-                                <div class="bar-fill ${data.roi >= 0 ? 'positive' : 'negative'}" style="width: ${Math.min(Math.abs(data.roi) * 2, 100)}%"></div>
-                            </div>
-                        </div>
-                    `).join('')}
+                        `;
+                    }).join('')}
                 </div>
             </div>
         `;
@@ -422,7 +367,7 @@ function createMarketEdgeStats(marketEdgeStats) {
 }
 
 // ============================================
-// MERCADO × LIGA - MEJORADO CON BTTS
+// ANÁLISIS CRUZADO: MERCADO × LIGA
 // ============================================
 function createMarketLeagueStats(marketLeagueStats) {
     const container = document.getElementById('marketLeagueStats');
@@ -432,14 +377,8 @@ function createMarketLeagueStats(marketLeagueStats) {
         return;
     }
 
-    // Orden específico de mercados para mostrar
-    const marketOrder = ['Over 2.5', 'Under 2.5', 'BTTS Yes', 'BTTS No'];
-    
     let html = '';
-    for (const market of marketOrder) {
-        if (!marketLeagueStats[market]) continue;
-        
-        const leagues = marketLeagueStats[market];
+    for (const [market, leagues] of Object.entries(marketLeagueStats)) {
         const emoji = {'Over 2.5': '🔼', 'Under 2.5': '🔽', 'BTTS Yes': '⚽⚽', 'BTTS No': '🚫⚽'}[market] || '🎯';
         
         // Ordenar por ROI y tomar top 5
@@ -469,7 +408,7 @@ function createMarketLeagueStats(marketLeagueStats) {
         `;
     }
     
-    container.innerHTML = html || '<div class="empty-state"><div class="empty-state-emoji">🎯🏆</div><div class="empty-state-text">No hay datos suficientes</div></div>';
+    container.innerHTML = html;
 }
 
 // ============================================
@@ -551,9 +490,9 @@ function createWorstTeams(worstTeams) {
 }
 
 // ============================================
-// STATS POR LIGA - MEJORADO CON DESGLOSE POR MERCADO
+// STATS POR LIGA
 // ============================================
-function createLeagueStats(byLeague, leagueMarketBreakdown) {
+function createLeagueStats(byLeague) {
     const container = document.getElementById('leagueStats');
     
     if (!byLeague || Object.keys(byLeague).length === 0) {
@@ -571,13 +510,10 @@ function createLeagueStats(byLeague, leagueMarketBreakdown) {
                 <thead>
                     <tr>
                         <th>🏆 Liga</th>
-                        <th style="text-align: center">📊 Total Picks</th>
-                        <th style="text-align: center">✅ WR Global</th>
-                        <th style="text-align: center">💰 ROI Global</th>
-                        <th style="text-align: center">🔼 Over</th>
-                        <th style="text-align: center">🔽 Under</th>
-                        <th style="text-align: center">⚽ BTTS Y</th>
-                        <th style="text-align: center">🚫 BTTS N</th>
+                        <th style="text-align: center">📊 Picks</th>
+                        <th style="text-align: center">✅ WR</th>
+                        <th style="text-align: center">💰 ROI</th>
+                        <th style="text-align: center">📈 P/L</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -587,28 +523,10 @@ function createLeagueStats(byLeague, leagueMarketBreakdown) {
                             'Bundesliga': '🇩🇪', 'Ligue 1': '🇫🇷'
                         }[l.name] || '⚽';
                         
-                        // Obtener datos por mercado para esta liga
-                        const marketData = leagueMarketBreakdown && leagueMarketBreakdown[l.name] || {};
-                        
-                        const formatMarketCell = (market) => {
-                            if (!marketData[market] || marketData[market].picks === 0) {
-                                return '<span style="color: #ccc; font-size: 11px;">-</span>';
-                            }
-                            const data = marketData[market];
-                            const color = data.roi >= 0 ? '#10b981' : '#f59e0b';
-                            return `
-                                <div style="font-size: 11px;">
-                                    <strong style="color: ${color}">${data.roi >= 0 ? '+' : ''}${data.roi.toFixed(1)}%</strong>
-                                    <br>
-                                    <span style="color: #999;">${data.picks}p | ${data.win_rate.toFixed(0)}%</span>
-                                </div>
-                            `;
-                        };
-                        
                         return `
                             <tr>
                                 <td><span style="font-size: 18px;">${flag}</span> <strong>${l.name}</strong></td>
-                                <td style="text-align: center"><strong>${l.picks}</strong></td>
+                                <td style="text-align: center">${l.picks}</td>
                                 <td style="text-align: center">
                                     <strong style="color: ${l.win_rate >= 50 ? '#10b981' : '#f59e0b'}">${l.win_rate.toFixed(1)}%</strong>
                                 </td>
@@ -617,10 +535,11 @@ function createLeagueStats(byLeague, leagueMarketBreakdown) {
                                         ${l.roi >= 0 ? '+' : ''}${l.roi.toFixed(1)}%
                                     </strong>
                                 </td>
-                                <td style="text-align: center">${formatMarketCell('Over 2.5')}</td>
-                                <td style="text-align: center">${formatMarketCell('Under 2.5')}</td>
-                                <td style="text-align: center">${formatMarketCell('BTTS Yes')}</td>
-                                <td style="text-align: center">${formatMarketCell('BTTS No')}</td>
+                                <td style="text-align: center">
+                                    <strong style="color: ${l.profit >= 0 ? '#10b981' : '#f59e0b'}">
+                                        ${l.profit >= 0 ? '+' : ''}€${l.profit.toFixed(2)}
+                                    </strong>
+                                </td>
                             </tr>
                         `;
                     }).join('')}
@@ -633,38 +552,42 @@ function createLeagueStats(byLeague, leagueMarketBreakdown) {
 // ============================================
 // CLV ANALYSIS
 // ============================================
-function createCLVAnalysis(clvAnalysis) {
+function createCLVAnalysis(clvData) {
     const container = document.getElementById('clvAnalysis');
     
-    if (!clvAnalysis) {
+    if (!clvData) {
         container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">💎</div></div>';
         return;
     }
 
+    const avgCLV = clvData.avg_clv || 0;
+    const positiveCLV = clvData.positive_clv || 0;
+    const negativeCLV = clvData.negative_clv || 0;
+    const totalBets = positiveCLV + negativeCLV;
+    const positivePct = totalBets > 0 ? (positiveCLV / totalBets) * 100 : 0;
+
     container.innerHTML = `
-        <div class="stats-row">
-            <div class="stat-box">
-                <div class="stat-box-label">CLV Promedio</div>
-                <div class="stat-box-value" style="color: ${clvAnalysis.avg_clv >= 0 ? '#10b981' : '#f59e0b'}">
-                    ${clvAnalysis.avg_clv >= 0 ? '+' : ''}${clvAnalysis.avg_clv.toFixed(2)}%
+        <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%); padding: 24px; border-radius: 12px; border: 2px solid ${avgCLV >= 0 ? '#10b981' : '#f59e0b'};">
+            <div class="stats-row" style="margin-bottom: 20px;">
+                <div class="stat-box">
+                    <div class="stat-box-label">💎 CLV Promedio</div>
+                    <div class="stat-box-value" style="color: ${avgCLV >= 0 ? '#10b981' : '#f59e0b'};">${avgCLV >= 0 ? '+' : ''}${avgCLV.toFixed(2)}%</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-box-label">✅ CLV Positivo</div>
+                    <div class="stat-box-value" style="color: #10b981;">${positiveCLV}</div>
+                    <div style="font-size: 11px; color: #666; margin-top: 4px;">${positivePct.toFixed(1)}%</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-box-label">❌ CLV Negativo</div>
+                    <div class="stat-box-value" style="color: #f59e0b;">${negativeCLV}</div>
+                    <div style="font-size: 11px; color: #666; margin-top: 4px;">${(100 - positivePct).toFixed(1)}%</div>
                 </div>
             </div>
-            <div class="stat-box">
-                <div class="stat-box-label">CLV Positivo</div>
-                <div class="stat-box-value" style="color: #10b981">
-                    ${clvAnalysis.positive_clv_count}
-                </div>
-                <div style="font-size: 11px; color: #666; margin-top: 4px;">
-                    ${((clvAnalysis.positive_clv_count / clvAnalysis.total_with_clv) * 100).toFixed(1)}% del total
-                </div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-box-label">CLV Negativo</div>
-                <div class="stat-box-value" style="color: #f59e0b">
-                    ${clvAnalysis.negative_clv_count}
-                </div>
-                <div style="font-size: 11px; color: #666; margin-top: 4px;">
-                    ${((clvAnalysis.negative_clv_count / clvAnalysis.total_with_clv) * 100).toFixed(1)}% del total
+            
+            <div style="background: white; padding: 16px; border-radius: 8px;">
+                <div style="height: 12px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
+                    <div style="height: 100%; width: ${positivePct}%; background: linear-gradient(90deg, #10b981 0%, #34d399 100%); transition: width 1s;"></div>
                 </div>
             </div>
         </div>
@@ -688,54 +611,45 @@ function createRecentBets(recentBets) {
                 <thead>
                     <tr>
                         <th>📅 Fecha</th>
+                        <th>🏆 Liga</th>
                         <th>⚽ Partido</th>
-                        <th>🎯 Selección</th>
-                        <th style="text-align: center">💵 Cuota</th>
+                        <th>🎯 Mercado</th>
+                        <th style="text-align: center">💵 Odd</th>
                         <th style="text-align: center">📊 Edge</th>
-                        <th style="text-align: center">🏆 Result</th>
+                        <th style="text-align: center">✅ Estado</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${recentBets.map(b => {
-                        // Manejar diferentes formatos de nombres de campos
-                        const date = b.date || b.match_date || 'N/A';
-                        const home = b.home || b.home_team || '?';
-                        const away = b.away || b.away_team || '?';
-                        const selection = b.selection || 'N/A';
-                        const odd = b.odd || b.betfair_odd || 0;
-                        const edge = b.edge || 0;
-                        const result = b.result || b.bet_result || 'Pending';
-                        const league = b.league || '';
+                    ${recentBets.map(bet => {
+                        const date = new Date(bet.match_date);
+                        const dateStr = date.toLocaleDateString('es-ES', { 
+                            day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'
+                        });
                         
-                        // Determinar clase de badge
-                        let badgeClass = 'pending';
-                        let resultText = 'Pending';
-                        if (result === 'Ganada' || result === 'Win') {
-                            badgeClass = 'win';
-                            resultText = 'Win';
-                        } else if (result === 'Perdida' || result === 'Loss') {
-                            badgeClass = 'loss';
-                            resultText = 'Loss';
-                        } else if (!result || result === '') {
-                            badgeClass = 'pending';
-                            resultText = 'Pending';
+                        let statusBadge = '';
+                        if (bet.bet_result === 'Ganada') {
+                            statusBadge = '<span class="badge win">✅ Ganada</span>';
+                        } else if (bet.bet_result === 'Perdida') {
+                            statusBadge = '<span class="badge loss">❌ Perdida</span>';
+                        } else {
+                            statusBadge = '<span class="badge pending">⏳ Pendiente</span>';
                         }
                         
                         return `
                             <tr>
-                                <td style="font-size: 12px;">${date}</td>
+                                <td style="white-space: nowrap; font-size: 12px;">${dateStr}</td>
+                                <td style="font-size: 12px;">${bet.league || 'N/A'}</td>
                                 <td>
-                                    <strong>${home}</strong> vs <strong>${away}</strong>
-                                    ${league ? `<br><span style="font-size: 11px; color: #999;">${league}</span>` : ''}
+                                    <div style="font-size: 13px; font-weight: 600;">${bet.home_team || 'N/A'} vs ${bet.away_team || 'N/A'}</div>
                                 </td>
-                                <td><strong>${selection}</strong></td>
-                                <td style="text-align: center"><strong>${typeof odd === 'number' ? odd.toFixed(2) : odd}</strong></td>
+                                <td><strong style="color: #0088cc;">${bet.selection || 'N/A'}</strong></td>
+                                <td style="text-align: center"><strong>${bet.betfair_odd ? bet.betfair_odd.toFixed(2) : 'N/A'}</strong></td>
                                 <td style="text-align: center">
-                                    <strong style="color: ${edge >= 10 ? '#10b981' : '#0088cc'}">${typeof edge === 'number' ? edge.toFixed(1) : edge}%</strong>
+                                    <strong style="color: ${(bet.edge || 0) >= 8 ? '#10b981' : '#f59e0b'}">
+                                        +${(bet.edge || 0).toFixed(1)}%
+                                    </strong>
                                 </td>
-                                <td style="text-align: center">
-                                    <span class="badge ${badgeClass}">${resultText}</span>
-                                </td>
+                                <td style="text-align: center">${statusBadge}</td>
                             </tr>
                         `;
                     }).join('')}
@@ -746,7 +660,7 @@ function createRecentBets(recentBets) {
 }
 
 // ============================================
-// CONFIG DEL BOT
+// BOT CONFIG
 // ============================================
 function createBotConfig() {
     const container = document.getElementById('botConfig');
@@ -754,20 +668,51 @@ function createBotConfig() {
     container.innerHTML = `
         <div class="stats-row">
             <div class="stat-box">
-                <div class="stat-box-label">Min Edge</div>
-                <div class="stat-box-value small">Variable</div>
+                <div class="stat-box-label">⬇️ MIN ODD</div>
+                <div class="stat-box-value">1.70</div>
             </div>
             <div class="stat-box">
-                <div class="stat-box-label">Kelly Fraction</div>
-                <div class="stat-box-value small">0.25x</div>
+                <div class="stat-box-label">⬆️ MAX ODD</div>
+                <div class="stat-box-value">2.50</div>
             </div>
             <div class="stat-box">
-                <div class="stat-box-label">Bankroll Inicial</div>
-                <div class="stat-box-value small">€200</div>
+                <div class="stat-box-label">📊 MIN EDGE Over</div>
+                <div class="stat-box-value">10.0%</div>
             </div>
+            <div class="stat-box">
+                <div class="stat-box-label">📊 MIN EDGE Under</div>
+                <div class="stat-box-value">7.5%</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-box-label">💰 KELLY</div>
+                <div class="stat-box-value">0.15</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-box-label">💵 BANKROLL</div>
+                <div class="stat-box-value">€200</div>
+            </div>
+        </div>
+        
+        <div style="margin-top: 20px; padding: 16px; background: #f7f7f7; border-radius: 8px; border-left: 4px solid #0088cc;">
+            <strong style="color: #0088cc;">🎯 Fase 1 Activa</strong>
+            <p style="margin: 8px 0 0 0; font-size: 13px; color: #666; line-height: 1.6;">
+                • Calibración diferenciada por mercado (Over: α=0.88, Under: α=0.92)<br>
+                • MIN_EDGE optimizado por mercado<br>
+                • Kelly conservador (0.15) para reducir varianza
+            </p>
         </div>
     `;
 }
 
-// Inicializar al cargar la página
-document.addEventListener('DOMContentLoaded', loadDashboardData);
+// ============================================
+// INICIALIZACIÓN
+// ============================================
+console.log('🚀 Inicializando dashboard completo...');
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('✅ DOM cargado');
+    loadDashboardData();
+    
+    // Auto-refresh cada 5 minutos
+    setInterval(loadDashboardData, 5 * 60 * 1000);
+});
