@@ -161,10 +161,15 @@ function createBankrollChart(history, summary) {
         historyArray = history.map((bankroll, i) => ({
             date: `Apuesta ${i + 1}`,
             bankroll: bankroll
-        }));
+        })).filter(h => h.bankroll !== undefined && h.bankroll !== null);
     } else {
         // Ya es array de objetos
-        historyArray = history;
+        historyArray = history.filter(h => h && h.bankroll !== undefined && h.bankroll !== null);
+    }
+
+    if (historyArray.length === 0) {
+        container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📈</div><div class="empty-state-text">No hay datos de bankroll</div></div>';
+        return;
     }
 
     // Tomar solo cada N elementos para no saturar (max 50 puntos)
@@ -174,17 +179,22 @@ function createBankrollChart(history, summary) {
     const maxBankroll = Math.max(...sampledHistory.map(h => h.bankroll));
     const minBankroll = Math.min(...sampledHistory.map(h => h.bankroll));
     const range = maxBankroll - minBankroll;
+    
+    // Obtener bankroll inicial de forma segura
+    const bankrollInicial = summary && summary.bankroll_inicial ? summary.bankroll_inicial : historyArray[0].bankroll;
 
     container.innerHTML = `
         <div class="bar-chart">
             ${sampledHistory.map((h, i) => {
+                if (!h || h.bankroll === undefined || h.bankroll === null) return '';
+                
                 const height = range > 0 ? ((h.bankroll - minBankroll) / range) * 100 : 50;
-                const color = h.bankroll >= summary.bankroll_inicial ? '#10b981' : '#f59e0b';
+                const color = h.bankroll >= bankrollInicial ? '#10b981' : '#f59e0b';
                 
                 return `
                     <div class="bar-item">
                         <div class="bar-header">
-                            <span class="bar-label">${h.date}</span>
+                            <span class="bar-label">${h.date || 'N/A'}</span>
                             <span class="bar-value">€${h.bankroll.toFixed(2)}</span>
                         </div>
                         <div class="bar-track">
@@ -192,7 +202,7 @@ function createBankrollChart(history, summary) {
                         </div>
                     </div>
                 `;
-            }).join('')}
+            }).filter(Boolean).join('')}
         </div>
     `;
 }
@@ -210,17 +220,23 @@ function createMarketStats(byMarket) {
 
     container.innerHTML = `
         <div class="stats-row">
-            ${Object.entries(byMarket).map(([market, data]) => `
-                <div class="stat-box">
-                    <div class="stat-box-label">${market}</div>
-                    <div class="stat-box-value ${data.roi >= 0 ? '' : 'small'}" style="color: ${data.roi >= 0 ? '#10b981' : '#f59e0b'}">
-                        ${data.roi >= 0 ? '+' : ''}${data.roi.toFixed(1)}%
+            ${Object.entries(byMarket).map(([market, data]) => {
+                const roi = data.roi || 0;
+                const picks = data.picks || 0;
+                const winRate = data.win_rate || 0;
+                
+                return `
+                    <div class="stat-box">
+                        <div class="stat-box-label">${market}</div>
+                        <div class="stat-box-value ${roi >= 0 ? '' : 'small'}" style="color: ${roi >= 0 ? '#10b981' : '#f59e0b'}">
+                            ${roi >= 0 ? '+' : ''}${roi.toFixed(1)}%
+                        </div>
+                        <div style="font-size: 11px; color: #666; margin-top: 4px;">
+                            ${picks} picks | WR ${winRate.toFixed(1)}%
+                        </div>
                     </div>
-                    <div style="font-size: 11px; color: #666; margin-top: 4px;">
-                        ${data.picks} picks | WR ${data.win_rate.toFixed(1)}%
-                    </div>
-                </div>
-            `).join('')}
+                `;
+            }).join('')}
         </div>
     `;
 }
@@ -680,24 +696,49 @@ function createRecentBets(recentBets) {
                     </tr>
                 </thead>
                 <tbody>
-                    ${recentBets.map(b => `
-                        <tr>
-                            <td style="font-size: 12px;">${b.date}</td>
-                            <td>
-                                <strong>${b.home}</strong> vs <strong>${b.away}</strong>
-                                <br>
-                                <span style="font-size: 11px; color: #999;">${b.league}</span>
-                            </td>
-                            <td><strong>${b.selection}</strong></td>
-                            <td style="text-align: center"><strong>${b.odd}</strong></td>
-                            <td style="text-align: center">
-                                <strong style="color: ${b.edge >= 10 ? '#10b981' : '#0088cc'}">${b.edge.toFixed(1)}%</strong>
-                            </td>
-                            <td style="text-align: center">
-                                <span class="badge ${b.result.toLowerCase()}">${b.result}</span>
-                            </td>
-                        </tr>
-                    `).join('')}
+                    ${recentBets.map(b => {
+                        // Manejar diferentes formatos de nombres de campos
+                        const date = b.date || b.match_date || 'N/A';
+                        const home = b.home || b.home_team || '?';
+                        const away = b.away || b.away_team || '?';
+                        const selection = b.selection || 'N/A';
+                        const odd = b.odd || b.betfair_odd || 0;
+                        const edge = b.edge || 0;
+                        const result = b.result || b.bet_result || 'Pending';
+                        const league = b.league || '';
+                        
+                        // Determinar clase de badge
+                        let badgeClass = 'pending';
+                        let resultText = 'Pending';
+                        if (result === 'Ganada' || result === 'Win') {
+                            badgeClass = 'win';
+                            resultText = 'Win';
+                        } else if (result === 'Perdida' || result === 'Loss') {
+                            badgeClass = 'loss';
+                            resultText = 'Loss';
+                        } else if (!result || result === '') {
+                            badgeClass = 'pending';
+                            resultText = 'Pending';
+                        }
+                        
+                        return `
+                            <tr>
+                                <td style="font-size: 12px;">${date}</td>
+                                <td>
+                                    <strong>${home}</strong> vs <strong>${away}</strong>
+                                    ${league ? `<br><span style="font-size: 11px; color: #999;">${league}</span>` : ''}
+                                </td>
+                                <td><strong>${selection}</strong></td>
+                                <td style="text-align: center"><strong>${typeof odd === 'number' ? odd.toFixed(2) : odd}</strong></td>
+                                <td style="text-align: center">
+                                    <strong style="color: ${edge >= 10 ? '#10b981' : '#0088cc'}">${typeof edge === 'number' ? edge.toFixed(1) : edge}%</strong>
+                                </td>
+                                <td style="text-align: center">
+                                    <span class="badge ${badgeClass}">${resultText}</span>
+                                </td>
+                            </tr>
+                        `;
+                    }).join('')}
                 </tbody>
             </table>
         </div>
