@@ -154,13 +154,30 @@ function createBankrollChart(history, summary) {
         return;
     }
 
-    const maxBankroll = Math.max(...history.map(h => h.bankroll));
-    const minBankroll = Math.min(...history.map(h => h.bankroll));
+    // Convertir a formato uniforme si es array simple
+    let historyArray;
+    if (typeof history[0] === 'number') {
+        // Es array simple de números, convertir a objetos
+        historyArray = history.map((bankroll, i) => ({
+            date: `Apuesta ${i + 1}`,
+            bankroll: bankroll
+        }));
+    } else {
+        // Ya es array de objetos
+        historyArray = history;
+    }
+
+    // Tomar solo cada N elementos para no saturar (max 50 puntos)
+    const step = Math.max(1, Math.floor(historyArray.length / 50));
+    const sampledHistory = historyArray.filter((_, i) => i % step === 0 || i === historyArray.length - 1);
+
+    const maxBankroll = Math.max(...sampledHistory.map(h => h.bankroll));
+    const minBankroll = Math.min(...sampledHistory.map(h => h.bankroll));
     const range = maxBankroll - minBankroll;
 
     container.innerHTML = `
         <div class="bar-chart">
-            ${history.map((h, i) => {
+            ${sampledHistory.map((h, i) => {
                 const height = range > 0 ? ((h.bankroll - minBankroll) / range) * 100 : 50;
                 const color = h.bankroll >= summary.bankroll_inicial ? '#10b981' : '#f59e0b';
                 
@@ -282,9 +299,24 @@ function createOddStats(byOdd) {
 function createTemporalStats(temporalStats) {
     const container = document.getElementById('temporalStats');
     
-    if (!temporalStats || temporalStats.length === 0) {
+    if (!temporalStats || Object.keys(temporalStats).length === 0) {
         container.innerHTML = '<div class="empty-state"><div class="empty-state-emoji">📅</div></div>';
         return;
+    }
+
+    // Convertir a array si es diccionario
+    let statsArray;
+    if (Array.isArray(temporalStats)) {
+        statsArray = temporalStats;
+    } else {
+        // Es un diccionario (día de semana)
+        statsArray = Object.entries(temporalStats).map(([day, data]) => ({
+            date: day,
+            picks: data.picks,
+            win_rate: data.win_rate,
+            roi: data.roi,
+            profit: data.profit || 0
+        }));
     }
 
     container.innerHTML = `
@@ -300,7 +332,7 @@ function createTemporalStats(temporalStats) {
                     </tr>
                 </thead>
                 <tbody>
-                    ${temporalStats.map(day => `
+                    ${statsArray.map(day => `
                         <tr>
                             <td><strong>${day.date}</strong></td>
                             <td style="text-align: center">${day.picks}</td>
@@ -313,9 +345,11 @@ function createTemporalStats(temporalStats) {
                                 </strong>
                             </td>
                             <td style="text-align: center">
-                                <strong style="color: ${day.profit >= 0 ? '#10b981' : '#f59e0b'}">
-                                    ${day.profit >= 0 ? '+' : ''}€${day.profit.toFixed(2)}
-                                </strong>
+                                ${day.profit !== undefined ? `
+                                    <strong style="color: ${day.profit >= 0 ? '#10b981' : '#f59e0b'}">
+                                        ${day.profit >= 0 ? '+' : ''}€${day.profit.toFixed(2)}
+                                    </strong>
+                                ` : '-'}
                             </td>
                         </tr>
                     `).join('')}
