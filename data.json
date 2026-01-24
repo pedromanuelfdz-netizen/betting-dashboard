@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-24T03:52:02.901946",
+  "timestamp": "2026-01-24T06:56:55.884423",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 167.54,
@@ -152,6 +152,46 @@
     }
   },
   "by_league": {
+    "Premier League": {
+      "picks": 13,
+      "ganadas": 8,
+      "perdidas": 5,
+      "win_rate": 61.54,
+      "roi": -1.12,
+      "profit": -2.24
+    },
+    "2. Bundesliga": {
+      "picks": 1,
+      "ganadas": 1,
+      "perdidas": 0,
+      "win_rate": 100.0,
+      "roi": 4.83,
+      "profit": 9.66
+    },
+    "Championship": {
+      "picks": 14,
+      "ganadas": 7,
+      "perdidas": 7,
+      "win_rate": 50.0,
+      "roi": -5.06,
+      "profit": -10.11
+    },
+    "Serie B": {
+      "picks": 11,
+      "ganadas": 6,
+      "perdidas": 5,
+      "win_rate": 54.55,
+      "roi": -1.23,
+      "profit": -2.46
+    },
+    "Bundesliga": {
+      "picks": 3,
+      "ganadas": 1,
+      "perdidas": 2,
+      "win_rate": 33.33,
+      "roi": -7.58,
+      "profit": -15.15
+    },
     "Ligue 2": {
       "picks": 3,
       "ganadas": 2,
@@ -176,45 +216,21 @@
       "roi": -0.16,
       "profit": -0.32
     },
-    "Premier League": {
-      "picks": 13,
-      "ganadas": 8,
-      "perdidas": 5,
-      "win_rate": 61.54,
-      "roi": -1.12,
-      "profit": -2.24
+    "Primeira Liga": {
+      "picks": 7,
+      "ganadas": 3,
+      "perdidas": 4,
+      "win_rate": 42.86,
+      "roi": 0.45,
+      "profit": 0.9
     },
-    "Championship": {
-      "picks": 14,
-      "ganadas": 7,
-      "perdidas": 7,
-      "win_rate": 50.0,
-      "roi": -5.06,
-      "profit": -10.11
-    },
-    "Bundesliga": {
-      "picks": 3,
-      "ganadas": 1,
-      "perdidas": 2,
-      "win_rate": 33.33,
-      "roi": -7.58,
-      "profit": -15.15
-    },
-    "Serie B": {
-      "picks": 11,
-      "ganadas": 6,
-      "perdidas": 5,
-      "win_rate": 54.55,
-      "roi": -1.23,
-      "profit": -2.46
-    },
-    "2. Bundesliga": {
-      "picks": 1,
-      "ganadas": 1,
-      "perdidas": 0,
-      "win_rate": 100.0,
-      "roi": 4.83,
-      "profit": 9.66
+    "Premiership": {
+      "picks": 4,
+      "ganadas": 3,
+      "perdidas": 1,
+      "win_rate": 75.0,
+      "roi": 14.1,
+      "profit": 28.19
     },
     "La Liga": {
       "picks": 8,
@@ -232,14 +248,6 @@
       "roi": -21.85,
       "profit": -43.69
     },
-    "Primeira Liga": {
-      "picks": 7,
-      "ganadas": 3,
-      "perdidas": 4,
-      "win_rate": 42.86,
-      "roi": 0.45,
-      "profit": 0.9
-    },
     "Segunda División": {
       "picks": 6,
       "ganadas": 3,
@@ -247,14 +255,6 @@
       "win_rate": 50.0,
       "roi": 3.85,
       "profit": 7.7
-    },
-    "Premiership": {
-      "picks": 4,
-      "ganadas": 3,
-      "perdidas": 1,
-      "win_rate": 75.0,
-      "roi": 14.1,
-      "profit": 28.19
     }
   },
   "by_edge": {
@@ -335,11 +335,6 @@
   },
   "market_league_stats": {
     "Over 2.5": {
-      "Serie A": {
-        "picks": 7,
-        "win_rate": 57.14,
-        "roi": 10.0
-      },
       "Premier League": {
         "picks": 4,
         "win_rate": 25.0,
@@ -355,6 +350,16 @@
         "win_rate": 55.56,
         "roi": -1.45
       },
+      "Serie A": {
+        "picks": 7,
+        "win_rate": 57.14,
+        "roi": 10.0
+      },
+      "Primeira Liga": {
+        "picks": 5,
+        "win_rate": 40.0,
+        "roi": -0.75
+      },
       "La Liga": {
         "picks": 6,
         "win_rate": 16.67,
@@ -365,11 +370,6 @@
         "win_rate": 33.33,
         "roi": -8.36
       },
-      "Primeira Liga": {
-        "picks": 5,
-        "win_rate": 40.0,
-        "roi": -0.75
-      },
       "Segunda División": {
         "picks": 5,
         "win_rate": 60.0,
@@ -377,11 +377,6 @@
       }
     },
     "Under 2.5": {
-      "Serie A": {
-        "picks": 13,
-        "win_rate": 53.85,
-        "roi": 1.06
-      },
       "Premier League": {
         "picks": 7,
         "win_rate": 85.71,
@@ -391,6 +386,11 @@
         "picks": 5,
         "win_rate": 40.0,
         "roi": -6.84
+      },
+      "Serie A": {
+        "picks": 13,
+        "win_rate": 53.85,
+        "roi": 1.06
       },
       "Premiership": {
         "picks": 3,
