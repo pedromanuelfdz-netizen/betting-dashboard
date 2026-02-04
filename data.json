@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-04T12:54:28.991166",
+  "timestamp": "2026-02-04T18:44:10.376562",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 125.36,
@@ -202,29 +202,21 @@
     }
   },
   "by_league": {
-    "Ligue 2": {
-      "picks": 7,
-      "ganadas": 3,
+    "Premiership": {
+      "picks": 8,
+      "ganadas": 4,
       "perdidas": 4,
-      "win_rate": 42.86,
-      "roi": 0.78,
-      "profit": 1.56
+      "win_rate": 50.0,
+      "roi": -4.92,
+      "profit": -9.85
     },
-    "2. Bundesliga": {
-      "picks": 4,
-      "ganadas": 1,
-      "perdidas": 3,
-      "win_rate": 25.0,
-      "roi": -18.71,
-      "profit": -37.42
-    },
-    "Championship": {
-      "picks": 23,
-      "ganadas": 10,
-      "perdidas": 13,
-      "win_rate": 43.48,
-      "roi": -32.24,
-      "profit": -64.48
+    "Premier League": {
+      "picks": 14,
+      "ganadas": 8,
+      "perdidas": 6,
+      "win_rate": 57.14,
+      "roi": -11.47,
+      "profit": -22.94
     },
     "La Liga": {
       "picks": 11,
@@ -234,13 +226,53 @@
       "roi": 5.84,
       "profit": 11.68
     },
-    "Premiership": {
-      "picks": 8,
-      "ganadas": 4,
-      "perdidas": 4,
+    "Championship": {
+      "picks": 23,
+      "ganadas": 10,
+      "perdidas": 13,
+      "win_rate": 43.48,
+      "roi": -32.24,
+      "profit": -64.48
+    },
+    "2. Bundesliga": {
+      "picks": 4,
+      "ganadas": 1,
+      "perdidas": 3,
+      "win_rate": 25.0,
+      "roi": -18.71,
+      "profit": -37.42
+    },
+    "Eredivisie": {
+      "picks": 3,
+      "ganadas": 1,
+      "perdidas": 2,
+      "win_rate": 33.33,
+      "roi": -0.16,
+      "profit": -0.32
+    },
+    "Bundesliga": {
+      "picks": 4,
+      "ganadas": 2,
+      "perdidas": 2,
       "win_rate": 50.0,
-      "roi": -4.92,
-      "profit": -9.85
+      "roi": 4.13,
+      "profit": 8.25
+    },
+    "Jupiler Pro League": {
+      "picks": 3,
+      "ganadas": 2,
+      "perdidas": 1,
+      "win_rate": 66.67,
+      "roi": 4.7,
+      "profit": 9.4
+    },
+    "Ligue 2": {
+      "picks": 7,
+      "ganadas": 3,
+      "perdidas": 4,
+      "win_rate": 42.86,
+      "roi": 0.78,
+      "profit": 1.56
     },
     "Serie A": {
       "picks": 25,
@@ -266,38 +298,6 @@
       "roi": 10.82,
       "profit": 21.64
     },
-    "Bundesliga": {
-      "picks": 4,
-      "ganadas": 2,
-      "perdidas": 2,
-      "win_rate": 50.0,
-      "roi": 4.13,
-      "profit": 8.25
-    },
-    "Jupiler Pro League": {
-      "picks": 3,
-      "ganadas": 2,
-      "perdidas": 1,
-      "win_rate": 66.67,
-      "roi": 4.7,
-      "profit": 9.4
-    },
-    "Premier League": {
-      "picks": 14,
-      "ganadas": 8,
-      "perdidas": 6,
-      "win_rate": 57.14,
-      "roi": -11.47,
-      "profit": -22.94
-    },
-    "Ligue 1": {
-      "picks": 8,
-      "ganadas": 3,
-      "perdidas": 5,
-      "win_rate": 37.5,
-      "roi": -20.56,
-      "profit": -41.12
-    },
     "Segunda División": {
       "picks": 11,
       "ganadas": 4,
@@ -306,13 +306,13 @@
       "roi": -12.92,
       "profit": -25.85
     },
-    "Eredivisie": {
-      "picks": 3,
-      "ganadas": 1,
-      "perdidas": 2,
-      "win_rate": 33.33,
-      "roi": -0.16,
-      "profit": -0.32
+    "Ligue 1": {
+      "picks": 8,
+      "ganadas": 3,
+      "perdidas": 5,
+      "win_rate": 37.5,
+      "roi": -20.56,
+      "profit": -41.12
     }
   },
   "by_edge": {
@@ -393,25 +393,30 @@
   },
   "market_league_stats": {
     "Over 2.5": {
-      "Ligue 2": {
-        "picks": 4,
-        "win_rate": 50.0,
-        "roi": 3.46
+      "Premiership": {
+        "picks": 3,
+        "win_rate": 0.0,
+        "roi": -20.38
       },
-      "Championship": {
-        "picks": 17,
-        "win_rate": 47.06,
-        "roi": -23.97
+      "Premier League": {
+        "picks": 4,
+        "win_rate": 25.0,
+        "roi": -18.55
       },
       "La Liga": {
         "picks": 8,
         "win_rate": 37.5,
         "roi": -5.22
       },
-      "Premiership": {
-        "picks": 3,
-        "win_rate": 0.0,
-        "roi": -20.38
+      "Championship": {
+        "picks": 17,
+        "win_rate": 47.06,
+        "roi": -23.97
+      },
+      "Ligue 2": {
+        "picks": 4,
+        "win_rate": 50.0,
+        "roi": 3.46
       },
       "Serie A": {
         "picks": 9,
@@ -428,42 +433,37 @@
         "win_rate": 55.56,
         "roi": 11.2
       },
-      "Premier League": {
-        "picks": 4,
-        "win_rate": 25.0,
-        "roi": -18.55
+      "Segunda División": {
+        "picks": 7,
+        "win_rate": 57.14,
+        "roi": 8.49
       },
       "Ligue 1": {
         "picks": 5,
         "win_rate": 40.0,
         "roi": -6.85
-      },
-      "Segunda División": {
-        "picks": 7,
-        "win_rate": 57.14,
-        "roi": 8.49
       }
     },
     "Under 2.5": {
-      "Championship": {
-        "picks": 5,
-        "win_rate": 40.0,
-        "roi": -6.84
-      },
       "Premiership": {
         "picks": 5,
         "win_rate": 80.0,
         "roi": 19.42
       },
-      "Serie A": {
-        "picks": 15,
-        "win_rate": 46.67,
-        "roi": -10.97
-      },
       "Premier League": {
         "picks": 9,
         "win_rate": 77.78,
         "roi": 19.11
+      },
+      "Championship": {
+        "picks": 5,
+        "win_rate": 40.0,
+        "roi": -6.84
+      },
+      "Serie A": {
+        "picks": 15,
+        "win_rate": 46.67,
+        "roi": -10.97
       }
     },
     "BTTS Yes": {
@@ -683,7 +683,7 @@
       "away_team": "Antwerp",
       "selection": "BTTS No",
       "betfair_odd": 2.1,
-      "edge": 9.53,
+      "edge": 17.09,
       "kelly": 3.1,
       "bet_result": "",
       "confidence_score": 0
@@ -707,7 +707,7 @@
       "away_team": "Castellón",
       "selection": "BTTS No",
       "betfair_odd": 2.1,
-      "edge": 8.35,
+      "edge": 10.19,
       "kelly": 1.8,
       "bet_result": "",
       "confidence_score": 0
@@ -827,7 +827,7 @@
       "away_team": "Virtus Entella",
       "selection": "BTTS No",
       "betfair_odd": 1.8,
-      "edge": 10.17,
+      "edge": 9.61,
       "kelly": 2.4,
       "bet_result": "",
       "confidence_score": 0
