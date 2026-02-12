@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-12T13:02:15.337797+00:00",
+  "timestamp": "2026-02-12T19:00:03.332771+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 166.33,
@@ -10,7 +10,7 @@
     "total_picks": 189,
     "ganadas": 101,
     "perdidas": 88,
-    "pendientes": 21,
+    "pendientes": 22,
     "total_turnover": 1452.51
   },
   "bankroll_history": [
@@ -882,6 +882,18 @@
       "confidence_score": 87.5
     },
     {
+      "match_date": "2026-02-13 19:45",
+      "league": "Serie A",
+      "home_team": "Pisa",
+      "away_team": "AC Milan",
+      "selection": "BTTS No",
+      "betfair_odd": 1.75,
+      "edge": 6.5,
+      "kelly": 3.0,
+      "bet_result": "",
+      "confidence_score": 85.6
+    },
+    {
       "match_date": "2026-02-11 20:00",
       "league": "Premiership",
       "home_team": "Motherwell",
@@ -1000,18 +1012,6 @@
       "kelly": 3.1,
       "bet_result": "Perdida",
       "confidence_score": 77.0
-    },
-    {
-      "match_date": "2026-02-08 16:15",
-      "league": "Ligue 1",
-      "home_team": "Le Havre",
-      "away_team": "Strasbourg",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.91,
-      "edge": 11.75,
-      "kelly": 1.9,
-      "bet_result": "Ganada",
-      "confidence_score": 61.7
     }
   ],
   "clv_analysis": {
