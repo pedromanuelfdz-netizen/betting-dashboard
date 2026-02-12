@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-12T10:23:52.830795+00:00",
+  "timestamp": "2026-02-12T12:26:01.123464+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 166.33,
@@ -1016,8 +1016,10 @@
   ],
   "clv_analysis": {
     "avg_clv": 2.07,
+    "total_with_clv": 145,
     "positive_clv": 86,
     "negative_clv": 35,
+    "zero_clv": 24,
     "best_clv": 21.4,
     "worst_clv": -13.7
   },
