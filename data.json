@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-13T12:54:14.458050+00:00",
+  "timestamp": "2026-02-13T18:43:52.123288+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 166.33,
@@ -10,7 +10,7 @@
     "total_picks": 189,
     "ganadas": 101,
     "perdidas": 88,
-    "pendientes": 22,
+    "pendientes": 24,
     "total_turnover": 1452.51
   },
   "bankroll_history": [
@@ -714,6 +714,18 @@
       "confidence_score": 83.3
     },
     {
+      "match_date": "2026-02-15 15:30",
+      "league": "Super League",
+      "home_team": "Lausanne",
+      "away_team": "Servette FC",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 8.04,
+      "kelly": 3.8,
+      "bet_result": "",
+      "confidence_score": 82.1
+    },
+    {
       "match_date": "2026-02-15 14:00",
       "league": "Serie A",
       "home_team": "Cremonese",
@@ -796,6 +808,18 @@
       "kelly": 3.4,
       "bet_result": "",
       "confidence_score": 86.4
+    },
+    {
+      "match_date": "2026-02-14 16:15",
+      "league": "Serie B",
+      "home_team": "Catanzaro",
+      "away_team": "Mantova",
+      "selection": "BTTS No",
+      "betfair_odd": 2.2,
+      "edge": 6.04,
+      "kelly": 2.2,
+      "bet_result": "",
+      "confidence_score": 77.7
     },
     {
       "match_date": "2026-02-14 15:30",
@@ -988,30 +1012,6 @@
       "kelly": 2.3,
       "bet_result": "Ganada",
       "confidence_score": 72.7
-    },
-    {
-      "match_date": "2026-02-08 18:15",
-      "league": "Jupiler Pro League",
-      "home_team": "KV Mechelen",
-      "away_team": "Antwerp",
-      "selection": "BTTS No",
-      "betfair_odd": 2.1,
-      "edge": 17.09,
-      "kelly": 3.1,
-      "bet_result": "Ganada",
-      "confidence_score": 87.5
-    },
-    {
-      "match_date": "2026-02-08 17:30",
-      "league": "La Liga",
-      "home_team": "Sevilla",
-      "away_team": "Girona",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.91,
-      "edge": 19.9,
-      "kelly": 3.1,
-      "bet_result": "Perdida",
-      "confidence_score": 77.0
     }
   ],
   "clv_analysis": {
