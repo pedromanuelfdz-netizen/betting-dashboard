@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-14T01:52:04.152781+00:00",
+  "timestamp": "2026-02-14T06:40:52.217548+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 161.34,
@@ -10,7 +10,7 @@
     "total_picks": 190,
     "ganadas": 101,
     "perdidas": 89,
-    "pendientes": 29,
+    "pendientes": 30,
     "total_turnover": 1457.5
   },
   "bankroll_history": [
@@ -715,6 +715,18 @@
       "confidence_score": 87.1
     },
     {
+      "match_date": "2026-02-15 17:30",
+      "league": "Jupiler Pro League",
+      "home_team": "Anderlecht",
+      "away_team": "RAAL La Louvière",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.15,
+      "edge": 9.94,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 85.8
+    },
+    {
       "match_date": "2026-02-15 17:00",
       "league": "Serie A",
       "home_team": "Torino",
@@ -1001,18 +1013,6 @@
       "kelly": 3.7,
       "bet_result": "Perdida",
       "confidence_score": 95.0
-    },
-    {
-      "match_date": "2026-02-11 19:45",
-      "league": "Premiership",
-      "home_team": "Kilmarnock",
-      "away_team": "ST Mirren",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 9.05,
-      "kelly": 3.4,
-      "bet_result": "Ganada",
-      "confidence_score": 82.9
     }
   ],
   "clv_analysis": {
