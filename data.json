@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-15T02:46:08.223198+00:00",
+  "timestamp": "2026-02-15T06:49:11.443015+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 198.29,
@@ -10,7 +10,7 @@
     "total_picks": 203,
     "ganadas": 110,
     "perdidas": 93,
-    "pendientes": 23,
+    "pendientes": 24,
     "total_turnover": 1543.47
   },
   "bankroll_history": [
@@ -673,6 +673,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-02-21 18:00",
+      "league": "Ligue 1",
+      "home_team": "Toulouse",
+      "away_team": "Paris FC",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 11.69,
+      "kelly": 4.2,
+      "bet_result": "",
+      "confidence_score": 90.3
+    },
+    {
       "match_date": "2026-02-21 13:00",
       "league": "La Liga",
       "home_team": "Real Sociedad",
@@ -1019,18 +1031,6 @@
       "kelly": 4.2,
       "bet_result": "Ganada",
       "confidence_score": 89.1
-    },
-    {
-      "match_date": "2026-02-14 15:00",
-      "league": "Championship",
-      "home_team": "QPR",
-      "away_team": "Blackburn",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 11.21,
-      "kelly": 4.1,
-      "bet_result": "Ganada",
-      "confidence_score": 87.1
     }
   ],
   "clv_analysis": {
