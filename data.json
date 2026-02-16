@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-16T01:58:15.577583+00:00",
+  "timestamp": "2026-02-16T07:00:03.797929+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 194.6,
@@ -10,7 +10,7 @@
     "total_picks": 221,
     "ganadas": 119,
     "perdidas": 102,
-    "pendientes": 9,
+    "pendientes": 10,
     "total_turnover": 1676.12
   },
   "bankroll_history": [
@@ -691,6 +691,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-02-22 11:30",
+      "league": "Serie A",
+      "home_team": "Genoa",
+      "away_team": "Torino",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 10.94,
+      "kelly": 3.9,
+      "bet_result": "",
+      "confidence_score": 91.1
+    },
+    {
       "match_date": "2026-02-21 18:00",
       "league": "Ligue 1",
       "home_team": "Toulouse",
@@ -1037,18 +1049,6 @@
       "kelly": 3.6,
       "bet_result": "Ganada",
       "confidence_score": 88.4
-    },
-    {
-      "match_date": "2026-02-14 17:00",
-      "league": "Serie A",
-      "home_team": "Lazio",
-      "away_team": "Atalanta",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 9.05,
-      "kelly": 3.4,
-      "bet_result": "Perdida",
-      "confidence_score": 86.4
     }
   ],
   "clv_analysis": {
