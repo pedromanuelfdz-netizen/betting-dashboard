@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-16T07:00:03.797929+00:00",
+  "timestamp": "2026-02-16T12:57:58.686870+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 194.6,
@@ -10,7 +10,7 @@
     "total_picks": 221,
     "ganadas": 119,
     "perdidas": 102,
-    "pendientes": 10,
+    "pendientes": 12,
     "total_turnover": 1676.12
   },
   "bankroll_history": [
@@ -691,6 +691,30 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-02-22 17:30",
+      "league": "La Liga",
+      "home_team": "Celta Vigo",
+      "away_team": "Mallorca",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 11.69,
+      "kelly": 4.2,
+      "bet_result": "",
+      "confidence_score": 89.1
+    },
+    {
+      "match_date": "2026-02-22 14:00",
+      "league": "Premier League",
+      "home_team": "Sunderland",
+      "away_team": "Fulham",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 9.52,
+      "kelly": 3.6,
+      "bet_result": "",
+      "confidence_score": 88.4
+    },
+    {
       "match_date": "2026-02-22 11:30",
       "league": "Serie A",
       "home_team": "Genoa",
@@ -1025,30 +1049,6 @@
       "kelly": 3.3,
       "bet_result": "Ganada",
       "confidence_score": 87.1
-    },
-    {
-      "match_date": "2026-02-14 18:00",
-      "league": "Ligue 1",
-      "home_team": "Lille",
-      "away_team": "Stade Brestois 29",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.85,
-      "edge": 10.59,
-      "kelly": 4.6,
-      "bet_result": "Perdida",
-      "confidence_score": 89.4
-    },
-    {
-      "match_date": "2026-02-14 18:00",
-      "league": "Primeira Liga",
-      "home_team": "Guimaraes",
-      "away_team": "Estrela",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 9.52,
-      "kelly": 3.6,
-      "bet_result": "Ganada",
-      "confidence_score": 88.4
     }
   ],
   "clv_analysis": {
