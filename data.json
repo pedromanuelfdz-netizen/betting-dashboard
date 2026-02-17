@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-02-17T01:56:05.868400+00:00",
+  "timestamp": "2026-02-17T04:34:11.458624+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 194.6,
-    "profit_loss": -5.4,
-    "roi": -2.7,
-    "win_rate": 53.85,
-    "yield": -0.32,
-    "total_picks": 221,
-    "ganadas": 119,
+    "bankroll_final": 212.1,
+    "profit_loss": 12.1,
+    "roi": 6.05,
+    "win_rate": 54.26,
+    "yield": 0.71,
+    "total_picks": 223,
+    "ganadas": 121,
     "perdidas": 102,
-    "pendientes": 12,
-    "total_turnover": 1676.12
+    "pendientes": 11,
+    "total_turnover": 1693.95
   },
   "bankroll_history": [
     200.0,
@@ -235,7 +235,9 @@
     188.67,
     182.44,
     188.57,
-    194.6
+    194.6,
+    202.38,
+    212.1
   ],
   "by_market": {
     "Under 2.5": {
@@ -247,20 +249,20 @@
       "profit": -7.33
     },
     "Over 2.5": {
-      "picks": 131,
-      "ganadas": 70,
+      "picks": 132,
+      "ganadas": 71,
       "perdidas": 61,
-      "win_rate": 53.44,
-      "roi": 0.74,
-      "profit": 7.09
+      "win_rate": 53.79,
+      "roi": 1.75,
+      "profit": 16.81
     },
     "BTTS No": {
-      "picks": 31,
-      "ganadas": 18,
+      "picks": 32,
+      "ganadas": 19,
       "perdidas": 13,
-      "win_rate": 58.06,
-      "roi": 9.58,
-      "profit": 19.12
+      "win_rate": 59.38,
+      "roi": 12.86,
+      "profit": 26.9
     },
     "BTTS Yes": {
       "picks": 12,
@@ -321,12 +323,12 @@
       "profit": 0.63
     },
     "Ligue 2": {
-      "picks": 10,
-      "ganadas": 5,
+      "picks": 11,
+      "ganadas": 6,
       "perdidas": 5,
-      "win_rate": 50.0,
-      "roi": 13.05,
-      "profit": 11.61
+      "win_rate": 54.55,
+      "roi": 19.65,
+      "profit": 19.39
     },
     "Premiership": {
       "picks": 13,
@@ -353,12 +355,12 @@
       "profit": -8.49
     },
     "Primeira Liga": {
-      "picks": 22,
-      "ganadas": 15,
+      "picks": 23,
+      "ganadas": 16,
       "perdidas": 7,
-      "win_rate": 68.18,
-      "roi": 26.45,
-      "profit": 45.58
+      "win_rate": 69.57,
+      "roi": 30.65,
+      "profit": 55.3
     },
     "Bundesliga": {
       "picks": 6,
@@ -395,12 +397,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 42,
-      "ganadas": 27,
+      "picks": 43,
+      "ganadas": 28,
       "perdidas": 15,
-      "win_rate": 64.29,
-      "roi": 41.57,
-      "profit": 104.88
+      "win_rate": 65.12,
+      "roi": 44.01,
+      "profit": 114.6
     },
     "12.0-15.0%": {
       "picks": 47,
@@ -427,22 +429,22 @@
       "profit": 11.99
     },
     ">15.0%": {
-      "picks": 43,
-      "ganadas": 22,
+      "picks": 44,
+      "ganadas": 23,
       "perdidas": 21,
-      "win_rate": 51.16,
-      "roi": -14.82,
-      "profit": -56.22
+      "win_rate": 52.27,
+      "roi": -12.44,
+      "profit": -48.44
     }
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 51,
-      "ganadas": 24,
+      "picks": 52,
+      "ganadas": 25,
       "perdidas": 27,
-      "win_rate": 47.06,
-      "roi": -20.11,
-      "profit": -96.26
+      "win_rate": 48.08,
+      "roi": -18.11,
+      "profit": -88.47
     },
     "1.85-2.00": {
       "picks": 53,
@@ -461,12 +463,12 @@
       "profit": -8.7
     },
     "2.20-2.50": {
-      "picks": 41,
-      "ganadas": 24,
+      "picks": 42,
+      "ganadas": 25,
       "perdidas": 17,
-      "win_rate": 58.54,
-      "roi": 25.86,
-      "profit": 74.69
+      "win_rate": 59.52,
+      "roi": 28.43,
+      "profit": 84.41
     }
   },
   "market_league_stats": {
@@ -534,9 +536,9 @@
         "roi": -29.73
       },
       "Primeira Liga": {
-        "picks": 14,
-        "win_rate": 71.43,
-        "roi": 45.12
+        "picks": 15,
+        "win_rate": 73.33,
+        "roi": 50.51
       },
       "Ligue 2": {
         "picks": 7,
@@ -614,9 +616,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 29,
-        "win_rate": 58.62,
-        "roi": 24.8
+        "picks": 30,
+        "win_rate": 60.0,
+        "roi": 29.3
       },
       "12.0-15.0%": {
         "picks": 27,
@@ -661,9 +663,9 @@
         "roi": -3.72
       },
       ">15.0%": {
-        "picks": 1,
+        "picks": 2,
         "win_rate": 100.0,
-        "roi": 110.0
+        "roi": 89.73
       }
     },
     "BTTS Yes": {
@@ -690,6 +692,18 @@
     }
   },
   "recent_bets": [
+    {
+      "match_date": "2026-02-23 19:45",
+      "league": "Serie A",
+      "home_team": "Bologna",
+      "away_team": "Udinese",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 9.93,
+      "kelly": 3.6,
+      "bet_result": "",
+      "confidence_score": 85.8
+    },
     {
       "match_date": "2026-02-22 17:30",
       "league": "La Liga",
@@ -795,7 +809,7 @@
       "betfair_odd": 2.2,
       "edge": 11.0,
       "kelly": 4.0,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 87.7
     },
     {
@@ -807,7 +821,7 @@
       "betfair_odd": 1.8,
       "edge": 16.45,
       "kelly": 5.0,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 93.2
     },
     {
@@ -1037,24 +1051,12 @@
       "kelly": 4.1,
       "bet_result": "Ganada",
       "confidence_score": 88.2
-    },
-    {
-      "match_date": "2026-02-14 19:45",
-      "league": "Serie A",
-      "home_team": "Inter",
-      "away_team": "Juventus",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 8.83,
-      "kelly": 3.3,
-      "bet_result": "Ganada",
-      "confidence_score": 87.1
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.88,
-    "total_with_clv": 177,
-    "positive_clv": 101,
+    "avg_clv": 1.93,
+    "total_with_clv": 179,
+    "positive_clv": 103,
     "negative_clv": 46,
     "zero_clv": 30,
     "best_clv": 21.4,
@@ -1067,9 +1069,9 @@
       "roi": -15.77
     },
     "Lunes": {
-      "picks": 12,
-      "win_rate": 66.7,
-      "roi": 39.87
+      "picks": 14,
+      "win_rate": 71.4,
+      "roi": 47.42
     },
     "Martes": {
       "picks": 11,
@@ -1182,7 +1184,7 @@
     }
   },
   "racha": {
-    "actual": 2,
+    "actual": 4,
     "tipo": "win"
   }
 }
