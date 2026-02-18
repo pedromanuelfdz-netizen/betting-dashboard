@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-02-18T01:59:55.973686+00:00",
+  "timestamp": "2026-02-18T06:58:21.874548+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 212.1,
-    "profit_loss": 12.1,
-    "roi": 6.05,
-    "win_rate": 54.26,
-    "yield": 0.71,
-    "total_picks": 223,
-    "ganadas": 121,
+    "bankroll_final": 223.76,
+    "profit_loss": 23.76,
+    "roi": 11.88,
+    "win_rate": 54.46,
+    "yield": 1.39,
+    "total_picks": 224,
+    "ganadas": 122,
     "perdidas": 102,
-    "pendientes": 11,
-    "total_turnover": 1693.95
+    "pendientes": 18,
+    "total_turnover": 1703.28
   },
   "bankroll_history": [
     200.0,
@@ -237,7 +237,8 @@
     188.57,
     194.6,
     202.38,
-    212.1
+    212.1,
+    223.76
   ],
   "by_market": {
     "Under 2.5": {
@@ -249,12 +250,12 @@
       "profit": -7.33
     },
     "Over 2.5": {
-      "picks": 132,
-      "ganadas": 71,
+      "picks": 133,
+      "ganadas": 72,
       "perdidas": 61,
-      "win_rate": 53.79,
-      "roi": 1.75,
-      "profit": 16.81
+      "win_rate": 54.14,
+      "roi": 2.94,
+      "profit": 28.47
     },
     "BTTS No": {
       "picks": 32,
@@ -283,12 +284,12 @@
       "profit": 12.6
     },
     "Championship": {
-      "picks": 25,
-      "ganadas": 12,
+      "picks": 26,
+      "ganadas": 13,
       "perdidas": 13,
-      "win_rate": 48.0,
-      "roi": -13.59,
-      "profit": -28.65
+      "win_rate": 50.0,
+      "roi": -7.72,
+      "profit": -16.99
     },
     "Premier League": {
       "picks": 18,
@@ -405,12 +406,12 @@
       "profit": 114.6
     },
     "12.0-15.0%": {
-      "picks": 47,
-      "ganadas": 26,
+      "picks": 48,
+      "ganadas": 27,
       "perdidas": 21,
-      "win_rate": 55.32,
-      "roi": -2.67,
-      "profit": -12.54
+      "win_rate": 56.25,
+      "roi": -0.18,
+      "profit": -0.87
     },
     "6.0-8.0%": {
       "picks": 40,
@@ -463,12 +464,12 @@
       "profit": -8.7
     },
     "2.20-2.50": {
-      "picks": 42,
-      "ganadas": 25,
+      "picks": 43,
+      "ganadas": 26,
       "perdidas": 17,
-      "win_rate": 59.52,
-      "roi": 28.43,
-      "profit": 84.41
+      "win_rate": 60.47,
+      "roi": 31.37,
+      "profit": 96.07
     }
   },
   "market_league_stats": {
@@ -496,9 +497,9 @@
     },
     "Over 2.5": {
       "Championship": {
-        "picks": 19,
-        "win_rate": 52.63,
-        "roi": -3.5
+        "picks": 20,
+        "win_rate": 55.0,
+        "roi": 4.14
       },
       "Premier League": {
         "picks": 7,
@@ -621,9 +622,9 @@
         "roi": 29.3
       },
       "12.0-15.0%": {
-        "picks": 27,
-        "win_rate": 48.15,
-        "roi": -21.05
+        "picks": 28,
+        "win_rate": 50.0,
+        "roi": -15.14
       },
       "6.0-8.0%": {
         "picks": 19,
@@ -753,6 +754,54 @@
       "confidence_score": 90.3
     },
     {
+      "match_date": "2026-02-21 14:00",
+      "league": "Serie B",
+      "home_team": "Padova",
+      "away_team": "Bari",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 10.94,
+      "kelly": 3.9,
+      "bet_result": "",
+      "confidence_score": 85.3
+    },
+    {
+      "match_date": "2026-02-21 14:00",
+      "league": "Serie B",
+      "home_team": "Venezia",
+      "away_team": "Pescara",
+      "selection": "BTTS No",
+      "betfair_odd": 2.0,
+      "edge": 7.49,
+      "kelly": 3.0,
+      "bet_result": "",
+      "confidence_score": 82.2
+    },
+    {
+      "match_date": "2026-02-21 14:00",
+      "league": "Serie B",
+      "home_team": "Mantova",
+      "away_team": "Sampdoria",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 9.93,
+      "kelly": 3.6,
+      "bet_result": "",
+      "confidence_score": 86.9
+    },
+    {
+      "match_date": "2026-02-21 14:00",
+      "league": "Serie B",
+      "home_team": "Palermo",
+      "away_team": "Sudtirol",
+      "selection": "BTTS No",
+      "betfair_odd": 1.87,
+      "edge": 12.81,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 86.7
+    },
+    {
       "match_date": "2026-02-21 13:00",
       "league": "La Liga",
       "home_team": "Real Sociedad",
@@ -777,6 +826,30 @@
       "confidence_score": 83.0
     },
     {
+      "match_date": "2026-02-20 20:00",
+      "league": "Championship",
+      "home_team": "Blackburn",
+      "away_team": "Preston",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.3,
+      "edge": 8.19,
+      "kelly": 2.9,
+      "bet_result": "",
+      "confidence_score": 80.0
+    },
+    {
+      "match_date": "2026-02-20 19:45",
+      "league": "Serie A",
+      "home_team": "Sassuolo",
+      "away_team": "Verona",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.3,
+      "edge": 8.19,
+      "kelly": 2.9,
+      "bet_result": "",
+      "confidence_score": 80.0
+    },
+    {
       "match_date": "2026-02-20 19:00",
       "league": "Eredivisie",
       "home_team": "Fortuna Sittard",
@@ -789,6 +862,30 @@
       "confidence_score": 89.0
     },
     {
+      "match_date": "2026-02-20 19:00",
+      "league": "Ligue 2",
+      "home_team": "Nancy",
+      "away_team": "Grenoble",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.15,
+      "edge": 8.87,
+      "kelly": 3.3,
+      "bet_result": "",
+      "confidence_score": 84.9
+    },
+    {
+      "match_date": "2026-02-20 19:00",
+      "league": "Ligue 2",
+      "home_team": "Boulogne",
+      "away_team": "Clermont Foot",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 9.93,
+      "kelly": 3.6,
+      "bet_result": "",
+      "confidence_score": 86.9
+    },
+    {
       "match_date": "2026-02-17 19:45",
       "league": "Championship",
       "home_team": "Charlton",
@@ -797,7 +894,7 @@
       "betfair_odd": 2.25,
       "edge": 12.22,
       "kelly": 4.4,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 79.8
     },
     {
@@ -955,112 +1052,16 @@
       "kelly": 5.0,
       "bet_result": "Ganada",
       "confidence_score": 95.0
-    },
-    {
-      "match_date": "2026-02-15 14:00",
-      "league": "Serie A",
-      "home_team": "Cremonese",
-      "away_team": "Genoa",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.4,
-      "edge": 15.0,
-      "kelly": 5.0,
-      "bet_result": "Perdida",
-      "confidence_score": 85.1
-    },
-    {
-      "match_date": "2026-02-15 14:00",
-      "league": "Serie B",
-      "home_team": "Bari",
-      "away_team": "Sudtirol",
-      "selection": "BTTS No",
-      "betfair_odd": 1.8,
-      "edge": 8.14,
-      "kelly": 3.6,
-      "bet_result": "Perdida",
-      "confidence_score": 92.1
-    },
-    {
-      "match_date": "2026-02-15 14:00",
-      "league": "Serie B",
-      "home_team": "Spezia",
-      "away_team": "Frosinone",
-      "selection": "BTTS No",
-      "betfair_odd": 2.1,
-      "edge": 5.28,
-      "kelly": 2.0,
-      "bet_result": "Ganada",
-      "confidence_score": 86.7
-    },
-    {
-      "match_date": "2026-02-15 14:00",
-      "league": "Serie B",
-      "home_team": "Monza",
-      "away_team": "Juve Stabia",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.3,
-      "edge": 13.66,
-      "kelly": 4.8,
-      "bet_result": "Ganada",
-      "confidence_score": 83.7
-    },
-    {
-      "match_date": "2026-02-15 13:00",
-      "league": "La Liga",
-      "home_team": "Oviedo",
-      "away_team": "Athletic Club",
-      "selection": "BTTS No",
-      "betfair_odd": 1.73,
-      "edge": 7.27,
-      "kelly": 3.4,
-      "bet_result": "Perdida",
-      "confidence_score": 79.8
-    },
-    {
-      "match_date": "2026-02-15 12:30",
-      "league": "2. Bundesliga",
-      "home_team": "Holstein Kiel",
-      "away_team": "FC Schalke 04",
-      "selection": "BTTS No",
-      "betfair_odd": 2.0,
-      "edge": 9.82,
-      "kelly": 3.9,
-      "bet_result": "Perdida",
-      "confidence_score": 95.0
-    },
-    {
-      "match_date": "2026-02-15 11:30",
-      "league": "Serie A",
-      "home_team": "Udinese",
-      "away_team": "Sassuolo",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 12.22,
-      "kelly": 4.4,
-      "bet_result": "Ganada",
-      "confidence_score": 83.3
-    },
-    {
-      "match_date": "2026-02-14 20:30",
-      "league": "Primeira Liga",
-      "home_team": "GIL Vicente",
-      "away_team": "SC Braga",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 11.21,
-      "kelly": 4.1,
-      "bet_result": "Ganada",
-      "confidence_score": 88.2
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.93,
-    "total_with_clv": 179,
+    "avg_clv": 1.83,
+    "total_with_clv": 180,
     "positive_clv": 103,
-    "negative_clv": 46,
+    "negative_clv": 47,
     "zero_clv": 30,
     "best_clv": 21.4,
-    "worst_clv": -13.7
+    "worst_clv": -14.4
   },
   "temporal_stats": {
     "Domingo": {
@@ -1074,9 +1075,9 @@
       "roi": 47.42
     },
     "Martes": {
-      "picks": 11,
-      "win_rate": 45.5,
-      "roi": -8.57
+      "picks": 12,
+      "win_rate": 50.0,
+      "roi": 5.83
     },
     "Miércoles": {
       "picks": 17,
@@ -1184,7 +1185,7 @@
     }
   },
   "racha": {
-    "actual": 4,
+    "actual": 5,
     "tipo": "win"
   }
 }
