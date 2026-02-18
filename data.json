@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-18T06:58:21.874548+00:00",
+  "timestamp": "2026-02-18T12:59:25.652618+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 223.76,
@@ -10,7 +10,7 @@
     "total_picks": 224,
     "ganadas": 122,
     "perdidas": 102,
-    "pendientes": 18,
+    "pendientes": 19,
     "total_turnover": 1703.28
   },
   "bankroll_history": [
@@ -850,6 +850,18 @@
       "confidence_score": 80.0
     },
     {
+      "match_date": "2026-02-20 19:30",
+      "league": "Serie B",
+      "home_team": "Frosinone",
+      "away_team": "Empoli",
+      "selection": "BTTS No",
+      "betfair_odd": 2.15,
+      "edge": 6.1,
+      "kelly": 2.3,
+      "bet_result": "",
+      "confidence_score": 83.0
+    },
+    {
       "match_date": "2026-02-20 19:00",
       "league": "Eredivisie",
       "home_team": "Fortuna Sittard",
@@ -1040,18 +1052,6 @@
       "kelly": 4.5,
       "bet_result": "Perdida",
       "confidence_score": 84.2
-    },
-    {
-      "match_date": "2026-02-15 14:30",
-      "league": "Premiership",
-      "home_team": "Motherwell",
-      "away_team": "Aberdeen",
-      "selection": "BTTS No",
-      "betfair_odd": 2.0,
-      "edge": 14.97,
-      "kelly": 5.0,
-      "bet_result": "Ganada",
-      "confidence_score": 95.0
     }
   ],
   "clv_analysis": {
