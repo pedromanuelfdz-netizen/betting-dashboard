@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-18T18:51:46.498560+00:00",
+  "timestamp": "2026-02-19T01:58:30.634300+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 223.76,
@@ -10,7 +10,7 @@
     "total_picks": 224,
     "ganadas": 122,
     "perdidas": 102,
-    "pendientes": 19,
+    "pendientes": 25,
     "total_turnover": 1703.28
   },
   "bankroll_history": [
@@ -706,6 +706,30 @@
       "confidence_score": 85.8
     },
     {
+      "match_date": "2026-02-23 17:30",
+      "league": "Serie A",
+      "home_team": "Fiorentina",
+      "away_team": "Pisa",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 12.31,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 85.7
+    },
+    {
+      "match_date": "2026-02-22 20:00",
+      "league": "La Liga",
+      "home_team": "Villarreal",
+      "away_team": "Valencia",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 11.75,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 93.8
+    },
+    {
       "match_date": "2026-02-22 17:30",
       "league": "La Liga",
       "home_team": "Celta Vigo",
@@ -752,6 +776,30 @@
       "kelly": 4.2,
       "bet_result": "",
       "confidence_score": 90.3
+    },
+    {
+      "match_date": "2026-02-21 15:15",
+      "league": "La Liga",
+      "home_team": "Real Betis",
+      "away_team": "Rayo Vallecano",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.87,
+      "edge": 13.51,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 91.4
+    },
+    {
+      "match_date": "2026-02-21 14:30",
+      "league": "Bundesliga",
+      "home_team": "Union Berlin",
+      "away_team": "Bayer Leverkusen",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.85,
+      "edge": 13.25,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 91.0
     },
     {
       "match_date": "2026-02-21 14:00",
@@ -850,6 +898,18 @@
       "confidence_score": 80.0
     },
     {
+      "match_date": "2026-02-20 19:45",
+      "league": "Ligue 1",
+      "home_team": "Stade Brestois 29",
+      "away_team": "Marseille",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.75,
+      "edge": 9.71,
+      "kelly": 4.5,
+      "bet_result": "",
+      "confidence_score": 86.5
+    },
+    {
       "match_date": "2026-02-20 19:30",
       "league": "Serie B",
       "home_team": "Frosinone",
@@ -896,6 +956,18 @@
       "kelly": 3.6,
       "bet_result": "",
       "confidence_score": 86.9
+    },
+    {
+      "match_date": "2026-02-20 17:30",
+      "league": "2. Bundesliga",
+      "home_team": "SpVgg Greuther Fürth",
+      "away_team": "Arminia Bielefeld",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 12.4,
+      "kelly": 5.0,
+      "bet_result": "",
+      "confidence_score": 89.4
     },
     {
       "match_date": "2026-02-17 19:45",
@@ -980,78 +1052,6 @@
       "kelly": 3.7,
       "bet_result": "Perdida",
       "confidence_score": 85.8
-    },
-    {
-      "match_date": "2026-02-15 17:30",
-      "league": "La Liga",
-      "home_team": "Levante",
-      "away_team": "Valencia",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.05,
-      "edge": 8.36,
-      "kelly": 2.7,
-      "bet_result": "Perdida",
-      "confidence_score": 87.3
-    },
-    {
-      "match_date": "2026-02-15 17:00",
-      "league": "Serie A",
-      "home_team": "Torino",
-      "away_team": "Bologna",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 7.14,
-      "kelly": 2.8,
-      "bet_result": "Ganada",
-      "confidence_score": 82.7
-    },
-    {
-      "match_date": "2026-02-15 16:15",
-      "league": "Ligue 1",
-      "home_team": "Lorient",
-      "away_team": "Angers",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 12.22,
-      "kelly": 4.4,
-      "bet_result": "Perdida",
-      "confidence_score": 83.3
-    },
-    {
-      "match_date": "2026-02-15 15:30",
-      "league": "Super League",
-      "home_team": "Lausanne",
-      "away_team": "Servette FC",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.73,
-      "edge": 8.04,
-      "kelly": 3.8,
-      "bet_result": "Ganada",
-      "confidence_score": 82.1
-    },
-    {
-      "match_date": "2026-02-15 15:30",
-      "league": "Primeira Liga",
-      "home_team": "Nacional",
-      "away_team": "FC Porto",
-      "selection": "BTTS No",
-      "betfair_odd": 1.8,
-      "edge": 8.28,
-      "kelly": 3.7,
-      "bet_result": "Ganada",
-      "confidence_score": 86.5
-    },
-    {
-      "match_date": "2026-02-15 15:15",
-      "league": "Segunda División",
-      "home_team": "Huesca",
-      "away_team": "AD Ceuta FC",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 12.7,
-      "kelly": 4.5,
-      "bet_result": "Perdida",
-      "confidence_score": 84.2
     }
   ],
   "clv_analysis": {
