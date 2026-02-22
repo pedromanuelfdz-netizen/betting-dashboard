@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-02-22T12:43:26.265456+00:00",
+  "timestamp": "2026-02-22T18:32:28.058595+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 240.51,
-    "profit_loss": 40.51,
-    "roi": 20.25,
-    "win_rate": 54.81,
-    "yield": 2.2,
-    "total_picks": 239,
+    "bankroll_final": 228.48,
+    "profit_loss": 28.48,
+    "roi": 14.24,
+    "win_rate": 54.58,
+    "yield": 1.53,
+    "total_picks": 240,
     "ganadas": 131,
-    "perdidas": 108,
-    "pendientes": 17,
-    "total_turnover": 1843.7
+    "perdidas": 109,
+    "pendientes": 16,
+    "total_turnover": 1855.73
   },
   "bankroll_history": [
     200.0,
@@ -253,16 +253,17 @@
     257.16,
     244.3,
     234.53,
-    240.51
+    240.51,
+    228.48
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 52,
+      "picks": 53,
       "ganadas": 29,
-      "perdidas": 23,
-      "win_rate": 55.77,
-      "roi": -1.91,
-      "profit": -9.88
+      "perdidas": 24,
+      "win_rate": 54.72,
+      "roi": -4.14,
+      "profit": -21.91
     },
     "Over 2.5": {
       "picks": 138,
@@ -363,12 +364,12 @@
       "profit": 52.39
     },
     "Eredivisie": {
-      "picks": 4,
+      "picks": 5,
       "ganadas": 1,
-      "perdidas": 3,
-      "win_rate": 25.0,
-      "roi": -31.74,
-      "profit": -8.49
+      "perdidas": 4,
+      "win_rate": 20.0,
+      "roi": -52.93,
+      "profit": -20.52
     },
     "Primeira Liga": {
       "picks": 24,
@@ -421,12 +422,12 @@
       "profit": 112.28
     },
     "12.0-15.0%": {
-      "picks": 48,
+      "picks": 49,
       "ganadas": 27,
-      "perdidas": 21,
-      "win_rate": 56.25,
-      "roi": -0.18,
-      "profit": -0.87
+      "perdidas": 22,
+      "win_rate": 55.1,
+      "roi": -2.63,
+      "profit": -12.9
     },
     "6.0-8.0%": {
       "picks": 48,
@@ -471,12 +472,12 @@
       "profit": 47.29
     },
     "2.00-2.20": {
-      "picks": 77,
+      "picks": 78,
       "ganadas": 42,
-      "perdidas": 35,
-      "win_rate": 54.55,
-      "roi": 0.29,
-      "profit": 1.56
+      "perdidas": 36,
+      "win_rate": 53.85,
+      "roi": -1.93,
+      "profit": -10.47
     },
     "2.20-2.50": {
       "picks": 44,
@@ -630,9 +631,9 @@
         "roi": 100.09
       },
       "12.0-15.0%": {
-        "picks": 15,
-        "win_rate": 60.0,
-        "roi": 6.27
+        "picks": 16,
+        "win_rate": 56.25,
+        "roi": 0.52
       },
       "6.0-8.0%": {
         "picks": 14,
@@ -929,7 +930,7 @@
       "betfair_odd": 2.15,
       "edge": 14.29,
       "kelly": 5.0,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 81.8
     },
     {
@@ -1090,19 +1091,19 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.78,
-    "total_with_clv": 195,
+    "avg_clv": 1.71,
+    "total_with_clv": 196,
     "positive_clv": 109,
-    "negative_clv": 49,
+    "negative_clv": 50,
     "zero_clv": 37,
     "best_clv": 21.4,
     "worst_clv": -14.4
   },
   "temporal_stats": {
     "Domingo": {
-      "picks": 77,
-      "win_rate": 48.1,
-      "roi": -15.77
+      "picks": 78,
+      "win_rate": 47.4,
+      "roi": -17.32
     },
     "Lunes": {
       "picks": 14,
@@ -1221,6 +1222,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "win"
+    "tipo": "loss"
   }
 }
