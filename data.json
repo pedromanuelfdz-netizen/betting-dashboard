@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-24T01:55:42.682722+00:00",
+  "timestamp": "2026-02-24T06:57:22.336115+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 247.13,
@@ -10,7 +10,7 @@
     "total_picks": 250,
     "ganadas": 137,
     "perdidas": 113,
-    "pendientes": 11,
+    "pendientes": 12,
     "total_turnover": 1962.03
   },
   "bankroll_history": [
@@ -750,6 +750,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-03-02 19:45",
+      "league": "Serie A",
+      "home_team": "Udinese",
+      "away_team": "Fiorentina",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 7.49,
+      "kelly": 4.0,
+      "bet_result": "",
+      "confidence_score": 95.0
+    },
+    {
       "match_date": "2026-03-01 17:30",
       "league": "La Liga",
       "home_team": "Real Betis",
@@ -1096,18 +1108,6 @@
       "kelly": 3.4,
       "bet_result": "Ganada",
       "confidence_score": 79.7
-    },
-    {
-      "match_date": "2026-02-21 14:00",
-      "league": "Serie B",
-      "home_team": "Palermo",
-      "away_team": "Sudtirol",
-      "selection": "BTTS No",
-      "betfair_odd": 1.8,
-      "edge": 9.38,
-      "kelly": 4.2,
-      "bet_result": "Ganada",
-      "confidence_score": 81.6
     }
   ],
   "clv_analysis": {
