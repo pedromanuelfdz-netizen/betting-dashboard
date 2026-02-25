@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-25T06:59:14.633966+00:00",
+  "timestamp": "2026-02-25T12:59:22.585697+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 259.85,
@@ -10,7 +10,7 @@
     "total_picks": 251,
     "ganadas": 138,
     "perdidas": 113,
-    "pendientes": 22,
+    "pendientes": 23,
     "total_turnover": 1974.14
   },
   "bankroll_history": [
@@ -1015,6 +1015,18 @@
       "confidence_score": 86.0
     },
     {
+      "match_date": "2026-02-25 20:00",
+      "league": "Championship",
+      "home_team": "Stoke City",
+      "away_team": "Oxford United",
+      "selection": "BTTS No",
+      "betfair_odd": 1.8,
+      "edge": 11.58,
+      "kelly": 4.7,
+      "bet_result": "",
+      "confidence_score": 60.4
+    },
+    {
       "match_date": "2026-02-24 19:45",
       "league": "Championship",
       "home_team": "Wrexham",
@@ -1097,18 +1109,6 @@
       "kelly": 4.4,
       "bet_result": "Ganada",
       "confidence_score": 83.4
-    },
-    {
-      "match_date": "2026-02-22 14:00",
-      "league": "Premier League",
-      "home_team": "Crystal Palace",
-      "away_team": "Wolves",
-      "selection": "BTTS No",
-      "betfair_odd": 1.9,
-      "edge": 8.14,
-      "kelly": 3.4,
-      "bet_result": "Ganada",
-      "confidence_score": 79.6
     }
   ],
   "clv_analysis": {
