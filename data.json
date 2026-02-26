@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-26T13:00:29.218946+00:00",
+  "timestamp": "2026-02-26T18:50:37.744706+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 247.64,
@@ -10,7 +10,7 @@
     "total_picks": 252,
     "ganadas": 138,
     "perdidas": 114,
-    "pendientes": 26,
+    "pendientes": 27,
     "total_turnover": 1986.35
   },
   "bankroll_history": [
@@ -1040,6 +1040,18 @@
       "confidence_score": 72.3
     },
     {
+      "match_date": "2026-02-27 20:00",
+      "league": "Championship",
+      "home_team": "Bristol City",
+      "away_team": "Watford",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 7.82,
+      "kelly": 2.6,
+      "bet_result": "",
+      "confidence_score": 95.0
+    },
+    {
       "match_date": "2026-02-27 19:00",
       "league": "Ligue 2",
       "home_team": "Montpellier",
@@ -1098,18 +1110,6 @@
       "kelly": 5.0,
       "bet_result": "Perdida",
       "confidence_score": 81.6
-    },
-    {
-      "match_date": "2026-02-22 18:00",
-      "league": "Primeira Liga",
-      "home_team": "Estoril",
-      "away_team": "GIL Vicente",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.9,
-      "edge": 10.3,
-      "kelly": 4.3,
-      "bet_result": "Ganada",
-      "confidence_score": 83.2
     }
   ],
   "clv_analysis": {
