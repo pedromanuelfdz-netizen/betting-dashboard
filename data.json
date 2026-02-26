@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-02-25T19:02:55.664634+00:00",
+  "timestamp": "2026-02-26T01:53:18.468183+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 259.85,
-    "profit_loss": 59.85,
-    "roi": 29.93,
-    "win_rate": 54.98,
-    "yield": 3.03,
-    "total_picks": 251,
+    "bankroll_final": 247.64,
+    "profit_loss": 47.64,
+    "roi": 23.82,
+    "win_rate": 54.76,
+    "yield": 2.4,
+    "total_picks": 252,
     "ganadas": 138,
-    "perdidas": 113,
+    "perdidas": 114,
     "pendientes": 23,
-    "total_turnover": 1974.14
+    "total_turnover": 1986.35
   },
   "bankroll_history": [
     200.0,
@@ -265,7 +265,8 @@
     250.45,
     260.14,
     247.13,
-    259.85
+    259.85,
+    247.64
   ],
   "by_market": {
     "Under 2.5": {
@@ -285,12 +286,12 @@
       "profit": 76.46
     },
     "BTTS No": {
-      "picks": 41,
+      "picks": 42,
       "ganadas": 23,
-      "perdidas": 18,
-      "win_rate": 56.1,
-      "roi": 6.82,
-      "profit": 19.48
+      "perdidas": 19,
+      "win_rate": 54.76,
+      "roi": 2.44,
+      "profit": 7.27
     },
     "BTTS Yes": {
       "picks": 12,
@@ -311,12 +312,12 @@
       "profit": -0.41
     },
     "Championship": {
-      "picks": 28,
+      "picks": 29,
       "ganadas": 15,
-      "perdidas": 13,
-      "win_rate": 53.57,
-      "roi": 2.47,
-      "profit": 5.98
+      "perdidas": 14,
+      "win_rate": 51.72,
+      "roi": -2.44,
+      "profit": -6.23
     },
     "Premier League": {
       "picks": 20,
@@ -425,12 +426,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 48,
+      "picks": 49,
       "ganadas": 32,
-      "perdidas": 16,
-      "win_rate": 66.67,
-      "roi": 46.11,
-      "profit": 145.74
+      "perdidas": 17,
+      "win_rate": 65.31,
+      "roi": 40.68,
+      "profit": 133.53
     },
     "12.0-15.0%": {
       "picks": 51,
@@ -467,12 +468,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 59,
+      "picks": 60,
       "ganadas": 28,
-      "perdidas": 31,
-      "win_rate": 47.46,
-      "roi": -18.28,
-      "profit": -101.35
+      "perdidas": 32,
+      "win_rate": 46.67,
+      "roi": -20.04,
+      "profit": -113.56
     },
     "1.85-2.00": {
       "picks": 66,
@@ -701,9 +702,9 @@
     },
     "BTTS No": {
       "10.0-12.0%": {
-        "picks": 4,
-        "win_rate": 100.0,
-        "roi": 89.22
+        "picks": 5,
+        "win_rate": 80.0,
+        "roi": 29.79
       },
       "12.0-15.0%": {
         "picks": 4,
@@ -943,6 +944,18 @@
       "confidence_score": 84.2
     },
     {
+      "match_date": "2026-02-28 15:00",
+      "league": "Championship",
+      "home_team": "QPR",
+      "away_team": "Sheffield Utd",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 11.97,
+      "kelly": 4.7,
+      "bet_result": "",
+      "confidence_score": 95.0
+    },
+    {
       "match_date": "2026-02-28 14:30",
       "league": "Bundesliga",
       "home_team": "Borussia Mönchengladbach",
@@ -1023,7 +1036,7 @@
       "betfair_odd": 1.8,
       "edge": 11.58,
       "kelly": 4.7,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 60.4
     },
     {
@@ -1097,26 +1110,14 @@
       "kelly": 5.0,
       "bet_result": "Perdida",
       "confidence_score": 79.0
-    },
-    {
-      "match_date": "2026-02-22 15:00",
-      "league": "Jupiler Pro League",
-      "home_team": "RAAL La Louvière",
-      "away_team": "KV Mechelen",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.87,
-      "edge": 10.44,
-      "kelly": 4.4,
-      "bet_result": "Ganada",
-      "confidence_score": 83.4
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.71,
-    "total_with_clv": 207,
+    "avg_clv": 1.7,
+    "total_with_clv": 208,
     "positive_clv": 115,
     "negative_clv": 53,
-    "zero_clv": 39,
+    "zero_clv": 40,
     "best_clv": 21.4,
     "worst_clv": -14.4
   },
@@ -1137,9 +1138,9 @@
       "roi": 18.01
     },
     "Miércoles": {
-      "picks": 17,
-      "win_rate": 76.5,
-      "roi": 43.31
+      "picks": 18,
+      "win_rate": 72.2,
+      "roi": 29.13
     },
     "Jueves": {
       "picks": 4,
@@ -1243,6 +1244,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "win"
+    "tipo": "loss"
   }
 }
