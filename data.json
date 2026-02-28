@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-28T06:34:47.849592+00:00",
+  "timestamp": "2026-02-28T12:40:07.350411+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 246.39,
@@ -10,7 +10,7 @@
     "total_picks": 257,
     "ganadas": 141,
     "perdidas": 116,
-    "pendientes": 34,
+    "pendientes": 36,
     "total_turnover": 2034.74
   },
   "bankroll_history": [
@@ -762,6 +762,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-03-06 19:45",
+      "league": "Serie A",
+      "home_team": "Napoli",
+      "away_team": "Torino",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.95,
+      "edge": 6.47,
+      "kelly": 2.2,
+      "bet_result": "",
+      "confidence_score": 92.7
+    },
+    {
       "match_date": "2026-03-05 20:00",
       "league": "Premier League",
       "home_team": "Tottenham",
@@ -1006,12 +1018,12 @@
       "league": "Primeira Liga",
       "home_team": "AVS",
       "away_team": "Estrela",
-      "selection": "BTTS Yes",
-      "betfair_odd": 1.9,
-      "edge": 11.97,
-      "kelly": 5.0,
+      "selection": "Over 2.5",
+      "betfair_odd": 2.05,
+      "edge": 13.62,
+      "kelly": 4.4,
       "bet_result": "",
-      "confidence_score": 86.0
+      "confidence_score": 95.0
     },
     {
       "match_date": "2026-02-28 15:00",
@@ -1108,18 +1120,6 @@
       "kelly": 2.2,
       "bet_result": "",
       "confidence_score": 95.0
-    },
-    {
-      "match_date": "2026-02-28 14:00",
-      "league": "Serie B",
-      "home_team": "Modena",
-      "away_team": "Padova",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.9,
-      "edge": 9.97,
-      "kelly": 3.5,
-      "bet_result": "",
-      "confidence_score": 81.3
     }
   ],
   "clv_analysis": {
