@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-28T12:40:07.350411+00:00",
+  "timestamp": "2026-02-28T18:29:38.204334+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 246.39,
@@ -10,7 +10,7 @@
     "total_picks": 257,
     "ganadas": 141,
     "perdidas": 116,
-    "pendientes": 36,
+    "pendientes": 38,
     "total_turnover": 2034.74
   },
   "bankroll_history": [
@@ -798,6 +798,18 @@
       "confidence_score": 92.7
     },
     {
+      "match_date": "2026-03-02 20:00",
+      "league": "Championship",
+      "home_team": "Birmingham",
+      "away_team": "Middlesbrough",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.87,
+      "edge": 6.86,
+      "kelly": 2.4,
+      "bet_result": "",
+      "confidence_score": 93.5
+    },
+    {
       "match_date": "2026-03-02 19:45",
       "league": "Serie A",
       "home_team": "Udinese",
@@ -820,6 +832,18 @@
       "kelly": 4.5,
       "bet_result": "",
       "confidence_score": 81.0
+    },
+    {
+      "match_date": "2026-03-01 20:00",
+      "league": "La Liga",
+      "home_team": "Girona",
+      "away_team": "Celta Vigo",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.87,
+      "edge": 6.97,
+      "kelly": 2.5,
+      "bet_result": "",
+      "confidence_score": 76.0
     },
     {
       "match_date": "2026-03-01 17:30",
@@ -1096,30 +1120,6 @@
       "kelly": 2.6,
       "bet_result": "",
       "confidence_score": 91.5
-    },
-    {
-      "match_date": "2026-02-28 14:30",
-      "league": "Bundesliga",
-      "home_team": "Borussia Mönchengladbach",
-      "away_team": "Union Berlin",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 6.87,
-      "kelly": 2.7,
-      "bet_result": "",
-      "confidence_score": 94.2
-    },
-    {
-      "match_date": "2026-02-28 14:00",
-      "league": "Serie B",
-      "home_team": "Empoli",
-      "away_team": "Cesena",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 6.97,
-      "kelly": 2.2,
-      "bet_result": "",
-      "confidence_score": 95.0
     }
   ],
   "clv_analysis": {
