@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-06T01:55:42.070117+00:00",
+  "timestamp": "2026-03-06T06:43:18.124350+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 166.4,
-    "profit_loss": -33.6,
-    "roi": -16.8,
-    "win_rate": 53.06,
-    "yield": -1.5,
-    "total_picks": 294,
+    "bankroll_final": 163.07,
+    "profit_loss": -36.93,
+    "roi": -18.47,
+    "win_rate": 52.88,
+    "yield": -1.64,
+    "total_picks": 295,
     "ganadas": 156,
-    "perdidas": 138,
-    "pendientes": 19,
-    "total_turnover": 2244.67
+    "perdidas": 139,
+    "pendientes": 20,
+    "total_turnover": 2248.0
   },
   "bankroll_history": [
     200.0,
@@ -308,16 +308,17 @@
     162.72,
     160.77,
     164.43,
-    166.4
+    166.4,
+    163.07
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 68,
+      "picks": 69,
       "ganadas": 36,
-      "perdidas": 32,
-      "win_rate": 52.94,
-      "roi": -3.62,
-      "profit": -23.39
+      "perdidas": 33,
+      "win_rate": 52.17,
+      "roi": -4.11,
+      "profit": -26.72
     },
     "Over 2.5": {
       "picks": 167,
@@ -362,12 +363,12 @@
       "profit": -18.8
     },
     "Premier League": {
-      "picks": 25,
+      "picks": 26,
       "ganadas": 14,
-      "perdidas": 11,
-      "win_rate": 56.0,
-      "roi": 3.5,
-      "profit": 7.64
+      "perdidas": 12,
+      "win_rate": 53.85,
+      "roi": 1.94,
+      "profit": 4.31
     },
     "La Liga": {
       "picks": 23,
@@ -484,12 +485,12 @@
       "profit": -71.25
     },
     "6.0-8.0%": {
-      "picks": 73,
+      "picks": 74,
       "ganadas": 33,
-      "perdidas": 40,
-      "win_rate": 45.21,
-      "roi": -17.28,
-      "profit": -71.67
+      "perdidas": 41,
+      "win_rate": 44.59,
+      "roi": -17.94,
+      "profit": -75.0
     },
     "8.0-10.0%": {
       "picks": 61,
@@ -518,12 +519,12 @@
       "profit": -119.76
     },
     "1.85-2.00": {
-      "picks": 81,
+      "picks": 82,
       "ganadas": 45,
-      "perdidas": 36,
-      "win_rate": 55.56,
-      "roi": 6.57,
-      "profit": 38.8
+      "perdidas": 37,
+      "win_rate": 54.88,
+      "roi": 5.97,
+      "profit": 35.47
     },
     "2.00-2.20": {
       "picks": 96,
@@ -550,9 +551,9 @@
         "roi": -12.72
       },
       "Premier League": {
-        "picks": 12,
-        "win_rate": 75.0,
-        "roi": 45.79
+        "picks": 13,
+        "win_rate": 69.23,
+        "roi": 41.79
       },
       "Championship": {
         "picks": 6,
@@ -720,9 +721,9 @@
         "roi": -3.5
       },
       "6.0-8.0%": {
-        "picks": 18,
-        "win_rate": 38.89,
-        "roi": -24.45
+        "picks": 19,
+        "win_rate": 36.84,
+        "roi": -26.8
       },
       "8.0-10.0%": {
         "picks": 16,
@@ -862,6 +863,18 @@
       "confidence_score": 77.1
     },
     {
+      "match_date": "2026-03-08 16:30",
+      "league": "Bundesliga",
+      "home_team": "Union Berlin",
+      "away_team": "Werder Bremen",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.05,
+      "edge": 5.93,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 74.1
+    },
+    {
       "match_date": "2026-03-08 15:30",
       "league": "Super League",
       "home_team": "Grasshoppers",
@@ -872,6 +885,18 @@
       "kelly": 3.5,
       "bet_result": "",
       "confidence_score": 77.3
+    },
+    {
+      "match_date": "2026-03-08 14:30",
+      "league": "Bundesliga",
+      "home_team": "FC St. Pauli",
+      "away_team": "Eintracht Frankfurt",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 9.19,
+      "kelly": 3.0,
+      "bet_result": "",
+      "confidence_score": 79.5
     },
     {
       "match_date": "2026-03-08 14:00",
@@ -1038,7 +1063,7 @@
       "betfair_odd": 1.85,
       "edge": 6.2,
       "kelly": 2.0,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 75.0
     },
     {
@@ -1148,37 +1173,13 @@
       "kelly": 3.6,
       "bet_result": "Ganada",
       "confidence_score": 93.8
-    },
-    {
-      "match_date": "2026-03-01 17:30",
-      "league": "Jupiler Pro League",
-      "home_team": "Charleroi",
-      "away_team": "Club Brugge KV",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.73,
-      "edge": 6.67,
-      "kelly": 2.6,
-      "bet_result": "Ganada",
-      "confidence_score": 91.3
-    },
-    {
-      "match_date": "2026-03-01 16:30",
-      "league": "Bundesliga",
-      "home_team": "Eintracht Frankfurt",
-      "away_team": "SC Freiburg",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.73,
-      "edge": 14.12,
-      "kelly": 5.0,
-      "bet_result": "Perdida",
-      "confidence_score": 95.0
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.5,
-    "total_with_clv": 250,
+    "avg_clv": 1.47,
+    "total_with_clv": 251,
     "positive_clv": 132,
-    "negative_clv": 66,
+    "negative_clv": 67,
     "zero_clv": 52,
     "best_clv": 21.4,
     "worst_clv": -14.4
@@ -1205,9 +1206,9 @@
       "roi": 30.24
     },
     "Jueves": {
-      "picks": 4,
-      "win_rate": 25.0,
-      "roi": -54.25
+      "picks": 5,
+      "win_rate": 20.0,
+      "roi": -59.24
     },
     "Sábado": {
       "picks": 113,
@@ -1305,7 +1306,7 @@
     }
   },
   "racha": {
-    "actual": 2,
-    "tipo": "win"
+    "actual": 1,
+    "tipo": "loss"
   }
 }
