@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-08T01:55:59.641310+00:00",
+  "timestamp": "2026-03-08T06:39:14.927764+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 149.1,
-    "profit_loss": -50.9,
-    "roi": -25.45,
-    "win_rate": 52.27,
-    "yield": -2.2,
-    "total_picks": 308,
-    "ganadas": 161,
+    "bankroll_final": 155.45,
+    "profit_loss": -44.55,
+    "roi": -22.28,
+    "win_rate": 52.43,
+    "yield": -1.92,
+    "total_picks": 309,
+    "ganadas": 162,
     "perdidas": 147,
-    "pendientes": 16,
-    "total_turnover": 2312.94
+    "pendientes": 18,
+    "total_turnover": 2318.46
   },
   "bankroll_history": [
     200.0,
@@ -322,7 +322,8 @@
     154.02,
     158.46,
     153.39,
-    149.1
+    149.1,
+    155.45
   ],
   "by_market": {
     "Under 2.5": {
@@ -334,12 +335,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 179,
-      "ganadas": 96,
+      "picks": 180,
+      "ganadas": 97,
       "perdidas": 83,
-      "win_rate": 53.63,
-      "roi": 2.4,
-      "profit": 30.26
+      "win_rate": 53.89,
+      "roi": 2.89,
+      "profit": 36.61
     },
     "BTTS No": {
       "picks": 44,
@@ -400,12 +401,12 @@
       "profit": -80.46
     },
     "Segunda División": {
-      "picks": 18,
-      "ganadas": 9,
+      "picks": 19,
+      "ganadas": 10,
       "perdidas": 9,
-      "win_rate": 50.0,
-      "roi": 13.98,
-      "profit": 17.01
+      "win_rate": 52.63,
+      "roi": 18.37,
+      "profit": 23.35
     },
     "Ligue 2": {
       "picks": 19,
@@ -482,12 +483,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 56,
-      "ganadas": 32,
+      "picks": 57,
+      "ganadas": 33,
       "perdidas": 24,
-      "win_rate": 57.14,
-      "roi": 19.48,
-      "profit": 75.29
+      "win_rate": 57.89,
+      "roi": 20.82,
+      "profit": 81.63
     },
     "12.0-15.0%": {
       "picks": 60,
@@ -540,12 +541,12 @@
       "profit": 35.17
     },
     "2.00-2.20": {
-      "picks": 99,
-      "ganadas": 51,
+      "picks": 100,
+      "ganadas": 52,
       "perdidas": 48,
-      "win_rate": 51.52,
-      "roi": -5.16,
-      "profit": -35.9
+      "win_rate": 52.0,
+      "roi": -4.21,
+      "profit": -29.55
     },
     "2.20-2.50": {
       "picks": 51,
@@ -631,9 +632,9 @@
         "roi": 36.7
       },
       "Segunda División": {
-        "picks": 12,
-        "win_rate": 58.33,
-        "roi": 35.7
+        "picks": 13,
+        "win_rate": 61.54,
+        "roi": 40.39
       },
       "Serie B": {
         "picks": 18,
@@ -756,9 +757,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 37,
-        "win_rate": 56.76,
-        "roi": 18.65
+        "picks": 38,
+        "win_rate": 57.89,
+        "roi": 20.79
       },
       "12.0-15.0%": {
         "picks": 34,
@@ -845,6 +846,18 @@
       "confidence_score": 75.2
     },
     {
+      "match_date": "2026-03-13 20:00",
+      "league": "Championship",
+      "home_team": "Wrexham",
+      "away_team": "Swansea",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.93,
+      "edge": 10.88,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 81.8
+    },
+    {
       "match_date": "2026-03-13 19:00",
       "league": "Ligue 2",
       "home_team": "Montpellier",
@@ -903,6 +916,18 @@
       "kelly": 3.8,
       "bet_result": "",
       "confidence_score": 78.8
+    },
+    {
+      "match_date": "2026-03-09 19:45",
+      "league": "Serie A",
+      "home_team": "Lazio",
+      "away_team": "Sassuolo",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.15,
+      "edge": 5.77,
+      "kelly": 1.6,
+      "bet_result": "",
+      "confidence_score": 70.3
     },
     {
       "match_date": "2026-03-08 20:00",
@@ -965,6 +990,18 @@
       "confidence_score": 77.3
     },
     {
+      "match_date": "2026-03-08 15:30",
+      "league": "Primeira Liga",
+      "home_team": "Estrela",
+      "away_team": "GIL Vicente",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.15,
+      "edge": 13.77,
+      "kelly": 4.2,
+      "bet_result": "",
+      "confidence_score": 78.7
+    },
+    {
       "match_date": "2026-03-08 14:30",
       "league": "Bundesliga",
       "home_team": "FC St. Pauli",
@@ -1021,7 +1058,7 @@
       "betfair_odd": 2.15,
       "edge": 10.09,
       "kelly": 3.7,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 78.0
     },
     {
@@ -1155,48 +1192,12 @@
       "kelly": 5.0,
       "bet_result": "Perdida",
       "confidence_score": 80.7
-    },
-    {
-      "match_date": "2026-03-06 19:00",
-      "league": "Ligue 2",
-      "home_team": "Nancy",
-      "away_team": "Montpellier",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.73,
-      "edge": 10.87,
-      "kelly": 4.2,
-      "bet_result": "Perdida",
-      "confidence_score": 78.1
-    },
-    {
-      "match_date": "2026-03-06 17:30",
-      "league": "2. Bundesliga",
-      "home_team": "FC Schalke 04",
-      "away_team": "Arminia Bielefeld",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.9,
-      "edge": 5.67,
-      "kelly": 2.2,
-      "bet_result": "Perdida",
-      "confidence_score": 73.7
-    },
-    {
-      "match_date": "2026-03-05 20:00",
-      "league": "Premier League",
-      "home_team": "Tottenham",
-      "away_team": "Crystal Palace",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.85,
-      "edge": 6.2,
-      "kelly": 2.0,
-      "bet_result": "Perdida",
-      "confidence_score": 75.0
     }
   ],
   "clv_analysis": {
     "avg_clv": 1.54,
-    "total_with_clv": 264,
-    "positive_clv": 139,
+    "total_with_clv": 265,
+    "positive_clv": 140,
     "negative_clv": 69,
     "zero_clv": 56,
     "best_clv": 21.4,
@@ -1229,9 +1230,9 @@
       "roi": -59.24
     },
     "Sábado": {
-      "picks": 120,
-      "win_rate": 48.3,
-      "roi": -11.29
+      "picks": 121,
+      "win_rate": 48.8,
+      "roi": -10.46
     },
     "Viernes": {
       "picks": 35,
@@ -1324,7 +1325,7 @@
     }
   },
   "racha": {
-    "actual": 2,
-    "tipo": "loss"
+    "actual": 1,
+    "tipo": "win"
   }
 }
