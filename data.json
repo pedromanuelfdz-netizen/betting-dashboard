@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-09T12:57:34.413870+00:00",
+  "timestamp": "2026-03-09T18:50:09.631531+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 162.42,
@@ -10,7 +10,7 @@
     "total_picks": 319,
     "ganadas": 168,
     "perdidas": 151,
-    "pendientes": 19,
+    "pendientes": 21,
     "total_turnover": 2366.73
   },
   "bankroll_history": [
@@ -921,6 +921,18 @@
       "confidence_score": 78.5
     },
     {
+      "match_date": "2026-03-15 13:00",
+      "league": "La Liga",
+      "home_team": "Mallorca",
+      "away_team": "Espanyol",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 9.99,
+      "kelly": 2.7,
+      "bet_result": "",
+      "confidence_score": 74.8
+    },
+    {
       "match_date": "2026-03-14 20:00",
       "league": "Segunda División",
       "home_team": "AD Ceuta FC",
@@ -955,6 +967,18 @@
       "kelly": 3.6,
       "bet_result": "",
       "confidence_score": 76.3
+    },
+    {
+      "match_date": "2026-03-14 15:15",
+      "league": "La Liga",
+      "home_team": "Atletico Madrid",
+      "away_team": "Getafe",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 9.31,
+      "kelly": 2.5,
+      "bet_result": "",
+      "confidence_score": 73.7
     },
     {
       "match_date": "2026-03-14 14:00",
@@ -1183,30 +1207,6 @@
       "kelly": 3.9,
       "bet_result": "Perdida",
       "confidence_score": 81.5
-    },
-    {
-      "match_date": "2026-03-08 13:00",
-      "league": "Segunda División",
-      "home_team": "Las Palmas",
-      "away_team": "AD Ceuta FC",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 6.03,
-      "kelly": 2.2,
-      "bet_result": "Ganada",
-      "confidence_score": 74.3
-    },
-    {
-      "match_date": "2026-03-07 20:00",
-      "league": "Segunda División",
-      "home_team": "Malaga",
-      "away_team": "Valladolid",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.15,
-      "edge": 10.09,
-      "kelly": 3.7,
-      "bet_result": "Ganada",
-      "confidence_score": 78.0
     }
   ],
   "clv_analysis": {
