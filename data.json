@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-11T01:49:53.098375+00:00",
+  "timestamp": "2026-03-11T06:50:33.210196+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 159.12,
-    "profit_loss": -40.88,
-    "roi": -20.44,
-    "win_rate": 52.65,
-    "yield": -1.72,
-    "total_picks": 321,
-    "ganadas": 169,
+    "bankroll_final": 165.49,
+    "profit_loss": -34.51,
+    "roi": -17.25,
+    "win_rate": 52.8,
+    "yield": -1.45,
+    "total_picks": 322,
+    "ganadas": 170,
     "perdidas": 152,
-    "pendientes": 20,
-    "total_turnover": 2375.62
+    "pendientes": 19,
+    "total_turnover": 2383.58
   },
   "bankroll_history": [
     200.0,
@@ -335,7 +335,8 @@
     165.73,
     162.42,
     165.41,
-    159.12
+    159.12,
+    165.49
   ],
   "by_market": {
     "Under 2.5": {
@@ -347,12 +348,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 192,
-      "ganadas": 104,
+      "picks": 193,
+      "ganadas": 105,
       "perdidas": 88,
-      "win_rate": 54.17,
-      "roi": 3.04,
-      "profit": 40.28
+      "win_rate": 54.4,
+      "roi": 3.5,
+      "profit": 46.65
     },
     "BTTS No": {
       "picks": 44,
@@ -381,12 +382,12 @@
       "profit": 16.76
     },
     "Championship": {
-      "picks": 36,
-      "ganadas": 18,
+      "picks": 37,
+      "ganadas": 19,
       "perdidas": 18,
-      "win_rate": 50.0,
-      "roi": -6.78,
-      "profit": -20.09
+      "win_rate": 51.35,
+      "roi": -4.51,
+      "profit": -13.72
     },
     "Premier League": {
       "picks": 26,
@@ -495,12 +496,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 59,
-      "ganadas": 33,
+      "picks": 60,
+      "ganadas": 34,
       "perdidas": 26,
-      "win_rate": 55.93,
-      "roi": 17.03,
-      "profit": 68.93
+      "win_rate": 56.67,
+      "roi": 18.25,
+      "profit": 75.3
     },
     "12.0-15.0%": {
       "picks": 62,
@@ -537,12 +538,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 73,
-      "ganadas": 34,
+      "picks": 74,
+      "ganadas": 35,
       "perdidas": 39,
-      "win_rate": 46.58,
-      "roi": -21.54,
-      "profit": -139.83
+      "win_rate": 47.3,
+      "roi": -20.31,
+      "profit": -133.46
     },
     "1.85-2.00": {
       "picks": 87,
@@ -619,9 +620,9 @@
     },
     "Over 2.5": {
       "Championship": {
-        "picks": 28,
-        "win_rate": 57.14,
-        "roi": 11.74
+        "picks": 29,
+        "win_rate": 58.62,
+        "roi": 14.21
       },
       "Premier League": {
         "picks": 9,
@@ -774,9 +775,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 40,
-        "win_rate": 55.0,
-        "roi": 14.9
+        "picks": 41,
+        "win_rate": 56.1,
+        "roi": 16.83
       },
       "12.0-15.0%": {
         "picks": 36,
@@ -1087,7 +1088,7 @@
       "betfair_odd": 1.8,
       "edge": 11.9,
       "kelly": 5.0,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 84.0
     },
     {
@@ -1212,10 +1213,10 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.57,
-    "total_with_clv": 277,
+    "avg_clv": 1.56,
+    "total_with_clv": 278,
     "positive_clv": 147,
-    "negative_clv": 70,
+    "negative_clv": 71,
     "zero_clv": 60,
     "best_clv": 21.4,
     "worst_clv": -14.4
@@ -1232,9 +1233,9 @@
       "roi": 45.72
     },
     "Martes": {
-      "picks": 16,
-      "win_rate": 50.0,
-      "roi": 14.56
+      "picks": 17,
+      "win_rate": 52.9,
+      "roi": 19.07
     },
     "Miércoles": {
       "picks": 19,
@@ -1278,6 +1279,10 @@
       "picks": 3,
       "win_rate": 100.0
     },
+    "Wrexham": {
+      "picks": 3,
+      "win_rate": 100.0
+    },
     "Bologna": {
       "picks": 3,
       "win_rate": 100.0
@@ -1291,10 +1296,6 @@
       "win_rate": 100.0
     },
     "Sampdoria": {
-      "picks": 3,
-      "win_rate": 100.0
-    },
-    "PAU": {
       "picks": 3,
       "win_rate": 100.0
     }
@@ -1343,6 +1344,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "loss"
+    "tipo": "win"
   }
 }
