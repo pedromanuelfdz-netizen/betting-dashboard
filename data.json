@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-11T12:55:01.640197+00:00",
+  "timestamp": "2026-03-11T18:50:48.169225+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 165.49,
@@ -10,7 +10,7 @@
     "total_picks": 322,
     "ganadas": 170,
     "perdidas": 152,
-    "pendientes": 19,
+    "pendientes": 20,
     "total_turnover": 2383.58
   },
   "bankroll_history": [
@@ -996,6 +996,18 @@
       "confidence_score": 73.7
     },
     {
+      "match_date": "2026-03-14 15:00",
+      "league": "Championship",
+      "home_team": "Leicester",
+      "away_team": "QPR",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.91,
+      "edge": 8.83,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 79.3
+    },
+    {
       "match_date": "2026-03-14 14:00",
       "league": "Serie B",
       "home_team": "Padova",
@@ -1198,18 +1210,6 @@
       "kelly": 3.0,
       "bet_result": "Perdida",
       "confidence_score": 79.5
-    },
-    {
-      "match_date": "2026-03-08 14:00",
-      "league": "Serie B",
-      "home_team": "Catanzaro",
-      "away_team": "Empoli",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 8.65,
-      "kelly": 3.4,
-      "bet_result": "Ganada",
-      "confidence_score": 78.6
     }
   ],
   "clv_analysis": {
