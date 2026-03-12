@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-12T01:54:20.505627+00:00",
+  "timestamp": "2026-03-12T06:51:54.446491+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 165.49,
-    "profit_loss": -34.51,
-    "roi": -17.25,
-    "win_rate": 52.8,
-    "yield": -1.45,
-    "total_picks": 322,
+    "bankroll_final": 162.18,
+    "profit_loss": -37.82,
+    "roi": -18.91,
+    "win_rate": 52.63,
+    "yield": -1.58,
+    "total_picks": 323,
     "ganadas": 170,
-    "perdidas": 152,
+    "perdidas": 153,
     "pendientes": 20,
-    "total_turnover": 2383.58
+    "total_turnover": 2386.89
   },
   "bankroll_history": [
     200.0,
@@ -336,7 +336,8 @@
     162.42,
     165.41,
     159.12,
-    165.49
+    165.49,
+    162.18
   ],
   "by_market": {
     "Under 2.5": {
@@ -348,12 +349,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 193,
+      "picks": 194,
       "ganadas": 105,
-      "perdidas": 88,
-      "win_rate": 54.4,
-      "roi": 3.5,
-      "profit": 46.65
+      "perdidas": 89,
+      "win_rate": 54.12,
+      "roi": 3.25,
+      "profit": 43.34
     },
     "BTTS No": {
       "picks": 44,
@@ -382,12 +383,12 @@
       "profit": 16.76
     },
     "Championship": {
-      "picks": 37,
+      "picks": 38,
       "ganadas": 19,
-      "perdidas": 18,
-      "win_rate": 51.35,
-      "roi": -4.51,
-      "profit": -13.72
+      "perdidas": 19,
+      "win_rate": 50.0,
+      "roi": -5.54,
+      "profit": -17.03
     },
     "Premier League": {
       "picks": 26,
@@ -512,12 +513,12 @@
       "profit": -51.32
     },
     "6.0-8.0%": {
-      "picks": 85,
+      "picks": 86,
       "ganadas": 38,
-      "perdidas": 47,
-      "win_rate": 44.71,
-      "roi": -17.83,
-      "profit": -82.05
+      "perdidas": 48,
+      "win_rate": 44.19,
+      "roi": -18.42,
+      "profit": -85.36
     },
     "8.0-10.0%": {
       "picks": 68,
@@ -538,12 +539,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 74,
+      "picks": 75,
       "ganadas": 35,
-      "perdidas": 39,
-      "win_rate": 47.3,
-      "roi": -20.31,
-      "profit": -133.46
+      "perdidas": 40,
+      "win_rate": 46.67,
+      "roi": -20.71,
+      "profit": -136.77
     },
     "1.85-2.00": {
       "picks": 87,
@@ -620,9 +621,9 @@
     },
     "Over 2.5": {
       "Championship": {
-        "picks": 29,
-        "win_rate": 58.62,
-        "roi": 14.21
+        "picks": 30,
+        "win_rate": 56.67,
+        "roi": 12.52
       },
       "Premier League": {
         "picks": 9,
@@ -785,9 +786,9 @@
         "roi": -17.79
       },
       "6.0-8.0%": {
-        "picks": 50,
-        "win_rate": 54.0,
-        "roi": 6.28
+        "picks": 51,
+        "win_rate": 52.94,
+        "roi": 4.9
       },
       "8.0-10.0%": {
         "picks": 33,
@@ -1008,6 +1009,18 @@
       "confidence_score": 79.3
     },
     {
+      "match_date": "2026-03-14 15:00",
+      "league": "Championship",
+      "home_team": "Birmingham",
+      "away_team": "Sheffield Utd",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.87,
+      "edge": 8.22,
+      "kelly": 2.9,
+      "bet_result": "",
+      "confidence_score": 77.8
+    },
+    {
       "match_date": "2026-03-14 14:00",
       "league": "Serie B",
       "home_team": "Padova",
@@ -1088,7 +1101,7 @@
       "betfair_odd": 1.8,
       "edge": 5.98,
       "kelly": 2.0,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 73.3
     },
     {
@@ -1198,25 +1211,13 @@
       "kelly": 4.2,
       "bet_result": "Ganada",
       "confidence_score": 78.7
-    },
-    {
-      "match_date": "2026-03-08 14:30",
-      "league": "Bundesliga",
-      "home_team": "FC St. Pauli",
-      "away_team": "Eintracht Frankfurt",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 9.19,
-      "kelly": 3.0,
-      "bet_result": "Perdida",
-      "confidence_score": 79.5
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.56,
-    "total_with_clv": 278,
+    "avg_clv": 1.54,
+    "total_with_clv": 279,
     "positive_clv": 147,
-    "negative_clv": 71,
+    "negative_clv": 72,
     "zero_clv": 60,
     "best_clv": 21.4,
     "worst_clv": -14.4
@@ -1238,9 +1239,9 @@
       "roi": 19.07
     },
     "Miércoles": {
-      "picks": 19,
-      "win_rate": 73.7,
-      "roi": 30.24
+      "picks": 20,
+      "win_rate": 70.0,
+      "roi": 26.89
     },
     "Jueves": {
       "picks": 5,
@@ -1313,6 +1314,10 @@
       "picks": 4,
       "win_rate": 0.0
     },
+    "Southampton": {
+      "picks": 3,
+      "win_rate": 0.0
+    },
     "Lorient": {
       "picks": 3,
       "win_rate": 0.0
@@ -1336,14 +1341,10 @@
     "Cesena": {
       "picks": 5,
       "win_rate": 20.0
-    },
-    "Blackburn": {
-      "picks": 4,
-      "win_rate": 25.0
     }
   },
   "racha": {
     "actual": 1,
-    "tipo": "win"
+    "tipo": "loss"
   }
 }
