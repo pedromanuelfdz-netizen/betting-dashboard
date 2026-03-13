@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-13T12:53:53.365053+00:00",
+  "timestamp": "2026-03-13T18:37:52.802777+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 162.18,
@@ -10,7 +10,7 @@
     "total_picks": 323,
     "ganadas": 170,
     "perdidas": 153,
-    "pendientes": 21,
+    "pendientes": 22,
     "total_turnover": 2386.89
   },
   "bankroll_history": [
@@ -1021,6 +1021,18 @@
       "confidence_score": 77.8
     },
     {
+      "match_date": "2026-03-14 15:00",
+      "league": "Premier League",
+      "home_team": "Burnley",
+      "away_team": "Bournemouth",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.7,
+      "edge": 9.67,
+      "kelly": 3.9,
+      "bet_result": "",
+      "confidence_score": 77.3
+    },
+    {
       "match_date": "2026-03-14 14:00",
       "league": "Serie B",
       "home_team": "Padova",
@@ -1199,18 +1211,6 @@
       "kelly": 2.5,
       "bet_result": "Ganada",
       "confidence_score": 82.5
-    },
-    {
-      "match_date": "2026-03-08 15:30",
-      "league": "Super League",
-      "home_team": "Grasshoppers",
-      "away_team": "Lausanne",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.8,
-      "edge": 7.83,
-      "kelly": 3.5,
-      "bet_result": "Ganada",
-      "confidence_score": 77.3
     }
   ],
   "clv_analysis": {
