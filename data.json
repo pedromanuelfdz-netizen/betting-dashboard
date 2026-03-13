@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-13T01:53:29.140596+00:00",
+  "timestamp": "2026-03-13T06:49:53.733391+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 162.18,
@@ -10,7 +10,7 @@
     "total_picks": 323,
     "ganadas": 170,
     "perdidas": 153,
-    "pendientes": 20,
+    "pendientes": 21,
     "total_turnover": 2386.89
   },
   "bankroll_history": [
@@ -1069,6 +1069,18 @@
       "confidence_score": 81.8
     },
     {
+      "match_date": "2026-03-13 19:30",
+      "league": "Bundesliga",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "FC St. Pauli",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 6.2,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 71.5
+    },
+    {
       "match_date": "2026-03-13 19:00",
       "league": "Ligue 2",
       "home_team": "Montpellier",
@@ -1199,18 +1211,6 @@
       "kelly": 3.5,
       "bet_result": "Ganada",
       "confidence_score": 77.3
-    },
-    {
-      "match_date": "2026-03-08 15:30",
-      "league": "Primeira Liga",
-      "home_team": "Estrela",
-      "away_team": "GIL Vicente",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.15,
-      "edge": 13.77,
-      "kelly": 4.2,
-      "bet_result": "Ganada",
-      "confidence_score": 78.7
     }
   ],
   "clv_analysis": {
