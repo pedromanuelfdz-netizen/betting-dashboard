@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-16T13:05:55.827979+00:00",
+  "timestamp": "2026-03-16T18:58:05.010973+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 139.64,
@@ -10,7 +10,7 @@
     "total_picks": 346,
     "ganadas": 179,
     "perdidas": 167,
-    "pendientes": 11,
+    "pendientes": 13,
     "total_turnover": 2483.78
   },
   "bankroll_history": [
@@ -888,6 +888,18 @@
       "confidence_score": 67.6
     },
     {
+      "match_date": "2026-03-21 20:30",
+      "league": "Primeira Liga",
+      "home_team": "Tondela",
+      "away_team": "AVS",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 6.16,
+      "kelly": 0.9,
+      "bet_result": "",
+      "confidence_score": 73.3
+    },
+    {
       "match_date": "2026-03-21 20:00",
       "league": "Premier League",
       "home_team": "Leeds",
@@ -910,6 +922,18 @@
       "kelly": 2.7,
       "bet_result": "",
       "confidence_score": 76.8
+    },
+    {
+      "match_date": "2026-03-21 17:00",
+      "league": "Super League",
+      "home_team": "Servette FC",
+      "away_team": "Grasshoppers",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 7.22,
+      "kelly": 1.3,
+      "bet_result": "",
+      "confidence_score": 72.1
     },
     {
       "match_date": "2026-03-21 13:00",
@@ -1210,30 +1234,6 @@
       "kelly": 2.5,
       "bet_result": "Ganada",
       "confidence_score": 75.4
-    },
-    {
-      "match_date": "2026-03-14 14:00",
-      "league": "Serie B",
-      "home_team": "Juve Stabia",
-      "away_team": "Carrarese",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 7.38,
-      "kelly": 2.0,
-      "bet_result": "Perdida",
-      "confidence_score": 73.5
-    },
-    {
-      "match_date": "2026-03-13 20:00",
-      "league": "La Liga",
-      "home_team": "Alaves",
-      "away_team": "Villarreal",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 7.15,
-      "kelly": 1.2,
-      "bet_result": "Perdida",
-      "confidence_score": 75.2
     }
   ],
   "clv_analysis": {
