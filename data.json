@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-17T01:56:29.752395+00:00",
+  "timestamp": "2026-03-17T07:00:44.610629+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 139.64,
-    "profit_loss": -60.36,
-    "roi": -30.18,
-    "win_rate": 51.73,
-    "yield": -2.43,
-    "total_picks": 346,
+    "bankroll_final": 138.52,
+    "profit_loss": -61.48,
+    "roi": -30.74,
+    "win_rate": 51.59,
+    "yield": -2.47,
+    "total_picks": 347,
     "ganadas": 179,
-    "perdidas": 167,
-    "pendientes": 13,
-    "total_turnover": 2483.78
+    "perdidas": 168,
+    "pendientes": 14,
+    "total_turnover": 2484.9
   },
   "bankroll_history": [
     200.0,
@@ -360,7 +360,8 @@
     139.93,
     142.73,
     136.02,
-    139.64
+    139.64,
+    138.52
   ],
   "by_market": {
     "Under 2.5": {
@@ -372,12 +373,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 217,
+      "picks": 218,
       "ganadas": 114,
-      "perdidas": 103,
-      "win_rate": 52.53,
-      "roi": 1.45,
-      "profit": 20.8
+      "perdidas": 104,
+      "win_rate": 52.29,
+      "roi": 1.37,
+      "profit": 19.68
     },
     "BTTS No": {
       "picks": 44,
@@ -406,12 +407,12 @@
       "profit": 16.76
     },
     "Championship": {
-      "picks": 41,
+      "picks": 42,
       "ganadas": 20,
-      "perdidas": 21,
-      "win_rate": 48.78,
-      "roi": -6.82,
-      "profit": -22.01
+      "perdidas": 22,
+      "win_rate": 47.62,
+      "roi": -7.14,
+      "profit": -23.13
     },
     "Premier League": {
       "picks": 28,
@@ -536,12 +537,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 94,
+      "picks": 95,
       "ganadas": 40,
-      "perdidas": 54,
-      "win_rate": 42.55,
-      "roi": -20.04,
-      "profit": -97.56
+      "perdidas": 55,
+      "win_rate": 42.11,
+      "roi": -20.22,
+      "profit": -98.68
     },
     "8.0-10.0%": {
       "picks": 78,
@@ -586,12 +587,12 @@
       "profit": -25.2
     },
     "2.20-2.50": {
-      "picks": 61,
+      "picks": 62,
       "ganadas": 33,
-      "perdidas": 28,
-      "win_rate": 54.1,
-      "roi": 18.88,
-      "profit": 75.91
+      "perdidas": 29,
+      "win_rate": 53.23,
+      "roi": 18.55,
+      "profit": 74.79
     }
   },
   "market_league_stats": {
@@ -644,9 +645,9 @@
     },
     "Over 2.5": {
       "Championship": {
-        "picks": 33,
-        "win_rate": 54.55,
-        "roi": 9.63
+        "picks": 34,
+        "win_rate": 52.94,
+        "roi": 9.11
       },
       "Premier League": {
         "picks": 11,
@@ -809,9 +810,9 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 59,
-        "win_rate": 49.15,
-        "roi": 0.09
+        "picks": 60,
+        "win_rate": 48.33,
+        "roi": -0.31
       },
       "8.0-10.0%": {
         "picks": 43,
@@ -876,6 +877,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-03-22 17:30",
+      "league": "Jupiler Pro League",
+      "home_team": "Dender",
+      "away_team": "Gent",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 7.31,
+      "kelly": 1.2,
+      "bet_result": "",
+      "confidence_score": 74.8
+    },
+    {
       "match_date": "2026-03-22 15:15",
       "league": "La Liga",
       "home_team": "Celta Vigo",
@@ -934,6 +947,18 @@
       "kelly": 1.3,
       "bet_result": "",
       "confidence_score": 72.1
+    },
+    {
+      "match_date": "2026-03-21 15:00",
+      "league": "Premiership",
+      "home_team": "Falkirk",
+      "away_team": "ST Mirren",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 10.18,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 79.6
     },
     {
       "match_date": "2026-03-21 13:00",
@@ -1028,7 +1053,7 @@
       "betfair_odd": 2.2,
       "edge": 5.55,
       "kelly": 0.8,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 69.3
     },
     {
@@ -1210,38 +1235,14 @@
       "kelly": 2.9,
       "bet_result": "Perdida",
       "confidence_score": 77.8
-    },
-    {
-      "match_date": "2026-03-14 15:00",
-      "league": "Premier League",
-      "home_team": "Burnley",
-      "away_team": "Bournemouth",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.7,
-      "edge": 9.67,
-      "kelly": 3.9,
-      "bet_result": "Perdida",
-      "confidence_score": 77.3
-    },
-    {
-      "match_date": "2026-03-14 14:00",
-      "league": "Serie B",
-      "home_team": "Padova",
-      "away_team": "Catanzaro",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 8.25,
-      "kelly": 2.5,
-      "bet_result": "Ganada",
-      "confidence_score": 75.4
     }
   ],
   "clv_analysis": {
     "avg_clv": 1.43,
-    "total_with_clv": 302,
+    "total_with_clv": 303,
     "positive_clv": 157,
     "negative_clv": 78,
-    "zero_clv": 67,
+    "zero_clv": 68,
     "best_clv": 21.4,
     "worst_clv": -14.4
   },
@@ -1252,9 +1253,9 @@
       "roi": -9.32
     },
     "Lunes": {
-      "picks": 18,
-      "win_rate": 72.2,
-      "roi": 45.72
+      "picks": 19,
+      "win_rate": 68.4,
+      "roi": 44.69
     },
     "Martes": {
       "picks": 17,
@@ -1299,10 +1300,6 @@
       "picks": 4,
       "win_rate": 100.0
     },
-    "Derby": {
-      "picks": 3,
-      "win_rate": 100.0
-    },
     "Bologna": {
       "picks": 3,
       "win_rate": 100.0
@@ -1320,6 +1317,10 @@
       "win_rate": 100.0
     },
     "PAU": {
+      "picks": 3,
+      "win_rate": 100.0
+    },
+    "Dundee": {
       "picks": 3,
       "win_rate": 100.0
     }
@@ -1368,6 +1369,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "win"
+    "tipo": "loss"
   }
 }
