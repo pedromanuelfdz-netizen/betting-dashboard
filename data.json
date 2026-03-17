@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-17T13:06:21.324032+00:00",
+  "timestamp": "2026-03-17T18:59:47.544432+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 138.52,
@@ -10,7 +10,7 @@
     "total_picks": 347,
     "ganadas": 179,
     "perdidas": 168,
-    "pendientes": 14,
+    "pendientes": 19,
     "total_turnover": 2484.9
   },
   "bankroll_history": [
@@ -877,6 +877,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-03-22 18:30",
+      "league": "Serie B",
+      "home_team": "Virtus Entella",
+      "away_team": "Reggiana",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 6.34,
+      "kelly": 0.9,
+      "bet_result": "",
+      "confidence_score": 67.2
+    },
+    {
       "match_date": "2026-03-22 17:30",
       "league": "Jupiler Pro League",
       "home_team": "Dender",
@@ -887,6 +899,30 @@
       "kelly": 1.2,
       "bet_result": "",
       "confidence_score": 74.8
+    },
+    {
+      "match_date": "2026-03-22 17:30",
+      "league": "Segunda División",
+      "home_team": "Las Palmas",
+      "away_team": "Sporting Gijon",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 6.66,
+      "kelly": 0.9,
+      "bet_result": "",
+      "confidence_score": 67.7
+    },
+    {
+      "match_date": "2026-03-22 16:30",
+      "league": "Bundesliga",
+      "home_team": "FC St. Pauli",
+      "away_team": "SC Freiburg",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 5.85,
+      "kelly": 0.8,
+      "bet_result": "",
+      "confidence_score": 69.4
     },
     {
       "match_date": "2026-03-22 15:15",
@@ -1045,6 +1081,30 @@
       "confidence_score": 67.6
     },
     {
+      "match_date": "2026-03-17 19:00",
+      "league": "Serie B",
+      "home_team": "Reggiana",
+      "away_team": "Monza",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.3,
+      "edge": 7.46,
+      "kelly": 1.0,
+      "bet_result": "",
+      "confidence_score": 69.0
+    },
+    {
+      "match_date": "2026-03-17 18:00",
+      "league": "Serie B",
+      "home_team": "Palermo",
+      "away_team": "Juve Stabia",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 6.0,
+      "kelly": 0.8,
+      "bet_result": "",
+      "confidence_score": 69.6
+    },
+    {
       "match_date": "2026-03-16 20:00",
       "league": "Championship",
       "home_team": "Portsmouth",
@@ -1175,66 +1235,6 @@
       "kelly": 4.1,
       "bet_result": "Ganada",
       "confidence_score": 80.1
-    },
-    {
-      "match_date": "2026-03-14 18:00",
-      "league": "Primeira Liga",
-      "home_team": "GIL Vicente",
-      "away_team": "Alverca",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 6.76,
-      "kelly": 2.1,
-      "bet_result": "Ganada",
-      "confidence_score": 75.9
-    },
-    {
-      "match_date": "2026-03-14 17:00",
-      "league": "Super League",
-      "home_team": "FC Zurich",
-      "away_team": "FC Sion",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.7,
-      "edge": 9.1,
-      "kelly": 3.6,
-      "bet_result": "Ganada",
-      "confidence_score": 76.3
-    },
-    {
-      "match_date": "2026-03-14 15:15",
-      "league": "La Liga",
-      "home_team": "Atletico Madrid",
-      "away_team": "Getafe",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 9.31,
-      "kelly": 2.5,
-      "bet_result": "Perdida",
-      "confidence_score": 73.7
-    },
-    {
-      "match_date": "2026-03-14 15:00",
-      "league": "Championship",
-      "home_team": "Leicester",
-      "away_team": "QPR",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.91,
-      "edge": 8.83,
-      "kelly": 3.7,
-      "bet_result": "Ganada",
-      "confidence_score": 79.3
-    },
-    {
-      "match_date": "2026-03-14 15:00",
-      "league": "Championship",
-      "home_team": "Birmingham",
-      "away_team": "Sheffield Utd",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.87,
-      "edge": 8.22,
-      "kelly": 2.9,
-      "bet_result": "Perdida",
-      "confidence_score": 77.8
     }
   ],
   "clv_analysis": {
