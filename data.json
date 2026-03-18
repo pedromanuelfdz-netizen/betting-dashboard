@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-18T13:05:49.369901+00:00",
+  "timestamp": "2026-03-18T18:56:22.399440+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 138.56,
@@ -10,7 +10,7 @@
     "total_picks": 351,
     "ganadas": 181,
     "perdidas": 170,
-    "pendientes": 19,
+    "pendientes": 21,
     "total_turnover": 2492.35
   },
   "bankroll_history": [
@@ -1037,6 +1037,30 @@
       "confidence_score": 79.6
     },
     {
+      "match_date": "2026-03-21 15:00",
+      "league": "Championship",
+      "home_team": "QPR",
+      "away_team": "Portsmouth",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 6.77,
+      "kelly": 0.9,
+      "bet_result": "",
+      "confidence_score": 71.3
+    },
+    {
+      "match_date": "2026-03-21 14:00",
+      "league": "Serie B",
+      "home_team": "Juve Stabia",
+      "away_team": "Spezia",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 5.59,
+      "kelly": 0.8,
+      "bet_result": "",
+      "confidence_score": 66.3
+    },
+    {
       "match_date": "2026-03-21 13:00",
       "league": "La Liga",
       "home_team": "Elche",
@@ -1215,30 +1239,6 @@
       "kelly": 3.7,
       "bet_result": "Perdida",
       "confidence_score": 83.7
-    },
-    {
-      "match_date": "2026-03-15 16:15",
-      "league": "Serie B",
-      "home_team": "Sudtirol",
-      "away_team": "Pescara",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.9,
-      "edge": 6.71,
-      "kelly": 2.3,
-      "bet_result": "Perdida",
-      "confidence_score": 75.3
-    },
-    {
-      "match_date": "2026-03-15 15:15",
-      "league": "Segunda División",
-      "home_team": "Granada CF",
-      "away_team": "FC Andorra",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 9.36,
-      "kelly": 3.1,
-      "bet_result": "Perdida",
-      "confidence_score": 79.1
     }
   ],
   "clv_analysis": {
