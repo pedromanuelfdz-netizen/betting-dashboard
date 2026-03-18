@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-17T18:59:47.544432+00:00",
+  "timestamp": "2026-03-18T02:00:37.693551+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 138.52,
@@ -10,7 +10,7 @@
     "total_picks": 347,
     "ganadas": 179,
     "perdidas": 168,
-    "pendientes": 19,
+    "pendientes": 20,
     "total_turnover": 2484.9
   },
   "bankroll_history": [
@@ -925,6 +925,18 @@
       "confidence_score": 69.4
     },
     {
+      "match_date": "2026-03-22 16:15",
+      "league": "Serie B",
+      "home_team": "Sampdoria",
+      "away_team": "Avellino",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 5.72,
+      "kelly": 0.8,
+      "bet_result": "",
+      "confidence_score": 69.1
+    },
+    {
       "match_date": "2026-03-22 15:15",
       "league": "La Liga",
       "home_team": "Celta Vigo",
@@ -1223,18 +1235,6 @@
       "kelly": 2.7,
       "bet_result": "Ganada",
       "confidence_score": 74.8
-    },
-    {
-      "match_date": "2026-03-14 20:00",
-      "league": "Segunda División",
-      "home_team": "AD Ceuta FC",
-      "away_team": "Deportivo La Coruna",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 12.56,
-      "kelly": 4.1,
-      "bet_result": "Ganada",
-      "confidence_score": 80.1
     }
   ],
   "clv_analysis": {
