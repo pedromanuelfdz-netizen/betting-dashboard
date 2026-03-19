@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-19T02:01:22.409228+00:00",
+  "timestamp": "2026-03-19T06:55:14.619011+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 138.56,
-    "profit_loss": -61.44,
-    "roi": -30.72,
-    "win_rate": 51.57,
-    "yield": -2.47,
-    "total_picks": 351,
+    "bankroll_final": 137.31,
+    "profit_loss": -62.69,
+    "roi": -31.34,
+    "win_rate": 51.42,
+    "yield": -2.51,
+    "total_picks": 352,
     "ganadas": 181,
-    "perdidas": 170,
+    "perdidas": 171,
     "pendientes": 21,
-    "total_turnover": 2492.35
+    "total_turnover": 2493.6
   },
   "bankroll_history": [
     200.0,
@@ -365,7 +365,8 @@
     139.85,
     142.24,
     139.96,
-    138.56
+    138.56,
+    137.31
   ],
   "by_market": {
     "Under 2.5": {
@@ -377,12 +378,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 222,
+      "picks": 223,
       "ganadas": 116,
-      "perdidas": 106,
-      "win_rate": 52.25,
-      "roi": 1.37,
-      "profit": 19.73
+      "perdidas": 107,
+      "win_rate": 52.02,
+      "roi": 1.28,
+      "profit": 18.48
     },
     "BTTS No": {
       "picks": 44,
@@ -467,12 +468,12 @@
       "profit": 27.84
     },
     "Serie B": {
-      "picks": 45,
+      "picks": 46,
       "ganadas": 25,
-      "perdidas": 20,
-      "win_rate": 55.56,
-      "roi": 4.12,
-      "profit": 10.16
+      "perdidas": 21,
+      "win_rate": 54.35,
+      "roi": 3.6,
+      "profit": 8.91
     },
     "Eredivisie": {
       "picks": 6,
@@ -541,12 +542,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 99,
+      "picks": 100,
       "ganadas": 42,
-      "perdidas": 57,
-      "win_rate": 42.42,
-      "roi": -19.91,
-      "profit": -98.63
+      "perdidas": 58,
+      "win_rate": 42.0,
+      "roi": -20.11,
+      "profit": -99.88
     },
     "8.0-10.0%": {
       "picks": 78,
@@ -591,12 +592,12 @@
       "profit": -25.2
     },
     "2.20-2.50": {
-      "picks": 65,
+      "picks": 66,
       "ganadas": 34,
-      "perdidas": 31,
-      "win_rate": 52.31,
-      "roi": 17.76,
-      "profit": 72.45
+      "perdidas": 32,
+      "win_rate": 51.52,
+      "roi": 17.4,
+      "profit": 71.2
     }
   },
   "market_league_stats": {
@@ -679,9 +680,9 @@
         "roi": 38.82
       },
       "Serie B": {
-        "picks": 27,
-        "win_rate": 51.85,
-        "roi": 5.36
+        "picks": 28,
+        "win_rate": 50.0,
+        "roi": 4.45
       },
       "Premiership": {
         "picks": 10,
@@ -814,9 +815,9 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 64,
-        "win_rate": 48.44,
-        "roi": -0.28
+        "picks": 65,
+        "win_rate": 47.69,
+        "roi": -0.72
       },
       "8.0-10.0%": {
         "picks": 43,
@@ -951,6 +952,18 @@
       "kelly": 0.9,
       "bet_result": "",
       "confidence_score": 67.6
+    },
+    {
+      "match_date": "2026-03-22 15:15",
+      "league": "Segunda División",
+      "home_team": "Mirandes",
+      "away_team": "Valladolid",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 5.62,
+      "kelly": 0.8,
+      "bet_result": "",
+      "confidence_score": 69.3
     },
     {
       "match_date": "2026-03-22 13:00",
@@ -1129,7 +1142,7 @@
       "betfair_odd": 2.3,
       "edge": 7.1,
       "kelly": 0.9,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 68.9
     },
     {
@@ -1227,24 +1240,12 @@
       "kelly": 4.7,
       "bet_result": "Perdida",
       "confidence_score": 80.5
-    },
-    {
-      "match_date": "2026-03-15 16:30",
-      "league": "Bundesliga",
-      "home_team": "SC Freiburg",
-      "away_team": "Union Berlin",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 11.75,
-      "kelly": 3.7,
-      "bet_result": "Perdida",
-      "confidence_score": 83.7
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.46,
-    "total_with_clv": 307,
-    "positive_clv": 159,
+    "avg_clv": 1.47,
+    "total_with_clv": 308,
+    "positive_clv": 160,
     "negative_clv": 79,
     "zero_clv": 69,
     "best_clv": 21.4,
@@ -1267,9 +1268,9 @@
       "roi": 17.95
     },
     "Miércoles": {
-      "picks": 20,
-      "win_rate": 70.0,
-      "roi": 26.89
+      "picks": 21,
+      "win_rate": 66.7,
+      "roi": 25.67
     },
     "Jueves": {
       "picks": 5,
@@ -1316,15 +1317,15 @@
       "picks": 3,
       "win_rate": 100.0
     },
-    "Sampdoria": {
-      "picks": 3,
-      "win_rate": 100.0
-    },
     "PAU": {
       "picks": 3,
       "win_rate": 100.0
     },
     "Dundee": {
+      "picks": 3,
+      "win_rate": 100.0
+    },
+    "Rio Ave": {
       "picks": 3,
       "win_rate": 100.0
     }
@@ -1372,7 +1373,7 @@
     }
   },
   "racha": {
-    "actual": 2,
+    "actual": 3,
     "tipo": "loss"
   }
 }
