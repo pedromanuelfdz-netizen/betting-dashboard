@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T01:54:10.517064+00:00",
+  "timestamp": "2026-03-24T07:00:51.292206+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 146.0,
@@ -10,7 +10,7 @@
     "total_picks": 373,
     "ganadas": 195,
     "perdidas": 178,
-    "pendientes": 1,
+    "pendientes": 2,
     "total_turnover": 2535.64
   },
   "bankroll_history": [
@@ -908,6 +908,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-03-28 20:00",
+      "league": "Segunda División",
+      "home_team": "Sporting Gijon",
+      "away_team": "Deportivo La Coruna",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 7.06,
+      "kelly": 2.7,
+      "bet_result": "",
+      "confidence_score": 75.7
+    },
+    {
       "match_date": "2026-03-28 17:30",
       "league": "Segunda División",
       "home_team": "Malaga",
@@ -1254,18 +1266,6 @@
       "kelly": 2.8,
       "bet_result": "Ganada",
       "confidence_score": 77.9
-    },
-    {
-      "match_date": "2026-03-15 17:30",
-      "league": "Segunda División",
-      "home_team": "Malaga",
-      "away_team": "Huesca",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 5.78,
-      "kelly": 1.6,
-      "bet_result": "Ganada",
-      "confidence_score": 67.8
     }
   ],
   "clv_analysis": {
