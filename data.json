@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-27T02:07:21.025105+00:00",
+  "timestamp": "2026-03-27T07:03:38.567250+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 146.0,
@@ -10,7 +10,7 @@
     "total_picks": 373,
     "ganadas": 195,
     "perdidas": 178,
-    "pendientes": 2,
+    "pendientes": 3,
     "total_turnover": 2535.64
   },
   "bankroll_history": [
@@ -908,6 +908,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-01 18:00",
+      "league": "Segunda División",
+      "home_team": "Huesca",
+      "away_team": "Cultural Leonesa",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 6.51,
+      "kelly": 2.2,
+      "bet_result": "",
+      "confidence_score": 74.8
+    },
+    {
       "match_date": "2026-03-28 20:00",
       "league": "Segunda División",
       "home_team": "Sporting Gijon",
@@ -1254,18 +1266,6 @@
       "kelly": 0.8,
       "bet_result": "Perdida",
       "confidence_score": 69.3
-    },
-    {
-      "match_date": "2026-03-15 20:00",
-      "league": "Segunda División",
-      "home_team": "Sporting Gijon",
-      "away_team": "Castellón",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.95,
-      "edge": 8.22,
-      "kelly": 2.8,
-      "bet_result": "Ganada",
-      "confidence_score": 77.9
     }
   ],
   "clv_analysis": {
