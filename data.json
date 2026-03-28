@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-28T01:58:25.793738+00:00",
+  "timestamp": "2026-03-28T06:55:44.921783+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 146.0,
@@ -10,7 +10,7 @@
     "total_picks": 373,
     "ganadas": 195,
     "perdidas": 178,
-    "pendientes": 3,
+    "pendientes": 6,
     "total_turnover": 2535.64
   },
   "bankroll_history": [
@@ -908,6 +908,42 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-03 19:00",
+      "league": "Championship",
+      "home_team": "Coventry",
+      "away_team": "Derby",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 5.68,
+      "kelly": 2.4,
+      "bet_result": "",
+      "confidence_score": 70.5
+    },
+    {
+      "match_date": "2026-04-03 14:00",
+      "league": "Championship",
+      "home_team": "Birmingham",
+      "away_team": "Blackburn",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 8.62,
+      "kelly": 3.1,
+      "bet_result": "",
+      "confidence_score": 75.4
+    },
+    {
+      "match_date": "2026-04-03 14:00",
+      "league": "Championship",
+      "home_team": "QPR",
+      "away_team": "Watford",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.95,
+      "edge": 7.91,
+      "kelly": 3.2,
+      "bet_result": "",
+      "confidence_score": 77.2
+    },
+    {
       "match_date": "2026-04-01 18:00",
       "league": "Segunda División",
       "home_team": "Huesca",
@@ -1230,42 +1266,6 @@
       "kelly": 1.6,
       "bet_result": "Perdida",
       "confidence_score": 67.6
-    },
-    {
-      "match_date": "2026-03-17 19:00",
-      "league": "Serie B",
-      "home_team": "Reggiana",
-      "away_team": "Monza",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.3,
-      "edge": 7.46,
-      "kelly": 1.0,
-      "bet_result": "Perdida",
-      "confidence_score": 69.0
-    },
-    {
-      "match_date": "2026-03-17 18:00",
-      "league": "Serie B",
-      "home_team": "Palermo",
-      "away_team": "Juve Stabia",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.0,
-      "kelly": 0.8,
-      "bet_result": "Ganada",
-      "confidence_score": 69.6
-    },
-    {
-      "match_date": "2026-03-16 20:00",
-      "league": "Championship",
-      "home_team": "Portsmouth",
-      "away_team": "Derby",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 5.55,
-      "kelly": 0.8,
-      "bet_result": "Perdida",
-      "confidence_score": 69.3
     }
   ],
   "clv_analysis": {
