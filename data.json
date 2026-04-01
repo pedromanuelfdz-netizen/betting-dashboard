@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T02:24:42.876683+00:00",
+  "timestamp": "2026-04-01T07:17:06.208991+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 138.08,
@@ -10,7 +10,7 @@
     "total_picks": 375,
     "ganadas": 195,
     "perdidas": 180,
-    "pendientes": 7,
+    "pendientes": 8,
     "total_turnover": 2543.56
   },
   "bankroll_history": [
@@ -946,6 +946,18 @@
       "confidence_score": 70.5
     },
     {
+      "match_date": "2026-04-03 19:00",
+      "league": "La Liga",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Elche",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.05,
+      "edge": 5.83,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 73.6
+    },
+    {
       "match_date": "2026-04-03 14:00",
       "league": "Championship",
       "home_team": "Birmingham",
@@ -1256,18 +1268,6 @@
       "kelly": 1.5,
       "bet_result": "Perdida",
       "confidence_score": 73.5
-    },
-    {
-      "match_date": "2026-03-20 17:30",
-      "league": "Serie A",
-      "home_team": "Cagliari",
-      "away_team": "Napoli",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 6.1,
-      "kelly": 0.8,
-      "bet_result": "Perdida",
-      "confidence_score": 67.2
     }
   ],
   "clv_analysis": {
