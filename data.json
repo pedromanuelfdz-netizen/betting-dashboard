@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-02T02:04:01.355647+00:00",
+  "timestamp": "2026-04-02T07:08:25.588234+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 138.08,
-    "profit_loss": -61.92,
-    "roi": -30.96,
-    "win_rate": 52.0,
+    "bankroll_final": 137.96,
+    "profit_loss": -62.04,
+    "roi": -31.02,
+    "win_rate": 51.99,
     "yield": -2.43,
-    "total_picks": 375,
-    "ganadas": 195,
-    "perdidas": 180,
-    "pendientes": 8,
-    "total_turnover": 2543.56
+    "total_picks": 377,
+    "ganadas": 196,
+    "perdidas": 181,
+    "pendientes": 7,
+    "total_turnover": 2550.25
   },
   "bankroll_history": [
     200.0,
@@ -389,7 +389,9 @@
     144.38,
     146.0,
     141.91,
-    138.08
+    138.08,
+    135.04,
+    137.96
   ],
   "by_market": {
     "Under 2.5": {
@@ -401,12 +403,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 246,
-      "ganadas": 130,
-      "perdidas": 116,
-      "win_rate": 52.85,
-      "roi": 1.29,
-      "profit": 19.26
+      "picks": 248,
+      "ganadas": 131,
+      "perdidas": 117,
+      "win_rate": 52.82,
+      "roi": 1.28,
+      "profit": 19.14
     },
     "BTTS No": {
       "picks": 44,
@@ -467,12 +469,12 @@
       "profit": -80.46
     },
     "Segunda División": {
-      "picks": 30,
-      "ganadas": 16,
-      "perdidas": 14,
-      "win_rate": 53.33,
-      "roi": 15.19,
-      "profit": 24.63
+      "picks": 32,
+      "ganadas": 17,
+      "perdidas": 15,
+      "win_rate": 53.12,
+      "roi": 14.52,
+      "profit": 24.51
     },
     "Ligue 2": {
       "picks": 21,
@@ -565,12 +567,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 119,
-      "ganadas": 54,
-      "perdidas": 65,
-      "win_rate": 45.38,
-      "roi": -18.29,
-      "profit": -97.44
+      "picks": 121,
+      "ganadas": 55,
+      "perdidas": 66,
+      "win_rate": 45.45,
+      "roi": -18.09,
+      "profit": -97.56
     },
     "8.0-10.0%": {
       "picks": 80,
@@ -591,12 +593,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 83,
-      "ganadas": 39,
+      "picks": 84,
+      "ganadas": 40,
       "perdidas": 44,
-      "win_rate": 46.99,
-      "roi": -21.19,
-      "profit": -146.2
+      "win_rate": 47.62,
+      "roi": -20.66,
+      "profit": -143.28
     },
     "1.85-2.00": {
       "picks": 96,
@@ -607,12 +609,12 @@
       "profit": 30.48
     },
     "2.00-2.20": {
-      "picks": 119,
+      "picks": 120,
       "ganadas": 62,
-      "perdidas": 57,
-      "win_rate": 52.1,
-      "roi": -3.27,
-      "profit": -25.35
+      "perdidas": 58,
+      "win_rate": 51.67,
+      "roi": -3.64,
+      "profit": -28.39
     },
     "2.20-2.50": {
       "picks": 77,
@@ -698,9 +700,9 @@
         "roi": 37.13
       },
       "Segunda División": {
-        "picks": 24,
-        "win_rate": 58.33,
-        "roi": 30.38
+        "picks": 26,
+        "win_rate": 57.69,
+        "roi": 28.78
       },
       "Serie B": {
         "picks": 31,
@@ -843,9 +845,9 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 84,
-        "win_rate": 51.19,
-        "roi": 0.12
+        "picks": 86,
+        "win_rate": 51.16,
+        "roi": 0.08
       },
       "8.0-10.0%": {
         "picks": 45,
@@ -982,6 +984,18 @@
       "confidence_score": 77.2
     },
     {
+      "match_date": "2026-04-02 18:00",
+      "league": "Segunda División",
+      "home_team": "Real Sociedad II",
+      "away_team": "Eibar",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 6.01,
+      "kelly": 0.8,
+      "bet_result": "",
+      "confidence_score": 67.9
+    },
+    {
       "match_date": "2026-04-01 19:30",
       "league": "Segunda División",
       "home_team": "Racing Santander",
@@ -990,7 +1004,7 @@
       "betfair_odd": 1.8,
       "edge": 7.31,
       "kelly": 2.7,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 76.1
     },
     {
@@ -1002,7 +1016,7 @@
       "betfair_odd": 2.1,
       "edge": 6.51,
       "kelly": 2.2,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 74.8
     },
     {
@@ -1256,25 +1270,13 @@
       "kelly": 2.2,
       "bet_result": "Ganada",
       "confidence_score": 70.9
-    },
-    {
-      "match_date": "2026-03-20 19:00",
-      "league": "Eredivisie",
-      "home_team": "Heracles",
-      "away_team": "Excelsior",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.7,
-      "edge": 8.07,
-      "kelly": 1.5,
-      "bet_result": "Perdida",
-      "confidence_score": 73.5
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.39,
-    "total_with_clv": 331,
-    "positive_clv": 170,
-    "negative_clv": 87,
+    "avg_clv": 1.4,
+    "total_with_clv": 333,
+    "positive_clv": 171,
+    "negative_clv": 88,
     "zero_clv": 74,
     "best_clv": 21.4,
     "worst_clv": -14.4
@@ -1296,9 +1298,9 @@
       "roi": 17.95
     },
     "Miércoles": {
-      "picks": 21,
-      "win_rate": 66.7,
-      "roi": 25.67
+      "picks": 23,
+      "win_rate": 65.2,
+      "roi": 24.32
     },
     "Jueves": {
       "picks": 5,
@@ -1401,7 +1403,7 @@
     }
   },
   "racha": {
-    "actual": 2,
-    "tipo": "loss"
+    "actual": 1,
+    "tipo": "win"
   }
 }
