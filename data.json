@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T18:53:38.550465+00:00",
+  "timestamp": "2026-04-03T02:05:39.925497+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 137.96,
@@ -10,7 +10,7 @@
     "total_picks": 377,
     "ganadas": 196,
     "perdidas": 181,
-    "pendientes": 11,
+    "pendientes": 12,
     "total_turnover": 2550.25
   },
   "bankroll_history": [
@@ -960,6 +960,18 @@
       "confidence_score": 69.9
     },
     {
+      "match_date": "2026-04-05 16:30",
+      "league": "Segunda División",
+      "home_team": "Las Palmas",
+      "away_team": "Huesca",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 6.35,
+      "kelly": 0.9,
+      "bet_result": "",
+      "confidence_score": 71.5
+    },
+    {
       "match_date": "2026-04-04 16:00",
       "league": "Serie A",
       "home_team": "Hellas Verona",
@@ -1258,18 +1270,6 @@
       "kelly": 1.7,
       "bet_result": "Ganada",
       "confidence_score": 79.6
-    },
-    {
-      "match_date": "2026-03-21 15:00",
-      "league": "Championship",
-      "home_team": "QPR",
-      "away_team": "Portsmouth",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.77,
-      "kelly": 0.9,
-      "bet_result": "Ganada",
-      "confidence_score": 71.3
     }
   ],
   "clv_analysis": {
