@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-04T01:58:14.538752+00:00",
+  "timestamp": "2026-04-04T06:57:43.540415+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 136.65,
-    "profit_loss": -63.35,
-    "roi": -31.67,
-    "win_rate": 51.84,
+    "bankroll_final": 136.68,
+    "profit_loss": -63.32,
+    "roi": -31.66,
+    "win_rate": 51.83,
     "yield": -2.47,
-    "total_picks": 380,
-    "ganadas": 197,
-    "perdidas": 183,
-    "pendientes": 9,
-    "total_turnover": 2559.83
+    "total_picks": 382,
+    "ganadas": 198,
+    "perdidas": 184,
+    "pendientes": 8,
+    "total_turnover": 2565.47
   },
   "bankroll_history": [
     200.0,
@@ -394,7 +394,9 @@
     137.96,
     136.86,
     132.62,
-    136.65
+    136.65,
+    139.04,
+    136.68
   ],
   "by_market": {
     "Under 2.5": {
@@ -406,12 +408,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 251,
-      "ganadas": 132,
-      "perdidas": 119,
-      "win_rate": 52.59,
+      "picks": 253,
+      "ganadas": 133,
+      "perdidas": 120,
+      "win_rate": 52.57,
       "roi": 1.18,
-      "profit": 17.83
+      "profit": 17.86
     },
     "BTTS No": {
       "picks": 44,
@@ -440,12 +442,12 @@
       "profit": 15.66
     },
     "Championship": {
-      "picks": 45,
-      "ganadas": 22,
+      "picks": 46,
+      "ganadas": 23,
       "perdidas": 23,
-      "win_rate": 48.89,
-      "roi": -6.52,
-      "profit": -21.76
+      "win_rate": 50.0,
+      "roi": -5.75,
+      "profit": -19.36
     },
     "Premier League": {
       "picks": 29,
@@ -456,12 +458,12 @@
       "profit": -11.32
     },
     "La Liga": {
-      "picks": 35,
+      "picks": 36,
       "ganadas": 18,
-      "perdidas": 17,
-      "win_rate": 51.43,
-      "roi": -2.94,
-      "profit": -6.12
+      "perdidas": 18,
+      "win_rate": 50.0,
+      "roi": -4.03,
+      "profit": -8.48
     },
     "Ligue 1": {
       "picks": 16,
@@ -570,12 +572,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 123,
-      "ganadas": 56,
-      "perdidas": 67,
-      "win_rate": 45.53,
-      "roi": -17.37,
-      "profit": -94.63
+      "picks": 125,
+      "ganadas": 57,
+      "perdidas": 68,
+      "win_rate": 45.6,
+      "roi": -17.19,
+      "profit": -94.59
     },
     "8.0-10.0%": {
       "picks": 81,
@@ -596,12 +598,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 84,
-      "ganadas": 40,
+      "picks": 85,
+      "ganadas": 41,
       "perdidas": 44,
-      "win_rate": 47.62,
-      "roi": -20.66,
-      "profit": -143.28
+      "win_rate": 48.24,
+      "roi": -20.22,
+      "profit": -140.88
     },
     "1.85-2.00": {
       "picks": 97,
@@ -612,12 +614,12 @@
       "profit": 34.51
     },
     "2.00-2.20": {
-      "picks": 120,
+      "picks": 121,
       "ganadas": 62,
-      "perdidas": 58,
-      "win_rate": 51.67,
-      "roi": -3.64,
-      "profit": -28.39
+      "perdidas": 59,
+      "win_rate": 51.24,
+      "roi": -3.93,
+      "profit": -30.75
     },
     "2.20-2.50": {
       "picks": 79,
@@ -678,9 +680,9 @@
     },
     "Over 2.5": {
       "Championship": {
-        "picks": 37,
-        "win_rate": 54.05,
-        "roi": 9.31
+        "picks": 38,
+        "win_rate": 55.26,
+        "roi": 10.13
       },
       "Premier League": {
         "picks": 12,
@@ -688,9 +690,9 @@
         "roi": -70.23
       },
       "La Liga": {
-        "picks": 28,
-        "win_rate": 50.0,
-        "roi": -5.74
+        "picks": 29,
+        "win_rate": 48.28,
+        "roi": -7.15
       },
       "Ligue 1": {
         "picks": 12,
@@ -848,8 +850,8 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 88,
-        "win_rate": 51.14,
+        "picks": 90,
+        "win_rate": 51.11,
         "roi": 0.95
       },
       "8.0-10.0%": {
@@ -914,6 +916,18 @@
     }
   },
   "recent_bets": [
+    {
+      "match_date": "2026-04-07 19:00",
+      "league": "Championship",
+      "home_team": "Wrexham",
+      "away_team": "Southampton",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 7.91,
+      "kelly": 1.5,
+      "bet_result": "",
+      "confidence_score": 76.7
+    },
     {
       "match_date": "2026-04-06 18:45",
       "league": "Serie A",
@@ -1007,7 +1021,7 @@
       "betfair_odd": 1.73,
       "edge": 5.68,
       "kelly": 2.4,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 70.5
     },
     {
@@ -1019,7 +1033,7 @@
       "betfair_odd": 2.05,
       "edge": 5.83,
       "kelly": 1.7,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 73.6
     },
     {
@@ -1261,24 +1275,12 @@
       "kelly": 1.3,
       "bet_result": "Ganada",
       "confidence_score": 72.1
-    },
-    {
-      "match_date": "2026-03-21 15:00",
-      "league": "Premiership",
-      "home_team": "Falkirk",
-      "away_team": "ST Mirren",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 10.18,
-      "kelly": 1.7,
-      "bet_result": "Ganada",
-      "confidence_score": 79.6
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.45,
-    "total_with_clv": 336,
-    "positive_clv": 173,
+    "avg_clv": 1.51,
+    "total_with_clv": 338,
+    "positive_clv": 175,
     "negative_clv": 88,
     "zero_clv": 75,
     "best_clv": 21.4,
@@ -1316,9 +1318,9 @@
       "roi": -10.31
     },
     "Viernes": {
-      "picks": 46,
-      "win_rate": 47.8,
-      "roi": -0.41
+      "picks": 48,
+      "win_rate": 47.9,
+      "roi": -0.39
     }
   },
   "top_teams": {
@@ -1407,6 +1409,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "win"
+    "tipo": "loss"
   }
 }
