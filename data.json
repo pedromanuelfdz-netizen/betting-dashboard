@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T02:11:42.018528+00:00",
+  "timestamp": "2026-04-05T07:02:43.472419+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 136.69,
@@ -10,7 +10,7 @@
     "total_picks": 384,
     "ganadas": 199,
     "perdidas": 185,
-    "pendientes": 6,
+    "pendientes": 7,
     "total_turnover": 2567.8
   },
   "bankroll_history": [
@@ -919,6 +919,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-11 13:00",
+      "league": "Serie A",
+      "home_team": "Torino",
+      "away_team": "Hellas Verona",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.3,
+      "edge": 7.13,
+      "kelly": 0.9,
+      "bet_result": "",
+      "confidence_score": 69.7
+    },
+    {
       "match_date": "2026-04-07 19:00",
       "league": "Championship",
       "home_team": "Wrexham",
@@ -1265,18 +1277,6 @@
       "kelly": 2.7,
       "bet_result": "Perdida",
       "confidence_score": 76.8
-    },
-    {
-      "match_date": "2026-03-21 17:00",
-      "league": "Super League",
-      "home_team": "Servette FC",
-      "away_team": "Grasshoppers",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.73,
-      "edge": 7.22,
-      "kelly": 1.3,
-      "bet_result": "Ganada",
-      "confidence_score": 72.1
     }
   ],
   "clv_analysis": {
