@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-04T18:38:55.099480+00:00",
+  "timestamp": "2026-04-05T02:11:42.018528+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 136.68,
-    "profit_loss": -63.32,
+    "bankroll_final": 136.69,
+    "profit_loss": -63.31,
     "roi": -31.66,
-    "win_rate": 51.83,
+    "win_rate": 51.82,
     "yield": -2.47,
-    "total_picks": 382,
-    "ganadas": 198,
-    "perdidas": 184,
-    "pendientes": 8,
-    "total_turnover": 2565.47
+    "total_picks": 384,
+    "ganadas": 199,
+    "perdidas": 185,
+    "pendientes": 6,
+    "total_turnover": 2567.8
   },
   "bankroll_history": [
     200.0,
@@ -396,7 +396,9 @@
     132.62,
     136.65,
     139.04,
-    136.68
+    136.68,
+    137.93,
+    136.69
   ],
   "by_market": {
     "Under 2.5": {
@@ -408,12 +410,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 253,
-      "ganadas": 133,
-      "perdidas": 120,
-      "win_rate": 52.57,
+      "picks": 255,
+      "ganadas": 134,
+      "perdidas": 121,
+      "win_rate": 52.55,
       "roi": 1.18,
-      "profit": 17.86
+      "profit": 17.88
     },
     "BTTS No": {
       "picks": 44,
@@ -434,12 +436,12 @@
   },
   "by_league": {
     "Serie A": {
-      "picks": 42,
-      "ganadas": 22,
-      "perdidas": 20,
-      "win_rate": 52.38,
-      "roi": 5.01,
-      "profit": 15.66
+      "picks": 44,
+      "ganadas": 23,
+      "perdidas": 21,
+      "win_rate": 52.27,
+      "roi": 4.98,
+      "profit": 15.67
     },
     "Championship": {
       "picks": 46,
@@ -572,12 +574,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 125,
-      "ganadas": 57,
-      "perdidas": 68,
-      "win_rate": 45.6,
-      "roi": -17.19,
-      "profit": -94.59
+      "picks": 127,
+      "ganadas": 58,
+      "perdidas": 69,
+      "win_rate": 45.67,
+      "roi": -17.11,
+      "profit": -94.58
     },
     "8.0-10.0%": {
       "picks": 81,
@@ -614,20 +616,20 @@
       "profit": 34.51
     },
     "2.00-2.20": {
-      "picks": 121,
-      "ganadas": 62,
+      "picks": 122,
+      "ganadas": 63,
       "perdidas": 59,
-      "win_rate": 51.24,
-      "roi": -3.93,
-      "profit": -30.75
+      "win_rate": 51.64,
+      "roi": -3.77,
+      "profit": -29.49
     },
     "2.20-2.50": {
-      "picks": 79,
+      "picks": 80,
       "ganadas": 42,
-      "perdidas": 37,
-      "win_rate": 53.16,
-      "roi": 17.25,
-      "profit": 73.85
+      "perdidas": 38,
+      "win_rate": 52.5,
+      "roi": 16.91,
+      "profit": 72.61
     }
   },
   "market_league_stats": {
@@ -700,9 +702,9 @@
         "roi": -66.14
       },
       "Serie A": {
-        "picks": 20,
-        "win_rate": 65.0,
-        "roi": 37.13
+        "picks": 22,
+        "win_rate": 63.64,
+        "roi": 36.45
       },
       "Segunda División": {
         "picks": 27,
@@ -850,9 +852,9 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 90,
-        "win_rate": 51.11,
-        "roi": 0.95
+        "picks": 92,
+        "win_rate": 51.09,
+        "roi": 0.94
       },
       "8.0-10.0%": {
         "picks": 46,
@@ -997,7 +999,7 @@
       "betfair_odd": 2.2,
       "edge": 6.28,
       "kelly": 0.9,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 71.4
     },
     {
@@ -1009,7 +1011,7 @@
       "betfair_odd": 2.15,
       "edge": 5.63,
       "kelly": 0.8,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 70.3
     },
     {
@@ -1278,10 +1280,10 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.51,
-    "total_with_clv": 338,
-    "positive_clv": 175,
-    "negative_clv": 88,
+    "avg_clv": 1.48,
+    "total_with_clv": 340,
+    "positive_clv": 176,
+    "negative_clv": 89,
     "zero_clv": 75,
     "best_clv": 21.4,
     "worst_clv": -14.4
@@ -1313,9 +1315,9 @@
       "roi": -60.66
     },
     "Sábado": {
-      "picks": 141,
-      "win_rate": 48.9,
-      "roi": -10.31
+      "picks": 143,
+      "win_rate": 49.0,
+      "roi": -10.28
     },
     "Viernes": {
       "picks": 48,
