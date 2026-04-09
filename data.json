@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T13:22:42.367405+00:00",
+  "timestamp": "2026-04-09T19:02:00.913138+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 141.94,
@@ -10,7 +10,7 @@
     "total_picks": 390,
     "ganadas": 203,
     "perdidas": 187,
-    "pendientes": 4,
+    "pendientes": 5,
     "total_turnover": 2581.15
   },
   "bankroll_history": [
@@ -961,6 +961,18 @@
       "confidence_score": 72.6
     },
     {
+      "match_date": "2026-04-11 17:00",
+      "league": "Primeira Liga",
+      "home_team": "Santa Clara",
+      "away_team": "Rio Ave",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.3,
+      "edge": 7.45,
+      "kelly": 2.0,
+      "bet_result": "",
+      "confidence_score": 70.7
+    },
+    {
       "match_date": "2026-04-11 13:00",
       "league": "Serie A",
       "home_team": "Torino",
@@ -1271,18 +1283,6 @@
       "kelly": 0.9,
       "bet_result": "Ganada",
       "confidence_score": 67.6
-    },
-    {
-      "match_date": "2026-03-21 20:30",
-      "league": "Primeira Liga",
-      "home_team": "Tondela",
-      "away_team": "AVS",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 6.16,
-      "kelly": 0.9,
-      "bet_result": "Perdida",
-      "confidence_score": 73.3
     }
   ],
   "clv_analysis": {
