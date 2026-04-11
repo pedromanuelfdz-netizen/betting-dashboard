@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-11T02:02:23.433085+00:00",
+  "timestamp": "2026-04-11T06:57:57.722464+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 141.94,
@@ -10,7 +10,7 @@
     "total_picks": 390,
     "ganadas": 203,
     "perdidas": 187,
-    "pendientes": 5,
+    "pendientes": 6,
     "total_turnover": 2581.15
   },
   "bankroll_history": [
@@ -925,6 +925,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-17 18:30",
+      "league": "Bundesliga",
+      "home_team": "FC St. Pauli",
+      "away_team": "1. FC Köln",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 6.08,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 71.5
+    },
+    {
       "match_date": "2026-04-13 19:15",
       "league": "Primeira Liga",
       "home_team": "Tondela",
@@ -1271,18 +1283,6 @@
       "kelly": 0.8,
       "bet_result": "Ganada",
       "confidence_score": 69.3
-    },
-    {
-      "match_date": "2026-03-22 13:00",
-      "league": "Segunda División",
-      "home_team": "Burgos",
-      "away_team": "Cordoba",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 6.35,
-      "kelly": 0.9,
-      "bet_result": "Ganada",
-      "confidence_score": 67.6
     }
   ],
   "clv_analysis": {
