@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-12T12:56:49.548679+00:00",
+  "timestamp": "2026-04-12T18:43:27.925442+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 140.73,
@@ -10,7 +10,7 @@
     "total_picks": 392,
     "ganadas": 204,
     "perdidas": 188,
-    "pendientes": 5,
+    "pendientes": 6,
     "total_turnover": 2585.3
   },
   "bankroll_history": [
@@ -951,6 +951,18 @@
       "confidence_score": 71.8
     },
     {
+      "match_date": "2026-04-12 16:30",
+      "league": "La Liga",
+      "home_team": "Celta Vigo",
+      "away_team": "Oviedo",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.3,
+      "edge": 8.24,
+      "kelly": 2.2,
+      "bet_result": "",
+      "confidence_score": 71.7
+    },
+    {
       "match_date": "2026-04-12 14:15",
       "league": "La Liga",
       "home_team": "Mallorca",
@@ -1273,18 +1285,6 @@
       "kelly": 0.8,
       "bet_result": "Ganada",
       "confidence_score": 69.1
-    },
-    {
-      "match_date": "2026-03-22 15:15",
-      "league": "La Liga",
-      "home_team": "Celta Vigo",
-      "away_team": "Alaves",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 6.34,
-      "kelly": 0.9,
-      "bet_result": "Ganada",
-      "confidence_score": 67.6
     }
   ],
   "clv_analysis": {
