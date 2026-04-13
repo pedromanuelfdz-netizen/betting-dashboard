@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-13T02:28:47.025939+00:00",
+  "timestamp": "2026-04-13T07:59:12.942356+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 141.47,
@@ -10,7 +10,7 @@
     "total_picks": 396,
     "ganadas": 206,
     "perdidas": 190,
-    "pendientes": 2,
+    "pendientes": 3,
     "total_turnover": 2597.25
   },
   "bankroll_history": [
@@ -931,6 +931,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-19 17:00",
+      "league": "Primeira Liga",
+      "home_team": "Sporting CP",
+      "away_team": "Benfica",
+      "selection": "Under 2.5",
+      "betfair_odd": 2.2,
+      "edge": 5.56,
+      "kelly": 1.5,
+      "bet_result": "",
+      "confidence_score": 69.1
+    },
+    {
       "match_date": "2026-04-17 18:30",
       "league": "Bundesliga",
       "home_team": "FC St. Pauli",
@@ -1277,18 +1289,6 @@
       "kelly": 0.8,
       "bet_result": "Ganada",
       "confidence_score": 69.4
-    },
-    {
-      "match_date": "2026-03-22 16:15",
-      "league": "Serie B",
-      "home_team": "Sampdoria",
-      "away_team": "Avellino",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 5.72,
-      "kelly": 0.8,
-      "bet_result": "Ganada",
-      "confidence_score": 69.1
     }
   ],
   "clv_analysis": {
