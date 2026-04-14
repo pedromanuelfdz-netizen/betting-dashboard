@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-14T02:23:04.007182+00:00",
+  "timestamp": "2026-04-14T07:27:24.772834+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 141.47,
-    "profit_loss": -58.53,
-    "roi": -29.27,
-    "win_rate": 52.02,
-    "yield": -2.25,
-    "total_picks": 396,
-    "ganadas": 206,
+    "bankroll_final": 144.35,
+    "profit_loss": -55.65,
+    "roi": -27.83,
+    "win_rate": 52.14,
+    "yield": -2.14,
+    "total_picks": 397,
+    "ganadas": 207,
     "perdidas": 190,
-    "pendientes": 3,
-    "total_turnover": 2597.25
+    "pendientes": 16,
+    "total_turnover": 2599.65
   },
   "bankroll_history": [
     200.0,
@@ -410,7 +410,8 @@
     136.93,
     140.05,
     137.53,
-    141.47
+    141.47,
+    144.35
   ],
   "by_market": {
     "Under 2.5": {
@@ -422,12 +423,12 @@
       "profit": -33.08
     },
     "Over 2.5": {
-      "picks": 267,
-      "ganadas": 141,
+      "picks": 268,
+      "ganadas": 142,
       "perdidas": 126,
-      "win_rate": 52.81,
-      "roi": 1.47,
-      "profit": 22.66
+      "win_rate": 52.99,
+      "roi": 1.65,
+      "profit": 25.54
     },
     "BTTS No": {
       "picks": 44,
@@ -528,12 +529,12 @@
       "profit": -30.52
     },
     "Primeira Liga": {
-      "picks": 36,
-      "ganadas": 22,
+      "picks": 37,
+      "ganadas": 23,
       "perdidas": 14,
-      "win_rate": 61.11,
-      "roi": 23.34,
-      "profit": 59.7
+      "win_rate": 62.16,
+      "roi": 24.24,
+      "profit": 62.58
     },
     "Bundesliga": {
       "picks": 16,
@@ -586,12 +587,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 136,
-      "ganadas": 63,
+      "picks": 137,
+      "ganadas": 64,
       "perdidas": 73,
-      "win_rate": 46.32,
-      "roi": -16.53,
-      "profit": -94.33
+      "win_rate": 46.72,
+      "roi": -15.96,
+      "profit": -91.45
     },
     "8.0-10.0%": {
       "picks": 84,
@@ -636,12 +637,12 @@
       "profit": -29.49
     },
     "2.20-2.50": {
-      "picks": 90,
-      "ganadas": 47,
+      "picks": 91,
+      "ganadas": 48,
       "perdidas": 43,
-      "win_rate": 52.22,
-      "roi": 15.78,
-      "profit": 71.32
+      "win_rate": 52.75,
+      "roi": 16.33,
+      "profit": 74.2
     }
   },
   "market_league_stats": {
@@ -734,9 +735,9 @@
         "roi": 12.4
       },
       "Primeira Liga": {
-        "picks": 26,
-        "win_rate": 61.54,
-        "roi": 36.6
+        "picks": 27,
+        "win_rate": 62.96,
+        "roi": 37.74
       },
       "Ligue 2": {
         "picks": 13,
@@ -864,9 +865,9 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 101,
-        "win_rate": 51.49,
-        "roi": 0.97
+        "picks": 102,
+        "win_rate": 51.96,
+        "roi": 1.75
       },
       "8.0-10.0%": {
         "picks": 49,
@@ -931,6 +932,66 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-20 19:15",
+      "league": "Primeira Liga",
+      "home_team": "Moreirense",
+      "away_team": "Estoril",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.9,
+      "edge": 5.74,
+      "kelly": 2.2,
+      "bet_result": "",
+      "confidence_score": 73.5
+    },
+    {
+      "match_date": "2026-04-20 18:30",
+      "league": "Segunda División",
+      "home_team": "Deportivo La Coruna",
+      "away_team": "Mirandes",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.95,
+      "edge": 7.24,
+      "kelly": 2.9,
+      "bet_result": "",
+      "confidence_score": 76.0
+    },
+    {
+      "match_date": "2026-04-19 19:30",
+      "league": "Primeira Liga",
+      "home_team": "SC Braga",
+      "away_team": "Famalicao",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.9,
+      "edge": 6.59,
+      "kelly": 2.5,
+      "bet_result": "",
+      "confidence_score": 74.9
+    },
+    {
+      "match_date": "2026-04-19 17:30",
+      "league": "Bundesliga",
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "FSV Mainz 05",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.85,
+      "edge": 8.91,
+      "kelly": 3.5,
+      "bet_result": "",
+      "confidence_score": 73.8
+    },
+    {
+      "match_date": "2026-04-19 17:15",
+      "league": "Jupiler Pro League",
+      "home_team": "RAAL La Louvière",
+      "away_team": "Zulte Waregem",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.85,
+      "edge": 9.86,
+      "kelly": 3.9,
+      "bet_result": "",
+      "confidence_score": 74.3
+    },
+    {
       "match_date": "2026-04-19 17:00",
       "league": "Primeira Liga",
       "home_team": "Sporting CP",
@@ -941,6 +1002,114 @@
       "kelly": 1.5,
       "bet_result": "",
       "confidence_score": 69.1
+    },
+    {
+      "match_date": "2026-04-19 16:30",
+      "league": "Segunda División",
+      "home_team": "Eibar",
+      "away_team": "Huesca",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.2,
+      "edge": 9.03,
+      "kelly": 3.3,
+      "bet_result": "",
+      "confidence_score": 76.0
+    },
+    {
+      "match_date": "2026-04-18 19:30",
+      "league": "Primeira Liga",
+      "home_team": "GIL Vicente",
+      "away_team": "Guimaraes",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 9.74,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 75.2
+    },
+    {
+      "match_date": "2026-04-18 18:45",
+      "league": "Jupiler Pro League",
+      "home_team": "KV Mechelen",
+      "away_team": "Anderlecht",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 9.58,
+      "kelly": 4.1,
+      "bet_result": "",
+      "confidence_score": 71.9
+    },
+    {
+      "match_date": "2026-04-18 14:30",
+      "league": "Primeira Liga",
+      "home_team": "Nacional",
+      "away_team": "Alverca",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.83,
+      "edge": 7.24,
+      "kelly": 3.2,
+      "bet_result": "",
+      "confidence_score": 76.0
+    },
+    {
+      "match_date": "2026-04-18 14:00",
+      "league": "Championship",
+      "home_team": "Sheffield Wednesday",
+      "away_team": "Charlton",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.73,
+      "edge": 8.44,
+      "kelly": 3.6,
+      "bet_result": "",
+      "confidence_score": 73.9
+    },
+    {
+      "match_date": "2026-04-18 14:00",
+      "league": "Championship",
+      "home_team": "Swansea",
+      "away_team": "Southampton",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.7,
+      "edge": 7.43,
+      "kelly": 3.2,
+      "bet_result": "",
+      "confidence_score": 73.3
+    },
+    {
+      "match_date": "2026-04-18 13:00",
+      "league": "Serie B",
+      "home_team": "Mantova",
+      "away_team": "Avellino",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 10.71,
+      "kelly": 4.0,
+      "bet_result": "",
+      "confidence_score": 76.8
+    },
+    {
+      "match_date": "2026-04-18 11:30",
+      "league": "Premier League",
+      "home_team": "Brentford",
+      "away_team": "Fulham",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 11.13,
+      "kelly": 4.7,
+      "bet_result": "",
+      "confidence_score": 74.5
+    },
+    {
+      "match_date": "2026-04-17 19:00",
+      "league": "Segunda División",
+      "home_team": "Las Palmas",
+      "away_team": "Leganes",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.85,
+      "edge": 9.52,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 73.7
     },
     {
       "match_date": "2026-04-17 18:30",
@@ -963,7 +1132,7 @@
       "betfair_odd": 2.2,
       "edge": 6.29,
       "kelly": 1.7,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 71.8
     },
     {
@@ -1121,181 +1290,13 @@
       "kelly": 0.9,
       "bet_result": "Perdida",
       "confidence_score": 71.4
-    },
-    {
-      "match_date": "2026-04-04 13:00",
-      "league": "Serie A",
-      "home_team": "Sassuolo",
-      "away_team": "Cagliari",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.15,
-      "edge": 5.63,
-      "kelly": 0.8,
-      "bet_result": "Ganada",
-      "confidence_score": 70.3
-    },
-    {
-      "match_date": "2026-04-03 19:00",
-      "league": "Championship",
-      "home_team": "Coventry",
-      "away_team": "Derby",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.73,
-      "edge": 5.68,
-      "kelly": 2.4,
-      "bet_result": "Ganada",
-      "confidence_score": 70.5
-    },
-    {
-      "match_date": "2026-04-03 19:00",
-      "league": "La Liga",
-      "home_team": "Rayo Vallecano",
-      "away_team": "Elche",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.05,
-      "edge": 5.83,
-      "kelly": 1.7,
-      "bet_result": "Perdida",
-      "confidence_score": 73.6
-    },
-    {
-      "match_date": "2026-04-03 14:00",
-      "league": "Championship",
-      "home_team": "Birmingham",
-      "away_team": "Blackburn",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 8.62,
-      "kelly": 3.1,
-      "bet_result": "Perdida",
-      "confidence_score": 75.4
-    },
-    {
-      "match_date": "2026-04-03 14:00",
-      "league": "Championship",
-      "home_team": "QPR",
-      "away_team": "Watford",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.95,
-      "edge": 7.91,
-      "kelly": 3.2,
-      "bet_result": "Ganada",
-      "confidence_score": 77.2
-    },
-    {
-      "match_date": "2026-04-02 18:00",
-      "league": "Segunda División",
-      "home_team": "Real Sociedad II",
-      "away_team": "Eibar",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 6.01,
-      "kelly": 0.8,
-      "bet_result": "Perdida",
-      "confidence_score": 67.9
-    },
-    {
-      "match_date": "2026-04-01 19:30",
-      "league": "Segunda División",
-      "home_team": "Racing Santander",
-      "away_team": "Sporting Gijon",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.8,
-      "edge": 7.31,
-      "kelly": 2.7,
-      "bet_result": "Ganada",
-      "confidence_score": 76.1
-    },
-    {
-      "match_date": "2026-04-01 18:00",
-      "league": "Segunda División",
-      "home_team": "Huesca",
-      "away_team": "Cultural Leonesa",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 6.51,
-      "kelly": 2.2,
-      "bet_result": "Perdida",
-      "confidence_score": 74.8
-    },
-    {
-      "match_date": "2026-03-28 20:00",
-      "league": "Segunda División",
-      "home_team": "Sporting Gijon",
-      "away_team": "Deportivo La Coruna",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 7.06,
-      "kelly": 2.7,
-      "bet_result": "Perdida",
-      "confidence_score": 75.7
-    },
-    {
-      "match_date": "2026-03-28 17:30",
-      "league": "Segunda División",
-      "home_team": "Malaga",
-      "away_team": "Leganes",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 7.49,
-      "kelly": 2.8,
-      "bet_result": "Perdida",
-      "confidence_score": 76.5
-    },
-    {
-      "match_date": "2026-03-22 18:30",
-      "league": "Serie B",
-      "home_team": "Virtus Entella",
-      "away_team": "Reggiana",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 6.34,
-      "kelly": 0.9,
-      "bet_result": "Ganada",
-      "confidence_score": 67.2
-    },
-    {
-      "match_date": "2026-03-22 17:30",
-      "league": "Jupiler Pro League",
-      "home_team": "Dender",
-      "away_team": "Gent",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.8,
-      "edge": 7.31,
-      "kelly": 1.2,
-      "bet_result": "Ganada",
-      "confidence_score": 74.8
-    },
-    {
-      "match_date": "2026-03-22 17:30",
-      "league": "Segunda División",
-      "home_team": "Las Palmas",
-      "away_team": "Sporting Gijon",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.25,
-      "edge": 6.66,
-      "kelly": 0.9,
-      "bet_result": "Perdida",
-      "confidence_score": 67.7
-    },
-    {
-      "match_date": "2026-03-22 16:30",
-      "league": "Bundesliga",
-      "home_team": "FC St. Pauli",
-      "away_team": "SC Freiburg",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 5.85,
-      "kelly": 0.8,
-      "bet_result": "Ganada",
-      "confidence_score": 69.4
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.53,
-    "total_with_clv": 352,
+    "avg_clv": 1.51,
+    "total_with_clv": 353,
     "positive_clv": 183,
-    "negative_clv": 92,
+    "negative_clv": 93,
     "zero_clv": 77,
     "best_clv": 21.4,
     "worst_clv": -14.4
@@ -1307,9 +1308,9 @@
       "roi": -7.68
     },
     "Lunes": {
-      "picks": 22,
-      "win_rate": 63.6,
-      "roi": 42.59
+      "picks": 23,
+      "win_rate": 65.2,
+      "roi": 43.69
     },
     "Martes": {
       "picks": 22,
@@ -1422,7 +1423,7 @@
     }
   },
   "racha": {
-    "actual": 1,
+    "actual": 2,
     "tipo": "win"
   }
 }
