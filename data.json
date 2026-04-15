@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T02:12:09.920857+00:00",
+  "timestamp": "2026-04-15T07:27:38.864443+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 144.35,
@@ -10,7 +10,7 @@
     "total_picks": 397,
     "ganadas": 207,
     "perdidas": 190,
-    "pendientes": 16,
+    "pendientes": 18,
     "total_turnover": 2599.65
   },
   "bankroll_history": [
@@ -932,6 +932,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-21 17:00",
+      "league": "La Liga",
+      "home_team": "Mallorca",
+      "away_team": "Valencia",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 11.88,
+      "kelly": 4.5,
+      "bet_result": "",
+      "confidence_score": 78.7
+    },
+    {
       "match_date": "2026-04-20 19:15",
       "league": "Primeira Liga",
       "home_team": "Moreirense",
@@ -1014,6 +1026,18 @@
       "kelly": 3.3,
       "bet_result": "",
       "confidence_score": 76.0
+    },
+    {
+      "match_date": "2026-04-19 13:00",
+      "league": "Serie B",
+      "home_team": "Carrarese",
+      "away_team": "Pescara",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 6.58,
+      "kelly": 2.7,
+      "bet_result": "",
+      "confidence_score": 74.9
     },
     {
       "match_date": "2026-04-18 19:30",
@@ -1266,30 +1290,6 @@
       "kelly": 1.0,
       "bet_result": "Ganada",
       "confidence_score": 69.9
-    },
-    {
-      "match_date": "2026-04-05 16:30",
-      "league": "Segunda División",
-      "home_team": "Las Palmas",
-      "away_team": "Huesca",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.35,
-      "kelly": 0.9,
-      "bet_result": "Ganada",
-      "confidence_score": 71.5
-    },
-    {
-      "match_date": "2026-04-04 16:00",
-      "league": "Serie A",
-      "home_team": "Hellas Verona",
-      "away_team": "Fiorentina",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.28,
-      "kelly": 0.9,
-      "bet_result": "Perdida",
-      "confidence_score": 71.4
     }
   ],
   "clv_analysis": {
