@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T02:24:16.111444+00:00",
+  "timestamp": "2026-04-17T07:28:46.028699+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 144.35,
@@ -10,7 +10,7 @@
     "total_picks": 397,
     "ganadas": 207,
     "perdidas": 190,
-    "pendientes": 20,
+    "pendientes": 22,
     "total_turnover": 2599.65
   },
   "bankroll_history": [
@@ -932,6 +932,30 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-23 19:30",
+      "league": "La Liga",
+      "home_team": "Oviedo",
+      "away_team": "Villarreal",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.91,
+      "edge": 9.67,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 74.0
+    },
+    {
+      "match_date": "2026-04-23 17:00",
+      "league": "La Liga",
+      "home_team": "Levante",
+      "away_team": "Sevilla",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 11.5,
+      "kelly": 4.3,
+      "bet_result": "",
+      "confidence_score": 78.1
+    },
+    {
       "match_date": "2026-04-21 17:00",
       "league": "La Liga",
       "home_team": "Mallorca",
@@ -1266,30 +1290,6 @@
       "kelly": 1.5,
       "bet_result": "Ganada",
       "confidence_score": 76.7
-    },
-    {
-      "match_date": "2026-04-06 18:45",
-      "league": "Serie A",
-      "home_team": "Napoli",
-      "away_team": "AC Milan",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.15,
-      "kelly": 0.8,
-      "bet_result": "Perdida",
-      "confidence_score": 71.2
-    },
-    {
-      "match_date": "2026-04-06 15:15",
-      "league": "Serie B",
-      "home_team": "Sampdoria",
-      "away_team": "Empoli",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 7.39,
-      "kelly": 2.0,
-      "bet_result": "Perdida",
-      "confidence_score": 73.2
     }
   ],
   "clv_analysis": {
