@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-18T12:57:24.821479+00:00",
+  "timestamp": "2026-04-18T18:44:59.924848+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 146.36,
-    "profit_loss": -53.64,
-    "roi": -26.82,
-    "win_rate": 52.13,
-    "yield": -2.06,
-    "total_picks": 399,
+    "bankroll_final": 139.48,
+    "profit_loss": -60.52,
+    "roi": -30.26,
+    "win_rate": 52.0,
+    "yield": -2.32,
+    "total_picks": 400,
     "ganadas": 208,
-    "perdidas": 191,
+    "perdidas": 192,
     "pendientes": 21,
-    "total_turnover": 2607.35
+    "total_turnover": 2614.23
   },
   "bankroll_history": [
     200.0,
@@ -413,7 +413,8 @@
     141.47,
     144.35,
     141.9,
-    146.36
+    146.36,
+    139.48
   ],
   "by_market": {
     "Under 2.5": {
@@ -425,12 +426,12 @@
       "profit": -28.62
     },
     "Over 2.5": {
-      "picks": 269,
+      "picks": 270,
       "ganadas": 142,
-      "perdidas": 127,
-      "win_rate": 52.79,
-      "roi": 1.49,
-      "profit": 23.09
+      "perdidas": 128,
+      "win_rate": 52.59,
+      "roi": 1.04,
+      "profit": 16.21
     },
     "BTTS No": {
       "picks": 44,
@@ -467,12 +468,12 @@
       "profit": -17.68
     },
     "Premier League": {
-      "picks": 29,
+      "picks": 30,
       "ganadas": 14,
-      "perdidas": 15,
-      "win_rate": 48.28,
-      "roi": -4.76,
-      "profit": -11.32
+      "perdidas": 16,
+      "win_rate": 46.67,
+      "roi": -7.44,
+      "profit": -18.2
     },
     "La Liga": {
       "picks": 39,
@@ -573,12 +574,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 65,
+      "picks": 66,
       "ganadas": 35,
-      "perdidas": 30,
-      "win_rate": 53.85,
-      "roi": 12.66,
-      "profit": 55.37
+      "perdidas": 31,
+      "win_rate": 53.03,
+      "roi": 10.91,
+      "profit": 48.49
     },
     "12.0-15.0%": {
       "picks": 64,
@@ -615,12 +616,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 86,
+      "picks": 87,
       "ganadas": 42,
-      "perdidas": 44,
-      "win_rate": 48.84,
-      "roi": -19.92,
-      "profit": -139.2
+      "perdidas": 45,
+      "win_rate": 48.28,
+      "roi": -20.7,
+      "profit": -146.08
     },
     "1.85-2.00": {
       "picks": 99,
@@ -707,9 +708,9 @@
         "roi": 10.71
       },
       "Premier League": {
-        "picks": 12,
-        "win_rate": 25.0,
-        "roi": -70.23
+        "picks": 13,
+        "win_rate": 23.08,
+        "roi": -72.44
       },
       "La Liga": {
         "picks": 32,
@@ -862,9 +863,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 46,
-        "win_rate": 52.17,
-        "roi": 8.61
+        "picks": 47,
+        "win_rate": 51.06,
+        "roi": 6.12
       },
       "12.0-15.0%": {
         "picks": 38,
@@ -1107,6 +1108,18 @@
       "confidence_score": 71.9
     },
     {
+      "match_date": "2026-04-18 18:45",
+      "league": "Serie A",
+      "home_team": "AS Roma",
+      "away_team": "Atalanta",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.9,
+      "edge": 5.82,
+      "kelly": 1.8,
+      "bet_result": "",
+      "confidence_score": 73.1
+    },
+    {
       "match_date": "2026-04-18 16:00",
       "league": "Serie A",
       "home_team": "Napoli",
@@ -1187,7 +1200,7 @@
       "betfair_odd": 1.73,
       "edge": 11.13,
       "kelly": 4.7,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 74.5
     },
     {
@@ -1285,24 +1298,12 @@
       "kelly": 2.0,
       "bet_result": "Perdida",
       "confidence_score": 70.7
-    },
-    {
-      "match_date": "2026-04-11 13:00",
-      "league": "Serie A",
-      "home_team": "Torino",
-      "away_team": "Hellas Verona",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.3,
-      "edge": 7.13,
-      "kelly": 0.9,
-      "bet_result": "Ganada",
-      "confidence_score": 69.7
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.51,
-    "total_with_clv": 355,
-    "positive_clv": 184,
+    "avg_clv": 1.52,
+    "total_with_clv": 356,
+    "positive_clv": 185,
     "negative_clv": 94,
     "zero_clv": 77,
     "best_clv": 21.4,
@@ -1335,9 +1336,9 @@
       "roi": -60.66
     },
     "Sábado": {
-      "picks": 145,
-      "win_rate": 49.0,
-      "roi": -10.36
+      "picks": 146,
+      "win_rate": 48.6,
+      "roi": -11.03
     },
     "Viernes": {
       "picks": 50,
@@ -1431,6 +1432,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "win"
+    "tipo": "loss"
   }
 }
