@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T12:56:51.420997+00:00",
+  "timestamp": "2026-04-19T18:44:39.655168+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 142.48,
@@ -10,7 +10,7 @@
     "total_picks": 409,
     "ganadas": 214,
     "perdidas": 195,
-    "pendientes": 15,
+    "pendientes": 16,
     "total_turnover": 2654.8
   },
   "bankroll_history": [
@@ -949,6 +949,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-04-25 17:30",
+      "league": "Serie B",
+      "home_team": "Cesena",
+      "away_team": "Sampdoria",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.1,
+      "edge": 6.08,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 73.6
+    },
+    {
       "match_date": "2026-04-24 17:00",
       "league": "Serie B",
       "home_team": "Monza",
@@ -1295,18 +1307,6 @@
       "kelly": 2.2,
       "bet_result": "Ganada",
       "confidence_score": 71.7
-    },
-    {
-      "match_date": "2026-04-12 14:15",
-      "league": "La Liga",
-      "home_team": "Mallorca",
-      "away_team": "Rayo Vallecano",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 7.04,
-      "kelly": 1.9,
-      "bet_result": "Ganada",
-      "confidence_score": 73.0
     }
   ],
   "clv_analysis": {
