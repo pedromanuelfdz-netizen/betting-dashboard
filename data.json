@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-20T02:28:52.020559+00:00",
+  "timestamp": "2026-04-20T08:02:25.024982+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 148.6,
-    "profit_loss": -51.4,
-    "roi": -25.7,
-    "win_rate": 52.42,
-    "yield": -1.92,
-    "total_picks": 414,
-    "ganadas": 217,
+    "bankroll_final": 151.94,
+    "profit_loss": -48.06,
+    "roi": -24.03,
+    "win_rate": 52.53,
+    "yield": -1.79,
+    "total_picks": 415,
+    "ganadas": 218,
     "perdidas": 197,
-    "pendientes": 11,
-    "total_turnover": 2676.92
+    "pendientes": 13,
+    "total_turnover": 2680.63
   },
   "bankroll_history": [
     200.0,
@@ -428,7 +428,8 @@
     151.32,
     149.05,
     153.99,
-    148.6
+    148.6,
+    151.94
   ],
   "by_market": {
     "Under 2.5": {
@@ -440,12 +441,12 @@
       "profit": -17.47
     },
     "Over 2.5": {
-      "picks": 279,
-      "ganadas": 147,
+      "picks": 280,
+      "ganadas": 148,
       "perdidas": 132,
-      "win_rate": 52.69,
-      "roi": 0.89,
-      "profit": 14.19
+      "win_rate": 52.86,
+      "roi": 1.09,
+      "profit": 17.53
     },
     "BTTS No": {
       "picks": 44,
@@ -546,12 +547,12 @@
       "profit": -30.52
     },
     "Primeira Liga": {
-      "picks": 40,
-      "ganadas": 23,
+      "picks": 41,
+      "ganadas": 24,
       "perdidas": 17,
-      "win_rate": 57.5,
-      "roi": 18.58,
-      "profit": 50.25
+      "win_rate": 58.54,
+      "roi": 19.55,
+      "profit": 53.59
     },
     "Bundesliga": {
       "picks": 19,
@@ -604,12 +605,12 @@
       "profit": -52.18
     },
     "6.0-8.0%": {
-      "picks": 145,
-      "ganadas": 69,
+      "picks": 146,
+      "ganadas": 70,
       "perdidas": 76,
-      "win_rate": 47.59,
-      "roi": -14.47,
-      "profit": -86.85
+      "win_rate": 47.95,
+      "roi": -13.82,
+      "profit": -83.51
     },
     "8.0-10.0%": {
       "picks": 91,
@@ -638,12 +639,12 @@
       "profit": -134.09
     },
     "1.85-2.00": {
-      "picks": 103,
-      "ganadas": 58,
+      "picks": 104,
+      "ganadas": 59,
       "perdidas": 45,
-      "win_rate": 56.31,
-      "roi": 7.01,
-      "profit": 48.06
+      "win_rate": 56.73,
+      "roi": 7.45,
+      "profit": 51.4
     },
     "2.00-2.20": {
       "picks": 124,
@@ -762,9 +763,9 @@
         "roi": 12.4
       },
       "Primeira Liga": {
-        "picks": 29,
-        "win_rate": 58.62,
-        "roi": 30.27
+        "picks": 30,
+        "win_rate": 60.0,
+        "roi": 31.44
       },
       "Ligue 2": {
         "picks": 13,
@@ -892,9 +893,9 @@
         "roi": -17.34
       },
       "6.0-8.0%": {
-        "picks": 107,
-        "win_rate": 52.34,
-        "roi": 2.18
+        "picks": 108,
+        "win_rate": 52.78,
+        "roi": 3.03
       },
       "8.0-10.0%": {
         "picks": 53,
@@ -958,6 +959,42 @@
     }
   },
   "recent_bets": [
+    {
+      "match_date": "2026-04-26 19:00",
+      "league": "La Liga",
+      "home_team": "Villarreal",
+      "away_team": "Celta Vigo",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.83,
+      "edge": 6.76,
+      "kelly": 3.0,
+      "bet_result": "",
+      "confidence_score": 75.2
+    },
+    {
+      "match_date": "2026-04-26 18:45",
+      "league": "Serie A",
+      "home_team": "AC Milan",
+      "away_team": "Juventus",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.85,
+      "edge": 5.93,
+      "kelly": 2.3,
+      "bet_result": "",
+      "confidence_score": 73.6
+    },
+    {
+      "match_date": "2026-04-26 16:30",
+      "league": "La Liga",
+      "home_team": "Osasuna",
+      "away_team": "Sevilla",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.0,
+      "edge": 7.69,
+      "kelly": 3.0,
+      "bet_result": "",
+      "confidence_score": 76.7
+    },
     {
       "match_date": "2026-04-25 17:30",
       "league": "Serie B",
@@ -1087,7 +1124,7 @@
       "betfair_odd": 1.9,
       "edge": 6.59,
       "kelly": 2.5,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 74.9
     },
     {
@@ -1281,48 +1318,12 @@
       "kelly": 3.7,
       "bet_result": "Ganada",
       "confidence_score": 73.7
-    },
-    {
-      "match_date": "2026-04-17 18:30",
-      "league": "Bundesliga",
-      "home_team": "FC St. Pauli",
-      "away_team": "1. FC Köln",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.08,
-      "kelly": 1.7,
-      "bet_result": "Perdida",
-      "confidence_score": 71.5
-    },
-    {
-      "match_date": "2026-04-13 19:15",
-      "league": "Primeira Liga",
-      "home_team": "Tondela",
-      "away_team": "GIL Vicente",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 6.29,
-      "kelly": 1.7,
-      "bet_result": "Ganada",
-      "confidence_score": 71.8
-    },
-    {
-      "match_date": "2026-04-12 16:30",
-      "league": "La Liga",
-      "home_team": "Celta Vigo",
-      "away_team": "Oviedo",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.3,
-      "edge": 8.24,
-      "kelly": 2.2,
-      "bet_result": "Ganada",
-      "confidence_score": 71.7
     }
   ],
   "clv_analysis": {
     "avg_clv": 1.53,
-    "total_with_clv": 370,
-    "positive_clv": 191,
+    "total_with_clv": 371,
+    "positive_clv": 192,
     "negative_clv": 99,
     "zero_clv": 80,
     "best_clv": 21.4,
@@ -1330,9 +1331,9 @@
   },
   "temporal_stats": {
     "Domingo": {
-      "picks": 135,
-      "win_rate": 54.1,
-      "roi": -6.85
+      "picks": 136,
+      "win_rate": 54.4,
+      "roi": -6.47
     },
     "Lunes": {
       "picks": 23,
@@ -1451,6 +1452,6 @@
   },
   "racha": {
     "actual": 1,
-    "tipo": "loss"
+    "tipo": "win"
   }
 }
