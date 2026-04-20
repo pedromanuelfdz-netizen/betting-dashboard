@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T13:24:27.542328+00:00",
+  "timestamp": "2026-04-20T19:01:27.528804+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 151.94,
@@ -10,7 +10,7 @@
     "total_picks": 415,
     "ganadas": 218,
     "perdidas": 197,
-    "pendientes": 13,
+    "pendientes": 14,
     "total_turnover": 2680.63
   },
   "bankroll_history": [
@@ -996,6 +996,18 @@
       "confidence_score": 76.7
     },
     {
+      "match_date": "2026-04-26 14:30",
+      "league": "Primeira Liga",
+      "home_team": "Estoril",
+      "away_team": "Famalicao",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.05,
+      "edge": 6.41,
+      "kelly": 2.3,
+      "bet_result": "",
+      "confidence_score": 74.6
+    },
+    {
       "match_date": "2026-04-25 17:30",
       "league": "Serie B",
       "home_team": "Cesena",
@@ -1306,18 +1318,6 @@
       "kelly": 4.7,
       "bet_result": "Perdida",
       "confidence_score": 74.5
-    },
-    {
-      "match_date": "2026-04-17 19:00",
-      "league": "Segunda División",
-      "home_team": "Las Palmas",
-      "away_team": "Leganes",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.85,
-      "edge": 9.52,
-      "kelly": 3.7,
-      "bet_result": "Ganada",
-      "confidence_score": 73.7
     }
   ],
   "clv_analysis": {
