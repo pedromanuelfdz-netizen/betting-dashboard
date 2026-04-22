@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-21T19:07:36.003042+00:00",
+  "timestamp": "2026-04-22T02:23:04.298323+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 152.7,
-    "profit_loss": -47.3,
-    "roi": -23.65,
-    "win_rate": 52.52,
-    "yield": -1.76,
-    "total_picks": 417,
+    "bankroll_final": 145.83,
+    "profit_loss": -54.17,
+    "roi": -27.08,
+    "win_rate": 52.39,
+    "yield": -2.01,
+    "total_picks": 418,
     "ganadas": 219,
-    "perdidas": 198,
-    "pendientes": 15,
-    "total_turnover": 2688.47
+    "perdidas": 199,
+    "pendientes": 14,
+    "total_turnover": 2695.34
   },
   "bankroll_history": [
     200.0,
@@ -431,7 +431,8 @@
     148.6,
     151.94,
     156.13,
-    152.7
+    152.7,
+    145.83
   ],
   "by_market": {
     "Under 2.5": {
@@ -443,12 +444,12 @@
       "profit": -17.47
     },
     "Over 2.5": {
-      "picks": 282,
+      "picks": 283,
       "ganadas": 149,
-      "perdidas": 133,
-      "win_rate": 52.84,
-      "roi": 1.13,
-      "profit": 18.29
+      "perdidas": 134,
+      "win_rate": 52.65,
+      "roi": 0.71,
+      "profit": 11.42
     },
     "BTTS No": {
       "picks": 44,
@@ -493,12 +494,12 @@
       "profit": -18.2
     },
     "La Liga": {
-      "picks": 39,
+      "picks": 40,
       "ganadas": 21,
-      "perdidas": 18,
-      "win_rate": 53.85,
-      "roi": 0.14,
-      "profit": 0.31
+      "perdidas": 19,
+      "win_rate": 52.5,
+      "roi": -2.93,
+      "profit": -6.56
     },
     "Ligue 1": {
       "picks": 16,
@@ -591,12 +592,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 67,
+      "picks": 68,
       "ganadas": 35,
-      "perdidas": 32,
-      "win_rate": 52.24,
-      "roi": 9.54,
-      "profit": 42.91
+      "perdidas": 33,
+      "win_rate": 51.47,
+      "roi": 7.89,
+      "profit": 36.04
     },
     "12.0-15.0%": {
       "picks": 64,
@@ -649,12 +650,12 @@
       "profit": 52.16
     },
     "2.00-2.20": {
-      "picks": 124,
+      "picks": 125,
       "ganadas": 63,
-      "perdidas": 61,
-      "win_rate": 50.81,
-      "roi": -5.11,
-      "profit": -40.54
+      "perdidas": 62,
+      "win_rate": 50.4,
+      "roi": -5.92,
+      "profit": -47.41
     },
     "2.20-2.50": {
       "picks": 94,
@@ -735,9 +736,9 @@
         "roi": -72.44
       },
       "La Liga": {
-        "picks": 32,
-        "win_rate": 53.12,
-        "roi": -1.52
+        "picks": 33,
+        "win_rate": 51.52,
+        "roi": -5.46
       },
       "Ligue 1": {
         "picks": 12,
@@ -885,9 +886,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 48,
-        "win_rate": 50.0,
-        "roi": 4.18
+        "picks": 49,
+        "win_rate": 48.98,
+        "roi": 1.89
       },
       "12.0-15.0%": {
         "picks": 38,
@@ -1138,7 +1139,7 @@
       "betfair_odd": 2.1,
       "edge": 11.88,
       "kelly": 4.5,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 78.7
     },
     {
@@ -1324,10 +1325,10 @@
   ],
   "clv_analysis": {
     "avg_clv": 1.57,
-    "total_with_clv": 373,
+    "total_with_clv": 374,
     "positive_clv": 194,
     "negative_clv": 99,
-    "zero_clv": 80,
+    "zero_clv": 81,
     "best_clv": 21.4,
     "worst_clv": -14.4
   },
@@ -1343,9 +1344,9 @@
       "roi": 42.18
     },
     "Martes": {
-      "picks": 22,
-      "win_rate": 54.5,
-      "roi": 19.0
+      "picks": 23,
+      "win_rate": 52.2,
+      "roi": 12.79
     },
     "Miércoles": {
       "picks": 23,
@@ -1453,7 +1454,7 @@
     }
   },
   "racha": {
-    "actual": 1,
+    "actual": 2,
     "tipo": "loss"
   }
 }
