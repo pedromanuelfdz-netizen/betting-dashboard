@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-22T02:23:04.298323+00:00",
+  "timestamp": "2026-04-22T07:28:34.365359+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 145.83,
-    "profit_loss": -54.17,
-    "roi": -27.08,
-    "win_rate": 52.39,
-    "yield": -2.01,
-    "total_picks": 418,
+    "bankroll_final": 137.07,
+    "profit_loss": -62.93,
+    "roi": -31.47,
+    "win_rate": 52.14,
+    "yield": -2.33,
+    "total_picks": 420,
     "ganadas": 219,
-    "perdidas": 199,
-    "pendientes": 14,
-    "total_turnover": 2695.34
+    "perdidas": 201,
+    "pendientes": 16,
+    "total_turnover": 2704.1
   },
   "bankroll_history": [
     200.0,
@@ -432,16 +432,18 @@
     151.94,
     156.13,
     152.7,
-    145.83
+    145.83,
+    141.6,
+    137.07
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 76,
+      "picks": 78,
       "ganadas": 41,
-      "perdidas": 35,
-      "win_rate": 53.95,
-      "roi": -2.56,
-      "profit": -17.47
+      "perdidas": 37,
+      "win_rate": 52.56,
+      "roi": -3.8,
+      "profit": -26.23
     },
     "Over 2.5": {
       "picks": 283,
@@ -478,12 +480,12 @@
       "profit": 21.09
     },
     "Championship": {
-      "picks": 49,
+      "picks": 50,
       "ganadas": 26,
-      "perdidas": 23,
-      "win_rate": 53.06,
-      "roi": -3.14,
-      "profit": -10.95
+      "perdidas": 24,
+      "win_rate": 52.0,
+      "roi": -4.38,
+      "profit": -15.48
     },
     "Premier League": {
       "picks": 30,
@@ -574,12 +576,12 @@
       "profit": -41.32
     },
     "Jupiler Pro League": {
-      "picks": 17,
+      "picks": 18,
       "ganadas": 12,
-      "perdidas": 5,
-      "win_rate": 70.59,
-      "roi": 23.51,
-      "profit": 20.12
+      "perdidas": 6,
+      "win_rate": 66.67,
+      "roi": 17.7,
+      "profit": 15.89
     },
     "Super League": {
       "picks": 5,
@@ -616,12 +618,12 @@
       "profit": -82.76
     },
     "8.0-10.0%": {
-      "picks": 91,
+      "picks": 93,
       "ganadas": 55,
-      "perdidas": 36,
-      "win_rate": 60.44,
-      "roi": 19.11,
-      "profit": 113.19
+      "perdidas": 38,
+      "win_rate": 59.14,
+      "roi": 17.37,
+      "profit": 104.43
     },
     ">15.0%": {
       "picks": 47,
@@ -634,20 +636,20 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 93,
+      "picks": 94,
       "ganadas": 47,
-      "perdidas": 46,
-      "win_rate": 50.54,
-      "roi": -18.29,
-      "profit": -134.09
+      "perdidas": 47,
+      "win_rate": 50.0,
+      "roi": -18.76,
+      "profit": -138.32
     },
     "1.85-2.00": {
-      "picks": 106,
+      "picks": 107,
       "ganadas": 60,
-      "perdidas": 46,
-      "win_rate": 56.6,
-      "roi": 7.48,
-      "profit": 52.16
+      "perdidas": 47,
+      "win_rate": 56.07,
+      "roi": 6.78,
+      "profit": 47.63
     },
     "2.00-2.20": {
       "picks": 125,
@@ -679,9 +681,9 @@
         "roi": 41.79
       },
       "Championship": {
-        "picks": 7,
-        "win_rate": 42.86,
-        "roi": -30.28
+        "picks": 8,
+        "win_rate": 37.5,
+        "roi": -34.56
       },
       "Segunda División": {
         "picks": 3,
@@ -719,9 +721,9 @@
         "roi": -36.51
       },
       "Jupiler Pro League": {
-        "picks": 5,
-        "win_rate": 80.0,
-        "roi": 34.49
+        "picks": 6,
+        "win_rate": 66.67,
+        "roi": 19.2
       }
     },
     "Over 2.5": {
@@ -874,9 +876,9 @@
         "roi": -22.51
       },
       "8.0-10.0%": {
-        "picks": 19,
-        "win_rate": 68.42,
-        "roi": 30.91
+        "picks": 21,
+        "win_rate": 61.9,
+        "roi": 22.91
       },
       ">15.0%": {
         "picks": 8,
@@ -1047,6 +1049,18 @@
       "confidence_score": 74.6
     },
     {
+      "match_date": "2026-04-25 18:45",
+      "league": "Jupiler Pro League",
+      "home_team": "KVC Westerlo",
+      "away_team": "Antwerp",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.95,
+      "edge": 7.93,
+      "kelly": 2.7,
+      "bet_result": "",
+      "confidence_score": 76.3
+    },
+    {
       "match_date": "2026-04-25 17:30",
       "league": "Serie B",
       "home_team": "Cesena",
@@ -1057,6 +1071,42 @@
       "kelly": 1.7,
       "bet_result": "",
       "confidence_score": 73.6
+    },
+    {
+      "match_date": "2026-04-25 14:00",
+      "league": "Championship",
+      "home_team": "QPR",
+      "away_team": "Derby",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.91,
+      "edge": 11.06,
+      "kelly": 3.8,
+      "bet_result": "",
+      "confidence_score": 76.9
+    },
+    {
+      "match_date": "2026-04-25 14:00",
+      "league": "Premiership",
+      "home_team": "Aberdeen",
+      "away_team": "Kilmarnock",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 10.49,
+      "kelly": 3.7,
+      "bet_result": "",
+      "confidence_score": 73.0
+    },
+    {
+      "match_date": "2026-04-25 14:00",
+      "league": "Premiership",
+      "home_team": "ST Mirren",
+      "away_team": "Livingston",
+      "selection": "Under 2.5",
+      "betfair_odd": 2.0,
+      "edge": 10.56,
+      "kelly": 3.5,
+      "bet_result": "",
+      "confidence_score": 75.7
     },
     {
       "match_date": "2026-04-24 17:00",
@@ -1115,7 +1165,7 @@
       "betfair_odd": 1.85,
       "edge": 9.77,
       "kelly": 3.2,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 74.9
     },
     {
@@ -1127,7 +1177,7 @@
       "betfair_odd": 1.77,
       "edge": 8.29,
       "kelly": 2.9,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 74.4
     },
     {
@@ -1273,64 +1323,16 @@
       "kelly": 1.8,
       "bet_result": "Ganada",
       "confidence_score": 73.1
-    },
-    {
-      "match_date": "2026-04-18 16:00",
-      "league": "Serie A",
-      "home_team": "Napoli",
-      "away_team": "Lazio",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.65,
-      "edge": 6.2,
-      "kelly": 2.8,
-      "bet_result": "Ganada",
-      "confidence_score": 70.2
-    },
-    {
-      "match_date": "2026-04-18 14:30",
-      "league": "Primeira Liga",
-      "home_team": "Nacional",
-      "away_team": "Alverca",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.83,
-      "edge": 7.24,
-      "kelly": 3.2,
-      "bet_result": "Perdida",
-      "confidence_score": 76.0
-    },
-    {
-      "match_date": "2026-04-18 14:00",
-      "league": "Championship",
-      "home_team": "Sheffield Wednesday",
-      "away_team": "Charlton",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.73,
-      "edge": 8.44,
-      "kelly": 3.6,
-      "bet_result": "Ganada",
-      "confidence_score": 73.9
-    },
-    {
-      "match_date": "2026-04-18 14:00",
-      "league": "Championship",
-      "home_team": "Swansea",
-      "away_team": "Southampton",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.7,
-      "edge": 7.43,
-      "kelly": 3.2,
-      "bet_result": "Ganada",
-      "confidence_score": 73.3
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.57,
-    "total_with_clv": 374,
-    "positive_clv": 194,
-    "negative_clv": 99,
+    "avg_clv": 1.55,
+    "total_with_clv": 376,
+    "positive_clv": 195,
+    "negative_clv": 100,
     "zero_clv": 81,
     "best_clv": 21.4,
-    "worst_clv": -14.4
+    "worst_clv": -15.9
   },
   "temporal_stats": {
     "Domingo": {
@@ -1344,9 +1346,9 @@
       "roi": 42.18
     },
     "Martes": {
-      "picks": 23,
-      "win_rate": 52.2,
-      "roi": 12.79
+      "picks": 25,
+      "win_rate": 48.0,
+      "roi": 5.77
     },
     "Miércoles": {
       "picks": 23,
@@ -1454,7 +1456,7 @@
     }
   },
   "racha": {
-    "actual": 2,
+    "actual": 4,
     "tipo": "loss"
   }
 }
