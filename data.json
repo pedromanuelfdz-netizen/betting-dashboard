@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-24T18:46:04.192077+00:00",
+  "timestamp": "2026-04-25T02:09:03.112991+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 132.07,
-    "profit_loss": -67.93,
-    "roi": -33.97,
-    "win_rate": 52.01,
-    "yield": -2.5,
-    "total_picks": 423,
-    "ganadas": 220,
+    "bankroll_final": 135.45,
+    "profit_loss": -64.55,
+    "roi": -32.28,
+    "win_rate": 52.12,
+    "yield": -2.37,
+    "total_picks": 424,
+    "ganadas": 221,
     "perdidas": 203,
     "pendientes": 14,
-    "total_turnover": 2718.13
+    "total_turnover": 2722.36
   },
   "bankroll_history": [
     200.0,
@@ -437,16 +437,17 @@
     137.07,
     131.18,
     127.77,
-    132.07
+    132.07,
+    135.45
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 79,
-      "ganadas": 42,
+      "picks": 80,
+      "ganadas": 43,
       "perdidas": 37,
-      "win_rate": 53.16,
-      "roi": -3.16,
-      "profit": -21.93
+      "win_rate": 53.75,
+      "roi": -2.65,
+      "profit": -18.55
     },
     "Over 2.5": {
       "picks": 285,
@@ -539,12 +540,12 @@
       "profit": 30.29
     },
     "Serie B": {
-      "picks": 53,
-      "ganadas": 30,
+      "picks": 54,
+      "ganadas": 31,
       "perdidas": 23,
-      "win_rate": 56.6,
-      "roi": 4.59,
-      "profit": 12.31
+      "win_rate": 57.41,
+      "roi": 5.76,
+      "profit": 15.7
     },
     "Eredivisie": {
       "picks": 7,
@@ -621,12 +622,12 @@
       "profit": -86.17
     },
     "8.0-10.0%": {
-      "picks": 94,
-      "ganadas": 56,
+      "picks": 95,
+      "ganadas": 57,
       "perdidas": 38,
-      "win_rate": 59.57,
-      "roi": 17.94,
-      "profit": 108.73
+      "win_rate": 60.0,
+      "roi": 18.37,
+      "profit": 112.11
     },
     ">15.0%": {
       "picks": 47,
@@ -639,12 +640,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 94,
-      "ganadas": 47,
+      "picks": 95,
+      "ganadas": 48,
       "perdidas": 47,
-      "win_rate": 50.0,
-      "roi": -18.76,
-      "profit": -138.32
+      "win_rate": 50.53,
+      "roi": -18.19,
+      "profit": -134.94
     },
     "1.85-2.00": {
       "picks": 108,
@@ -707,6 +708,11 @@
         "picks": 6,
         "win_rate": 66.67,
         "roi": 20.33
+      },
+      "Serie B": {
+        "picks": 3,
+        "win_rate": 66.67,
+        "roi": 18.02
       },
       "Bundesliga": {
         "picks": 3,
@@ -879,9 +885,9 @@
         "roi": -22.51
       },
       "8.0-10.0%": {
-        "picks": 22,
-        "win_rate": 63.64,
-        "roi": 25.08
+        "picks": 23,
+        "win_rate": 65.22,
+        "roi": 26.61
       },
       ">15.0%": {
         "picks": 8,
@@ -1064,6 +1070,18 @@
       "confidence_score": 74.6
     },
     {
+      "match_date": "2026-04-26 14:15",
+      "league": "La Liga",
+      "home_team": "Oviedo",
+      "away_team": "Elche",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.8,
+      "edge": 6.64,
+      "kelly": 1.1,
+      "bet_result": "",
+      "confidence_score": 74.3
+    },
+    {
       "match_date": "2026-04-25 18:45",
       "league": "Jupiler Pro League",
       "home_team": "KVC Westerlo",
@@ -1132,7 +1150,7 @@
       "betfair_odd": 1.8,
       "edge": 9.61,
       "kelly": 3.2,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 74.6
     },
     {
@@ -1314,25 +1332,13 @@
       "kelly": 3.7,
       "bet_result": "Perdida",
       "confidence_score": 75.2
-    },
-    {
-      "match_date": "2026-04-18 18:45",
-      "league": "Jupiler Pro League",
-      "home_team": "KV Mechelen",
-      "away_team": "Anderlecht",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.73,
-      "edge": 9.58,
-      "kelly": 4.1,
-      "bet_result": "Ganada",
-      "confidence_score": 71.9
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.55,
-    "total_with_clv": 379,
+    "avg_clv": 1.53,
+    "total_with_clv": 380,
     "positive_clv": 196,
-    "negative_clv": 101,
+    "negative_clv": 102,
     "zero_clv": 82,
     "best_clv": 21.4,
     "worst_clv": -15.9
@@ -1369,9 +1375,9 @@
       "roi": -10.26
     },
     "Viernes": {
-      "picks": 50,
-      "win_rate": 48.0,
-      "roi": 0.28
+      "picks": 51,
+      "win_rate": 49.0,
+      "roi": 1.37
     }
   },
   "top_teams": {
@@ -1459,7 +1465,7 @@
     }
   },
   "racha": {
-    "actual": 1,
+    "actual": 2,
     "tipo": "win"
   }
 }
