@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-27T13:47:12.683866+00:00",
+  "timestamp": "2026-04-27T19:16:14.619443+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 135.45,
@@ -10,7 +10,7 @@
     "total_picks": 435,
     "ganadas": 226,
     "perdidas": 209,
-    "pendientes": 17,
+    "pendientes": 18,
     "total_turnover": 2762.14
   },
   "bankroll_history": [
@@ -997,6 +997,18 @@
       "confidence_score": 73.2
     },
     {
+      "match_date": "2026-05-03 14:30",
+      "league": "Primeira Liga",
+      "home_team": "Casa Pia",
+      "away_team": "Tondela",
+      "selection": "Over 2.5",
+      "betfair_odd": 2.25,
+      "edge": 12.36,
+      "kelly": 3.3,
+      "bet_result": "",
+      "confidence_score": 72.6
+    },
+    {
       "match_date": "2026-05-03 14:15",
       "league": "Segunda División",
       "home_team": "Sporting Gijon",
@@ -1331,18 +1343,6 @@
       "kelly": 3.2,
       "bet_result": "Ganada",
       "confidence_score": 74.6
-    },
-    {
-      "match_date": "2026-04-23 19:30",
-      "league": "La Liga",
-      "home_team": "Oviedo",
-      "away_team": "Villarreal",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.91,
-      "edge": 9.67,
-      "kelly": 3.7,
-      "bet_result": "Ganada",
-      "confidence_score": 74.0
     }
   ],
   "clv_analysis": {
