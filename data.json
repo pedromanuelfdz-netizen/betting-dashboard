@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-05-02T13:05:14.353086+00:00",
+  "timestamp": "2026-05-02T18:55:40.519079+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 128.25,
-    "profit_loss": -71.75,
-    "roi": -35.88,
-    "win_rate": 51.81,
-    "yield": -2.57,
-    "total_picks": 442,
-    "ganadas": 229,
-    "perdidas": 213,
-    "pendientes": 11,
-    "total_turnover": 2791.12
+    "bankroll_final": 131.95,
+    "profit_loss": -68.05,
+    "roi": -34.03,
+    "win_rate": 51.91,
+    "yield": -2.43,
+    "total_picks": 445,
+    "ganadas": 231,
+    "perdidas": 214,
+    "pendientes": 8,
+    "total_turnover": 2801.94
   },
   "bankroll_history": [
     200.0,
@@ -456,24 +456,27 @@
     127.35,
     130.53,
     125.96,
-    128.25
+    128.25,
+    125.69,
+    127.3,
+    131.95
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 90,
-      "ganadas": 47,
-      "perdidas": 43,
-      "win_rate": 52.22,
-      "roi": -4.04,
-      "profit": -29.77
+      "picks": 92,
+      "ganadas": 48,
+      "perdidas": 44,
+      "win_rate": 52.17,
+      "roi": -4.14,
+      "profit": -30.73
     },
     "Over 2.5": {
-      "picks": 293,
-      "ganadas": 153,
+      "picks": 294,
+      "ganadas": 154,
       "perdidas": 140,
-      "win_rate": 52.22,
-      "roi": 0.37,
-      "profit": 6.14
+      "win_rate": 52.38,
+      "roi": 0.65,
+      "profit": 10.79
     },
     "BTTS No": {
       "picks": 44,
@@ -502,12 +505,12 @@
       "profit": 23.99
     },
     "Championship": {
-      "picks": 51,
-      "ganadas": 27,
-      "perdidas": 24,
-      "win_rate": 52.94,
-      "roi": -3.01,
-      "profit": -10.79
+      "picks": 54,
+      "ganadas": 29,
+      "perdidas": 25,
+      "win_rate": 53.7,
+      "roi": -1.92,
+      "profit": -7.09
     },
     "Premier League": {
       "picks": 30,
@@ -624,12 +627,12 @@
       "profit": 29.3
     },
     "12.0-15.0%": {
-      "picks": 65,
-      "ganadas": 34,
-      "perdidas": 31,
-      "win_rate": 52.31,
-      "roi": -9.01,
-      "profit": -55.5
+      "picks": 67,
+      "ganadas": 35,
+      "perdidas": 32,
+      "win_rate": 52.24,
+      "roi": -8.55,
+      "profit": -53.41
     },
     "6.0-8.0%": {
       "picks": 159,
@@ -640,12 +643,12 @@
       "profit": -84.2
     },
     "8.0-10.0%": {
-      "picks": 96,
-      "ganadas": 57,
+      "picks": 97,
+      "ganadas": 58,
       "perdidas": 39,
-      "win_rate": 59.38,
-      "roi": 17.41,
-      "profit": 107.1
+      "win_rate": 59.79,
+      "roi": 17.62,
+      "profit": 108.71
     },
     ">15.0%": {
       "picks": 47,
@@ -658,28 +661,28 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 100,
-      "ganadas": 50,
+      "picks": 101,
+      "ganadas": 51,
       "perdidas": 50,
-      "win_rate": 50.0,
-      "roi": -18.63,
-      "profit": -141.89
+      "win_rate": 50.5,
+      "roi": -17.87,
+      "profit": -137.24
     },
     "1.85-2.00": {
-      "picks": 114,
-      "ganadas": 63,
+      "picks": 115,
+      "ganadas": 64,
       "perdidas": 51,
-      "win_rate": 55.26,
-      "roi": 5.81,
-      "profit": 42.54
+      "win_rate": 55.65,
+      "roi": 6.02,
+      "profit": 44.15
     },
     "2.00-2.20": {
-      "picks": 133,
+      "picks": 134,
       "ganadas": 66,
-      "perdidas": 67,
-      "win_rate": 49.62,
-      "roi": -6.38,
-      "profit": -52.95
+      "perdidas": 68,
+      "win_rate": 49.25,
+      "roi": -6.67,
+      "profit": -55.51
     },
     "2.20-2.50": {
       "picks": 95,
@@ -703,9 +706,9 @@
         "roi": 41.79
       },
       "Championship": {
-        "picks": 8,
-        "win_rate": 37.5,
-        "roi": -34.56
+        "picks": 10,
+        "win_rate": 40.0,
+        "roi": -33.81
       },
       "Segunda División": {
         "picks": 4,
@@ -755,9 +758,9 @@
     },
     "Over 2.5": {
       "Championship": {
-        "picks": 41,
-        "win_rate": 58.54,
-        "roi": 13.29
+        "picks": 42,
+        "win_rate": 59.52,
+        "roi": 14.69
       },
       "Premier League": {
         "picks": 13,
@@ -893,9 +896,9 @@
         "roi": 55.51
       },
       "12.0-15.0%": {
-        "picks": 21,
-        "win_rate": 52.38,
-        "roi": -4.73
+        "picks": 22,
+        "win_rate": 50.0,
+        "roi": -5.65
       },
       "6.0-8.0%": {
         "picks": 27,
@@ -903,9 +906,9 @@
         "roi": -17.84
       },
       "8.0-10.0%": {
-        "picks": 24,
-        "win_rate": 62.5,
-        "roi": 22.58
+        "picks": 25,
+        "win_rate": 64.0,
+        "roi": 23.32
       },
       ">15.0%": {
         "picks": 8,
@@ -920,9 +923,9 @@
         "roi": 1.47
       },
       "12.0-15.0%": {
-        "picks": 38,
-        "win_rate": 50.0,
-        "roi": -17.34
+        "picks": 39,
+        "win_rate": 51.28,
+        "roi": -15.49
       },
       "6.0-8.0%": {
         "picks": 116,
@@ -1096,7 +1099,7 @@
       "betfair_odd": 2.0,
       "edge": 12.37,
       "kelly": 2.0,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 79.3
     },
     {
@@ -1108,7 +1111,7 @@
       "betfair_odd": 1.85,
       "edge": 9.16,
       "kelly": 1.5,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 73.9
     },
     {
@@ -1120,7 +1123,7 @@
       "betfair_odd": 1.73,
       "edge": 13.32,
       "kelly": 5.0,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 77.2
     },
     {
@@ -1354,9 +1357,9 @@
   ],
   "clv_analysis": {
     "avg_clv": 1.58,
-    "total_with_clv": 398,
-    "positive_clv": 205,
-    "negative_clv": 108,
+    "total_with_clv": 401,
+    "positive_clv": 207,
+    "negative_clv": 109,
     "zero_clv": 85,
     "best_clv": 28.1,
     "worst_clv": -15.9
@@ -1388,9 +1391,9 @@
       "roi": -52.96
     },
     "Sábado": {
-      "picks": 160,
-      "win_rate": 49.4,
-      "roi": -10.23
+      "picks": 163,
+      "win_rate": 49.7,
+      "roi": -9.74
     },
     "Viernes": {
       "picks": 54,
@@ -1483,7 +1486,7 @@
     }
   },
   "racha": {
-    "actual": 1,
+    "actual": 2,
     "tipo": "win"
   }
 }
