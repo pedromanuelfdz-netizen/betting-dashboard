@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-05-03T02:40:51.390629+00:00",
+  "timestamp": "2026-05-03T07:58:21.736720+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 127.98,
-    "profit_loss": -72.02,
-    "roi": -36.01,
-    "win_rate": 51.89,
-    "yield": -2.56,
-    "total_picks": 449,
+    "bankroll_final": 124.91,
+    "profit_loss": -75.09,
+    "roi": -37.55,
+    "win_rate": 51.78,
+    "yield": -2.66,
+    "total_picks": 450,
     "ganadas": 233,
-    "perdidas": 216,
-    "pendientes": 4,
-    "total_turnover": 2816.09
+    "perdidas": 217,
+    "pendientes": 3,
+    "total_turnover": 2819.16
   },
   "bankroll_history": [
     200.0,
@@ -463,16 +463,17 @@
     129.57,
     132.38,
     134.01,
-    127.98
+    127.98,
+    124.91
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 94,
+      "picks": 95,
       "ganadas": 49,
-      "perdidas": 45,
-      "win_rate": 52.13,
-      "roi": -4.69,
-      "profit": -35.12
+      "perdidas": 46,
+      "win_rate": 51.58,
+      "roi": -5.08,
+      "profit": -38.19
     },
     "Over 2.5": {
       "picks": 296,
@@ -605,12 +606,12 @@
       "profit": -41.32
     },
     "Jupiler Pro League": {
-      "picks": 20,
+      "picks": 21,
       "ganadas": 12,
-      "perdidas": 8,
-      "win_rate": 60.0,
-      "roi": 9.15,
-      "profit": 8.86
+      "perdidas": 9,
+      "win_rate": 57.14,
+      "roi": 5.8,
+      "profit": 5.79
     },
     "Super League": {
       "picks": 5,
@@ -639,12 +640,12 @@
       "profit": -59.44
     },
     "6.0-8.0%": {
-      "picks": 160,
+      "picks": 161,
       "ganadas": 76,
-      "perdidas": 84,
-      "win_rate": 47.5,
-      "roi": -13.36,
-      "profit": -86.58
+      "perdidas": 85,
+      "win_rate": 47.2,
+      "roi": -13.76,
+      "profit": -89.65
     },
     "8.0-10.0%": {
       "picks": 99,
@@ -681,12 +682,12 @@
       "profit": 43.4
     },
     "2.00-2.20": {
-      "picks": 135,
+      "picks": 136,
       "ganadas": 66,
-      "perdidas": 69,
-      "win_rate": 48.89,
-      "roi": -7.34,
-      "profit": -61.54
+      "perdidas": 70,
+      "win_rate": 48.53,
+      "roi": -7.68,
+      "profit": -64.61
     },
     "2.20-2.50": {
       "picks": 95,
@@ -755,9 +756,9 @@
         "roi": -51.22
       },
       "Jupiler Pro League": {
-        "picks": 8,
-        "win_rate": 50.0,
-        "roi": 0.26
+        "picks": 9,
+        "win_rate": 44.44,
+        "roi": -6.25
       }
     },
     "Over 2.5": {
@@ -905,9 +906,9 @@
         "roi": -7.75
       },
       "6.0-8.0%": {
-        "picks": 27,
-        "win_rate": 44.44,
-        "roi": -17.84
+        "picks": 28,
+        "win_rate": 42.86,
+        "roi": -19.72
       },
       "8.0-10.0%": {
         "picks": 26,
@@ -1043,7 +1044,7 @@
       "betfair_odd": 2.0,
       "edge": 7.35,
       "kelly": 2.4,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 75.8
     },
     {
@@ -1360,9 +1361,9 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.56,
-    "total_with_clv": 405,
-    "positive_clv": 208,
+    "avg_clv": 1.6,
+    "total_with_clv": 406,
+    "positive_clv": 209,
     "negative_clv": 110,
     "zero_clv": 87,
     "best_clv": 28.1,
@@ -1395,9 +1396,9 @@
       "roi": -52.96
     },
     "Sábado": {
-      "picks": 167,
-      "win_rate": 49.7,
-      "roi": -10.0
+      "picks": 168,
+      "win_rate": 49.4,
+      "roi": -10.27
     },
     "Viernes": {
       "picks": 54,
@@ -1490,7 +1491,7 @@
     }
   },
   "racha": {
-    "actual": 1,
+    "actual": 2,
     "tipo": "loss"
   }
 }
