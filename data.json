@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-05-03T18:56:02.542822+00:00",
+  "timestamp": "2026-05-04T02:38:34.280585+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 124.91,
-    "profit_loss": -75.09,
-    "roi": -37.55,
-    "win_rate": 51.78,
-    "yield": -2.66,
-    "total_picks": 450,
-    "ganadas": 233,
-    "perdidas": 217,
-    "pendientes": 3,
-    "total_turnover": 2819.16
+    "bankroll_final": 120.02,
+    "profit_loss": -79.98,
+    "roi": -39.99,
+    "win_rate": 51.66,
+    "yield": -2.83,
+    "total_picks": 453,
+    "ganadas": 234,
+    "perdidas": 219,
+    "pendientes": 0,
+    "total_turnover": 2828.55
   },
   "bankroll_history": [
     200.0,
@@ -464,7 +464,10 @@
     132.38,
     134.01,
     127.98,
-    124.91
+    124.91,
+    126.91,
+    122.72,
+    120.02
   ],
   "by_market": {
     "Under 2.5": {
@@ -476,12 +479,12 @@
       "profit": -38.19
     },
     "Over 2.5": {
-      "picks": 296,
-      "ganadas": 155,
-      "perdidas": 141,
-      "win_rate": 52.36,
-      "roi": 0.67,
-      "profit": 11.22
+      "picks": 299,
+      "ganadas": 156,
+      "perdidas": 143,
+      "win_rate": 52.17,
+      "roi": 0.38,
+      "profit": 6.33
     },
     "BTTS No": {
       "picks": 44,
@@ -542,12 +545,12 @@
       "profit": -80.46
     },
     "Segunda División": {
-      "picks": 40,
-      "ganadas": 21,
-      "perdidas": 19,
-      "win_rate": 52.5,
-      "roi": 13.7,
-      "profit": 27.1
+      "picks": 42,
+      "ganadas": 22,
+      "perdidas": 20,
+      "win_rate": 52.38,
+      "roi": 13.01,
+      "profit": 26.4
     },
     "Ligue 2": {
       "picks": 21,
@@ -582,12 +585,12 @@
       "profit": -30.52
     },
     "Primeira Liga": {
-      "picks": 44,
+      "picks": 45,
       "ganadas": 24,
-      "perdidas": 20,
-      "win_rate": 54.55,
-      "roi": 14.33,
-      "profit": 41.09
+      "perdidas": 21,
+      "win_rate": 53.33,
+      "roi": 12.69,
+      "profit": 36.9
     },
     "Bundesliga": {
       "picks": 19,
@@ -632,20 +635,20 @@
       "profit": 29.3
     },
     "12.0-15.0%": {
-      "picks": 68,
+      "picks": 69,
       "ganadas": 35,
-      "perdidas": 33,
-      "win_rate": 51.47,
-      "roi": -9.42,
-      "profit": -59.44
+      "perdidas": 34,
+      "win_rate": 50.72,
+      "roi": -10.02,
+      "profit": -63.63
     },
     "6.0-8.0%": {
-      "picks": 161,
-      "ganadas": 76,
-      "perdidas": 85,
-      "win_rate": 47.2,
+      "picks": 163,
+      "ganadas": 77,
+      "perdidas": 86,
+      "win_rate": 47.24,
       "roi": -13.76,
-      "profit": -89.65
+      "profit": -90.35
     },
     "8.0-10.0%": {
       "picks": 99,
@@ -666,12 +669,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 102,
-      "ganadas": 52,
+      "picks": 103,
+      "ganadas": 53,
       "perdidas": 50,
-      "win_rate": 50.98,
-      "roi": -17.42,
-      "profit": -134.43
+      "win_rate": 51.46,
+      "roi": -17.1,
+      "profit": -132.43
     },
     "1.85-2.00": {
       "picks": 117,
@@ -690,12 +693,12 @@
       "profit": -64.61
     },
     "2.20-2.50": {
-      "picks": 95,
+      "picks": 97,
       "ganadas": 50,
-      "perdidas": 45,
-      "win_rate": 52.63,
-      "roi": 17.21,
-      "profit": 80.62
+      "perdidas": 47,
+      "win_rate": 51.55,
+      "roi": 15.51,
+      "profit": 73.73
     }
   },
   "market_league_stats": {
@@ -788,9 +791,9 @@
         "roi": 39.03
       },
       "Segunda División": {
-        "picks": 32,
-        "win_rate": 56.25,
-        "roi": 28.04
+        "picks": 34,
+        "win_rate": 55.88,
+        "roi": 26.68
       },
       "Serie B": {
         "picks": 36,
@@ -803,9 +806,9 @@
         "roi": 2.35
       },
       "Primeira Liga": {
-        "picks": 32,
-        "win_rate": 56.25,
-        "roi": 27.1
+        "picks": 33,
+        "win_rate": 54.55,
+        "roi": 24.44
       },
       "Ligue 2": {
         "picks": 13,
@@ -928,14 +931,14 @@
         "roi": 1.47
       },
       "12.0-15.0%": {
-        "picks": 39,
-        "win_rate": 51.28,
-        "roi": -15.49
+        "picks": 40,
+        "win_rate": 50.0,
+        "roi": -16.62
       },
       "6.0-8.0%": {
-        "picks": 117,
-        "win_rate": 51.28,
-        "roi": 1.4
+        "picks": 119,
+        "win_rate": 51.26,
+        "roi": 1.21
       },
       "8.0-10.0%": {
         "picks": 54,
@@ -1008,7 +1011,7 @@
       "betfair_odd": 2.2,
       "edge": 7.94,
       "kelly": 2.2,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 73.2
     },
     {
@@ -1020,7 +1023,7 @@
       "betfair_odd": 2.25,
       "edge": 12.36,
       "kelly": 3.3,
-      "bet_result": "",
+      "bet_result": "Perdida",
       "confidence_score": 72.6
     },
     {
@@ -1032,7 +1035,7 @@
       "betfair_odd": 1.8,
       "edge": 5.85,
       "kelly": 2.0,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 72.7
     },
     {
@@ -1361,19 +1364,19 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.6,
-    "total_with_clv": 406,
-    "positive_clv": 209,
+    "avg_clv": 1.62,
+    "total_with_clv": 409,
+    "positive_clv": 211,
     "negative_clv": 110,
-    "zero_clv": 87,
+    "zero_clv": 88,
     "best_clv": 28.1,
     "worst_clv": -15.9
   },
   "temporal_stats": {
     "Domingo": {
-      "picks": 142,
-      "win_rate": 54.2,
-      "roi": -6.15
+      "picks": 145,
+      "win_rate": 53.8,
+      "roi": -6.59
     },
     "Lunes": {
       "picks": 29,
@@ -1473,6 +1476,10 @@
       "picks": 3,
       "win_rate": 0.0
     },
+    "Real Sociedad II": {
+      "picks": 3,
+      "win_rate": 0.0
+    },
     "Cultural Leonesa": {
       "picks": 3,
       "win_rate": 0.0
@@ -1482,10 +1489,6 @@
       "win_rate": 0.0
     },
     "Heracles": {
-      "picks": 3,
-      "win_rate": 0.0
-    },
-    "Borussia Mönchengladbach": {
       "picks": 3,
       "win_rate": 0.0
     }
