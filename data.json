@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-09-14T03:16:25.030469+00:00",
+  "timestamp": "2026-09-14T11:45:02.635353+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 105.33,
-    "profit_loss": -94.67,
-    "roi": -47.34,
-    "win_rate": 51.02,
-    "yield": -3.26,
-    "total_picks": 492,
-    "ganadas": 251,
-    "perdidas": 241,
-    "pendientes": 29,
-    "total_turnover": 2907.18
+    "bankroll_final": 117.38,
+    "profit_loss": -82.62,
+    "roi": -41.31,
+    "win_rate": 51.5,
+    "yield": -2.82,
+    "total_picks": 499,
+    "ganadas": 257,
+    "perdidas": 242,
+    "pendientes": 33,
+    "total_turnover": 2926.65
   },
   "bankroll_history": [
     200.0,
@@ -506,24 +506,31 @@
     101.97,
     100.03,
     103.51,
-    105.33
+    105.33,
+    106.99,
+    108.96,
+    113.02,
+    116.07,
+    119.54,
+    120.39,
+    117.38
   ],
   "by_market": {
     "Under 2.5": {
-      "picks": 119,
-      "ganadas": 60,
-      "perdidas": 59,
-      "win_rate": 50.42,
-      "roi": -5.73,
-      "profit": -46.1
+      "picks": 124,
+      "ganadas": 64,
+      "perdidas": 60,
+      "win_rate": 51.61,
+      "roi": -4.9,
+      "profit": -40.07
     },
     "Over 2.5": {
-      "picks": 314,
-      "ganadas": 162,
+      "picks": 316,
+      "ganadas": 164,
       "perdidas": 152,
-      "win_rate": 51.59,
-      "roi": -0.03,
-      "profit": -0.44
+      "win_rate": 51.9,
+      "roi": 0.33,
+      "profit": 5.58
     },
     "BTTS No": {
       "picks": 44,
@@ -544,12 +551,12 @@
   },
   "by_league": {
     "Serie A": {
-      "picks": 57,
-      "ganadas": 28,
-      "perdidas": 29,
-      "win_rate": 49.12,
-      "roi": 3.8,
-      "profit": 13.2
+      "picks": 60,
+      "ganadas": 30,
+      "perdidas": 30,
+      "win_rate": 50.0,
+      "roi": 4.84,
+      "profit": 17.3
     },
     "Championship": {
       "picks": 60,
@@ -560,12 +567,12 @@
       "profit": -10.71
     },
     "Premier League": {
-      "picks": 33,
-      "ganadas": 16,
+      "picks": 34,
+      "ganadas": 17,
       "perdidas": 17,
-      "win_rate": 48.48,
-      "roi": -6.38,
-      "profit": -15.95
+      "win_rate": 50.0,
+      "roi": -5.54,
+      "profit": -13.98
     },
     "La Liga": {
       "picks": 53,
@@ -584,12 +591,12 @@
       "profit": -80.46
     },
     "Segunda División": {
-      "picks": 45,
-      "ganadas": 25,
+      "picks": 47,
+      "ganadas": 27,
       "perdidas": 20,
-      "win_rate": 55.56,
-      "roi": 15.28,
-      "profit": 31.96
+      "win_rate": 57.45,
+      "roi": 16.22,
+      "profit": 34.47
     },
     "Ligue 2": {
       "picks": 21,
@@ -648,12 +655,12 @@
       "profit": -41.32
     },
     "Jupiler Pro League": {
-      "picks": 24,
-      "ganadas": 14,
+      "picks": 25,
+      "ganadas": 15,
       "perdidas": 10,
-      "win_rate": 58.33,
-      "roi": 7.36,
-      "profit": 7.84
+      "win_rate": 60.0,
+      "roi": 10.32,
+      "profit": 11.32
     },
     "Super League": {
       "picks": 5,
@@ -666,12 +673,12 @@
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 87,
-      "ganadas": 46,
+      "picks": 90,
+      "ganadas": 49,
       "perdidas": 41,
-      "win_rate": 52.87,
-      "roi": 7.07,
-      "profit": 36.65
+      "win_rate": 54.44,
+      "roi": 8.6,
+      "profit": 45.42
     },
     "12.0-15.0%": {
       "picks": 75,
@@ -682,20 +689,20 @@
       "profit": -72.9
     },
     "6.0-8.0%": {
-      "picks": 177,
-      "ganadas": 81,
+      "picks": 179,
+      "ganadas": 83,
       "perdidas": 96,
-      "win_rate": 45.76,
-      "roi": -14.91,
-      "profit": -101.53
+      "win_rate": 46.37,
+      "roi": -14.41,
+      "profit": -98.71
     },
     "8.0-10.0%": {
-      "picks": 106,
-      "ganadas": 63,
-      "perdidas": 43,
-      "win_rate": 59.43,
-      "roi": 17.63,
-      "profit": 111.59
+      "picks": 108,
+      "ganadas": 64,
+      "perdidas": 44,
+      "win_rate": 59.26,
+      "roi": 17.53,
+      "profit": 112.05
     },
     ">15.0%": {
       "picks": 47,
@@ -708,12 +715,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 122,
-      "ganadas": 63,
+      "picks": 126,
+      "ganadas": 67,
       "perdidas": 59,
-      "win_rate": 51.64,
-      "roi": -16.99,
-      "profit": -138.85
+      "win_rate": 53.17,
+      "roi": -15.88,
+      "profit": -131.32
     },
     "1.85-2.00": {
       "picks": 125,
@@ -724,28 +731,28 @@
       "profit": 43.56
     },
     "2.00-2.20": {
-      "picks": 141,
-      "ganadas": 68,
-      "perdidas": 73,
-      "win_rate": 48.23,
-      "roi": -7.71,
-      "profit": -65.6
+      "picks": 143,
+      "ganadas": 69,
+      "perdidas": 74,
+      "win_rate": 48.25,
+      "roi": -7.6,
+      "profit": -65.14
     },
     "2.20-2.50": {
-      "picks": 104,
-      "ganadas": 51,
+      "picks": 105,
+      "ganadas": 52,
       "perdidas": 53,
-      "win_rate": 49.04,
-      "roi": 13.55,
-      "profit": 66.3
+      "win_rate": 49.52,
+      "roi": 14.29,
+      "profit": 70.35
     }
   },
   "market_league_stats": {
     "Under 2.5": {
       "Serie A": {
-        "picks": 28,
-        "win_rate": 39.29,
-        "roi": -14.73
+        "picks": 30,
+        "win_rate": 40.0,
+        "roi": -14.2
       },
       "Premier League": {
         "picks": 16,
@@ -758,9 +765,9 @@
         "roi": -35.5
       },
       "Segunda División": {
-        "picks": 6,
-        "win_rate": 66.67,
-        "roi": 5.31
+        "picks": 8,
+        "win_rate": 75.0,
+        "roi": 12.12
       },
       "La Liga": {
         "picks": 9,
@@ -798,9 +805,9 @@
         "roi": -42.22
       },
       "Jupiler Pro League": {
-        "picks": 10,
-        "win_rate": 50.0,
-        "roi": 1.04
+        "picks": 11,
+        "win_rate": 54.55,
+        "roi": 7.5
       }
     },
     "Over 2.5": {
@@ -810,9 +817,9 @@
         "roi": 13.68
       },
       "Premier League": {
-        "picks": 13,
-        "win_rate": 23.08,
-        "roi": -72.44
+        "picks": 14,
+        "win_rate": 28.57,
+        "roi": -68.5
       },
       "La Liga": {
         "picks": 41,
@@ -825,9 +832,9 @@
         "roi": -66.14
       },
       "Serie A": {
-        "picks": 26,
-        "win_rate": 61.54,
-        "roi": 37.66
+        "picks": 27,
+        "win_rate": 62.96,
+        "roi": 39.7
       },
       "Segunda División": {
         "picks": 35,
@@ -938,9 +945,9 @@
   "market_edge_stats": {
     "Under 2.5": {
       "10.0-12.0%": {
-        "picks": 16,
-        "win_rate": 75.0,
-        "roi": 57.17
+        "picks": 18,
+        "win_rate": 77.78,
+        "roi": 58.37
       },
       "12.0-15.0%": {
         "picks": 29,
@@ -948,14 +955,14 @@
         "roi": -10.48
       },
       "6.0-8.0%": {
-        "picks": 37,
-        "win_rate": 40.54,
-        "roi": -21.37
+        "picks": 38,
+        "win_rate": 42.11,
+        "roi": -20.63
       },
       "8.0-10.0%": {
-        "picks": 29,
-        "win_rate": 62.07,
-        "roi": 22.52
+        "picks": 31,
+        "win_rate": 61.29,
+        "roi": 21.99
       },
       ">15.0%": {
         "picks": 8,
@@ -965,9 +972,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 59,
-        "win_rate": 49.15,
-        "roi": 1.01
+        "picks": 60,
+        "win_rate": 50.0,
+        "roi": 2.16
       },
       "12.0-15.0%": {
         "picks": 40,
@@ -975,9 +982,9 @@
         "roi": -16.62
       },
       "6.0-8.0%": {
-        "picks": 124,
-        "win_rate": 50.0,
-        "roi": -0.05
+        "picks": 125,
+        "win_rate": 50.4,
+        "roi": 0.4
       },
       "8.0-10.0%": {
         "picks": 58,
@@ -1042,6 +1049,114 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-09-20 19:30",
+      "league": "Primeira Liga",
+      "home_team": "FC Porto",
+      "away_team": "Benfica",
+      "selection": "Under 2.5",
+      "betfair_odd": 2.01,
+      "edge": 6.42,
+      "kelly": 1.0,
+      "bet_result": "",
+      "confidence_score": 68.0
+    },
+    {
+      "match_date": "2026-09-20 19:00",
+      "league": "La Liga",
+      "home_team": "Valencia",
+      "away_team": "Real Sociedad",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.91,
+      "edge": 6.43,
+      "kelly": 1.0,
+      "bet_result": "",
+      "confidence_score": 68.0
+    },
+    {
+      "match_date": "2026-09-20 18:45",
+      "league": "Serie A",
+      "home_team": "AC Milan",
+      "away_team": "Lecce",
+      "selection": "Under 2.5",
+      "betfair_odd": 2.1,
+      "edge": 8.39,
+      "kelly": 1.2,
+      "bet_result": "",
+      "confidence_score": 71.3
+    },
+    {
+      "match_date": "2026-09-20 16:30",
+      "league": "Segunda División",
+      "home_team": "Las Palmas",
+      "away_team": "Burgos",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.72,
+      "edge": 12.65,
+      "kelly": 2.3,
+      "bet_result": "",
+      "confidence_score": 70.4
+    },
+    {
+      "match_date": "2026-09-20 14:15",
+      "league": "Segunda División",
+      "home_team": "AD Ceuta FC",
+      "away_team": "Valladolid",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.9,
+      "edge": 10.96,
+      "kelly": 1.7,
+      "bet_result": "",
+      "confidence_score": 70.6
+    },
+    {
+      "match_date": "2026-09-20 13:00",
+      "league": "Premier League",
+      "home_team": "Leeds",
+      "away_team": "Crystal Palace",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.91,
+      "edge": 6.1,
+      "kelly": 1.0,
+      "bet_result": "",
+      "confidence_score": 67.5
+    },
+    {
+      "match_date": "2026-09-20 11:30",
+      "league": "Jupiler Pro League",
+      "home_team": "Antwerp",
+      "away_team": "Union St. Gilloise",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.85,
+      "edge": 8.1,
+      "kelly": 1.3,
+      "bet_result": "",
+      "confidence_score": 70.8
+    },
+    {
+      "match_date": "2026-09-20 11:00",
+      "league": "Championship",
+      "home_team": "Wolves",
+      "away_team": "West Brom",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.8,
+      "edge": 6.5,
+      "kelly": 1.1,
+      "bet_result": "",
+      "confidence_score": 68.2
+    },
+    {
+      "match_date": "2026-09-19 19:00",
+      "league": "Segunda División",
+      "home_team": "Cadiz",
+      "away_team": "Girona",
+      "selection": "Under 2.5",
+      "betfair_odd": 1.84,
+      "edge": 12.25,
+      "kelly": 2.0,
+      "bet_result": "",
+      "confidence_score": 72.7
+    },
+    {
       "match_date": "2026-09-19 18:45",
       "league": "Serie A",
       "home_team": "Venezia",
@@ -1052,6 +1167,18 @@
       "kelly": 1.2,
       "bet_result": "",
       "confidence_score": 69.1
+    },
+    {
+      "match_date": "2026-09-19 18:45",
+      "league": "Jupiler Pro League",
+      "home_team": "Anderlecht",
+      "away_team": "Zulte Waregem",
+      "selection": "Under 2.5",
+      "betfair_odd": 2.14,
+      "edge": 10.99,
+      "kelly": 1.5,
+      "bet_result": "",
+      "confidence_score": 67.6
     },
     {
       "match_date": "2026-09-19 16:30",
@@ -1076,6 +1203,18 @@
       "kelly": 1.0,
       "bet_result": "",
       "confidence_score": 68.3
+    },
+    {
+      "match_date": "2026-09-19 14:15",
+      "league": "La Liga",
+      "home_team": "Athletic Club",
+      "away_team": "Alaves",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.91,
+      "edge": 7.01,
+      "kelly": 1.1,
+      "bet_result": "",
+      "confidence_score": 69.0
     },
     {
       "match_date": "2026-09-19 14:00",
@@ -1268,154 +1407,22 @@
       "kelly": 2.5,
       "bet_result": "",
       "confidence_score": 66.6
-    },
-    {
-      "match_date": "2026-09-14 19:00",
-      "league": "Premier League",
-      "home_team": "Leeds",
-      "away_team": "Newcastle",
-      "selection": "Under 2.5",
-      "betfair_odd": 2.0,
-      "edge": 14.31,
-      "kelly": 2.4,
-      "bet_result": "",
-      "confidence_score": 75.6
-    },
-    {
-      "match_date": "2026-09-14 18:30",
-      "league": "Segunda División",
-      "home_team": "Celta de Vigo II",
-      "away_team": "Eibar",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.1,
-      "edge": 8.46,
-      "kelly": 1.2,
-      "bet_result": "",
-      "confidence_score": 71.5
-    },
-    {
-      "match_date": "2026-09-14 17:45",
-      "league": "Primeira Liga",
-      "home_team": "Rio Ave",
-      "away_team": "Estrela",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.0,
-      "edge": 7.32,
-      "kelly": 1.1,
-      "bet_result": "",
-      "confidence_score": 69.6
-    },
-    {
-      "match_date": "2026-09-13 18:45",
-      "league": "Serie A",
-      "home_team": "Sassuolo",
-      "away_team": "Juventus",
-      "selection": "Under 2.5",
-      "betfair_odd": 2.0,
-      "edge": 8.42,
-      "kelly": 2.5,
-      "bet_result": "",
-      "confidence_score": 71.7
-    },
-    {
-      "match_date": "2026-09-13 16:30",
-      "league": "Jupiler Pro League",
-      "home_team": "Zulte Waregem",
-      "away_team": "Charleroi",
-      "selection": "Under 2.5",
-      "betfair_odd": 2.11,
-      "edge": 9.33,
-      "kelly": 2.7,
-      "bet_result": "",
-      "confidence_score": 65.2
-    },
-    {
-      "match_date": "2026-09-13 16:30",
-      "league": "Segunda División",
-      "home_team": "Mallorca",
-      "away_team": "Sabadell",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.65,
-      "edge": 5.57,
-      "kelly": 1.1,
-      "bet_result": "",
-      "confidence_score": 63.1
-    },
-    {
-      "match_date": "2026-09-13 16:00",
-      "league": "Serie A",
-      "home_team": "Napoli",
-      "away_team": "Bologna",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.73,
-      "edge": 10.45,
-      "kelly": 3.7,
-      "bet_result": "",
-      "confidence_score": 67.1
-    },
-    {
-      "match_date": "2026-09-13 13:00",
-      "league": "Premier League",
-      "home_team": "Coventry",
-      "away_team": "Brighton",
-      "selection": "Over 2.5",
-      "betfair_odd": 1.8,
-      "edge": 6.7,
-      "kelly": 2.3,
-      "bet_result": "",
-      "confidence_score": 68.6
-    },
-    {
-      "match_date": "2026-09-13 13:00",
-      "league": "Serie A",
-      "home_team": "Lecce",
-      "away_team": "Monza",
-      "selection": "Over 2.5",
-      "betfair_odd": 2.2,
-      "edge": 11.31,
-      "kelly": 3.1,
-      "bet_result": "",
-      "confidence_score": 68.2
-    },
-    {
-      "match_date": "2026-09-13 12:00",
-      "league": "Segunda División",
-      "home_team": "Sporting Gijon",
-      "away_team": "Eldense",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.83,
-      "edge": 11.77,
-      "kelly": 1.9,
-      "bet_result": "",
-      "confidence_score": 71.4
-    },
-    {
-      "match_date": "2026-09-12 19:00",
-      "league": "Premier League",
-      "home_team": "Sunderland",
-      "away_team": "Arsenal",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.8,
-      "edge": 12.98,
-      "kelly": 2.2,
-      "bet_result": "Ganada",
-      "confidence_score": 73.5
     }
   ],
   "clv_analysis": {
     "avg_clv": 1.41,
-    "total_with_clv": 448,
-    "positive_clv": 222,
-    "negative_clv": 124,
-    "zero_clv": 102,
+    "total_with_clv": 455,
+    "positive_clv": 226,
+    "negative_clv": 125,
+    "zero_clv": 104,
     "best_clv": 28.1,
     "worst_clv": -15.9
   },
   "temporal_stats": {
     "Domingo": {
-      "picks": 155,
-      "win_rate": 53.5,
-      "roi": -6.58
+      "picks": 162,
+      "win_rate": 54.9,
+      "roi": -5.27
     },
     "Lunes": {
       "picks": 32,
@@ -1533,7 +1540,7 @@
     }
   },
   "racha": {
-    "actual": 2,
-    "tipo": "win"
+    "actual": 1,
+    "tipo": "loss"
   }
 }
