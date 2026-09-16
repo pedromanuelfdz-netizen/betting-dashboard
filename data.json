@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T03:14:44.293116+00:00",
+  "timestamp": "2026-09-16T10:48:31.559598+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 117.34,
@@ -10,7 +10,7 @@
     "total_picks": 502,
     "ganadas": 259,
     "perdidas": 243,
-    "pendientes": 36,
+    "pendientes": 38,
     "total_turnover": 2932.25
   },
   "bankroll_history": [
@@ -1136,6 +1136,18 @@
       "confidence_score": 70.6
     },
     {
+      "match_date": "2026-09-20 14:00",
+      "league": "Superliga",
+      "home_team": "AC Horsens",
+      "away_team": "Aarhus",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.75,
+      "edge": 13.45,
+      "kelly": 2.4,
+      "bet_result": "",
+      "confidence_score": 71.8
+    },
+    {
       "match_date": "2026-09-20 13:00",
       "league": "Premier League",
       "home_team": "Leeds",
@@ -1376,6 +1388,18 @@
       "confidence_score": 67.5
     },
     {
+      "match_date": "2026-09-19 13:00",
+      "league": "Allsvenskan",
+      "home_team": "IF Brommapojkarna",
+      "away_team": "IFK Goteborg",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.7,
+      "edge": 5.79,
+      "kelly": 1.1,
+      "bet_result": "",
+      "confidence_score": 65.2
+    },
+    {
       "match_date": "2026-09-19 12:00",
       "league": "Segunda División",
       "home_team": "Real Sociedad II",
@@ -1386,30 +1410,6 @@
       "kelly": 2.2,
       "bet_result": "",
       "confidence_score": 74.2
-    },
-    {
-      "match_date": "2026-09-19 11:30",
-      "league": "Premier League",
-      "home_team": "Tottenham",
-      "away_team": "Aston Villa",
-      "selection": "Under 2.5",
-      "betfair_odd": 2.1,
-      "edge": 7.81,
-      "kelly": 1.1,
-      "bet_result": "",
-      "confidence_score": 69.7
-    },
-    {
-      "match_date": "2026-09-18 19:00",
-      "league": "Championship",
-      "home_team": "Bristol City",
-      "away_team": "Watford",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.91,
-      "edge": 6.98,
-      "kelly": 1.1,
-      "bet_result": "",
-      "confidence_score": 68.3
     }
   ],
   "clv_analysis": {
