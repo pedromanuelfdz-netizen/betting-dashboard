@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-09-18T03:06:15.085353+00:00",
+  "timestamp": "2026-09-18T10:31:34.136114+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 116.01,
-    "profit_loss": -83.99,
-    "roi": -41.99,
-    "win_rate": 51.59,
-    "yield": -2.86,
-    "total_picks": 504,
+    "bankroll_final": 113.92,
+    "profit_loss": -86.08,
+    "roi": -43.04,
+    "win_rate": 51.49,
+    "yield": -2.93,
+    "total_picks": 505,
     "ganadas": 260,
-    "perdidas": 244,
-    "pendientes": 36,
-    "total_turnover": 2937.57
+    "perdidas": 245,
+    "pendientes": 35,
+    "total_turnover": 2939.66
   },
   "bankroll_history": [
     200.0,
@@ -518,7 +518,8 @@
     120.23,
     117.34,
     118.98,
-    116.01
+    116.01,
+    113.92
   ],
   "by_market": {
     "Under 2.5": {
@@ -530,12 +531,12 @@
       "profit": -42.96
     },
     "Over 2.5": {
-      "picks": 320,
+      "picks": 321,
       "ganadas": 167,
-      "perdidas": 153,
-      "win_rate": 52.19,
-      "roi": 0.41,
-      "profit": 7.11
+      "perdidas": 154,
+      "win_rate": 52.02,
+      "roi": 0.29,
+      "profit": 5.02
     },
     "BTTS No": {
       "picks": 44,
@@ -580,12 +581,12 @@
       "profit": -16.87
     },
     "La Liga": {
-      "picks": 55,
+      "picks": 56,
       "ganadas": 29,
-      "perdidas": 26,
-      "win_rate": 52.73,
-      "roi": -3.35,
-      "profit": -8.92
+      "perdidas": 27,
+      "win_rate": 51.79,
+      "roi": -4.11,
+      "profit": -11.01
     },
     "Ligue 1": {
       "picks": 16,
@@ -694,12 +695,12 @@
       "profit": -75.79
     },
     "6.0-8.0%": {
-      "picks": 181,
+      "picks": 182,
       "ganadas": 85,
-      "perdidas": 96,
-      "win_rate": 46.96,
-      "roi": -13.91,
-      "profit": -95.78
+      "perdidas": 97,
+      "win_rate": 46.7,
+      "roi": -14.17,
+      "profit": -97.87
     },
     "8.0-10.0%": {
       "picks": 110,
@@ -744,12 +745,12 @@
       "profit": -65.17
     },
     "2.20-2.50": {
-      "picks": 106,
+      "picks": 107,
       "ganadas": 52,
-      "perdidas": 54,
-      "win_rate": 49.06,
-      "roi": 13.6,
-      "profit": 67.38
+      "perdidas": 55,
+      "win_rate": 48.6,
+      "roi": 13.12,
+      "profit": 65.29
     }
   },
   "market_league_stats": {
@@ -827,9 +828,9 @@
         "roi": -68.5
       },
       "La Liga": {
-        "picks": 43,
-        "win_rate": 48.84,
-        "roi": -9.01
+        "picks": 44,
+        "win_rate": 47.73,
+        "roi": -9.94
       },
       "Ligue 1": {
         "picks": 12,
@@ -987,9 +988,9 @@
         "roi": -16.62
       },
       "6.0-8.0%": {
-        "picks": 127,
-        "win_rate": 51.18,
-        "roi": 1.08
+        "picks": 128,
+        "win_rate": 50.78,
+        "roi": 0.59
       },
       "8.0-10.0%": {
         "picks": 60,
@@ -1415,9 +1416,9 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.38,
-    "total_with_clv": 460,
-    "positive_clv": 228,
+    "avg_clv": 1.42,
+    "total_with_clv": 461,
+    "positive_clv": 229,
     "negative_clv": 128,
     "zero_clv": 104,
     "best_clv": 28.1,
@@ -1445,9 +1446,9 @@
       "roi": 21.26
     },
     "Jueves": {
-      "picks": 9,
-      "win_rate": 22.2,
-      "roi": -52.96
+      "picks": 10,
+      "win_rate": 20.0,
+      "roi": -55.02
     },
     "Sábado": {
       "picks": 186,
@@ -1462,10 +1463,6 @@
   },
   "top_teams": {
     "Wolves": {
-      "picks": 4,
-      "win_rate": 100.0
-    },
-    "Real Betis": {
       "picks": 4,
       "win_rate": 100.0
     },
@@ -1498,6 +1495,10 @@
       "win_rate": 100.0
     },
     "Nottingham Forest": {
+      "picks": 3,
+      "win_rate": 100.0
+    },
+    "OH Leuven": {
       "picks": 3,
       "win_rate": 100.0
     }
@@ -1545,7 +1546,7 @@
     }
   },
   "racha": {
-    "actual": 1,
+    "actual": 2,
     "tipo": "loss"
   }
 }
