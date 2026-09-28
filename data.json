@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-09-28T03:32:19.475596+00:00",
+  "timestamp": "2026-09-28T12:51:23.782307+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 101.42,
-    "profit_loss": -98.58,
-    "roi": -49.29,
-    "win_rate": 50.74,
-    "yield": -3.29,
-    "total_picks": 540,
-    "ganadas": 274,
+    "bankroll_final": 103.84,
+    "profit_loss": -96.16,
+    "roi": -48.08,
+    "win_rate": 50.83,
+    "yield": -3.2,
+    "total_picks": 541,
+    "ganadas": 275,
     "perdidas": 266,
-    "pendientes": 2,
-    "total_turnover": 3000.03
+    "pendientes": 1,
+    "total_turnover": 3003.17
   },
   "bankroll_history": [
     200.0,
@@ -554,7 +554,8 @@
     106.34,
     105.28,
     104.23,
-    101.42
+    101.42,
+    103.84
   ],
   "by_market": {
     "Under 2.5": {
@@ -566,12 +567,12 @@
       "profit": -46.77
     },
     "Over 2.5": {
-      "picks": 334,
-      "ganadas": 171,
+      "picks": 335,
+      "ganadas": 172,
       "perdidas": 163,
-      "win_rate": 51.2,
-      "roi": -0.21,
-      "profit": -3.67
+      "win_rate": 51.34,
+      "roi": -0.07,
+      "profit": -1.25
     },
     "BTTS No": {
       "picks": 44,
@@ -632,12 +633,12 @@
       "profit": -80.46
     },
     "Segunda División": {
-      "picks": 55,
-      "ganadas": 31,
+      "picks": 56,
+      "ganadas": 32,
       "perdidas": 24,
-      "win_rate": 56.36,
-      "roi": 13.88,
-      "profit": 31.86
+      "win_rate": 57.14,
+      "roi": 14.73,
+      "profit": 34.28
     },
     "Ligue 2": {
       "picks": 21,
@@ -754,12 +755,12 @@
       "profit": -105.68
     },
     "8.0-10.0%": {
-      "picks": 119,
-      "ganadas": 68,
+      "picks": 120,
+      "ganadas": 69,
       "perdidas": 51,
-      "win_rate": 57.14,
-      "roi": 15.78,
-      "profit": 104.11
+      "win_rate": 57.5,
+      "roi": 16.07,
+      "profit": 106.53
     },
     ">15.0%": {
       "picks": 47,
@@ -772,12 +773,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 144,
-      "ganadas": 78,
+      "picks": 145,
+      "ganadas": 79,
       "perdidas": 66,
-      "win_rate": 54.17,
-      "roi": -14.75,
-      "profit": -127.19
+      "win_rate": 54.48,
+      "roi": -14.42,
+      "profit": -124.78
     },
     "1.85-2.00": {
       "picks": 134,
@@ -894,9 +895,9 @@
         "roi": 39.7
       },
       "Segunda División": {
-        "picks": 38,
-        "win_rate": 57.89,
-        "roi": 26.28
+        "picks": 39,
+        "win_rate": 58.97,
+        "roi": 27.22
       },
       "Serie B": {
         "picks": 40,
@@ -1044,9 +1045,9 @@
         "roi": -0.57
       },
       "8.0-10.0%": {
-        "picks": 64,
-        "win_rate": 54.69,
-        "roi": 11.4
+        "picks": 65,
+        "win_rate": 55.38,
+        "roi": 11.98
       },
       ">15.0%": {
         "picks": 33,
@@ -1114,7 +1115,7 @@
       "betfair_odd": 1.77,
       "edge": 8.92,
       "kelly": 3.1,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 63.3
     },
     {
@@ -1468,18 +1469,18 @@
   ],
   "clv_analysis": {
     "avg_clv": 1.28,
-    "total_with_clv": 496,
+    "total_with_clv": 497,
     "positive_clv": 240,
-    "negative_clv": 143,
+    "negative_clv": 144,
     "zero_clv": 113,
     "best_clv": 28.1,
     "worst_clv": -15.9
   },
   "temporal_stats": {
     "Domingo": {
-      "picks": 173,
-      "win_rate": 53.2,
-      "roi": -5.83
+      "picks": 174,
+      "win_rate": 53.4,
+      "roi": -5.58
     },
     "Lunes": {
       "picks": 35,
@@ -1513,15 +1514,19 @@
     }
   },
   "top_teams": {
+    "Valladolid": {
+      "picks": 6,
+      "win_rate": 100.0
+    },
     "Dundee Utd": {
       "picks": 5,
       "win_rate": 100.0
     },
-    "Valladolid": {
-      "picks": 5,
+    "Mirandes": {
+      "picks": 4,
       "win_rate": 100.0
     },
-    "Mirandes": {
+    "Cordoba": {
       "picks": 4,
       "win_rate": 100.0
     },
@@ -1535,10 +1540,6 @@
     },
     "OH Leuven": {
       "picks": 4,
-      "win_rate": 100.0
-    },
-    "Cordoba": {
-      "picks": 3,
       "win_rate": 100.0
     },
     "PAU": {
@@ -1597,7 +1598,7 @@
     }
   },
   "racha": {
-    "actual": 6,
-    "tipo": "loss"
+    "actual": 1,
+    "tipo": "win"
   }
 }
