@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T04:07:40.528132+00:00",
+  "timestamp": "2026-09-29T12:05:17.566530+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 103.84,
@@ -10,7 +10,7 @@
     "total_picks": 541,
     "ganadas": 275,
     "perdidas": 266,
-    "pendientes": 1,
+    "pendientes": 2,
     "total_turnover": 3003.17
   },
   "bankroll_history": [
@@ -1107,6 +1107,18 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-10-05 18:30",
+      "league": "Segunda División",
+      "home_team": "Cordoba",
+      "away_team": "Tenerife",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.95,
+      "edge": 7.25,
+      "kelly": 2.2,
+      "bet_result": "",
+      "confidence_score": 68.5
+    },
+    {
       "match_date": "2026-09-27 12:00",
       "league": "Segunda División",
       "home_team": "Valladolid",
@@ -1453,18 +1465,6 @@
       "kelly": 2.2,
       "bet_result": "Ganada",
       "confidence_score": 73.1
-    },
-    {
-      "match_date": "2026-09-19 13:00",
-      "league": "Serie A",
-      "home_team": "Udinese",
-      "away_team": "Cagliari",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.62,
-      "edge": 8.28,
-      "kelly": 1.6,
-      "bet_result": "Ganada",
-      "confidence_score": 67.5
     }
   ],
   "clv_analysis": {
