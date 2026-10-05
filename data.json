@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-05T03:57:11.779092+00:00",
+  "timestamp": "2026-10-05T13:32:52.105212+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
     "bankroll_final": 103.84,
@@ -10,7 +10,7 @@
     "total_picks": 541,
     "ganadas": 275,
     "perdidas": 266,
-    "pendientes": 2,
+    "pendientes": 4,
     "total_turnover": 3003.17
   },
   "bankroll_history": [
@@ -1107,6 +1107,30 @@
   },
   "recent_bets": [
     {
+      "match_date": "2026-10-11 12:45",
+      "league": "Ekstraklasa",
+      "home_team": "Piast Gliwice",
+      "away_team": "Widzew Łódź",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.71,
+      "edge": 5.78,
+      "kelly": 2.1,
+      "bet_result": "",
+      "confidence_score": 65.0
+    },
+    {
+      "match_date": "2026-10-11 12:00",
+      "league": "Superliga",
+      "home_team": "Silkeborg",
+      "away_team": "AC Horsens",
+      "selection": "Over 2.5",
+      "betfair_odd": 1.73,
+      "edge": 10.64,
+      "kelly": 3.8,
+      "bet_result": "",
+      "confidence_score": 66.2
+    },
+    {
       "match_date": "2026-10-05 18:30",
       "league": "Segunda División",
       "home_team": "Cordoba",
@@ -1441,30 +1465,6 @@
       "kelly": 1.1,
       "bet_result": "Ganada",
       "confidence_score": 63.8
-    },
-    {
-      "match_date": "2026-09-19 14:00",
-      "league": "Jupiler Pro League",
-      "home_team": "OH Leuven",
-      "away_team": "RAAL La Louvière",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.8,
-      "edge": 10.95,
-      "kelly": 1.8,
-      "bet_result": "Ganada",
-      "confidence_score": 70.5
-    },
-    {
-      "match_date": "2026-09-19 13:00",
-      "league": "Serie A",
-      "home_team": "Bologna",
-      "away_team": "Torino",
-      "selection": "Under 2.5",
-      "betfair_odd": 1.8,
-      "edge": 12.84,
-      "kelly": 2.2,
-      "bet_result": "Ganada",
-      "confidence_score": 73.1
     }
   ],
   "clv_analysis": {
