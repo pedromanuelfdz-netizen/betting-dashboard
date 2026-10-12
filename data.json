@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-10-12T04:14:04.860698+00:00",
+  "timestamp": "2026-10-12T14:22:08.500690+00:00",
   "summary": {
     "bankroll_inicial": 200.0,
-    "bankroll_final": 106.01,
-    "profit_loss": -93.99,
-    "roi": -46.99,
-    "win_rate": 50.92,
-    "yield": -3.13,
-    "total_picks": 542,
-    "ganadas": 276,
+    "bankroll_final": 110.58,
+    "profit_loss": -89.42,
+    "roi": -44.71,
+    "win_rate": 51.1,
+    "yield": -2.97,
+    "total_picks": 544,
+    "ganadas": 278,
     "perdidas": 266,
-    "pendientes": 3,
-    "total_turnover": 3005.45
+    "pendientes": 1,
+    "total_turnover": 3011.77
   },
   "bankroll_history": [
     200.0,
@@ -556,7 +556,9 @@
     104.23,
     101.42,
     103.84,
-    106.01
+    106.01,
+    108.95,
+    110.58
   ],
   "by_market": {
     "Under 2.5": {
@@ -568,12 +570,12 @@
       "profit": -46.77
     },
     "Over 2.5": {
-      "picks": 336,
-      "ganadas": 173,
+      "picks": 338,
+      "ganadas": 175,
       "perdidas": 163,
-      "win_rate": 51.49,
-      "roi": 0.05,
-      "profit": 0.91
+      "win_rate": 51.78,
+      "roi": 0.31,
+      "profit": 5.48
     },
     "BTTS No": {
       "picks": 44,
@@ -722,22 +724,30 @@
       "profit": -1.31
     },
     "Superliga": {
+      "picks": 2,
+      "ganadas": 2,
+      "perdidas": 0,
+      "win_rate": 100.0,
+      "roi": 73.78,
+      "profit": 4.87
+    },
+    "Ekstraklasa": {
       "picks": 1,
       "ganadas": 1,
       "perdidas": 0,
       "win_rate": 100.0,
-      "roi": 75.0,
-      "profit": 1.93
+      "roi": 71.0,
+      "profit": 1.63
     }
   },
   "by_edge": {
     "10.0-12.0%": {
-      "picks": 96,
-      "ganadas": 53,
+      "picks": 97,
+      "ganadas": 54,
       "perdidas": 43,
-      "win_rate": 55.21,
-      "roi": 9.06,
-      "profit": 48.9
+      "win_rate": 55.67,
+      "roi": 9.54,
+      "profit": 51.84
     },
     "12.0-15.0%": {
       "picks": 82,
@@ -748,12 +758,12 @@
       "profit": -77.42
     },
     "6.0-8.0%": {
-      "picks": 197,
-      "ganadas": 90,
+      "picks": 198,
+      "ganadas": 91,
       "perdidas": 107,
-      "win_rate": 45.69,
-      "roi": -14.57,
-      "profit": -103.51
+      "win_rate": 45.96,
+      "roi": -14.29,
+      "profit": -101.89
     },
     "8.0-10.0%": {
       "picks": 120,
@@ -774,12 +784,12 @@
   },
   "by_odd": {
     "1.70-1.85": {
-      "picks": 145,
-      "ganadas": 79,
+      "picks": 147,
+      "ganadas": 81,
       "perdidas": 66,
-      "win_rate": 54.48,
-      "roi": -14.42,
-      "profit": -124.78
+      "win_rate": 55.1,
+      "roi": -13.79,
+      "profit": -120.21
     },
     "1.85-2.00": {
       "picks": 135,
@@ -1031,9 +1041,9 @@
     },
     "Over 2.5": {
       "10.0-12.0%": {
-        "picks": 61,
-        "win_rate": 50.82,
-        "roi": 2.63
+        "picks": 62,
+        "win_rate": 51.61,
+        "roi": 3.43
       },
       "12.0-15.0%": {
         "picks": 42,
@@ -1041,9 +1051,9 @@
         "roi": -16.6
       },
       "6.0-8.0%": {
-        "picks": 135,
-        "win_rate": 49.63,
-        "roi": -0.09
+        "picks": 136,
+        "win_rate": 50.0,
+        "roi": 0.28
       },
       "8.0-10.0%": {
         "picks": 65,
@@ -1116,7 +1126,7 @@
       "betfair_odd": 1.71,
       "edge": 5.78,
       "kelly": 2.1,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 65.0
     },
     {
@@ -1128,7 +1138,7 @@
       "betfair_odd": 1.73,
       "edge": 10.64,
       "kelly": 3.8,
-      "bet_result": "",
+      "bet_result": "Ganada",
       "confidence_score": 66.2
     },
     {
@@ -1469,19 +1479,19 @@
     }
   ],
   "clv_analysis": {
-    "avg_clv": 1.29,
-    "total_with_clv": 498,
+    "avg_clv": 1.27,
+    "total_with_clv": 500,
     "positive_clv": 241,
-    "negative_clv": 144,
+    "negative_clv": 146,
     "zero_clv": 113,
     "best_clv": 28.1,
     "worst_clv": -15.9
   },
   "temporal_stats": {
     "Domingo": {
-      "picks": 174,
-      "win_rate": 53.4,
-      "roi": -5.58
+      "picks": 176,
+      "win_rate": 54.0,
+      "roi": -5.1
     },
     "Lunes": {
       "picks": 36,
@@ -1599,7 +1609,7 @@
     }
   },
   "racha": {
-    "actual": 2,
+    "actual": 4,
     "tipo": "win"
   }
 }
